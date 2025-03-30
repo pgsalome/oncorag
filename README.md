@@ -134,17 +134,6 @@ LOG_FILE=oncorag.log
 
 You only need to provide API keys for the platforms you intend to use.
 
-## Supported LLM Platforms
-
-Oncorag2 supports multiple LLM providers:
-
-| Platform     | Environment Variable     | Default Models                            |
-|--------------|--------------------------|--------------------------------------------|
-| OpenAI       | OPENAI_API_KEY           | gpt-4o-mini, gpt-4o, gpt-4                 |
-| Anthropic    | ANTHROPIC_API_KEY        | claude-3-opus-20240229, claude-3-sonnet   |
-| Groq         | GROQ_API_KEY             | llama3-8b-8192, llama3-70b-8192           |
-| HuggingFace  | HUGGINGFACE_API_KEY      | various models                            |
-| Cohere       | COHERE_API_KEY           | command, command-light                    |
 
 ## Documentation
 

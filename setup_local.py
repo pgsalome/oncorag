@@ -4,7 +4,7 @@ import subprocess
 import sys
 from pathlib import Path
 import time
-from dotenv import load_dotenv
+
 
 def create_virtualenv():
     """Create a virtual environment if it doesn't already exist."""
@@ -40,7 +40,9 @@ def install_requirements():
         print("⚠️ requirements.txt not found. Skipping Python dependency installation.")
 
 def generate_env_file():
+
     """Generate the .env file if it doesn't exist."""
+    from dotenv import load_dotenv
     env_file_path = '.env'
     if os.path.exists(env_file_path):
         print(f"Found existing .env file at {env_file_path}. Using the values from it.")
