@@ -1,0 +1,1071 @@
+{
+  "features": [
+    {
+      "name": "MRN_1",
+      "description": "Medical Record Number or patient identifier",
+      "feature_group": "Patient Demographics",
+      "expected_output_type": "numeric",
+      "unit": "N/A",
+      "input_prompt": "Provide the patient's Medical Record Number (MRN)",
+      "expected_range": "Positive numeric value",
+      "category": "Patient Demographics",
+      "regex_patterns": [
+        "(?i)\\(MRN[:;]?\\s*(\\d+)\\)",
+        "(?i)MRN[:;]?\\s*(\\d+)",
+        "(?i)\\b(?:MRN|Medical Record Number|Patient ID|Record ID)[:\\-\\s]*(\\d+)"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Date_of_Birth_2",
+      "description": "Patient's Date of Birth",
+      "feature_group": "Patient Demographics",
+      "expected_output_type": "date",
+      "unit": "N/A",
+      "input_prompt": "Provide the patient's Date of Birth (MM/DD/YYYY)",
+      "expected_range": "Valid date (MM/DD/YYYY)",
+      "category": "Patient Demographics",
+      "regex_patterns": [
+        "(?i)\\b(Date of Birth|DOB|Birth Date)[:\\-\\s]*(\\d{2}[\\/\\-]\\d{2}[\\/\\-]\\d{4}|\\d{4}[\\/\\-]\\d{2}[\\/\\-]\\d{2})",
+        "\\b\\d{2}[\\/\\-]\\d{2}[\\/\\-]\\d{4}\\b",
+        "\\b\\d{4}[\\/\\-]\\d{2}[\\/\\-]\\d{2}\\b"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Sex_3",
+      "description": "Sex of the Patient",
+      "feature_group": "Patient Demographics",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "Provide the patient's sex (Male/Female)",
+      "expected_range": "Male, Female",
+      "category": "Patient Demographics",
+      "regex_patterns": [
+        "(?i)Sex[:\\s]*(Male|Female)",
+        "\\b(Sex|Gender|Patient Sex|Patient Gender)[:\\-\\s]*(Male|Female|M|F)\\b"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Race_4",
+      "description": "Race of the Patient",
+      "feature_group": "Patient Demographics",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "Provide the patient's race (White/Black or African American/Asian/Hispanic/Other)",
+      "expected_range": "White, Black, Asian, Hispanic, Other",
+      "category": "Patient Demographics",
+      "regex_patterns": [
+        "(?i)Race[:\\s]*(White|Black|Asian|Hispanic|Other)",
+        "\\b(Race)[:\\-\\s]*(Asian|Black|White|Caucasian|Hispanic|Latino|Native American|Pacific Islander|Mixed|Other|Unknown)\\b"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Ethnicity_5",
+      "description": "Ethnicity of the Patient",
+      "feature_group": "Patient Demographics",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "Provide the patient's ethnicity (Hispanic or Latino/Non-Hispanic/Unknown)",
+      "expected_range": "Hispanic or Latino, Non-Hispanic, Unknown",
+      "category": "Patient Demographics",
+      "regex_patterns": [
+        "(?i)\\b(Ethnicity)[:\\-\\s]*(Hispanic or Latino|Hispanic|Latino|Non-Hispanic|Not Hispanic|Unknown|Declined)\\b"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Date_of_Diagnosis_6",
+      "description": "Date when cancer was first diagnosed",
+      "feature_group": "Patient Clinical Data",
+      "expected_output_type": "date",
+      "unit": "N/A",
+      "input_prompt": "What is the initial diagnosis date?",
+      "expected_range": "Valid date (MM/DD/YYYY)",
+      "category": "Patient Clinical Data",
+      "regex_patterns": [
+        "(?i)\\b(Date of Diagnosis|Diagnosis Date|Dx Date)[:\\-\\s]*(\\d{2}[\\/\\-]\\d{2}[\\/\\-]\\d{4}|\\d{4}[\\/\\-]\\d{2}[\\/\\-]\\d{2})",
+        "(?i)\\b(diagnosis|diagnosed)\\s*(date)[:\\-\\s]*(\\d{2}[\\/\\-]\\d{2}[\\/\\-]\\d{4}|\\d{4}[\\/\\-]\\d{2}[\\/\\-]\\d{2})"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "pathology",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Smoking_Status_7",
+      "description": "Smoking Status of the Patient",
+      "feature_group": "Lifestyle Factors",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "Provide the patient's smoking status (Current/Former/Never)",
+      "expected_range": "Current, Former, Never",
+      "category": "Lifestyle Factors",
+      "regex_patterns": [
+        "(?i)Smoking\\s*Status[:\\s]*(Current Smoker|Former Smoker|Never Smoker|Non-Smoker)",
+        "(?i)\\b(Smoking Status|Smoking History|Tobacco Use)[:\\-\\s]*(Current|Former|Never|Non-Smoker)\\b"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Pack_Years_8",
+      "description": "Pack Years for Smoking",
+      "feature_group": "Lifestyle Factors",
+      "expected_output_type": "numeric",
+      "unit": "N/A",
+      "input_prompt": "Provide the patient's Pack Years for smoking (numeric or N/A)",
+      "expected_range": "Positive numeric value or N/A",
+      "category": "Lifestyle Factors",
+      "regex_patterns": [
+        "(?i)Pack Years[:\\s]*(\\d+)",
+        "(?i)\\b(\\d+)\\s*pack\\s*years\\b",
+        "(?i)\\b(\\d+)\\s*PY\\b"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "ECOG_Performance_Status_9",
+      "description": "ECOG Performance Status",
+      "feature_group": "Patient Clinical Data",
+      "expected_output_type": "integer",
+      "unit": "N/A",
+      "input_prompt": "Provide the patient's ECOG Performance Status (0-5)",
+      "expected_range": "0, 1, 2, 3, 4, 5",
+      "category": "Patient Clinical Data",
+      "regex_patterns": [
+        "(?i)ECOG\\s*Performance\\s*Status[:\\s]*(\\d)",
+        "(?i)ECOG\\s*[0-5]"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "BMI_10",
+      "description": "Body Mass Index (BMI) at diagnosis",
+      "feature_group": "Patient Clinical Data",
+      "expected_output_type": "numeric",
+      "unit": "N/A",
+      "input_prompt": "Provide the patient's BMI at diagnosis (e.g., '23.5' or 'N/A')",
+      "expected_range": "Positive numeric value or N/A",
+      "category": "Patient Clinical Data",
+      "regex_patterns": [
+        "(?i)BMI[:\\s]*(\\d{1,2}(\\.\\d+)?|[1-2]\\d{2})",
+        "(?i)Body\\s*Mass\\s*Index[:\\s]*(\\d{1,2}(\\.\\d+)?|[1-2]\\d{2})"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Diabetes_11",
+      "description": "Does the patient have diabetes?",
+      "feature_group": "Comorbidities",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "Does the patient have diabetes? (Yes/No)",
+      "expected_range": "Yes, No",
+      "category": "Comorbidities",
+      "regex_patterns": [
+        "(?i)Diabetes[:\\s]*(Yes|No|Present|Absent)",
+        "(?i)\\b(diabetes|diabetic)\\b"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Hypertension_12",
+      "description": "Does the patient have hypertension?",
+      "feature_group": "Comorbidities",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "Does the patient have hypertension? (Yes/No)",
+      "expected_range": "Yes, No",
+      "category": "Comorbidities",
+      "regex_patterns": [
+        "(?i)Hypertension[:\\s]*(Yes|No|Present|Absent)",
+        "(?i)\\b(hypertension|hypertensive)\\b"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "cardiology",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Height_13",
+      "description": "Height of the patient",
+      "feature_group": "Anthropometric Measures",
+      "expected_output_type": "numeric",
+      "unit": "cm",
+      "input_prompt": "What is the patient's height? (in cm or meters)",
+      "expected_range": "Numeric value (e.g., 170 cm or 1.7 m)",
+      "category": "Anthropometric Measures",
+      "regex_patterns": [
+        "(?i)Height[:\\s]*(\\d+(\\.\\d+)?\\s*(cm|m))",
+        "(?i)\\b(\\d+)\\s*(cm|centimeters)\\b",
+        "(?i)\\b(\\d+\\.\\d+)\\s*(m|meters)\\b"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Weight_14",
+      "description": "Weight of the patient",
+      "feature_group": "Anthropometric Measures",
+      "expected_output_type": "numeric",
+      "unit": "kg",
+      "input_prompt": "What is the patient's weight? (in kg)",
+      "expected_range": "Numeric value (e.g., 70 kg)",
+      "category": "Anthropometric Measures",
+      "regex_patterns": [
+        "(?i)Weight[:\\s]*(\\d{2,3}(\\.\\d+)?\\s*(kg|kilograms))",
+        "(?i)\\b(\\d+(\\.\\d+)?)\\s*(kg|kilograms)\\b"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Comorbidities_Other_15",
+      "description": "Other comorbidities of the patient",
+      "feature_group": "Comorbidities",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "List other comorbidities for the patient",
+      "expected_range": "Free-text or a standardized list",
+      "category": "Comorbidities",
+      "regex_patterns": [
+        "(?i)Comorbidities[:\\s]*(.+)",
+        "(?i)\\b(Chronic\\s*Conditions|Coexisting\\s*Conditions)\\b"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Zipcode_16",
+      "description": "Patient's ZIP code",
+      "feature_group": "Socioeconomic Data",
+      "expected_output_type": "numeric",
+      "unit": "N/A",
+      "input_prompt": "What is the patient's ZIP code?",
+      "expected_range": "Numeric value (e.g., 12345)",
+      "category": "Socioeconomic Data",
+      "regex_patterns": [
+        "(?i)Zip Code[:\\s]*(\\d{5}(-\\d{4})?)",
+        "(?i)\\b\\d{5}(-\\d{4})?\\b"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "State_Country_17",
+      "description": "State and country of residence",
+      "feature_group": "Demographics",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "What is the patient's state and country of residence?",
+      "expected_range": "Free-text",
+      "category": "Demographics",
+      "regex_patterns": [
+        "(?i)\\b([A-Z]{2})\\b,?\\s*\\b(?:United\\s*States|Canada|Mexico)\\b",
+        "(?i)\\b(?:Alabama|Alaska|Arizona|Arkansas|California|Colorado|Connecticut|Delaware|Florida|Georgia|Hawaii|Idaho|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maine|Maryland|Massachusetts|Michigan|Minnesota|Mississippi|Missouri|Montana|Nebraska|Nevada|New\\s*Hampshire|New\\s*Jersey|New\\s*Mexico|New\\s*York|North\\s*Carolina|North\\s*Dakota|Ohio|Oklahoma|Oregon|Pennsylvania|Rhode\\s*Island|South\\s*Carolina|South\\s*Dakota|Tennessee|Texas|Utah|Vermont|Virginia|Washington|West\\s*Virginia|Wisconsin|Wyoming)\\b"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Rural_vs_Urban_Residence_18",
+      "description": "Patient's type of residence",
+      "feature_group": "Socioeconomic Data",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "Does the patient live in a rural or urban area? (Rural/Urban)",
+      "expected_range": "Rural, Urban",
+      "category": "Socioeconomic Data",
+      "regex_patterns": [
+        "(?i)Residence[:\\s]*(Rural|Urban)",
+        "(?i)\\b(Rural|Urban)\\s*Residence\\b"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Socioeconomic_Status_19",
+      "description": "Socioeconomic status of the patient",
+      "feature_group": "Socioeconomic Data",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "What is the patient's socioeconomic status? (Low/Medium/High)",
+      "expected_range": "Low, Medium, High, or a numerical scale",
+      "category": "Socioeconomic Data",
+      "regex_patterns": [
+        "(?i)Socioeconomic\\s*Status[:\\s]*(Low|Medium|High|\\d+)",
+        "(?i)\\b(Low|Medium|High)\\s*Income\\b"
+      ],
+      "reference": "notes",
+      "fallback_category_1": "summary",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Type_of_Sample_20",
+      "description": "Type of tumor sample collected",
+      "feature_group": "Sample Information",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "What is the type of tumor sample?",
+      "expected_range": "Diagnostic Biopsy, Core Biopsy, Surgical Excision Specimen, Metastatic Site Biopsy, Fine Needle Aspiration (FNA), Xenograft",
+      "category": "Sample Information",
+      "regex_patterns": [
+        "(?i)Sample Type[:\\s]*(Diagnostic Biopsy|Core Biopsy|Surgical Excision|Metastatic Site Biopsy|Fine Needle Aspiration|FNA|Xenograft)",
+        "(?i)\\b(Biopsy|Specimen|Sample|FNA)\\b"
+      ],
+      "reference": "pathology",
+      "fallback_category_1": "surgery",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Timing_of_Sample_Collection_21",
+      "description": "Timing of sample collection relative to treatment",
+      "feature_group": "Sample Information",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "What is the timing of sample collection?",
+      "expected_range": "Pre-treatment, Mid-treatment, Post-treatment, Post-recurrence",
+      "category": "Sample Information",
+      "regex_patterns": [
+        "(?i)Sample Collection Timing[:\\s]*(Pre-treatment|Mid-treatment|Post-treatment|Post-recurrence)",
+        "(?i)\\b(Pre|Mid|Post)-treatment\\b"
+      ],
+      "reference": "pathology",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Method_of_Analysis_22",
+      "description": "Method used for tumor analysis",
+      "feature_group": "Analysis Information",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "What method was used for tumor analysis?",
+      "expected_range": "Immunohistochemistry (IHC), Fluorescence In Situ Hybridization (FISH), Chromogenic In Situ Hybridization (CISH)",
+      "category": "Analysis Information",
+      "regex_patterns": [
+        "(?i)Method of Analysis[:\\s]*(Immunohistochemistry|IHC|Fluorescence In Situ Hybridization|FISH|Chromogenic In Situ Hybridization|CISH)",
+        "(?i)\\b(IHC|FISH|CISH)\\b"
+      ],
+      "reference": "pathology",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Histology_23",
+      "description": "Histological type of the tumor",
+      "feature_group": "Tumor Characteristics",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "What is the histological type of the tumor?",
+      "expected_range": "Free text (e.g., Ductal, Lobular, etc.)",
+      "category": "Tumor Characteristics",
+      "regex_patterns": [
+        "(?i)Histology[:\\s]*([\\w\\s]+)",
+        "(?i)\\b(Ductal|Lobular|Medullary|Metaplastic|Tubular|Colloid|Adenoid Cystic|Apocrine)\\b"
+      ],
+      "reference": "pathology",
+      "fallback_category_1": "summary",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Tumor_Grade_24",
+      "description": "Grade of the tumor",
+      "feature_group": "Tumor Characteristics",
+      "expected_output_type": "numeric",
+      "unit": "N/A",
+      "input_prompt": "What is the tumor grade? (1, 2, 3)",
+      "expected_range": "1, 2, 3",
+      "category": "Tumor Characteristics",
+      "regex_patterns": [
+        "(?i)Tumor Grade[:\\s]*(1|2|3|I|II|III)",
+        "(?i)\\bGrade\\s*(1|2|3|I|II|III)\\b"
+      ],
+      "reference": "pathology",
+      "fallback_category_1": "summary",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "T_Stage_25",
+      "description": "Tumor (T) stage",
+      "feature_group": "Tumor Characteristics",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "What is the T stage of the tumor? (T1, T2, T3, T4)",
+      "expected_range": "T1, T2, T3, T4",
+      "category": "Tumor Characteristics",
+      "regex_patterns": [
+        "(?i)T Stage[:\\s]*(T1|T2|T3|T4)([a-z])?",
+        "(?i)\\b(T1|T2|T3|T4)([a-z])?\\b"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "pathology",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "N_Stage_26",
+      "description": "Node (N) stage",
+      "feature_group": "Tumor Characteristics",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "What is the N stage of the tumor? (N0, N1, N2, N3)",
+      "expected_range": "N0, N1, N2, N3",
+      "category": "Tumor Characteristics",
+      "regex_patterns": [
+        "(?i)N Stage[:\\s]*(N0|N1|N2|N3)([a-z])?",
+        "(?i)\\b(N0|N1|N2|N3)([a-z])?\\b"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "pathology",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "M_Stage_27",
+      "description": "Metastasis (M) stage",
+      "feature_group": "Tumor Characteristics",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "What is the M stage of the tumor? (M0, M1)",
+      "expected_range": "M0, M1",
+      "category": "Tumor Characteristics",
+      "regex_patterns": [
+        "(?i)M Stage[:\\s]*(M0|M1)([a-z])?",
+        "(?i)\\b(M0|M1)([a-z])?\\b"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "pathology",
+      "fallback_category_2": "radiology",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Overall_Stage_28",
+      "description": "Overall cancer stage",
+      "feature_group": "Tumor Characteristics",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "What is the overall cancer stage?",
+      "expected_range": "Stage 0, I, IIA, IIB, IIIA, IIIB, IIIC, IV",
+      "category": "Tumor Characteristics",
+      "regex_patterns": [
+        "(?i)Overall Stage[:\\s]*(Stage 0|Stage I|Stage II|Stage III|Stage IV|0|I|II|III|IV|IA|IB|IIA|IIB|IIIA|IIIB|IIIC)",
+        "(?i)\\bStage\\s*(0|I|II|III|IV|IA|IB|IIA|IIB|IIIA|IIIB|IIIC)\\b"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "pathology",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Number_of_Positive_Nodes_29",
+      "description": "Number of positive lymph nodes",
+      "feature_group": "Tumor Characteristics",
+      "expected_output_type": "numeric",
+      "unit": "N/A",
+      "input_prompt": "How many lymph nodes are positive?",
+      "expected_range": "Positive integer or N/A",
+      "category": "Tumor Characteristics",
+      "regex_patterns": [
+        "(?i)Positive Nodes[:\\s]*(\\d+|N/A)",
+        "(?i)\\b(\\d+)\\s*positive\\s*(nodes|lymph nodes)\\b"
+      ],
+      "reference": "pathology",
+      "fallback_category_1": "surgery",
+      "fallback_category_2": "summary",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Tumor_Size_30",
+      "description": "Size of the tumor",
+      "feature_group": "Tumor Characteristics",
+      "expected_output_type": "numeric",
+      "unit": "cm",
+      "input_prompt": "What is the size of the tumor? (in cm or mm)",
+      "expected_range": "Numeric value (e.g., 2.1 cm or 21 mm)",
+      "category": "Tumor Characteristics",
+      "regex_patterns": [
+        "(?i)Tumor Size[:\\s]*(\\d+(\\.\\d+)?\\s*(cm|mm))",
+        "(?i)\\b(\\d+(\\.\\d+)?)\\s*(cm|mm)\\b"
+      ],
+      "reference": "pathology",
+      "fallback_category_1": "radiology",
+      "fallback_category_2": "imaging",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Tumor_Side_31",
+      "description": "Side of the tumor location",
+      "feature_group": "Tumor Characteristics",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "Which side is the tumor located on? (Left/Right)",
+      "expected_range": "Left, Right",
+      "category": "Tumor Characteristics",
+      "regex_patterns": [
+        "(?i)Tumor Side[:\\s]*(Left|Right)",
+        "(?i)\\b(Left|Right)\\s*(Side|Breast|Lung|Kidney)\\b"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "pathology",
+      "fallback_category_2": "imaging",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Lymphovascular_Invasion_32",
+      "description": "Presence of lymphovascular invasion",
+      "feature_group": "Tumor Characteristics",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "Is there evidence of lymphovascular invasion (LVI)?",
+      "expected_range": "Yes, No",
+      "category": "Tumor Characteristics",
+      "regex_patterns": [
+        "(?i)Lymphovascular Invasion[:\\s]*(Yes|No|Present|Absent|Positive|Negative)",
+        "(?i)\\bLVI\\s*(\\+|\\-|positive|negative)\\b"
+      ],
+      "reference": "pathology",
+      "fallback_category_1": "summary",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Extracapsular_Extension_33",
+      "description": "Presence of extracapsular extension",
+      "feature_group": "Tumor Characteristics",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "Is there extracapsular extension?",
+      "expected_range": "Yes, No",
+      "category": "Tumor Characteristics",
+      "regex_patterns": [
+        "(?i)Extracapsular Extension[:\\s]*(Yes|No|Present|Absent|Positive|Negative)",
+        "(?i)\\bECE\\s*(\\+|\\-|positive|negative)\\b"
+      ],
+      "reference": "pathology",
+      "fallback_category_1": "summary",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Tumor_Cellularity_34",
+      "description": "Percentage of tumor cells in the sample",
+      "feature_group": "Tumor Characteristics",
+      "expected_output_type": "numeric",
+      "unit": "percentage",
+      "input_prompt": "What is the percentage of tumor cells in the sample?",
+      "expected_range": "Percentage (e.g., 0%-100%)",
+      "category": "Tumor Characteristics",
+      "regex_patterns": [
+        "(?i)Tumor Cellularity[:\\s]*(\\d{1,3}%)",
+        "(?i)\\b(\\d{1,3})%\\s*cellularity\\b"
+      ],
+      "reference": "pathology",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Tumor_Heterogeneity_35",
+      "description": "Presence of tumor heterogeneity",
+      "feature_group": "Tumor Characteristics",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "Is there tumor heterogeneity?",
+      "expected_range": "Yes, No",
+      "category": "Tumor Characteristics",
+      "regex_patterns": [
+        "(?i)Tumor Heterogeneity[:\\s]*(Yes|No|Present|Absent)",
+        "(?i)\\b(heterogeneous|homogeneous)\\s*tumor\\b"
+      ],
+      "reference": "pathology",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Ki67_36",
+      "description": "Ki67 proliferation index",
+      "feature_group": "Tumor Characteristics",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "What is the Ki67 proliferation index?",
+      "expected_range": "Numeric value or 'Low', 'Intermediate', 'High'",
+      "category": "Tumor Characteristics",
+      "regex_patterns": [
+        "(?i)Ki67[:\\s]*(\\d+%|Low|Intermediate|High)",
+        "(?i)\\bKi-67\\s*(\\d+%|Low|Intermediate|High)\\b"
+      ],
+      "reference": "pathology",
+      "fallback_category_1": "summary",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Diagnosis_37",
+      "description": "Type of diagnosis",
+      "feature_group": "Clinical Data",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "What is the type of diagnosis?",
+      "expected_range": "Primary, Secondary",
+      "category": "Clinical Data",
+      "regex_patterns": [
+        "(?i)Diagnosis Type[:\\s]*(Primary|Secondary)",
+        "(?i)\\b(Primary|Secondary)\\s*Diagnosis\\b"
+      ],
+      "reference": "summary",
+      "fallback_category_1": "pathology",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Surgery_Type_38",
+      "description": "Type of surgery performed",
+      "feature_group": "Surgery Details",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "What type of surgery was performed?",
+      "expected_range": "Free text (e.g., Lumpectomy, Mastectomy, etc.)",
+      "category": "Surgery Details",
+      "regex_patterns": [
+        "(?i)Surgery Type[:\\s]*([\\w\\s]+)",
+        "(?i)\\b(Lumpectomy|Mastectomy|Resection|Biopsy)\\b"
+      ],
+      "reference": "surgery",
+      "fallback_category_1": "summary",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Surgery_Date_39",
+      "description": "Date of surgery",
+      "feature_group": "Surgery Details",
+      "expected_output_type": "date",
+      "unit": "N/A",
+      "input_prompt": "What is the date of surgery?",
+      "expected_range": "Valid date (MM/DD/YYYY)",
+      "category": "Surgery Details",
+      "regex_patterns": [
+        "(?i)Surgery Date[:\\s]*(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})",
+        "(?i)\\b(\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4})\\b"
+      ],
+      "reference": "surgery",
+      "fallback_category_1": "summary",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Margins_40",
+      "description": "Surgical margins status",
+      "feature_group": "Surgery Details",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "What is the status of the surgical margins?",
+      "expected_range": "Positive, Negative, Close, Not Applicable",
+      "category": "Surgery Details",
+      "regex_patterns": [
+        "(?i)Margins[:\\s]*(Positive|Negative|Close|Not Applicable)",
+        "(?i)\\b(Positive|Negative|Clear|Close)\\s*margins\\b"
+      ],
+      "reference": "surgery",
+      "fallback_category_1": "pathology",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Lymph_Node_Removal_41",
+      "description": "Number of lymph nodes removed",
+      "feature_group": "Surgery Details",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "How many lymph nodes were removed?",
+      "expected_range": "Numeric value or 'Sentinel Node Biopsy Only'",
+      "category": "Surgery Details",
+      "regex_patterns": [
+        "(?i)Lymph Node Removal[:\\s]*(\\d+ nodes|Sentinel Node Biopsy Only)",
+        "(?i)\\b(\\d+)\\s*(nodes|lymph nodes)\\s*removed\\b"
+      ],
+      "reference": "surgery",
+      "fallback_category_1": "pathology",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Axillary_Surgery_Type_42",
+      "description": "Type of axillary surgery performed",
+      "feature_group": "Surgery Details",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "What type of axillary surgery was performed?",
+      "expected_range": "ALND, SLNB, None",
+      "category": "Surgery Details",
+      "regex_patterns": [
+        "(?i)Axillary Surgery Type[:\\s]*(ALND|SLNB|None)",
+        "(?i)\\b(Axillary Lymph Node Dissection|ALND|Sentinel Lymph Node Biopsy|SLNB)\\b"
+      ],
+      "reference": "surgery",
+      "fallback_category_1": "summary",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Sentinel_Node_Status_43",
+      "description": "Status of the sentinel lymph node",
+      "feature_group": "Surgery Details",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "What is the status of the sentinel lymph node?",
+      "expected_range": "Negative, Positive, Not Done, Not Applicable",
+      "category": "Surgery Details",
+      "regex_patterns": [
+        "(?i)Sentinel Node Status[:\\s]*(Negative|Positive|Not Done|Not Applicable)",
+        "(?i)\\b(Sentinel Node|SLN)\\s*(Positive|Negative|\\+|\\-)\\b"
+      ],
+      "reference": "surgery",
+      "fallback_category_1": "pathology",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "CTX_pCR_44",
+      "description": "Pathologic complete response (pCR) after chemotherapy",
+      "feature_group": "Response Metrics",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "Did the patient achieve pathologic complete response (pCR)?",
+      "expected_range": "Yes, No",
+      "category": "Response Metrics",
+      "regex_patterns": [
+        "(?i)pCR[:\\s]*(Yes|No|Achieved|Not Achieved)",
+        "(?i)\\b(pathologic complete response|pCR)\\s*(achieved|not achieved)\\b"
+      ],
+      "reference": "pathology",
+      "fallback_category_1": "chemotherapy",
+      "fallback_category_2": "summary",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "pCR_Breast_Only_45",
+      "description": "Pathologic complete response in the breast only (ypT0/is)",
+      "feature_group": "Response Metrics",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "Did the patient achieve pCR in the breast only?",
+      "expected_range": "Yes, No",
+      "category": "Response Metrics",
+      "regex_patterns": [
+        "(?i)pCR Breast Only[:\\s]*(Yes|No)",
+        "(?i)\\b(ypT0|ypTis)\\b"
+      ],
+      "reference": "pathology",
+      "fallback_category_1": "chemotherapy",
+      "fallback_category_2": "summary",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "pCR_Breast_and_Axilla_46",
+      "description": "Pathologic complete response in the breast and axilla (ypT0/isN0)",
+      "feature_group": "Response Metrics",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "Did the patient achieve pCR in the breast and axilla?",
+      "expected_range": "Yes, No",
+      "category": "Response Metrics",
+      "regex_patterns": [
+        "(?i)pCR Breast and Axilla[:\\s]*(Yes|No)",
+        "(?i)\\b(ypT0|ypTis)N0\\b"
+      ],
+      "reference": "pathology",
+      "fallback_category_1": "chemotherapy",
+      "fallback_category_2": "summary",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Residual_Tumor_Size_47",
+      "description": "Size of the residual tumor after treatment",
+      "feature_group": "Response Metrics",
+      "expected_output_type": "string",
+      "unit": "cm",
+      "input_prompt": "What is the size of the residual tumor after treatment?",
+      "expected_range": "Numeric value or comparative size",
+      "category": "Response Metrics",
+      "regex_patterns": [
+        "(?i)Residual Tumor Size[:\\s]*(\\d+(\\.\\d+)?\\s*cm|<\\d+\\s*cm|>\\d+\\s*cm)",
+        "(?i)\\b(residual tumor|residual disease)\\s*(\\d+(\\.\\d+)?\\s*cm)\\b"
+      ],
+      "reference": "pathology",
+      "fallback_category_1": "surgery",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Residual_Tumor_Size1D_48",
+      "description": "One-dimensional measurement of residual tumor size after treatment",
+      "feature_group": "Response Metrics",
+      "expected_output_type": "numeric",
+      "unit": "cm",
+      "input_prompt": "What is the maximum 1D residual tumor size after treatment in centimeters?",
+      "expected_range": "Numeric value in cm",
+      "category": "Response Metrics",
+      "regex_patterns": [
+        "(?i)residual\\s*tumor\\s*size\\s*(\\d+(\\.\\d+)?\\s*cm)",
+        "(?i)maximum\\s*residual\\s*diameter\\s*[:\\s]*(\\d+(\\.\\d+)?\\s*cm)"
+      ],
+      "reference": "pathology",
+      "fallback_category_1": "imaging",
+      "fallback_category_2": "radiology",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "ER_49",
+      "description": "Estrogen receptor (ER) status",
+      "feature_group": "Biomarker Testing",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "What is the ER status?",
+      "expected_range": "Positive, Negative, Weak",
+      "category": "Biomarker Testing",
+      "regex_patterns": [
+        "(?i)ER Status[:\\s]*(Positive|Negative|Weak)",
+        "(?i)\\b(ER|Estrogen Receptor)\\s*(\\+|\\-|Positive|Negative)\\b"
+      ],
+      "reference": "pathology",
+      "fallback_category_1": "summary",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "PR_50",
+      "description": "Progesterone receptor (PR) status",
+      "feature_group": "Biomarker Testing",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "What is the PR status?",
+      "expected_range": "Positive, Negative, Weak",
+      "category": "Biomarker Testing",
+      "regex_patterns": [
+        "(?i)PR Status[:\\s]*(Positive|Negative|Weak)",
+        "(?i)\\b(PR|Progesterone Receptor)\\s*(\\+|\\-|Positive|Negative)\\b"
+      ],
+      "reference": "pathology",
+      "fallback_category_1": "summary",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "HER2_51",
+      "description": "HER2 status",
+      "feature_group": "Biomarker Testing",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "What is the HER2 status?",
+      "expected_range": "Positive, Negative, Weak",
+      "category": "Biomarker Testing",
+      "regex_patterns": [
+        "(?i)HER2 Status[:\\s]*(Positive|Negative|Weak)",
+        "(?i)\\b(HER2|HER-2)\\s*(\\+|\\+\\+|\\+\\+\\+|\\-|Positive|Negative)\\b"
+      ],
+      "reference": "pathology",
+      "fallback_category_1": "summary",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "HER2_Copy_Number_Test_Performed_52",
+      "description": "HER2 copy number variation (CNV) test status",
+      "feature_group": "Biomarker Testing",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "Was a HER2 copy number test performed?",
+      "expected_range": "Yes, No",
+      "category": "Biomarker Testing",
+      "regex_patterns": [
+        "(?i)HER2.*copy\\s*number.*test.*performed[:\\s]*(Yes|No)",
+        "(?i)HER2.*FISH"
+      ],
+      "reference": "pathology",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "PD_L1_Status_53",
+      "description": "PD-L1 status of the tumor",
+      "feature_group": "Biomarker Testing",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "What is the PD-L1 status of the tumor?",
+      "expected_range": "Positive, Negative, Not Tested",
+      "category": "Biomarker Testing",
+      "regex_patterns": [
+        "(?i)PD-L1 Status[:\\s]*(Positive|Negative|Not Tested)",
+        "(?i)\\b(PD-L1|PDL1)\\s*(\\+|\\-|Positive|Negative)\\b"
+      ],
+      "reference": "pathology",
+      "fallback_category_1": "summary",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "PD_L1_Testing_Method_54",
+      "description": "Method used for PD-L1 testing",
+      "feature_group": "Biomarker Testing",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "What method was used for PD-L1 testing?",
+      "expected_range": "Immunohistochemistry (IHC), Other",
+      "category": "Biomarker Testing",
+      "regex_patterns": [
+        "(?i)PD-L1 Testing Method[:\\s]*(Immunohistochemistry|IHC|Other)",
+        "(?i)\\b(PD-L1|PDL1)\\s*(IHC|Immunohistochemistry)\\b"
+      ],
+      "reference": "pathology",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Metformin_Use_55",
+      "description": "Indicates whether the patient used metformin during treatment",
+      "feature_group": "Treatment Details",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "Did the patient use metformin during treatment?",
+      "expected_range": "Yes, No",
+      "category": "Treatment Details",
+      "regex_patterns": [
+        "(?i)Metformin Use[:\\s]*(Yes|No)",
+        "(?i)\\b(taking|prescribed|using)\\s*metformin\\b"
+      ],
+      "reference": "notes",
+      "fallback_category_1": "summary",
+      "fallback_category_2": "all",
+      "double_check": "yes",
+      "search_everywhere": true
+    },
+    {
+      "name": "Chemo_Port_Use_56",
+      "description": "Indicates whether a chemo port was used",
+      "feature_group": "Treatment Details",
+      "expected_output_type": "string",
+      "unit": "N/A",
+      "input_prompt": "Was a chemo port used?",
+      "expected_range": "Yes, No",
+      "category": "Treatment Details",
+      "regex_patterns": [
+        "(?i)Chemo Port Use[:\\s]*(Yes|No)",
+        "(?i)\\b(port|mediport|portacath)\\b"
+      ],
+      "reference": "chemotherapy",
+      "fallback_category_1": "surgery",
+      "fallback_category_2": "notes",
+      "double_check": "yes",
+      "search_everywhere": true
+    }
+  ]
+}

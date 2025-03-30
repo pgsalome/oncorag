@@ -1,0 +1,76 @@
+version: '3.7'
+services:
+  iris:
+    image: intersystemsdc/iris-community:latest
+    ports:
+      - "5274:52774"
+      - "1973:1973"
+    environment:
+      - IRIS_USERNAME=_SYSTEM
+      - IRIS_PASSWORD=SYS
+    healthcheck:
+      test: ["CMD-SHELL", "iris session iris -U %SYS \"write $system.Version.GetVersion(), $system.Process.Compile('/firewall/Firewall.inc'),!\""]
+      interval: 10s
+      retries: 3
+      start_period: 30s
+      timeout: 10s
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - iris
+    environment:
+      - IRIS_HOSTNAME=iris
+      - IRIS_USERNAME=_SYSTEM
+      - IRIS_PASSWORD=SYS
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - HUGGINGFACE_API_KEY=${HUGGINGFACE_API_KEY}
+      - COHERE_API_KEY=${COHERE_API_KEY}
+      - LANGCHAIN_TRACING_V2=${LANGCHAIN_TRACING_V2}
+      - LANGCHAIN_ENDPOINT=${LANGCHAIN_ENDPOINT}
+      - LANGCHAIN_API_KEY=${LANGCHAIN_API_KEY}
+      - LOG_LEVEL=${LOG_LEVEL}
+      - LOG_FILE=${LOG_FILE}
+    env_file:
+      - .env  # Keep this as a backup method
+    volumes:
+      - ./src:/app/src
+      - ./data:/app/data
+      - ./config:/app/config
+      - ./output:/app/output
+      - ./.env:/app/.env  # Explicitly mount the .env file
+  jupyter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8889:8888"  # Map host 8889 to container 8888
+    depends_on:
+      - iris
+    environment:
+      - IRIS_HOSTNAME=iris
+      - IRIS_USERNAME=_SYSTEM
+      - IRIS_PASSWORD=SYS
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - HUGGINGFACE_API_KEY=${HUGGINGFACE_API_KEY}
+      - COHERE_API_KEY=${COHERE_API_KEY}
+      - LANGCHAIN_TRACING_V2=${LANGCHAIN_TRACING_V2}
+      - LANGCHAIN_ENDPOINT=${LANGCHAIN_ENDPOINT}
+      - LANGCHAIN_API_KEY=${LANGCHAIN_API_KEY}
+      - LOG_LEVEL=${LOG_LEVEL}
+      - LOG_FILE=${LOG_FILE}
+    env_file:
+      - .env  # Keep this as a backup method
+    volumes:
+      - ./src:/app/src
+      - ./data:/app/data
+      - ./config:/app/config
+      - ./output:/app/output
+      - ./.env:/app/.env  # Explicitly mount the .env file
+      - ./notebooks:/app/notebooks  # Mount the notebooks directory
+    command: jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password='' --notebook-dir=/app/notebooks
