@@ -36,7 +36,7 @@ After installation, activate the virtual environment:
 - Windows: `./venv/Scripts/activate`
 - Mac/Linux: `source venv/bin/activate`
 
-### Option 2: Docker Installation
+### 2: Docker Installation
 
 Run the Docker setup script:
 
@@ -46,7 +46,7 @@ python setup_docker.py
 
 This will build and start Docker containers for the application.
 
-### Option 3: Manual Installation
+### 3: Installation
 
 ```bash
 # Create a virtual environment
@@ -66,13 +66,6 @@ Launches an interactive agent to help you define entity-specific clinical featur
 
 ### 2️⃣ `scripts/run_data_extraction.py`
 Extracts structured features from patient notes using the config file. If no data is provided, synthetic examples are generated.
-
-```bash
-python scripts/run_data_extraction.py \
-  --features config/your_entity_feature_config.json \
-  --data-dir data/sample_patient \
-  --output output/extracted_data.csv
-```
 
 ### 3️⃣ `scripts/run_chatbot.py`
 Launches a retrieval-augmented chatbot that combines structured data and text-based evidence.
