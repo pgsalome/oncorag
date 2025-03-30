@@ -4,6 +4,7 @@ A powerful tool for automatically generating and extracting clinical features fr
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/oncorag2_colab_demo.ipynb)
 
 ## Overview
 
@@ -32,7 +33,7 @@ This will:
 3. Set up the environment variables (if no .env file exists)
 
 After installation, activate the virtual environment:
-- Windows: `.\venv\Scripts\activate`
+- Windows: `.env\Scripts\activate`
 - Mac/Linux: `source venv/bin/activate`
 
 ### Option 2: Docker Installation
@@ -92,6 +93,18 @@ oncorag2-generate
 oncorag2-generate --model claude-3-sonnet-20240229 --platform anthropic
 ```
 
+## Try It on Google Colab 🚀
+
+Click the badge above or open this notebook:
+
+[📓 `oncorag2_colab_demo.ipynb`](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/oncorag2_colab_demo.ipynb)
+
+This notebook walks you through:
+1. Cloning the repo and installing dependencies
+2. Running the feature generation agent
+3. Extracting clinical features from patient records (synthetic or real)
+4. Launching the RAG-powered chatbot for patient queries
+
 ## Environment Setup
 
 The application uses environment variables for configuration. Create a `.env` file in the root directory with the following variables:
@@ -115,13 +128,13 @@ You only need to provide API keys for the platforms you intend to use.
 
 Oncorag2 supports multiple LLM providers:
 
-| Platform | Environment Variable | Default Models |
-|----------|----------------------|----------------|
-| OpenAI | OPENAI_API_KEY | gpt-4o-mini, gpt-4o, gpt-4 |
-| Anthropic | ANTHROPIC_API_KEY | claude-3-opus-20240229, claude-3-sonnet-20240229 |
-| Groq | GROQ_API_KEY | llama3-8b-8192, llama3-70b-8192 |
-| HuggingFace | HUGGINGFACE_API_KEY | various models |
-| Cohere | COHERE_API_KEY | command, command-light |
+| Platform     | Environment Variable     | Default Models                            |
+|--------------|--------------------------|--------------------------------------------|
+| OpenAI       | OPENAI_API_KEY           | gpt-4o-mini, gpt-4o, gpt-4                 |
+| Anthropic    | ANTHROPIC_API_KEY        | claude-3-opus-20240229, claude-3-sonnet   |
+| Groq         | GROQ_API_KEY             | llama3-8b-8192, llama3-70b-8192           |
+| HuggingFace  | HUGGINGFACE_API_KEY      | various models                            |
+| Cohere       | COHERE_API_KEY           | command, command-light                    |
 
 ## Documentation
 
