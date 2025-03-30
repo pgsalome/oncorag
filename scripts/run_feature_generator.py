@@ -27,7 +27,7 @@ def main():
 
     agent = FeatureExtractionAgent(
         model_id=model_id,
-        interactive=True,  # Always interactive in this simple script
+        interactive=True  # Always interactive in this simple script
     )
 
     print(f"Loaded {len(agent.universal_features)} universal features")

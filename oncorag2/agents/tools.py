@@ -7,38 +7,30 @@ oncology-specific features.
 
 import re
 from typing import Dict, List, Optional, Set, Union
-
 from smolagents import tool
 
-# Global variables to store feature data
-# These are updated by the FeatureExtractionAgent
-UNIVERSAL_FEATURES: List[Dict] = []
-ENTITY_FEATURES: List[Dict] = []
-SUGGESTED_FEATURES: Set[str] = set()
+@tool
+def user_input(question: str) -> str:
+    """
+    Get input from the user.
 
+    Args:
+        question: Question to ask the user
 
-class UserInputTool:
-    """Tool for getting user input during feature generation."""
-
-    def __call__(self, question: str) -> str:
-        """
-        Get input from the user.
-
-        Args:
-            question: Question to ask the user
-
-        Returns:
-            User's response
-        """
-        return input(f"\n{question}\n> ")
-
+    Returns:
+        User's response
+    """
+    return input(f"\n{question}\n> ")
 
 @tool
 def generate_entity_features_batch(
         entity: str,
         areas_of_interest: str = "",
         batch_number: int = 1,
-        previously_suggested: Optional[List[str]] = None
+        previously_suggested: Optional[List[str]] = None,
+        universal_features: Optional[List[Dict]] = None,
+        suggested_features: Optional[Set[str]] = None,
+        entity_features: Optional[List[Dict]] = None
 ) -> Dict:
     """
     Generate a batch of 5 entity-specific features for the given oncology entity.
@@ -48,16 +40,21 @@ def generate_entity_features_batch(
         areas_of_interest: Optional specific areas the user is interested in
         batch_number: Which batch of features to generate (1=first 5, 2=next 5, etc.)
         previously_suggested: List of previously suggested feature names to avoid duplicates
+        universal_features: List of universal features
+        suggested_features: Set of suggested feature names
+        entity_features: List of entity-specific features
 
     Returns:
-        A dictionary with a batch of entity-specific features and info about universal features
+        A dictionary with a batch of entity-specific features and updated state
     """
     import openai
     import os
     import json
 
-    # Access the global feature tracking variables
-    global SUGGESTED_FEATURES, UNIVERSAL_FEATURES, ENTITY_FEATURES
+    # Use the passed-in state or initialize empty collections
+    _universal_features = universal_features or []
+    _suggested_features = suggested_features or set()
+    _entity_features = entity_features or []
 
     # Use OpenAI directly for generation
     client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
@@ -65,14 +62,14 @@ def generate_entity_features_batch(
     # If previously_suggested list was provided, add to global set
     if previously_suggested:
         for feature in previously_suggested:
-            SUGGESTED_FEATURES.add(feature.lower())
+            _suggested_features.add(feature.lower())
 
     # Calculate how many features we've already shown
     features_seen = (batch_number - 1) * 5
 
     # Universal feature names to avoid duplicates
     universal_feature_bases = set()
-    for f in UNIVERSAL_FEATURES:
+    for f in _universal_features:
         name = f.get("name", "").lower()
         # Remove number suffix if present
         if "_" in name and name.split("_")[-1].isdigit():
@@ -92,7 +89,7 @@ def generate_entity_features_batch(
     {", ".join(sorted(universal_feature_bases))}
 
     PREVIOUSLY SUGGESTED FEATURES:
-    {", ".join(sorted(SUGGESTED_FEATURES))}
+    {", ".join(sorted(_suggested_features))}
 
     ALSO AVOID any features that are conceptually similar to those already suggested.
 
@@ -152,7 +149,7 @@ def generate_entity_features_batch(
 
             # Find the highest existing feature number
             highest_number = 0
-            for feature in UNIVERSAL_FEATURES:
+            for feature in _universal_features:
                 name = feature.get("name", "")
                 parts = name.split("_")
                 if len(parts) > 0 and parts[-1].isdigit():
@@ -164,13 +161,14 @@ def generate_entity_features_batch(
                         pass
 
             # Process each new feature
+            entity_features_to_add = []
             for feature in new_features:
                 # Ensure name uses underscores instead of spaces
                 feature_name = feature.get("name", "").replace(" ", "_").lower()
 
                 # Add to suggested features set
                 base_name = feature_name.split("_")[0] if "_" in feature_name else feature_name
-                SUGGESTED_FEATURES.add(base_name)
+                _suggested_features.add(base_name)
 
                 # Get the feature number if it exists
                 if "_" in feature_name and feature_name.split("_")[-1].isdigit():
@@ -238,16 +236,22 @@ def generate_entity_features_batch(
                                     f"(?i)\\b{base_term}\\b"
                                 ]
 
-            # Add the features to the global list
-            if not isinstance(ENTITY_FEATURES, list):
-                ENTITY_FEATURES = []
-            ENTITY_FEATURES.extend(new_features)
+                # Add to entity features list
+                entity_features_to_add.append(feature)
 
-            # Return batch of features
+            # Add features to the local entity features list
+            _entity_features.extend(entity_features_to_add)
+
+            # Create a preview of the features to print to the console
+            print(f"Generated {len(new_features)} new features for {entity} (total: {len(_entity_features)})")
+
+            # Return batch of features and updated state
             return {
                 "batch_number": batch_number,
                 "entity_specific_features": new_features,
-                "entity_feature_count": len(ENTITY_FEATURES)
+                "entity_feature_count": len(_entity_features),
+                "updated_entity_features": _entity_features,
+                "updated_suggested_features": _suggested_features
             }
 
         except json.JSONDecodeError:
@@ -256,7 +260,9 @@ def generate_entity_features_batch(
                 "batch_number": batch_number,
                 "entity_specific_features": [],
                 "error": "Could not parse entity-specific features.",
-                "entity_feature_count": len(ENTITY_FEATURES) if isinstance(ENTITY_FEATURES, list) else 0
+                "entity_feature_count": len(_entity_features),
+                "updated_entity_features": _entity_features,
+                "updated_suggested_features": _suggested_features
             }
 
     except Exception as e:
@@ -265,9 +271,10 @@ def generate_entity_features_batch(
             "batch_number": batch_number,
             "entity_specific_features": [],
             "error": f"Error generating features: {str(e)}",
-            "entity_feature_count": len(ENTITY_FEATURES) if isinstance(ENTITY_FEATURES, list) else 0
+            "entity_feature_count": len(_entity_features),
+            "updated_entity_features": _entity_features,
+            "updated_suggested_features": _suggested_features
         }
-
 
 @tool
 def get_feature_names(features_batch: Dict) -> List[str]:
@@ -281,7 +288,6 @@ def get_feature_names(features_batch: Dict) -> List[str]:
         List of feature names
     """
     return [f.get("name") for f in features_batch.get("entity_specific_features", [])]
-
 
 @tool
 def format_features_for_display(features_batch: Dict) -> str:
@@ -331,28 +337,27 @@ def format_features_for_display(features_batch: Dict) -> str:
 
     return formatted_output
 
-
 @tool
-def combine_all_features(entity_features_batches: Optional[List] = None) -> Dict[str, List[Dict]]:
+def combine_all_features(
+    universal_features: Optional[List[Dict]] = None,
+    entity_features: Optional[List[Dict]] = None
+) -> Dict[str, List[Dict]]:
     """
     Combine all entity-specific features with existing universal features.
 
     Args:
-        entity_features_batches: Optional list of batches of entity-specific features
-                                (not used in this implementation)
+        universal_features: List of universal features
+        entity_features: List of entity-specific features
 
     Returns:
         Dictionary with all features (existing universal + new entity-specific)
     """
-    # Use the global entity features and universal features
-    global ENTITY_FEATURES, UNIVERSAL_FEATURES
-
-    # Ensure the global entity features list exists
-    if not isinstance(ENTITY_FEATURES, list):
-        ENTITY_FEATURES = []
+    # Use the passed-in state or initialize empty collections
+    _universal_features = universal_features or []
+    _entity_features = entity_features or []
 
     # Start with a copy of the universal features
-    combined_features = UNIVERSAL_FEATURES.copy()
+    combined_features = _universal_features.copy()
 
     # Find highest existing feature number
     highest_number = 0
@@ -368,7 +373,7 @@ def combine_all_features(entity_features_batches: Optional[List] = None) -> Dict
                 pass
 
     # Process entity features to ensure proper formatting and all fields
-    for feature in ENTITY_FEATURES:
+    for feature in _entity_features:
         # Ensure name uses underscores, not spaces
         feature_name = feature.get("name", "").replace(" ", "_")
 

@@ -1,0 +1,99 @@
+{
+  "features": [
+    {
+      "name": "pd_l1_expression_level_1",
+      "description": "Quantification of PD-L1 expression in tumor tissue, measured as a percentage of positive tumor cells.",
+      "feature_group": "Biomarkers",
+      "expected_output_type": "numeric",
+      "unit": "percentage",
+      "input_prompt": "What is the PD-L1 expression level in the tumor tissue?",
+      "expected_range": "0-100",
+      "reference": "High PD-L1 levels are associated with better response to immunotherapy.",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "diagnosis",
+      "double_check": "no",
+      "search_everywhere": true,
+      "category": "Clinical category",
+      "regex_patterns": [
+        "(?i)PD-L1[:\\s]*(\\d+)%?",
+        "(?i)expression level[:\\s]*(\\d+)%?"
+      ]
+    },
+    {
+      "name": "tumor_mutational_burden_2",
+      "description": "The total number of mutations per megabase of the tumor genome, indicating the mutational load.",
+      "feature_group": "Biomarkers",
+      "expected_output_type": "numeric",
+      "unit": "mutations/megabase",
+      "input_prompt": "What is the tumor mutational burden?",
+      "expected_range": "0-100",
+      "reference": "Higher mutational burden may correlate with better outcomes in immunotherapy.",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "diagnosis",
+      "double_check": "no",
+      "search_everywhere": true,
+      "category": "Clinical category",
+      "regex_patterns": [
+        "(?i)TMB[:\\s]*(\\d+) mutations/megabase",
+        "(?i)tumor mutational burden[:\\s]*(\\d+) mutations/megabase"
+      ]
+    },
+    {
+      "name": "circular_rna_expression_3",
+      "description": "Measurement of specific circular RNA levels that may be associated with non-small cell lung cancer progression.",
+      "feature_group": "Biomarkers",
+      "expected_output_type": "numeric",
+      "unit": "arbitrary units",
+      "input_prompt": "What is the expression level of the specific circular RNA?",
+      "expected_range": "0 or positive values",
+      "reference": "Certain circular RNAs are implicated in tumorigenesis and cancer progression.",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "diagnosis",
+      "double_check": "no",
+      "search_everywhere": true,
+      "category": "Clinical category",
+      "regex_patterns": [
+        "(?i)circular RNA[:\\s]*(\\d+) units?",
+        "(?i)expression level of circular RNA[:\\s]*(\\d+) units?"
+      ]
+    },
+    {
+      "name": "exosomal_protein_markers_4",
+      "description": "Identification of specific protein markers found in exosomes derived from lung cancer cells, which may serve as non-invasive biomarkers.",
+      "feature_group": "Biomarkers",
+      "expected_output_type": "categorical",
+      "unit": "N/A",
+      "input_prompt": "What exosomal protein markers have been identified?",
+      "expected_range": "e.g., 'EGFR, KRAS, ALK'",
+      "reference": "Exosomal markers can provide insight into tumor dynamics and treatment response.",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "diagnosis",
+      "double_check": "no",
+      "search_everywhere": true,
+      "category": "Clinical category",
+      "regex_patterns": [
+        "(?i)exosomal proteins[:\\s]*([\\w, ]+)",
+        "(?i)identified protein markers[:\\s]*([\\w, ]+)"
+      ]
+    },
+    {
+      "name": "microrna_profile_5",
+      "description": "Assessment of specific microRNA levels associated with non-small cell lung cancer, indicating potential diagnostic or prognostic value.",
+      "feature_group": "Biomarkers",
+      "expected_output_type": "categorical",
+      "unit": "N/A",
+      "input_prompt": "What is the microRNA profile observed in the tumor?",
+      "expected_range": "e.g., 'miR-21, miR-155'",
+      "reference": "MicroRNA profiles may correlate with disease progression and response to therapy.",
+      "fallback_category_1": "notes",
+      "fallback_category_2": "diagnosis",
+      "double_check": "no",
+      "search_everywhere": true,
+      "category": "Clinical category",
+      "regex_patterns": [
+        "(?i)microRNA profile[:\\s]*([\\w, ]+)",
+        "(?i)miRNA levels[:\\s]*([\\w, ]+)"
+      ]
+    }
+  ]
+}

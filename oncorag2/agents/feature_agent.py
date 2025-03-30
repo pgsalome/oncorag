@@ -12,12 +12,12 @@ from pathlib import Path
 from typing import Dict, List, Optional, Set, Union
 
 import openai
-from smolagents import CodeAgent, LiteLLMModel
+from smolagents import CodeAgent, LiteLLMModel, UserInputTool
 
-from oncorag2.agents.prompts import FEATURE_GENERATION_TASK
+from oncorag2.agents.prompts import FEATURE_GENERATION_TASK, FEATURE_GENERATION_NONINTERACTIVE_TASK
 from oncorag2.agents.tools import (combine_all_features, format_features_for_display,
                                    generate_entity_features_batch,
-                                   get_feature_names, UserInputTool)
+                                   get_feature_names)
 
 logger = logging.getLogger(__name__)
 
@@ -99,7 +99,6 @@ class FeatureExtractionAgent:
 
     def _initialize_agent(self) -> None:
         """Initialize the LLM model and agent with appropriate tools."""
-        # Define tools for the agent
         tools = [
             UserInputTool(),
             generate_entity_features_batch,
@@ -118,14 +117,8 @@ class FeatureExtractionAgent:
         self.agent = CodeAgent(
             model=model,
             tools=tools,
-            verbosity_level=1 if self.interactive else 0
+            verbosity_level=0
         )
-
-        # Set global variables for tools to access
-        global UNIVERSAL_FEATURES, ENTITY_FEATURES, SUGGESTED_FEATURES
-        UNIVERSAL_FEATURES = self.universal_features
-        ENTITY_FEATURES = self.entity_features
-        SUGGESTED_FEATURES = self.suggested_features
 
     def load_universal_features(self, config_path: Union[str, Path]) -> List[Dict]:
         """
@@ -178,12 +171,6 @@ class FeatureExtractionAgent:
         Returns:
             List of generated feature dictionaries
         """
-        # Update global variables
-        global UNIVERSAL_FEATURES, ENTITY_FEATURES, SUGGESTED_FEATURES
-        UNIVERSAL_FEATURES = self.universal_features
-        ENTITY_FEATURES = self.entity_features
-        SUGGESTED_FEATURES = self.suggested_features
-
         # Determine if we need to ask for entity and areas_of_interest
         if self.interactive and entity is None:
             # Ask for entity if not provided
@@ -206,7 +193,7 @@ class FeatureExtractionAgent:
         if not entity:
             raise ValueError("Entity must be provided either as an argument or interactively")
 
-        # Build the agent task
+        # Build the agent task with state variables embedded in the prompt
         if self.interactive:
             task = FEATURE_GENERATION_TASK.format(
                 entity=entity,
@@ -224,7 +211,44 @@ class FeatureExtractionAgent:
 
         # Run the agent to generate features
         logger.info(f"Generating features for {entity}")
-        result = self.agent.run(task)
+
+        # Modify the agent's run_tool method to include state
+        original_run_tool = self.agent.run_tool
+
+        def run_tool_with_state(tool_name, **kwargs):
+            # Add state variables to generate_entity_features_batch calls
+            if tool_name == "generate_entity_features_batch":
+                kwargs.update({
+                    "universal_features": self.universal_features,
+                    "suggested_features": self.suggested_features,
+                    "entity_features": self.entity_features
+                })
+            elif tool_name == "combine_all_features":
+                kwargs.update({
+                    "universal_features": self.universal_features,
+                    "entity_features": self.entity_features
+                })
+
+            # Call the original method
+            result = original_run_tool(tool_name, **kwargs)
+
+            # Update state based on results
+            if tool_name == "generate_entity_features_batch":
+                if "updated_entity_features" in result:
+                    self.entity_features = result["updated_entity_features"]
+                if "updated_suggested_features" in result:
+                    self.suggested_features.update(result["updated_suggested_features"])
+
+            return result
+
+        # Temporarily replace the run_tool method
+        self.agent.run_tool = run_tool_with_state
+
+        try:
+            result = self.agent.run(task)
+        finally:
+            # Restore original method
+            self.agent.run_tool = original_run_tool
 
         # Process the result
         try:
@@ -242,19 +266,13 @@ class FeatureExtractionAgent:
                 # Result is already a dictionary
                 parsed = result
 
-            # Store the generated features in the instance
-            self.entity_features = [f for f in ENTITY_FEATURES if isinstance(f, dict)]
             logger.info(f"Generated {len(self.entity_features)} entity-specific features")
-
             return self.entity_features
 
         except Exception as e:
             logger.error(f"Error processing feature generation result: {str(e)}")
             if isinstance(result, str):
                 logger.debug(f"Raw result: {result[:500]}...")
-
-            # Return whatever features we managed to generate
-            self.entity_features = [f for f in ENTITY_FEATURES if isinstance(f, dict)]
             return self.entity_features
 
     def save_features(self, output_path: Union[str, Path]) -> bool:
@@ -272,7 +290,10 @@ class FeatureExtractionAgent:
             output_path.parent.mkdir(parents=True, exist_ok=True)
 
             # Combine universal and entity-specific features
-            combined_features = combine_all_features()
+            combined_features = combine_all_features(
+                universal_features=self.universal_features,
+                entity_features=self.entity_features
+            )
 
             with open(output_path, "w") as f:
                 json.dump(combined_features, f, indent=2)
@@ -291,4 +312,7 @@ class FeatureExtractionAgent:
         Returns:
             Dictionary with a "features" key containing all features
         """
-        return combine_all_features()
+        return combine_all_features(
+            universal_features=self.universal_features,
+            entity_features=self.entity_features
+        )

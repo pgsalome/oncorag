@@ -1,162 +1,133 @@
 """
-Conversational interface for querying patient data.
+Query engine for retrieving patient data.
 
-This module provides a user-friendly chat interface for querying the
-extracted oncology patient data.
+This module handles vector search and answer generation using RAG.
 """
 
-import os
 import logging
 from typing import Any, Dict, List, Optional, Tuple
 
-import pandas as pd
-
-from oncorag2.chatbot.query_engine import QueryEngine
-from oncorag2.utils.database import setup_iris_vector_store
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_openai import ChatOpenAI
 
 logger = logging.getLogger(__name__)
 
 
-class PatientDataConversation:
+class QueryEngine:
     """
-    Conversational interface for interacting with patient data.
+    Query engine for retrieving and processing patient data.
 
-    This class provides a natural language interface for querying
-    patient data stored in the vector database.
+    This class handles vector similarity search and answer formulation
+    using RAG techniques.
     """
 
     def __init__(self,
-                 collection_name: str = "patient_contexts",
-                 extracted_data_path: Optional[str] = None,
-                 connection_string: Optional[str] = None,
+                 vector_db: Any,
                  model_name: str = "gpt-3.5-turbo",
                  temperature: float = 0):
         """
-        Initialize the conversation interface.
+        Initialize the query engine.
 
         Args:
-            collection_name: Name of the IRIS vector collection
-            extracted_data_path: Path to the extracted data CSV
-            connection_string: Connection string for IRIS
+            vector_db: Vector database for similarity search
             model_name: LLM model name to use for responses
             temperature: Temperature for LLM sampling
         """
-        self.collection_name = collection_name
-        self.extracted_data_path = extracted_data_path
+        self.vector_db = vector_db
+        self.llm = ChatOpenAI(model_name=model_name, temperature=temperature)
+        logger.info(f"Query engine initialized with model {model_name}")
 
-        # Connect to vector store
-        self.vector_db, self.conn_string = setup_iris_vector_store(
-            collection_name=collection_name,
-            connection_string=connection_string,
-            reset_collection=False  # Don't reset existing collection
-        )
-
-        # Initialize query engine
-        self.query_engine = QueryEngine(
-            vector_db=self.vector_db,
-            model_name=model_name,
-            temperature=temperature
-        )
-
-        # Load extracted data if provided
-        self.extracted_data = None
-        if extracted_data_path and os.path.exists(extracted_data_path):
-            self.extracted_data = pd.read_csv(extracted_data_path)
-            logger.info(f"Loaded extracted data with {len(self.extracted_data)} records")
-        else:
-            logger.warning(f"Warning: Could not find extracted data at {extracted_data_path}")
-
-    def analyze_query(self, user_query: str) -> Optional[str]:
+    def search_vector_store(self, query: str, k: int = 3, patient_id: Optional[str] = None) -> List[Tuple[Any, float]]:
         """
-        Determine if this is a query about specific patient data.
+        Search the vector store for relevant documents.
 
         Args:
-            user_query: The user's query text
+            query: The query string
+            k: Number of results to return
+            patient_id: Filter by patient ID
 
         Returns:
-            Patient ID if detected, None otherwise
+            List of (document, score) tuples
         """
-        # First check if any patient ID from our data is mentioned
-        if self.extracted_data is not None:
-            for patient_id in self.extracted_data['patient_id'].unique():
-                if str(patient_id) in user_query:
-                    return str(patient_id)
+        if not self.vector_db:
+            logger.warning("Vector store not available.")
+            return []
 
-        return None
+        try:
+            # Set up filter if patient_id provided
+            filter_dict = {"patient_id": patient_id} if patient_id else None
 
-    def process_query(self, user_query: str, patient_id: Optional[str] = None) -> Tuple[str, List[Tuple[Any, float]]]:
+            # Execute search with optional filter
+            if filter_dict:
+                docs_with_score = self.vector_db.similarity_search_with_score(
+                    query, k=k, filter=filter_dict
+                )
+            else:
+                docs_with_score = self.vector_db.similarity_search_with_score(query, k=k)
+
+            return docs_with_score
+
+        except Exception as e:
+            logger.error(f"Error querying vector store: {e}")
+            return []
+
+    def formulate_answer(self, query: str, results: List[Tuple[Any, float]]) -> str:
         """
-        Process a user query and return a response.
+        Formulate a conversational answer based on retrieved documents.
 
         Args:
-            user_query: The user's query text
-            patient_id: Optional patient ID to filter results
-
-        Returns:
-            Tuple of (response, retrieved documents with scores)
-        """
-        # Detect patient ID if not provided
-        if patient_id is None:
-            patient_id = self.analyze_query(user_query)
-
-        # Search the vector store
-        results = self.query_engine.search_vector_store(user_query, k=3, patient_id=patient_id)
-
-        if not results:
-            return "I couldn't find any relevant information for your query.", []
-
-        # Formulate an answer from the results
-        answer = self.query_engine.formulate_answer(user_query, results)
-
-        return answer, results
-
-    def start_conversation(self) -> None:
-        """Start an interactive conversation where any question is treated as a vector search query."""
-        print("=" * 60)
-        print("Patient Data Conversation")
-        print("Just ask any question about the patient data, and I'll search for relevant information.")
-        print("Type 'exit' to quit.")
-        print("=" * 60)
-
-        while True:
-            user_input = input("\nYou: ").strip()
-
-            if user_input.lower() == 'exit':
-                print("Goodbye!")
-                break
-
-            # Process the query
-            answer, results = self.process_query(user_input)
-
-            # Print the answer
-            print(f"\nAnswer: {answer}")
-
-            # Optional - show retrieved information
-            self._display_results(results)
-
-    def _display_results(self, results: List[Tuple[Any, float]]) -> None:
-        """
-        Display retrieved results in a human-readable format.
-
-        Args:
+            query: The user's query
             results: List of (document, score) tuples from the vector search
+
+        Returns:
+            A conversational answer based on the retrieved information
         """
         if not results:
-            return
+            return "I couldn't find any relevant information to answer your question."
 
-        print("\nRetrieved information:")
-        for i, (doc, score) in enumerate(results, 1):
-            print(f"\n--- Source {i} " + "-" * 40)
-            print(f"Relevance: {score:.4f}")
+        # Prepare context from the retrieved documents
+        contexts = []
+        for doc, score in results:
+            # Format the context with metadata
+            context_entry = f"DOCUMENT (relevance: {score:.2f}):\n"
 
-            # Show metadata for context
             if hasattr(doc, 'metadata') and doc.metadata:
                 if 'patient_id' in doc.metadata:
-                    print(f"Patient: {doc.metadata['patient_id']}")
+                    context_entry += f"Patient ID: {doc.metadata['patient_id']}\n"
                 if 'feature_name' in doc.metadata:
-                    print(f"Feature: {doc.metadata['feature_name']}")
+                    context_entry += f"Feature: {doc.metadata['feature_name']}\n"
                 if 'pdf_source' in doc.metadata:
-                    print(f"Source: {doc.metadata['pdf_source']}")
+                    context_entry += f"Source: {doc.metadata['pdf_source']}\n"
 
-            # Show content
-            print(f"\n{doc.page_content}")
+            context_entry += f"Content: {doc.page_content}\n"
+            contexts.append(context_entry)
+
+        combined_context = "\n".join(contexts)
+
+        # Create a prompt for the LLM
+        prompt = ChatPromptTemplate.from_template(
+            """
+            Based on the following information, answer the user's question: "{query}"
+
+            {context}
+
+            Answer the question directly and conversationally using only the information provided.
+            If the information doesn't contain an answer to the question, say so.
+            Do not include phrases like "Based on the provided information" or "According to the documents".
+            Just answer naturally as if you are a medical assistant.
+            """
+        )
+
+        # Format the prompt
+        formatted_prompt = prompt.format(
+            query=query,
+            context=combined_context
+        )
+
+        # Get answer from LLM
+        try:
+            response = self.llm.invoke(formatted_prompt).content
+            return response
+        except Exception as e:
+            logger.error(f"Error generating answer: {e}")
+            return "I'm having trouble formulating an answer based on the information I found."
