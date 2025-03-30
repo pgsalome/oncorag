@@ -1,0 +1,914 @@
+feature_name,feature_desc,pattern,matched_text,context,pdf_source,patient_id,reference
+Date_of_Birth_2,Patient's Date of Birth,\b\d{2}[\/\-]\d{2}[\/\-]\d{4}\b,01/15/2025,"# pathology
+
+## Page 1
+
+# PATHOLOGY REPORT
+**Report [REDACTED]**: P-2025-37852
+**Date of Procedure**: 01/15/2025
+**Date of Report**: 01/18/2025
+**Patient [REDACTED]**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**Attending [REDACTED]**: Emily",pathology.pdf,sample_patient,pathology
+Date_of_Birth_2,Patient's Date of Birth,\b\d{2}[\/\-]\d{2}[\/\-]\d{4}\b,01/18/2025,"# pathology
+
+## Page 1
+
+# PATHOLOGY REPORT
+**Report [REDACTED]**: P-2025-37852
+**Date of Procedure**: 01/15/2025
+**Date of Report**: 01/18/2025
+**Patient [REDACTED]**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**Attending [REDACTED]**: Emily [REDACTED], MD
+**Requesting [RE",pathology.pdf,sample_patient,pathology
+Date_of_Birth_2,Patient's Date of Birth,\b\d{2}[\/\-]\d{2}[\/\-]\d{4}\b,06/18/1958,"## Page 1
+
+# PATHOLOGY REPORT
+**Report [REDACTED]**: P-2025-37852
+**Date of Procedure**: 01/15/2025
+**Date of Report**: 01/18/2025
+**Patient [REDACTED]**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**Attending [REDACTED]**: Emily [REDACTED], MD
+**Requesting [REDACTED]**: Robert [REDACTED], MD
+## CLINICAL INFORMATION
+66-year-old male with",pathology.pdf,sample_patient,pathology
+Date_of_Birth_2,Patient's Date of Birth,\b\d{2}[\/\-]\d{2}[\/\-]\d{4}\b,01/18/2025,"2)
+- Histologic [REDACTED]: Acinar (60%) and papillary (40%)
+- Tumor [REDACTED] (based on imaging): 3.2 cm
+- KRAS G12C mutation present
+
+## Page 2
+
+- PD-L1 expression: 55%
+**Electronically signed**: 01/18/2025 11:23 AM
+***This is the end of the pathology report***",pathology.pdf,sample_patient,pathology
+Height_13,Height of the patient,(?i)\b(\d+)\s*(cm|centimeters)\b,2 cm,"[REDACTED]**: Emily [REDACTED], MD
+**Requesting [REDACTED]**: Robert [REDACTED], MD
+## CLINICAL INFORMATION
+66-year-old male with 30 pack-year smoking history (Former smoker, quit 5 years ago) and
+3.2 cm right upper lobe lung mass identified on CT scan.
+## SPECIMEN RECEIVED
+A. Right upper lobe lung, CT-guided core needle biopsy (3 cores)
+## DIAGNOSIS
+Right upper lobe lung, CT-guided core needle biops",pathology.pdf,sample_patient,pathology
+Height_13,Height of the patient,(?i)\b(\d+)\s*(cm|centimeters)\b,2 cm,"-guided core needle biopsy (3 cores):
+- Invasive adenocarcinoma, moderately differentiated (Grade 2)
+- Histologic [REDACTED]: Acinar (60%) and papillary (40%)
+- Tumor [REDACTED] (based on imaging): 3.2 cm
+- KRAS G12C mutation present
+
+## Page 2
+
+- PD-L1 expression: 55%
+**Electronically signed**: 01/18/2025 11:23 AM
+***This is the end of the pathology report***",pathology.pdf,sample_patient,pathology
+Zipcode_16,Patient's ZIP code,(?i)\b\d{5}(-\d{4})?\b,37852,"# pathology
+
+## Page 1
+
+# PATHOLOGY REPORT
+**Report [REDACTED]**: P-2025-37852
+**Date of Procedure**: 01/15/2025
+**Date of Report**: 01/18/2025
+**Patient [REDACTED]**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispani",pathology.pdf,sample_patient,pathology
+Type_of_Sample_20,Type of tumor sample collected,(?i)\b(Biopsy|Specimen|Sample|FNA)\b,SPECIMEN,"]**: Robert [REDACTED], MD
+## CLINICAL INFORMATION
+66-year-old male with 30 pack-year smoking history (Former smoker, quit 5 years ago) and
+3.2 cm right upper lobe lung mass identified on CT scan.
+## SPECIMEN RECEIVED
+A. Right upper lobe lung, CT-guided core needle biopsy (3 cores)
+## DIAGNOSIS
+Right upper lobe lung, CT-guided core needle biopsy (3 cores):
+- Invasive adenocarcinoma, moderately differentia",pathology.pdf,sample_patient,pathology
+Type_of_Sample_20,Type of tumor sample collected,(?i)\b(Biopsy|Specimen|Sample|FNA)\b,biopsy,"e with 30 pack-year smoking history (Former smoker, quit 5 years ago) and
+3.2 cm right upper lobe lung mass identified on CT scan.
+## SPECIMEN RECEIVED
+A. Right upper lobe lung, CT-guided core needle biopsy (3 cores)
+## DIAGNOSIS
+Right upper lobe lung, CT-guided core needle biopsy (3 cores):
+- Invasive adenocarcinoma, moderately differentiated (Grade 2)
+- Histologic [REDACTED]: Acinar (60%) and papillar",pathology.pdf,sample_patient,pathology
+Type_of_Sample_20,Type of tumor sample collected,(?i)\b(Biopsy|Specimen|Sample|FNA)\b,biopsy,".2 cm right upper lobe lung mass identified on CT scan.
+## SPECIMEN RECEIVED
+A. Right upper lobe lung, CT-guided core needle biopsy (3 cores)
+## DIAGNOSIS
+Right upper lobe lung, CT-guided core needle biopsy (3 cores):
+- Invasive adenocarcinoma, moderately differentiated (Grade 2)
+- Histologic [REDACTED]: Acinar (60%) and papillary (40%)
+- Tumor [REDACTED] (based on imaging): 3.2 cm
+- KRAS G12C mutation",pathology.pdf,sample_patient,pathology
+Tumor_Grade_24,Grade of the tumor,(?i)\bGrade\s*(1|2|3|I|II|III)\b,Grade 2,"IVED
+A. Right upper lobe lung, CT-guided core needle biopsy (3 cores)
+## DIAGNOSIS
+Right upper lobe lung, CT-guided core needle biopsy (3 cores):
+- Invasive adenocarcinoma, moderately differentiated (Grade 2)
+- Histologic [REDACTED]: Acinar (60%) and papillary (40%)
+- Tumor [REDACTED] (based on imaging): 3.2 cm
+- KRAS G12C mutation present
+
+## Page 2
+
+- PD-L1 expression: 55%
+**Electronically signed**: 01",pathology.pdf,sample_patient,pathology
+Tumor_Size_30,Size of the tumor,(?i)\b(\d+(\.\d+)?)\s*(cm|mm)\b,3.2 cm,"ng [REDACTED]**: Emily [REDACTED], MD
+**Requesting [REDACTED]**: Robert [REDACTED], MD
+## CLINICAL INFORMATION
+66-year-old male with 30 pack-year smoking history (Former smoker, quit 5 years ago) and
+3.2 cm right upper lobe lung mass identified on CT scan.
+## SPECIMEN RECEIVED
+A. Right upper lobe lung, CT-guided core needle biopsy (3 cores)
+## DIAGNOSIS
+Right upper lobe lung, CT-guided core needle biops",pathology.pdf,sample_patient,pathology
+Tumor_Size_30,Size of the tumor,(?i)\b(\d+(\.\d+)?)\s*(cm|mm)\b,3.2 cm,"Right upper lobe lung, CT-guided core needle biopsy (3 cores)
+## DIAGNOSIS
+Right upper lobe lung, CT-guided core needle biopsy (3 cores):
+- Invasive adenocarcinoma, moderately differentiated (Grade 2)
+- Histologic [REDACTED]: Acinar (60%) and papillary (40%)
+- Tumor [REDACTED] (based on imaging): 3.2 cm
+- KRAS G12C mutation present
+
+## Page 2
+
+- PD-L1 expression: 55%
+**Electronically signed**: 01/18/2025 11:23 AM
+***This is the end of the pathology report***",pathology.pdf,sample_patient,pathology
+Surgery_Type_38,Type of surgery performed,(?i)\b(Lumpectomy|Mastectomy|Resection|Biopsy)\b,biopsy,"e with 30 pack-year smoking history (Former smoker, quit 5 years ago) and
+3.2 cm right upper lobe lung mass identified on CT scan.
+## SPECIMEN RECEIVED
+A. Right upper lobe lung, CT-guided core needle biopsy (3 cores)
+## DIAGNOSIS
+Right upper lobe lung, CT-guided core needle biopsy (3 cores):
+- Invasive adenocarcinoma, moderately differentiated (Grade 2)
+- Histologic [REDACTED]: Acinar (60%) and papillar",pathology.pdf,sample_patient,pathology
+Surgery_Type_38,Type of surgery performed,(?i)\b(Lumpectomy|Mastectomy|Resection|Biopsy)\b,biopsy,".2 cm right upper lobe lung mass identified on CT scan.
+## SPECIMEN RECEIVED
+A. Right upper lobe lung, CT-guided core needle biopsy (3 cores)
+## DIAGNOSIS
+Right upper lobe lung, CT-guided core needle biopsy (3 cores):
+- Invasive adenocarcinoma, moderately differentiated (Grade 2)
+- Histologic [REDACTED]: Acinar (60%) and papillary (40%)
+- Tumor [REDACTED] (based on imaging): 3.2 cm
+- KRAS G12C mutation",pathology.pdf,sample_patient,pathology
+Surgery_Date_39,Date of surgery,"(?i)\b(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})\b",01/15/2025,"# pathology
+
+## Page 1
+
+# PATHOLOGY REPORT
+**Report [REDACTED]**: P-2025-37852
+**Date of Procedure**: 01/15/2025
+**Date of Report**: 01/18/2025
+**Patient [REDACTED]**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**Attending [REDACTED]**: Emily",pathology.pdf,sample_patient,pathology
+Surgery_Date_39,Date of surgery,"(?i)\b(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})\b",01/18/2025,"# pathology
+
+## Page 1
+
+# PATHOLOGY REPORT
+**Report [REDACTED]**: P-2025-37852
+**Date of Procedure**: 01/15/2025
+**Date of Report**: 01/18/2025
+**Patient [REDACTED]**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**Attending [REDACTED]**: Emily [REDACTED], MD
+**Requesting [RE",pathology.pdf,sample_patient,pathology
+Surgery_Date_39,Date of surgery,"(?i)\b(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})\b",06/18/1958,"## Page 1
+
+# PATHOLOGY REPORT
+**Report [REDACTED]**: P-2025-37852
+**Date of Procedure**: 01/15/2025
+**Date of Report**: 01/18/2025
+**Patient [REDACTED]**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**Attending [REDACTED]**: Emily [REDACTED], MD
+**Requesting [REDACTED]**: Robert [REDACTED], MD
+## CLINICAL INFORMATION
+66-year-old male with",pathology.pdf,sample_patient,pathology
+Surgery_Date_39,Date of surgery,"(?i)\b(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})\b",01/18/2025,"2)
+- Histologic [REDACTED]: Acinar (60%) and papillary (40%)
+- Tumor [REDACTED] (based on imaging): 3.2 cm
+- KRAS G12C mutation present
+
+## Page 2
+
+- PD-L1 expression: 55%
+**Electronically signed**: 01/18/2025 11:23 AM
+***This is the end of the pathology report***",pathology.pdf,sample_patient,pathology
+Date_of_Birth_2,Patient's Date of Birth,\b\d{2}[\/\-]\d{2}[\/\-]\d{4}\b,03/30/2025,"# summary
+
+## Page 1
+
+# DISCHARGE SUMMARY
+**[REDACTED]**: 03/30/2025
+**Patient**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Age**: 66
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**[REDACTED] of Admission**: 03/08/2025
+**[REDACTED] of Discha",summary.pdf,sample_patient,chemotherapy
+Date_of_Birth_2,Patient's Date of Birth,\b\d{2}[\/\-]\d{2}[\/\-]\d{4}\b,06/18/1958,"# summary
+
+## Page 1
+
+# DISCHARGE SUMMARY
+**[REDACTED]**: 03/30/2025
+**Patient**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Age**: 66
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**[REDACTED] of Admission**: 03/08/2025
+**[REDACTED] of Discharge**: 03/15/2025
+**Primary [REDACTED]**: [REDACTED] III Lung [REDACTED]
+**[REDACTED] of [REDACTED]**: 01/22/2025
+## ATTENDING PHYSICIAN
+Dr.",summary.pdf,sample_patient,chemotherapy
+Date_of_Birth_2,Patient's Date of Birth,\b\d{2}[\/\-]\d{2}[\/\-]\d{4}\b,03/08/2025,"UMMARY
+**[REDACTED]**: 03/30/2025
+**Patient**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Age**: 66
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**[REDACTED] of Admission**: 03/08/2025
+**[REDACTED] of Discharge**: 03/15/2025
+**Primary [REDACTED]**: [REDACTED] III Lung [REDACTED]
+**[REDACTED] of [REDACTED]**: 01/22/2025
+## ATTENDING PHYSICIAN
+Dr. Sarah [REDACTED], MD
+## ADMITTING DIAGNOSIS
+1.",summary.pdf,sample_patient,chemotherapy
+Date_of_Birth_2,Patient's Date of Birth,\b\d{2}[\/\-]\d{2}[\/\-]\d{4}\b,03/15/2025,"ent**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Age**: 66
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**[REDACTED] of Admission**: 03/08/2025
+**[REDACTED] of Discharge**: 03/15/2025
+**Primary [REDACTED]**: [REDACTED] III Lung [REDACTED]
+**[REDACTED] of [REDACTED]**: 01/22/2025
+## ATTENDING PHYSICIAN
+Dr. Sarah [REDACTED], MD
+## ADMITTING DIAGNOSIS
+1. Lung [REDACTED], [REDACTED] IIIA (T2N2M0)
+2.",summary.pdf,sample_patient,chemotherapy
+Date_of_Birth_2,Patient's Date of Birth,\b\d{2}[\/\-]\d{2}[\/\-]\d{4}\b,01/22/2025,"White
+**Ethnicity**: Non-Hispanic
+**[REDACTED] of Admission**: 03/08/2025
+**[REDACTED] of Discharge**: 03/15/2025
+**Primary [REDACTED]**: [REDACTED] III Lung [REDACTED]
+**[REDACTED] of [REDACTED]**: 01/22/2025
+## ATTENDING PHYSICIAN
+Dr. Sarah [REDACTED], MD
+## ADMITTING DIAGNOSIS
+1. Lung [REDACTED], [REDACTED] IIIA (T2N2M0)
+2. Pneumonia
+## DISCHARGE DIAGNOSIS
+1. Lung [REDACTED], [REDACTED] IIIA (T2N2M0)
+2. Resolving pneumonia
+3.",summary.pdf,sample_patient,chemotherapy
+Date_of_Birth_2,Patient's Date of Birth,\b\d{2}[\/\-]\d{2}[\/\-]\d{4}\b,03/15/2025,"IP Code**: 19103
+**State/Country**: Pennsylvania, [REDACTED] [REDACTED]
+**Residence**: Urban
+**Socioeconomic [REDACTED]**: Middle income
+---
+Electronically signed by: Sarah [REDACTED], MD
+[REDACTED]: 03/15/2025 2:45 PM",summary.pdf,sample_patient,chemotherapy
+Diabetes_11,Does the patient have diabetes?,(?i)\b(diabetes|diabetic)\b,Diabetes,"Sarah [REDACTED], MD
+## ADMITTING DIAGNOSIS
+1. Lung [REDACTED], [REDACTED] IIIA (T2N2M0)
+2. Pneumonia
+## DISCHARGE DIAGNOSIS
+1. Lung [REDACTED], [REDACTED] IIIA (T2N2M0)
+2. Resolving pneumonia
+3. Hypertension
+4. [REDACTED] 2 Diabetes [REDACTED]
+
+## Page 2
+
+## HISTORY OF PRESENT ILLNESS
+66-year-old male with recently diagnosed Lung [REDACTED] presented with fever,
+productive cough, and shortness of breath for 3 days. Patient was admitted for treatment
+of pneumonia and further workup of his lung cancer.",summary.pdf,sample_patient,chemotherapy
+Diabetes_11,Does the patient have diabetes?,(?i)\b(diabetes|diabetic)\b,Diabetes,"Motor strength 5/5
+in all extremities.
+## ADDITIONAL INFORMATION
+**Smoking [REDACTED]**: Former smoker (quit 5 years ago)
+
+## Page 3
+
+**Pack [REDACTED]**: 30
+**ECOG Performance [REDACTED]**: 1
+**Comorbidities**: Hypertension, [REDACTED] 2 Diabetes [REDACTED], [REDACTED]
+**Allergies**: None known
+**ZIP Code**: 19103
+**State/Country**: Pennsylvania, [REDACTED] [REDACTED]
+**Residence**: Urban
+**Socioeconomic [REDACTED]**: Middle income
+---
+Electr",summary.pdf,sample_patient,chemotherapy
+Hypertension_12,Does the patient have hypertension?,(?i)\b(hypertension|hypertensive)\b,Hypertension,"Dr. Sarah [REDACTED], MD
+## ADMITTING DIAGNOSIS
+1. Lung [REDACTED], [REDACTED] IIIA (T2N2M0)
+2. Pneumonia
+## DISCHARGE DIAGNOSIS
+1. Lung [REDACTED], [REDACTED] IIIA (T2N2M0)
+2. Resolving pneumonia
+3. Hypertension
+4. [REDACTED] 2 Diabetes [REDACTED]
+
+## Page 2
+
+## HISTORY OF PRESENT ILLNESS
+66-year-old male with recently diagnosed Lung [REDACTED] presented with fever,
+productive cough, and shortness of breath for 3 days.",summary.pdf,sample_patient,chemotherapy
+Hypertension_12,Does the patient have hypertension?,(?i)\b(hypertension|hypertensive)\b,Hypertension,"Motor strength 5/5
+in all extremities.
+## ADDITIONAL INFORMATION
+**Smoking [REDACTED]**: Former smoker (quit 5 years ago)
+
+## Page 3
+
+**Pack [REDACTED]**: 30
+**ECOG Performance [REDACTED]**: 1
+**Comorbidities**: Hypertension, [REDACTED] 2 Diabetes [REDACTED], [REDACTED]
+**Allergies**: None known
+**ZIP Code**: 19103
+**State/Country**: Pennsylvania, [REDACTED] [REDACTED]
+**Residence**: Urban
+**Socioeconomic [REDACTED]**: M",summary.pdf,sample_patient,chemotherapy
+Height_13,Height of the patient,(?i)\b(\d+)\s*(cm|centimeters)\b,178 cm,"Patient was admitted for treatment
+of pneumonia and further workup of his lung cancer. he has completed 1 cycle of
+chemotherapy (carboplatin/paclitaxel) prior to this admission.
+## PHYSICAL EXAMINATION
+**Height**: 178 cm
+**Weight**: 82 kg
+**BMI**: 25.9
+**Blood [REDACTED]**: 148/92 mmHg
+**Pulse**: 92 BPM
+**Temperature**: 37.8°C
+**Respiratory [REDACTED]**: 20/min
+**O2 Saturation**: 94% on room air
+**General**: Patient is a well-developed, well-nourished male in no acute distress.",summary.pdf,sample_patient,chemotherapy
+Weight_14,Weight of the patient,(?i)\b(\d+(\.\d+)?)\s*(kg|kilograms)\b,82 kg,"Patient was admitted for treatment
+of pneumonia and further workup of his lung cancer. he has completed 1 cycle of
+chemotherapy (carboplatin/paclitaxel) prior to this admission.
+## PHYSICAL EXAMINATION
+**Height**: 178 cm
+**Weight**: 82 kg
+**BMI**: 25.9
+**Blood [REDACTED]**: 148/92 mmHg
+**Pulse**: 92 BPM
+**Temperature**: 37.8°C
+**Respiratory [REDACTED]**: 20/min
+**O2 Saturation**: 94% on room air
+**General**: Patient is a well-developed, well-nourished male in no acute distress.",summary.pdf,sample_patient,chemotherapy
+Comorbidities_Other_15,Other comorbidities of the patient,(?i)Comorbidities[:\s]*(.+),"Comorbidities**: Hypertension, [REDACTED] 2 Diabetes [REDACTED], [REDACTED]","Cranial nerves II-XII intact. Motor strength 5/5
+in all extremities.
+## ADDITIONAL INFORMATION
+**Smoking [REDACTED]**: Former smoker (quit 5 years ago)
+
+## Page 3
+
+**Pack [REDACTED]**: 30
+**ECOG Performance [REDACTED]**: 1
+**Comorbidities**: Hypertension, [REDACTED] 2 Diabetes [REDACTED], [REDACTED]
+**Allergies**: None known
+**ZIP Code**: 19103
+**State/Country**: Pennsylvania, [REDACTED] [REDACTED]
+**Residence**: Urban
+**Socioeconomic [REDACTED]**: Middle income
+---
+Electronically signed by: Sar",summary.pdf,sample_patient,chemotherapy
+Zipcode_16,Patient's ZIP code,(?i)\b\d{5}(-\d{4})?\b,19103,"years ago)
+
+## Page 3
+
+**Pack [REDACTED]**: 30
+**ECOG Performance [REDACTED]**: 1
+**Comorbidities**: Hypertension, [REDACTED] 2 Diabetes [REDACTED], [REDACTED]
+**Allergies**: None known
+**ZIP Code**: 19103
+**State/Country**: Pennsylvania, [REDACTED] [REDACTED]
+**Residence**: Urban
+**Socioeconomic [REDACTED]**: Middle income
+---
+Electronically signed by: Sarah [REDACTED], MD
+[REDACTED]: 03/15/2025 2:45",summary.pdf,sample_patient,chemotherapy
+State_Country_17,State and country of residence,(?i)\b(?:Alabama|Alaska|Arizona|Arkansas|California|Colorado|Connecticut|Delaware|Florida|Georgia|Hawaii|Idaho|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maine|Maryland|Massachusetts|Michigan|Minnesota|Mississippi|Missouri|Montana|Nebraska|Nevada|New\s*Hampshire|New\s*Jersey|New\s*Mexico|New\s*York|North\s*Carolina|North\s*Dakota|Ohio|Oklahoma|Oregon|Pennsylvania|Rhode\s*Island|South\s*Carolina|South\s*Dakota|Tennessee|Texas|Utah|Vermont|Virginia|Washington|West\s*Virginia|Wisconsin|Wyoming)\b,Pennsylvania,"Pack [REDACTED]**: 30
+**ECOG Performance [REDACTED]**: 1
+**Comorbidities**: Hypertension, [REDACTED] 2 Diabetes [REDACTED], [REDACTED]
+**Allergies**: None known
+**ZIP Code**: 19103
+**State/Country**: Pennsylvania, [REDACTED] [REDACTED]
+**Residence**: Urban
+**Socioeconomic [REDACTED]**: Middle income
+---
+Electronically signed by: Sarah [REDACTED], MD
+[REDACTED]: 03/15/2025 2:45 PM",summary.pdf,sample_patient,chemotherapy
+Tumor_Size_30,Size of the tumor,(?i)\b(\d+(\.\d+)?)\s*(cm|mm)\b,178 cm,"Patient was admitted for treatment
+of pneumonia and further workup of his lung cancer. he has completed 1 cycle of
+chemotherapy (carboplatin/paclitaxel) prior to this admission.
+## PHYSICAL EXAMINATION
+**Height**: 178 cm
+**Weight**: 82 kg
+**BMI**: 25.9
+**Blood [REDACTED]**: 148/92 mmHg
+**Pulse**: 92 BPM
+**Temperature**: 37.8°C
+**Respiratory [REDACTED]**: 20/min
+**O2 Saturation**: 94% on room air
+**General**: Patient is a well-developed, well-nourished male in no acute distress.",summary.pdf,sample_patient,chemotherapy
+Tumor_Side_31,Side of the tumor location,(?i)\b(Left|Right)\s*(Side|Breast|Lung|Kidney)\b,right lung,". Pupils equal, round, and reactive to light.
+Oropharynx clear.
+**Neck**: Supple, no lymphadenopathy.
+**Lungs**: Decreased breath sounds in right upper lobe. Scattered rhonchi and crackles
+throughout right lung field.
+**Cardiovascular**: Regular rate and rhythm. No murmurs, gallops, or rubs.
+**Abdomen**: Soft, non-tender, non-distended. Bowel sounds normal.
+**Extremities**: No edema, cyanosis, or clubbing.
+**Neurological**: Alert and oriented x3.",summary.pdf,sample_patient,chemotherapy
+Surgery_Date_39,Date of surgery,"(?i)\b(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})\b",03/30/2025,"# summary
+
+## Page 1
+
+# DISCHARGE SUMMARY
+**[REDACTED]**: 03/30/2025
+**Patient**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Age**: 66
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**[REDACTED] of Admission**: 03/08/2025
+**[REDACTED] of Discha",summary.pdf,sample_patient,chemotherapy
+Surgery_Date_39,Date of surgery,"(?i)\b(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})\b",06/18/1958,"# summary
+
+## Page 1
+
+# DISCHARGE SUMMARY
+**[REDACTED]**: 03/30/2025
+**Patient**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Age**: 66
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**[REDACTED] of Admission**: 03/08/2025
+**[REDACTED] of Discharge**: 03/15/2025
+**Primary [REDACTED]**: [REDACTED] III Lung [REDACTED]
+**[REDACTED] of [REDACTED]**: 01/22/2025
+## ATTENDING PHYSICIAN
+Dr.",summary.pdf,sample_patient,chemotherapy
+Surgery_Date_39,Date of surgery,"(?i)\b(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})\b",03/08/2025,"UMMARY
+**[REDACTED]**: 03/30/2025
+**Patient**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Age**: 66
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**[REDACTED] of Admission**: 03/08/2025
+**[REDACTED] of Discharge**: 03/15/2025
+**Primary [REDACTED]**: [REDACTED] III Lung [REDACTED]
+**[REDACTED] of [REDACTED]**: 01/22/2025
+## ATTENDING PHYSICIAN
+Dr. Sarah [REDACTED], MD
+## ADMITTING DIAGNOSIS
+1.",summary.pdf,sample_patient,chemotherapy
+Surgery_Date_39,Date of surgery,"(?i)\b(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})\b",03/15/2025,"ent**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Age**: 66
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**[REDACTED] of Admission**: 03/08/2025
+**[REDACTED] of Discharge**: 03/15/2025
+**Primary [REDACTED]**: [REDACTED] III Lung [REDACTED]
+**[REDACTED] of [REDACTED]**: 01/22/2025
+## ATTENDING PHYSICIAN
+Dr. Sarah [REDACTED], MD
+## ADMITTING DIAGNOSIS
+1. Lung [REDACTED], [REDACTED] IIIA (T2N2M0)
+2.",summary.pdf,sample_patient,chemotherapy
+Surgery_Date_39,Date of surgery,"(?i)\b(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})\b",01/22/2025,"White
+**Ethnicity**: Non-Hispanic
+**[REDACTED] of Admission**: 03/08/2025
+**[REDACTED] of Discharge**: 03/15/2025
+**Primary [REDACTED]**: [REDACTED] III Lung [REDACTED]
+**[REDACTED] of [REDACTED]**: 01/22/2025
+## ATTENDING PHYSICIAN
+Dr. Sarah [REDACTED], MD
+## ADMITTING DIAGNOSIS
+1. Lung [REDACTED], [REDACTED] IIIA (T2N2M0)
+2. Pneumonia
+## DISCHARGE DIAGNOSIS
+1. Lung [REDACTED], [REDACTED] IIIA (T2N2M0)
+2. Resolving pneumonia
+3.",summary.pdf,sample_patient,chemotherapy
+Surgery_Date_39,Date of surgery,"(?i)\b(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})\b",03/15/2025,"IP Code**: 19103
+**State/Country**: Pennsylvania, [REDACTED] [REDACTED]
+**Residence**: Urban
+**Socioeconomic [REDACTED]**: Middle income
+---
+Electronically signed by: Sarah [REDACTED], MD
+[REDACTED]: 03/15/2025 2:45 PM",summary.pdf,sample_patient,chemotherapy
+Date_of_Birth_2,Patient's Date of Birth,\b\d{2}[\/\-]\d{2}[\/\-]\d{4}\b,01/10/2025,"# imaging
+
+## Page 1
+
+# RADIOLOGY REPORT
+**Exam [REDACTED]**: 01/10/2025
+**Report [REDACTED]**: 01/18/2025
+**Patient [REDACTED]**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Age**: 66
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**Weight**: 82 kg",imaging.pdf,sample_patient,imaging
+Date_of_Birth_2,Patient's Date of Birth,\b\d{2}[\/\-]\d{2}[\/\-]\d{4}\b,01/18/2025,"# imaging
+
+## Page 1
+
+# RADIOLOGY REPORT
+**Exam [REDACTED]**: 01/10/2025
+**Report [REDACTED]**: 01/18/2025
+**Patient [REDACTED]**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Age**: 66
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**Weight**: 82 kg
+**Height**: 178 cm
+**Ordering [RE",imaging.pdf,sample_patient,imaging
+Date_of_Birth_2,Patient's Date of Birth,\b\d{2}[\/\-]\d{2}[\/\-]\d{4}\b,06/18/1958,"# imaging
+
+## Page 1
+
+# RADIOLOGY REPORT
+**Exam [REDACTED]**: 01/10/2025
+**Report [REDACTED]**: 01/18/2025
+**Patient [REDACTED]**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Age**: 66
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**Weight**: 82 kg
+**Height**: 178 cm
+**Ordering [REDACTED]**: Robert [REDACTED], MD
+**Radiologist**: Jennifer [REDACTED], MD
+## E",imaging.pdf,sample_patient,imaging
+Date_of_Birth_2,Patient's Date of Birth,\b\d{2}[\/\-]\d{2}[\/\-]\d{4}\b,01/18/2025,"Mild centrilobular emphysema, consistent with smoking history.
+4. No evidence of distant metastatic disease in the visualized structures.
+---
+Electronically signed by: Jennifer [REDACTED], MD
+[REDACTED] [REDACTED] Radiologist
+[REDACTED]: 01/18/2025 9:45 AM
+***This is the end of the radiology report***",imaging.pdf,sample_patient,imaging
+Height_13,Height of the patient,(?i)\b(\d+)\s*(cm|centimeters)\b,178 cm,"DACTED]**: 01/18/2025
+**Patient [REDACTED]**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Age**: 66
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**Weight**: 82 kg
+**Height**: 178 cm
+**Ordering [REDACTED]**: Robert [REDACTED], MD
+**Radiologist**: Jennifer [REDACTED], MD
+## EXAMINATION PERFORMED
+CT Chest with IV Contrast
+## CLINICAL INDICATION
+66-year-old male, Former smoker (30 pack-years, quit 5 years ago) with persistent cough
+for 3 months.",imaging.pdf,sample_patient,imaging
+Height_13,Height of the patient,(?i)\b(\d+)\s*(cm|centimeters)\b,2 cm,"t
+## CLINICAL INDICATION
+66-year-old male, Former smoker (30 pack-years, quit 5 years ago) with persistent cough
+for 3 months. Recent chest X-ray showed a right upper lobe opacity.
+## IMPRESSION
+1. 3.2 cm spiculated mass in the right upper lobe, highly suspicious for primary lung
+malignancy. Clinical stage T2aN2M0 (Stage IIIA) based on imaging findings.
+2. Enlarged right paratracheal, subcarinal, and right hilar lymph nodes, concerning for
+nodal metastases.",imaging.pdf,sample_patient,imaging
+Weight_14,Weight of the patient,(?i)\b(\d+(\.\d+)?)\s*(kg|kilograms)\b,82 kg,"/2025
+**Report [REDACTED]**: 01/18/2025
+**Patient [REDACTED]**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Age**: 66
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**Weight**: 82 kg
+**Height**: 178 cm
+**Ordering [REDACTED]**: Robert [REDACTED], MD
+**Radiologist**: Jennifer [REDACTED], MD
+## EXAMINATION PERFORMED
+CT Chest with IV Contrast
+## CLINICAL INDICATION
+66-year-old male, Former smoker (30 pack-years, quit 5 years ago) with persistent cough
+for 3 months.",imaging.pdf,sample_patient,imaging
+Overall_Stage_28,Overall cancer stage,(?i)\bStage\s*(0|I|II|III|IV|IA|IB|IIA|IIB|IIIA|IIIB|IIIC)\b,Stage IIIA,"3 months. Recent chest X-ray showed a right upper lobe opacity.
+## IMPRESSION
+1. 3.2 cm spiculated mass in the right upper lobe, highly suspicious for primary lung
+malignancy. Clinical stage T2aN2M0 (Stage IIIA) based on imaging findings.
+2. Enlarged right paratracheal, subcarinal, and right hilar lymph nodes, concerning for
+nodal metastases.
+
+## Page 2
+
+3. Mild centrilobular emphysema, consistent with smoking history.",imaging.pdf,sample_patient,imaging
+Tumor_Size_30,Size of the tumor,(?i)\b(\d+(\.\d+)?)\s*(cm|mm)\b,178 cm,"DACTED]**: 01/18/2025
+**Patient [REDACTED]**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Age**: 66
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**Weight**: 82 kg
+**Height**: 178 cm
+**Ordering [REDACTED]**: Robert [REDACTED], MD
+**Radiologist**: Jennifer [REDACTED], MD
+## EXAMINATION PERFORMED
+CT Chest with IV Contrast
+## CLINICAL INDICATION
+66-year-old male, Former smoker (30 pack-years, quit 5 years ago) with persistent cough
+for 3 months.",imaging.pdf,sample_patient,imaging
+Tumor_Size_30,Size of the tumor,(?i)\b(\d+(\.\d+)?)\s*(cm|mm)\b,3.2 cm,"ast
+## CLINICAL INDICATION
+66-year-old male, Former smoker (30 pack-years, quit 5 years ago) with persistent cough
+for 3 months. Recent chest X-ray showed a right upper lobe opacity.
+## IMPRESSION
+1. 3.2 cm spiculated mass in the right upper lobe, highly suspicious for primary lung
+malignancy. Clinical stage T2aN2M0 (Stage IIIA) based on imaging findings.
+2. Enlarged right paratracheal, subcarinal, and right hilar lymph nodes, concerning for
+nodal metastases.",imaging.pdf,sample_patient,imaging
+Surgery_Date_39,Date of surgery,"(?i)\b(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})\b",01/10/2025,"# imaging
+
+## Page 1
+
+# RADIOLOGY REPORT
+**Exam [REDACTED]**: 01/10/2025
+**Report [REDACTED]**: 01/18/2025
+**Patient [REDACTED]**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Age**: 66
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**Weight**: 82 kg",imaging.pdf,sample_patient,imaging
+Surgery_Date_39,Date of surgery,"(?i)\b(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})\b",01/18/2025,"# imaging
+
+## Page 1
+
+# RADIOLOGY REPORT
+**Exam [REDACTED]**: 01/10/2025
+**Report [REDACTED]**: 01/18/2025
+**Patient [REDACTED]**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Age**: 66
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**Weight**: 82 kg
+**Height**: 178 cm
+**Ordering [RE",imaging.pdf,sample_patient,imaging
+Surgery_Date_39,Date of surgery,"(?i)\b(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})\b",06/18/1958,"# imaging
+
+## Page 1
+
+# RADIOLOGY REPORT
+**Exam [REDACTED]**: 01/10/2025
+**Report [REDACTED]**: 01/18/2025
+**Patient [REDACTED]**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Age**: 66
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**Weight**: 82 kg
+**Height**: 178 cm
+**Ordering [REDACTED]**: Robert [REDACTED], MD
+**Radiologist**: Jennifer [REDACTED], MD
+## E",imaging.pdf,sample_patient,imaging
+Surgery_Date_39,Date of surgery,"(?i)\b(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})\b",01/18/2025,"Mild centrilobular emphysema, consistent with smoking history.
+4. No evidence of distant metastatic disease in the visualized structures.
+---
+Electronically signed by: Jennifer [REDACTED], MD
+[REDACTED] [REDACTED] Radiologist
+[REDACTED]: 01/18/2025 9:45 AM
+***This is the end of the radiology report***",imaging.pdf,sample_patient,imaging
+Date_of_Birth_2,Patient's Date of Birth,\b\d{2}[\/\-]\d{2}[\/\-]\d{4}\b,02/12/2025,"# surgery
+
+## Page 1
+
+# SURGICAL REPORT
+**[REDACTED] of Surgery**: 02/12/2025
+**Time of Surgery**: 08:15 AM - 11:45 AM
+**Patient [REDACTED]**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Age**: 66
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**[REDACTE",surgery.pdf,sample_patient,surgery
+Date_of_Birth_2,Patient's Date of Birth,\b\d{2}[\/\-]\d{2}[\/\-]\d{4}\b,06/18/1958,"# surgery
+
+## Page 1
+
+# SURGICAL REPORT
+**[REDACTED] of Surgery**: 02/12/2025
+**Time of Surgery**: 08:15 AM - 11:45 AM
+**Patient [REDACTED]**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Age**: 66
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**[REDACTED]**: Michael [REDACTED], MD
+**Assistant [REDACTED]**: Jennifer [REDACTED], MD
+## PREOPERATIVE DIAGNOSIS
+Right upper lo",surgery.pdf,sample_patient,surgery
+Date_of_Birth_2,Patient's Date of Birth,\b\d{2}[\/\-]\d{2}[\/\-]\d{4}\b,02/12/2025,"5 cm
+
+## Page 2
+
+- No evidence of pleural metastases or malignant pleural effusion
+- No tumor involvement of major vascular structures
+---
+Electronically signed by: Michael [REDACTED], MD
+[REDACTED]: 02/12/2025 3:15 PM",surgery.pdf,sample_patient,surgery
+Height_13,Height of the patient,(?i)\b(\d+)\s*(cm|centimeters)\b,5 cm,"IIIA (T2N2M0)
+## POSTOPERATIVE DIAGNOSIS
+Right upper lobe lung adenocarcinoma, Stage IIIA (T2N2M0)
+## PROCEDURE PERFORMED
+Right upper lobectomy with mediastinal lymph node dissection
+## FINDINGS
+- 3.5 cm firm mass in the right upper lobe with no direct invasion of the chest wall or
+mediastinum
+- Enlarged lymph nodes at station 4R, measuring up to 1.5 cm
+
+## Page 2
+
+- No evidence of pleural metastases",surgery.pdf,sample_patient,surgery
+Height_13,Height of the patient,(?i)\b(\d+)\s*(cm|centimeters)\b,5 cm,"diastinal lymph node dissection
+## FINDINGS
+- 3.5 cm firm mass in the right upper lobe with no direct invasion of the chest wall or
+mediastinum
+- Enlarged lymph nodes at station 4R, measuring up to 1.5 cm
+
+## Page 2
+
+- No evidence of pleural metastases or malignant pleural effusion
+- No tumor involvement of major vascular structures
+---
+Electronically signed by: Michael [REDACTED], MD
+[REDACTED]: 02/1",surgery.pdf,sample_patient,surgery
+Overall_Stage_28,Overall cancer stage,(?i)\bStage\s*(0|I|II|III|IV|IA|IB|IIA|IIB|IIIA|IIIB|IIIC)\b,Stage IIIA,"le
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**[REDACTED]**: Michael [REDACTED], MD
+**Assistant [REDACTED]**: Jennifer [REDACTED], MD
+## PREOPERATIVE DIAGNOSIS
+Right upper lobe lung adenocarcinoma, Stage IIIA (T2N2M0)
+## POSTOPERATIVE DIAGNOSIS
+Right upper lobe lung adenocarcinoma, Stage IIIA (T2N2M0)
+## PROCEDURE PERFORMED
+Right upper lobectomy with mediastinal lymph node dissection
+## FINDINGS
+- 3.5 cm",surgery.pdf,sample_patient,surgery
+Overall_Stage_28,Overall cancer stage,(?i)\bStage\s*(0|I|II|III|IV|IA|IB|IIA|IIB|IIIA|IIIB|IIIC)\b,Stage IIIA,"**Assistant [REDACTED]**: Jennifer [REDACTED], MD
+## PREOPERATIVE DIAGNOSIS
+Right upper lobe lung adenocarcinoma, Stage IIIA (T2N2M0)
+## POSTOPERATIVE DIAGNOSIS
+Right upper lobe lung adenocarcinoma, Stage IIIA (T2N2M0)
+## PROCEDURE PERFORMED
+Right upper lobectomy with mediastinal lymph node dissection
+## FINDINGS
+- 3.5 cm firm mass in the right upper lobe with no direct invasion of the chest wall or
+medias",surgery.pdf,sample_patient,surgery
+Tumor_Size_30,Size of the tumor,(?i)\b(\d+(\.\d+)?)\s*(cm|mm)\b,3.5 cm,"ge IIIA (T2N2M0)
+## POSTOPERATIVE DIAGNOSIS
+Right upper lobe lung adenocarcinoma, Stage IIIA (T2N2M0)
+## PROCEDURE PERFORMED
+Right upper lobectomy with mediastinal lymph node dissection
+## FINDINGS
+- 3.5 cm firm mass in the right upper lobe with no direct invasion of the chest wall or
+mediastinum
+- Enlarged lymph nodes at station 4R, measuring up to 1.5 cm
+
+## Page 2
+
+- No evidence of pleural metastases",surgery.pdf,sample_patient,surgery
+Tumor_Size_30,Size of the tumor,(?i)\b(\d+(\.\d+)?)\s*(cm|mm)\b,1.5 cm,"mediastinal lymph node dissection
+## FINDINGS
+- 3.5 cm firm mass in the right upper lobe with no direct invasion of the chest wall or
+mediastinum
+- Enlarged lymph nodes at station 4R, measuring up to 1.5 cm
+
+## Page 2
+
+- No evidence of pleural metastases or malignant pleural effusion
+- No tumor involvement of major vascular structures
+---
+Electronically signed by: Michael [REDACTED], MD
+[REDACTED]: 02/1",surgery.pdf,sample_patient,surgery
+Surgery_Date_39,Date of surgery,"(?i)\b(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})\b",02/12/2025,"# surgery
+
+## Page 1
+
+# SURGICAL REPORT
+**[REDACTED] of Surgery**: 02/12/2025
+**Time of Surgery**: 08:15 AM - 11:45 AM
+**Patient [REDACTED]**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Age**: 66
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**[REDACTE",surgery.pdf,sample_patient,surgery
+Surgery_Date_39,Date of surgery,"(?i)\b(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})\b",06/18/1958,"# surgery
+
+## Page 1
+
+# SURGICAL REPORT
+**[REDACTED] of Surgery**: 02/12/2025
+**Time of Surgery**: 08:15 AM - 11:45 AM
+**Patient [REDACTED]**: John [REDACTED]
+**MRN**: 76549821
+**DOB**: 06/18/1958
+**Age**: 66
+**Sex**: Male
+**Race**: White
+**Ethnicity**: Non-Hispanic
+**[REDACTED]**: Michael [REDACTED], MD
+**Assistant [REDACTED]**: Jennifer [REDACTED], MD
+## PREOPERATIVE DIAGNOSIS
+Right upper lo",surgery.pdf,sample_patient,surgery
+Surgery_Date_39,Date of surgery,"(?i)\b(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})\b",02/12/2025,"5 cm
+
+## Page 2
+
+- No evidence of pleural metastases or malignant pleural effusion
+- No tumor involvement of major vascular structures
+---
+Electronically signed by: Michael [REDACTED], MD
+[REDACTED]: 02/12/2025 3:15 PM",surgery.pdf,sample_patient,surgery
