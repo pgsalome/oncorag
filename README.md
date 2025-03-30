@@ -72,7 +72,7 @@ This builds and launches Docker containers for:
 - (Optional) Jupyter Notebook Server
 
 Once running:
-1. Access the notebook server at `http://localhost:8888` or `:8889`.
+1. Access the notebook server at `http://localhost:8888`.
 2. Run scripts inside the container:
    ```bash
    docker exec -it oncorag2-app bash
@@ -98,7 +98,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔁 Script-Based Workflow
+## 🔁 DEMO: Script-Based Workflow
 
 ### 1️⃣ `run_feature_generation.py`
 - Guides definition of clinical features for your use case (e.g., NSCLC, breast cancer)
