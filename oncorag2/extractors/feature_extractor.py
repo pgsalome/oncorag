@@ -6,6 +6,7 @@ using LLM-powered RAG techniques.
 """
 
 import logging
+import os
 import pandas as pd
 from typing import Any, Dict, List, Optional, Union
 

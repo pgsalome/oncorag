@@ -224,7 +224,7 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(description="Conversational Patient Data Query")
-    parser.add_argument("--extracted_data", default="/tmp/pycharm_project_711/extracted_data10.csv", help="Path to extracted data CSV")
+    parser.add_argument("--extracted_data", default="extracted_data.csv", help="Path to extracted data CSV")
     parser.add_argument("--collection_name", default="patient_contexts", help="IRIS vector collection name")
 
     args = parser.parse_args()

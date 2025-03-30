@@ -6,12 +6,12 @@ with privacy-preserving redaction of patient identifiable information.
 """
 
 import os
-import subprocess
 import logging
 from pathlib import Path
 from typing import Dict, List, Optional, Union
 
 from oncorag2.utils.redaction import redact_names_from_markdown
+from oncorag2.utils.pdf import convert_pdf_to_markdown, read_markdown_file
 
 logger = logging.getLogger(__name__)
 
@@ -36,7 +36,7 @@ class DocumentProcessor:
 
     def convert_pdf_to_markdown(self, pdf_path: Union[str, Path]) -> str:
         """
-        Convert a PDF file to markdown using marker_single.
+        Convert a PDF file to markdown using the utility function.
 
         Args:
             pdf_path: Path to the PDF file
@@ -44,43 +44,8 @@ class DocumentProcessor:
         Returns:
             Path to the generated markdown file
         """
-        # Setup paths
-        pdf_path = Path(pdf_path)
-
-        if self.output_dir is None:
-            output_dir = pdf_path.parent
-        else:
-            output_dir = self.output_dir
-
-        # Ensure output directory exists
-        os.makedirs(output_dir, exist_ok=True)
-
-        # Get the base filename without extension
-        base_name = pdf_path.stem
-
-        # Expected output markdown path
-        markdown_path = output_dir / base_name / f"{base_name}.md"
-        if os.path.isfile(markdown_path):
-            logger.info(f"Found existing markdown file: {markdown_path}")
-            return str(markdown_path)
-
-        # Run marker_single to convert PDF to markdown
-        cmd = ["marker_single", str(pdf_path), "--output_dir", str(output_dir)]
-        logger.info(f"Running command: {' '.join(cmd)}")
-
-        try:
-            result = subprocess.run(cmd, check=True, capture_output=True, text=True)
-            logger.info(f"Conversion successful for {pdf_path}")
-        except subprocess.CalledProcessError as e:
-            logger.error(f"Error converting PDF: {e}")
-            logger.error(f"Error output: {e.stderr}")
-            raise
-
-        # Check if markdown file was created
-        if not markdown_path.exists():
-            raise FileNotFoundError(f"Expected markdown file not found at {markdown_path}")
-
-        return str(markdown_path)
+        # Call the utility function from oncorag2.utils.pdf
+        return convert_pdf_to_markdown(pdf_path, self.output_dir)
 
     def convert_pdf_to_markdown_with_redaction(self, pdf_path: Union[str, Path]) -> str:
         """
@@ -131,9 +96,8 @@ class DocumentProcessor:
         # Convert and redact
         markdown_path = self.convert_pdf_to_markdown_with_redaction(pdf_path)
 
-        # Read the content
-        with open(markdown_path, 'r', encoding='utf-8') as f:
-            markdown_text = f.read()
+        # Read the content using the utility function
+        markdown_text = read_markdown_file(markdown_path)
 
         # Cache the result
         self.markdown_cache[pdf_path_str] = markdown_text

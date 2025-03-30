@@ -11,8 +11,7 @@ import os
 from pathlib import Path
 from typing import Dict, List, Optional, Union
 
-from langchain.docstore.document import Document
-from langchain.embeddings.openai import OpenAIEmbeddings
+
 
 from oncorag2.extractors.document_processor import DocumentProcessor
 from oncorag2.extractors.context_extractor import ContextExtractor
@@ -132,7 +131,7 @@ class ExtractionPipeline:
         # Get unique references from features
         references = set()
         for feature in self.features:
-            ref = feature.get("reference", "summary")
+            ref = feature.get("reference", "")
             fallback1 = feature.get("fallback_category_1", "")
             fallback2 = feature.get("fallback_category_2", "")
 
@@ -182,7 +181,6 @@ class ExtractionPipeline:
                 all_context_data.extend(context_data)
 
                 # Save raw markdown text if CSV is provided
-                # Save raw markdown text if CSV is provided
                 if raw_context_csv:
                     self.context_extractor.save_raw_text(
                         markdown_text, pdf_name, patient_id, reference
@@ -191,123 +189,123 @@ class ExtractionPipeline:
             except Exception as e:
                 logger.error(f"Error processing PDF {pdf_path}: {e}")
 
-                # Add all contexts to the vector store
-            if total_contexts:
-                try:
-                    self.vector_db.add_documents(total_contexts)
-                    logger.info(f"Added {len(total_contexts)} contexts to vector store for patient {patient_id}")
-                except Exception as e:
-                    logger.error(f"Error adding contexts to vector store: {e}")
+        # Add all contexts to the vector store
+        if total_contexts:
+            try:
+                self.vector_db.add_documents(total_contexts)
+                logger.info(f"Added {len(total_contexts)} contexts to vector store for patient {patient_id}")
+            except Exception as e:
+                logger.error(f"Error adding contexts to vector store: {e}")
 
-                # Save context data to CSV if provided
-            if context_csv and all_context_data:
-                self.context_extractor.save_context_data(all_context_data)
+        # Save context data to CSV if provided
+        if context_csv and all_context_data:
+            self.context_extractor.save_context_data(all_context_data)
 
-            return len(total_contexts)
+        return len(total_contexts)
 
-            def process_patient_data(self,
-                                     patient_dir: Union[str, Path],
-                                     output_csv: str = 'extracted_patient_data.csv') -> Dict:
-                """
-                Process a patient's data directory to extract features.
+    def process_patient_data(self,
+                             patient_dir: Union[str, Path],
+                             output_csv: str = 'extracted_patient_data.csv') -> Dict:
+        """
+        Process a patient's data directory to extract features.
 
-                Args:
-                    patient_dir: Path to the patient directory
-                    output_csv: Path to the output CSV file
+        Args:
+            patient_dir: Path to the patient directory
+            output_csv: Path to the output CSV file
 
-                Returns:
-                    Dictionary of extracted data
-                """
-                patient_dir = Path(patient_dir)
-                patient_id = patient_dir.name
-                logger.info(f"Processing patient {patient_id}...")
+        Returns:
+            Dictionary of extracted data
+        """
+        patient_dir = Path(patient_dir)
+        patient_id = patient_dir.name
+        logger.info(f"Processing patient {patient_id}...")
 
-                # Process features using vector similarity search
-                all_results = self.feature_extractor.process_patient_features(
-                    self.features, patient_id
+        # Process features using vector similarity search
+        all_results = self.feature_extractor.process_patient_features(
+            self.features, patient_id
+        )
+
+        # Save results to CSV
+        self.feature_extractor.save_to_csv(all_results, output_csv)
+
+        return all_results
+
+    def process_directory(self,
+                          data_dir: Union[str, Path],
+                          output_csv: str = 'extracted_data.csv',
+                          context_csv: Optional[str] = 'context_data.csv',
+                          raw_context_csv: Optional[str] = 'raw_context_data.csv') -> List[Dict]:
+        """
+        Process a directory containing patient data.
+
+        Args:
+            data_dir: Path to the directory containing patient subdirectories or PDF files
+            output_csv: Path to the output CSV file for extracted data
+            context_csv: Path to the output CSV file for context data
+            raw_context_csv: Path to the output CSV file for raw context data
+
+        Returns:
+            List of dictionaries with extracted data
+        """
+        # Initialize output CSVs
+        for csv_file in [output_csv, context_csv, raw_context_csv]:
+            if csv_file and os.path.exists(csv_file):
+                os.remove(csv_file)
+
+        all_results = []
+        data_dir = Path(data_dir)
+
+        # Check if data_dir is a directory with patient subdirectories or a directory with PDFs
+        if not data_dir.is_dir():
+            logger.error(f"Error: {data_dir} is not a directory")
+            return all_results
+
+        # Check for PDF files directly in the data_dir
+        pdf_files = [f for f in os.listdir(data_dir) if f.lower().endswith('.pdf')]
+
+        if pdf_files:
+            # This is a directory with PDF files - treat as a single patient
+            patient_id = data_dir.name
+
+            # Process PDFs and add contexts to vector store
+            num_contexts = self.process_patient_pdfs_to_vector_store(
+                data_dir,
+                patient_id,
+                context_csv,
+                raw_context_csv
+            )
+            logger.info(f"Processed {num_contexts} contexts for patient {patient_id}")
+
+            # Process features
+            results = self.process_patient_data(data_dir, output_csv)
+            all_results.append(results)
+        else:
+            # This is a directory with patient subdirectories
+            patient_dirs = [d for d in os.listdir(data_dir) if os.path.isdir(os.path.join(data_dir, d))]
+
+            # First pass: process all PDFs and add contexts to vector store
+            for patient_dir in patient_dirs:
+                full_patient_dir = os.path.join(data_dir, patient_dir)
+                patient_id = Path(full_patient_dir).name
+
+                num_contexts = self.process_patient_pdfs_to_vector_store(
+                    full_patient_dir,
+                    patient_id,
+                    context_csv,
+                    raw_context_csv
                 )
+                logger.info(f"Processed {num_contexts} contexts for patient {patient_id}")
 
-                # Save results to CSV
-                self.feature_extractor.save_to_csv(all_results, output_csv)
+            # Second pass: process features for each patient
+            for patient_dir in patient_dirs:
+                full_patient_dir = os.path.join(data_dir, patient_dir)
+                results = self.process_patient_data(full_patient_dir, output_csv)
+                all_results.append(results)
 
-                return all_results
+        logger.info(f"Processed {len(all_results)} patients. Results saved to {output_csv}")
+        if context_csv:
+            logger.info(f"Context data saved to {context_csv}")
+        if raw_context_csv:
+            logger.info(f"Raw context data saved to {raw_context_csv}")
 
-            def process_directory(self,
-                                  data_dir: Union[str, Path],
-                                  output_csv: str = 'extracted_data.csv',
-                                  context_csv: Optional[str] = 'context_data.csv',
-                                  raw_context_csv: Optional[str] = 'raw_context_data.csv') -> List[Dict]:
-                """
-                Process a directory containing patient data.
-
-                Args:
-                    data_dir: Path to the directory containing patient subdirectories or PDF files
-                    output_csv: Path to the output CSV file for extracted data
-                    context_csv: Path to the output CSV file for context data
-                    raw_context_csv: Path to the output CSV file for raw context data
-
-                Returns:
-                    List of dictionaries with extracted data
-                """
-                # Initialize output CSVs
-                for csv_file in [output_csv, context_csv, raw_context_csv]:
-                    if csv_file and os.path.exists(csv_file):
-                        os.remove(csv_file)
-
-                all_results = []
-                data_dir = Path(data_dir)
-
-                # Check if data_dir is a directory with patient subdirectories or a directory with PDFs
-                if not data_dir.is_dir():
-                    logger.error(f"Error: {data_dir} is not a directory")
-                    return all_results
-
-                # Check for PDF files directly in the data_dir
-                pdf_files = [f for f in os.listdir(data_dir) if f.lower().endswith('.pdf')]
-
-                if pdf_files:
-                    # This is a directory with PDF files - treat as a single patient
-                    patient_id = data_dir.name
-
-                    # Process PDFs and add contexts to vector store
-                    num_contexts = self.process_patient_pdfs_to_vector_store(
-                        data_dir,
-                        patient_id,
-                        context_csv,
-                        raw_context_csv
-                    )
-                    logger.info(f"Processed {num_contexts} contexts for patient {patient_id}")
-
-                    # Process features
-                    results = self.process_patient_data(data_dir, output_csv)
-                    all_results.append(results)
-                else:
-                    # This is a directory with patient subdirectories
-                    patient_dirs = [d for d in os.listdir(data_dir) if os.path.isdir(os.path.join(data_dir, d))]
-
-                    # First pass: process all PDFs and add contexts to vector store
-                    for patient_dir in patient_dirs:
-                        full_patient_dir = os.path.join(data_dir, patient_dir)
-                        patient_id = Path(full_patient_dir).name
-
-                        num_contexts = self.process_patient_pdfs_to_vector_store(
-                            full_patient_dir,
-                            patient_id,
-                            context_csv,
-                            raw_context_csv
-                        )
-                        logger.info(f"Processed {num_contexts} contexts for patient {patient_id}")
-
-                    # Second pass: process features for each patient
-                    for patient_dir in patient_dirs:
-                        full_patient_dir = os.path.join(data_dir, patient_dir)
-                        results = self.process_patient_data(full_patient_dir, output_csv)
-                        all_results.append(results)
-
-                logger.info(f"Processed {len(all_results)} patients. Results saved to {output_csv}")
-                if context_csv:
-                    logger.info(f"Context data saved to {context_csv}")
-                if raw_context_csv:
-                    logger.info(f"Raw context data saved to {raw_context_csv}")
-
-                return all_results
+        return all_results

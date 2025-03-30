@@ -110,7 +110,7 @@ class PatientDataConversation:
 
         return answer, results
 
-    def start_conversation(self) -> None:
+    def start_conversation(self, verbose: bool = False) -> None:
         """Start an interactive conversation where any question is treated as a vector search query."""
         print("=" * 60)
         print("Patient Data Conversation")
@@ -128,11 +128,12 @@ class PatientDataConversation:
             # Process the query
             answer, results = self.process_query(user_input)
 
-            # Print the answer
+            # Print only the answer
             print(f"\nAnswer: {answer}")
 
-            # Optional - show retrieved information
-            self._display_results(results)
+            # Show sources only if verbose is enabled
+            if verbose:
+                self._display_results(results)
 
     def _display_results(self, results: List[Tuple[Any, float]]) -> None:
         """

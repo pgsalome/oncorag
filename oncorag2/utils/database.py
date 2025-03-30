@@ -10,7 +10,8 @@ import logging
 from typing import Any, Optional, Tuple
 
 from langchain.docstore.document import Document
-from langchain_community.embeddings import OpenAIEmbeddings  # Updated import
+from langchain_openai import OpenAIEmbeddings
+
 from langchain_iris import IRISVector
 
 logger = logging.getLogger(__name__)

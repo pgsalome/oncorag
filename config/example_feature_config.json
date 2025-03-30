@@ -8,11 +8,14 @@
       "unit": "N/A",
       "input_prompt": "Provide the patient's Medical Record Number (MRN)",
       "expected_range": "Positive numeric value",
-      "category": "Patient Demographics",
+      "category": "Patienat Demographics",
       "regex_patterns": [
         "(?i)\\(MRN[:;]?\\s*(\\d+)\\)",
         "(?i)MRN[:;]?\\s*(\\d+)",
-        "(?i)\\b(?:MRN|Medical Record Number|Patient ID|Record ID)[:\\-\\s]*(\\d+)"
+        "(?i)\\b(?:MRN|Medical Record Number|Patient ID|Record ID)[:\\-\\s]*(\\d+)",
+        "(?i)\\b(?:Medical Record Number|MRN|Record Number|Patient ID|ID Number)\\b[:\\-\\s]*(\\d+)",
+        "(?i)\\b(?:patient|record|file)\\s*(number|id|identifier)[:\\-\\s]*(\\d+)",
+        "(?i)Everett,\\s*Florence\\s*\\(MRN:\\s*(\\d+)\\)"
       ],
       "reference": "summary",
       "fallback_category_1": "notes",

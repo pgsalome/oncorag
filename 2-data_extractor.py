@@ -34,6 +34,7 @@ def convert_pdf_to_markdown(pdf_path, output_dir=None):
         output_dir (str, optional): Directory to save the markdown file.
                                    If None, uses the directory of the PDF.
 
+
     Returns:
         str: Path to the generated markdown file
     """
@@ -725,7 +726,7 @@ def process_directory(data_dir, features_json, output_csv='extracted_data.csv', 
     # Load features
     with open(features_json, 'r') as f:
         features_data = json.load(f)
-        features = features_data["features"]
+        features = features_data["features"][:2]
 
     # Set up vector database
     vector_db, conn_string = setup_iris_vector_store(collection_name)
@@ -797,11 +798,11 @@ def process_directory(data_dir, features_json, output_csv='extracted_data.csv', 
 # Define paths
 
 
-features_json = '/home/patrick/projects/new/oncorag/config/feature_list_new.json' # Path to your features JSON file
-data_dir = '/home/patrick/projects/new/oncorag/data/0638505'       # Directory with patient subdirectories or PDFs
-output_csv = '/tmp/pycharm_project_711/extracted_data10.csv'
-context_csv = '/tmp/pycharm_project_711/context_data.csv'                 # CSV for extracted contexts
-raw_context_csv = '/tmp/pycharm_project_711/raw_context_data.csv'         # CSV for raw markdown content
+features_json = '/home/patrick/projects/git/oncorag/config/feature_list_new.json' # Path to your features JSON file
+data_dir = '/home/patrick/projects/git/oncorag/data'       # Directory with patient subdirectories or PDFs
+output_csv = '/home/patrick/projects/git/oncorag/output/extracted_data120.csv'
+context_csv = '/home/patrick/projects/git/oncorag/output/context_data.csv'                 # CSV for extracted contexts
+raw_context_csv = '/home/patrick/projects/git/oncorag/output/raw_context_data.csv'         # CSV for raw markdown content
 
 # Process the directory
 process_directory(data_dir, features_json, output_csv, context_csv, raw_context_csv)

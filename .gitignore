@@ -4,3 +4,8 @@ __pycache__/
 *.pyc
 .DS_Store
 .env
+1-feature_generator.py.py
+2-data_extractor.py
+3-patient_chatbot.py
+create_repo_strucure.sh
+oncorag2/cli.py

@@ -161,6 +161,7 @@ user_input_result = user_input(question="Would you like more features or are the
 
 The agent MUST follow the above format with the exact structure - the smolagents parser requires this exact format.
 ALWAYS include the print(formatted_features) line to ensure the features are displayed.
+generate_entity_features_batch
 
 When finished, return the complete feature set as JSON.
 """

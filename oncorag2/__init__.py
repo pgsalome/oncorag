@@ -14,7 +14,7 @@ os.environ['IRISINSTALLDIR'] = os.environ.get('IRISINSTALLDIR', '/usr')
 # Load environment variables from .env file
 load_dotenv(override=True)
 
-from oncorag2.agents import FeatureExtractionAgent
+
 from oncorag2.extractors import ExtractionPipeline
 from oncorag2.chatbot import PatientDataConversation
 
