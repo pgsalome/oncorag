@@ -4,7 +4,7 @@ A powerful tool for automatically generating and extracting clinical features fr
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/oncorag2_colab_demo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pgsalome/oncorag/blob/main/notebooks/oncorag2_demo.ipynb)
 
 ## Overview
 
@@ -33,7 +33,7 @@ This will:
 3. Set up the environment variables (if no .env file exists)
 
 After installation, activate the virtual environment:
-- Windows: `.env\Scripts\activate`
+- Windows: `./venv/Scripts/activate`
 - Mac/Linux: `source venv/bin/activate`
 
 ### Option 2: Docker Installation
@@ -57,53 +57,63 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -e .
 ```
 
-## Quick Start
+## 🔧 Script-Based Workflow
+
+Once the environment is set up, use these scripts in order:
+
+### 1️⃣ `scripts/run_feature_generation.py`
+Launches an interactive agent to help you define entity-specific clinical features. Features will be saved to the `config/` directory.
+
+### 2️⃣ `scripts/run_data_extraction.py`
+Extracts structured features from patient notes using the config file. If no data is provided, synthetic examples are generated.
+
+```bash
+python scripts/run_data_extraction.py \
+  --features config/your_entity_feature_config.json \
+  --data-dir data/sample_patient \
+  --output output/extracted_data.csv
+```
+
+### 3️⃣ `scripts/run_chatbot.py`
+Launches a retrieval-augmented chatbot that combines structured data and text-based evidence.
+
+```bash
+python scripts/run_chatbot.py --extracted-data output/extracted_data.csv
+```
+
+Use `--verbose` to see matched evidence in context.
+
+---
+
+## 🧪 Python Usage Example (Programmatic API)
 
 ```python
 from oncorag2.feature_extraction import FeatureExtractionAgent
 
-# Initialize the agent with default settings (OpenAI, gpt-4o-mini)
+# Initialize the agent
 agent = FeatureExtractionAgent()
 
-# Or specify a different model and platform
-agent = FeatureExtractionAgent(
-    model_id="claude-3-opus-20240229",
-    platform="anthropic"
-)
-
-# Generate features for a specific entity
+# Generate entity-specific features
 features = agent.generate_features(
     entity="lung cancer",
     areas_of_interest="biomarkers, staging, treatment response"
 )
 
-# Save the features
+# Save to disk
 agent.save_features("lung_cancer_features.json")
 ```
 
-## Command Line Usage
+## 🧠 Try It on Google Colab
 
-You can run the agent from the command line:
+Click the badge above or open this notebook directly:
 
-```bash
-# Interactive mode with default settings
-oncorag2-generate
+[📓 `oncorag2_demo.ipynb`](https://colab.research.google.com/github/pgsalome/oncorag/blob/main/notebooks/oncorag2_demo.ipynb)
 
-# With specific model and platform
-oncorag2-generate --model claude-3-sonnet-20240229 --platform anthropic
-```
-
-## Try It on Google Colab 🚀
-
-Click the badge above or open this notebook:
-
-[📓 `oncorag2_colab_demo.ipynb`](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/oncorag2_colab_demo.ipynb)
-
-This notebook walks you through:
-1. Cloning the repo and installing dependencies
-2. Running the feature generation agent
-3. Extracting clinical features from patient records (synthetic or real)
-4. Launching the RAG-powered chatbot for patient queries
+This interactive notebook runs the full Oncorag2 pipeline:
+1. Clone the repo & install dependencies
+2. Run the feature generation agent
+3. Extract features from real or synthetic notes
+4. Launch a conversational clinical chatbot
 
 ## Environment Setup
 
