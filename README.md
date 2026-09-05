@@ -77,10 +77,10 @@ python scripts/run_oncorag.py --config configs/oncorag_synthetic_mixed.json
 
 The repository includes two full synthetic cohorts and three small example cohorts.
 
-| Dataset | Patients | Notes | Labels |
-| --- | ---: | ---: | --- |
-| [oncorag-e (English)](examples/datasets/oncorag-e/registry.csv) | 489 | 2,930 | 5,761 note-level CTCAE events |
-| [oncorag-d (German)](examples/datasets/oncorag-d/registry.csv) | 489 | 2,930 | 5,987 note-level toxicity events |
+| Dataset | Patients | Notes |
+| --- | ---: | ---: |
+| [oncorag-e (English)](examples/datasets/oncorag-e/registry.csv) | 489 | 2,930 |
+| [oncorag-d (German)](examples/datasets/oncorag-d/registry.csv) | 489 | 2,930 |
 
 The oncorag-e and oncorag-d cohorts contain different generated patients. In the
 small mixed cohort, each patient has both English and German notes.
