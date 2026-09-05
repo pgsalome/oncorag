@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Over recent days, she reports anal pain, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During radiation treatment, she reports concentration impairment with persistence since the last visit and this is mild and currently manageable. During systemic therapy, she reports rectal perforation with persistence since the last visit and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving anal pain that is clinically significant, ongoing concentration impairment, and ongoing rectal perforation. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

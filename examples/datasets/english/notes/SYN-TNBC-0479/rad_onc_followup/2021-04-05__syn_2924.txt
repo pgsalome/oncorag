@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-04-05, she returns today for routine follow-up. During radiation treatment, she reports easy bruising in the setting of low platelets with persistence since the last visit. Today, she denies fever with low neutrophil counts. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing thrombocytopenia with bruising and no current febrile neutropenia. Plan is to continue routine follow-up and symptom-directed supportive care.

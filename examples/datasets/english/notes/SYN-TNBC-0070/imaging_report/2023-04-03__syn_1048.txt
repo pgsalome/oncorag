@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-04-03, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. Currently, she reports flu like symptoms with persistence since the last visit and this is affecting routine function and activity tolerance. Over the next week, discussed risk of future renal hemorrhage and symptom monitoring precautions. No active symptoms related to this concern are present today. During treatment, she reports worsening flatulence over the past week and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing flu like symptoms, future risk counseling for renal hemorrhage, and worsening flatulence. Plan is to continue routine follow-up and symptom-directed supportive care.

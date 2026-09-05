@@ -1,0 +1,31 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: ricci_syn_00480
+Datum: 20.10.2018
+
+Sehr geehrte Frau Kollegin,
+bei Patient SYN-RICCI-480 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 06.10.2016 mit Glioblastom.
+Lokalisation: Frontallappen links.
+Primäre Resektion am 16.10.2016.
+Primäre Radiotherapie bis 54 Gy vom 03.11.2016 bis 08.12.2016.
+Rezidivbestrahlung bis 30 Gy vom 14.10.2018 bis 06.11.2018.
+Systemische Therapien: CCNU/Lomustin, Temozolomid.
+Begleitmedikation: Levetiracetam.
+
+Beurteilung:
+- Weiterhin nachweisbar ist radiogene Nekrose mit klinisch relevanten Beschwerden, derzeit konservativ behandelbar, was klinisch relevant eingeordnet wird in den vergangenen Tagen.
+- Ferner ist zu beachten: Aktuell keine stationäre Behandlungsnotwendigkeit Hieraus ergab sich eine enge klinische Überwachung.
+- Im interdisziplinären Kontext Die Befunde sind am ehesten postradiogen zu werten.
+
+Nebenwirkungen:
+- Neu aufgetreten ist regelmäßige Übelkeit mit reduziertem Appetit und Bedarfsmedikation, was klinisch relevant eingeordnet wird im postradiogenen Intervall unter systemischer Therapielast bei ansonsten stabilem Allgemeinzustand.
+- In der Gesamtschau Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 12 Wochen.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

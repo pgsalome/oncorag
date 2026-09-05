@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. At upcoming follow-up, discussed risk of future hypohidrosis and symptom monitoring precautions. No active symptoms related to this concern are present today. At this visit, she reports urticaria with persistence since the last visit and required urgent evaluation due to symptom severity. During radiation treatment, she reports gastric perforation with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for hypohidrosis, ongoing urticaria that is clinically significant, and ongoing gastric perforation that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

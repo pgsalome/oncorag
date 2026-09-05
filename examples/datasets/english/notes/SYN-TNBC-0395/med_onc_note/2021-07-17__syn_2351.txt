@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. During treatment, she reports worsening upper gastrointestinal hemorrhage over the past week and this is mild and currently manageable. During treatment, she reports worsening pleural effusion over the past week and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening upper gastrointestinal hemorrhage and worsening pleural effusion. Plan is to continue routine follow-up and symptom-directed supportive care.

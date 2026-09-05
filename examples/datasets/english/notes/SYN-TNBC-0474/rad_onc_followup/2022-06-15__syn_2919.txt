@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Today, she denies peripheral sensory neuropathy. At this visit, she reports persistent headaches with persistence since the last visit and this is affecting routine function and activity tolerance. Today, she denies guillain-barre syndrome. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current peripheral sensory neuropathy, ongoing headache, and no current guillain-barre syndrome. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-10-03, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. At this visit, she denies presyncope. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current presyncope. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-07-07, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. During systemic therapy, she reports atrioventricular block first degree with persistence since the last visit and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing atrioventricular block first degree. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Over the past week, she reports worsening mobitz (type) ii atrioventricular block and this is mild and currently manageable. Since last visit, she reports worsening hemolytic anemia over the past week. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening mobitz (type) ii atrioventricular block and worsening hemolytic anemia. Plan is to continue routine follow-up and symptom-directed supportive care.

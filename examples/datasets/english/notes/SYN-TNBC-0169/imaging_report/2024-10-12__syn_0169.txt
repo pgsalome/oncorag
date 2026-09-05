@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-10-12, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. At this visit, she reports suicidal ideation with persistence since the last visit and required urgent evaluation due to symptom severity. Over recent days, she reports euphoria, improved since the prior visit but still present and this is mild and currently manageable. At follow-up, she reports hematemesis, improved since the prior visit but still present and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing suicidal ideation that is clinically significant, improving euphoria, and improving hematemesis. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

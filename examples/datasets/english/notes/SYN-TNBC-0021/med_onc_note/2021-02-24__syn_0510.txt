@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. During systemic therapy, she reports hiccups with persistence since the last visit and this is mild and currently manageable. After cycle 2, she previously experienced cardiac arrest and at that time, required urgent evaluation due to symptom severity. Over recent days, she reports trouble swallowing, improved since the prior visit but still present. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing hiccups, prior cardiac arrest, and improving dysphagia limiting oral intake. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During systemic therapy, she reports urinary fistula with persistence since the last visit and this is affecting routine function and activity tolerance. Currently, she reports autoimmune disorder with persistence since the last visit and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing urinary fistula and ongoing autoimmune disorder. Plan is to continue routine follow-up and symptom-directed supportive care.

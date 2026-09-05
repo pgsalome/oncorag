@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-11-19, she returns for surgical follow-up with interval symptom review. Over the past week, she reports worsening pancreatic hemorrhage and required urgent evaluation due to symptom severity. During radiation treatment, she reports tracheal fistula with persistence since the last visit and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening pancreatic hemorrhage that is clinically significant and ongoing tracheal fistula. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

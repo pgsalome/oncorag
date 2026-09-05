@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-11-24, she returns to medical oncology for routine follow-up. At this visit, she reports cheilitis with persistence since the last visit and this is mild and currently manageable. Over the next week, discussed risk of future laryngeal stenosis and symptom monitoring precautions. No active symptoms related to this concern are present today. Since last visit, she reports lichenoid dermatitis, improved since the prior visit but still present and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing cheilitis, future risk counseling for laryngeal stenosis, and improving lichenoid dermatitis. Plan is to continue routine follow-up and symptom-directed supportive care.

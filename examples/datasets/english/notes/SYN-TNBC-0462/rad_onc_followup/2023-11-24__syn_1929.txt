@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-11-24, she returns today for routine follow-up. If symptoms progress, discussed risk of future hemiparesis and symptom monitoring precautions. No active symptoms related to this concern are present today. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for hemiparesis. Plan is to continue routine follow-up and symptom-directed supportive care.

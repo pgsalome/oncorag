@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-07-13, she returns to medical oncology for routine follow-up. Currently, she reports lip pain with persistence since the last visit and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing lip pain. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Since last visit, she reports osteoporosis, improved since the prior visit but still present and this is mild and currently manageable. Over the past week, she reports worsening voice alteration and required urgent evaluation due to symptom severity. Over the next week, discussed risk of future alkaline phosphatase increased and symptom monitoring precautions. No active symptoms related to this concern are present today. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving osteoporosis, worsening voice alteration that is clinically significant, and future risk counseling for alkaline phosphatase increased. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-10-18, she returns today for routine follow-up. Currently, she reports stomach pain with persistence since the last visit and required urgent evaluation due to symptom severity. During systemic therapy, she reports tracheal mucositis with persistence since the last visit. During week 5 of treatment, she reports peripheral nerve infection with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing stomach pain that is clinically significant, ongoing tracheal mucositis that is clinically significant, and ongoing peripheral nerve infection that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

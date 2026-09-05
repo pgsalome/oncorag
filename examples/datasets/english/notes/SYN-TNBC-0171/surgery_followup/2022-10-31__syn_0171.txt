@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-10-31, she returns for surgical follow-up with interval symptom review. At this visit, she reports pain with persistence since the last visit and this is mild and currently manageable. During systemic therapy, she reports hypernatremia with persistence since the last visit and this is mild and currently manageable. Over the past week, she reports worsening trigeminal nerve disorder and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing pain, ongoing hypernatremia, and worsening trigeminal nerve disorder. Plan is to continue routine follow-up and symptom-directed supportive care.

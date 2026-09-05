@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-10-15, she returns to medical oncology for routine follow-up. Over recent days, she reports vagus nerve disorder, improved since the prior visit but still present and this is affecting routine function and activity tolerance. During systemic therapy, she reports tracheal stenosis with persistence since the last visit and required urgent evaluation due to symptom severity. During week 7 of treatment, she denies renal colic. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving vagus nerve disorder, ongoing tracheal stenosis that is clinically significant, and no current renal colic. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. During treatment, she reports worsening jejunal ulcer over the past week and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening jejunal ulcer. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. At follow-up, she reports mucosal infection, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Currently, she reports insomnia with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving mucosal infection and ongoing insomnia that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

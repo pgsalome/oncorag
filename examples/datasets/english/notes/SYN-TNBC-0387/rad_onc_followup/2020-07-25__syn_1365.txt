@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Earlier in treatment, she previously had intracranial hemorrhage, now resolved and at that time, required urgent evaluation due to symptom severity. Earlier in treatment, she previously experienced dizziness and at that time, this was mild and currently manageable. During systemic therapy, she reports hyperuricemia with persistence since the last visit and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior intracranial hemorrhage now resolved, prior dizziness, and ongoing hyperuricemia. Plan is to continue routine follow-up and symptom-directed supportive care.

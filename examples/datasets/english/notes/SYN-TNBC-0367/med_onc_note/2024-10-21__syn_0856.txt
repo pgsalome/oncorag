@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-10-21, she returns to medical oncology for routine follow-up. Over the past week, she reports worsening mediastinal hemorrhage and this is affecting routine function and activity tolerance. At follow-up, she reports pharyngeal hemorrhage, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Earlier in treatment, she previously experienced anorgasmia and at that time, this was mild and currently manageable. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening mediastinal hemorrhage, improving pharyngeal hemorrhage that is clinically significant, and prior anorgasmia. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

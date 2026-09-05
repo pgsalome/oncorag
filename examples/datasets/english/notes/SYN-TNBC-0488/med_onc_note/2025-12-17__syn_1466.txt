@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-12-17, she returns to medical oncology for routine follow-up. Over recent days, she reports pharyngeal hemorrhage, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Currently, she reports throat pain with swallowing with persistence since the last visit and painful swallowing now requires a soft diet. Over the past week, she reports worsening pancreatic fistula and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving pharyngeal hemorrhage that is clinically significant, ongoing esophagitis limiting oral intake, and worsening pancreatic fistula that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

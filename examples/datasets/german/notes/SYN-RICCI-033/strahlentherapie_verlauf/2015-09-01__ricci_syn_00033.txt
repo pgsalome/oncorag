@@ -1,0 +1,26 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: ricci_syn_00033
+Datum: 01.09.2015
+
+Sehr geehrte Kolleginnen und Kollegen,
+wir berichten über den Verlauf von Patient SYN-RICCI-033.
+
+Anamnese / Chronologie:
+Erstdiagnose am 07.03.2014 mit Glioblastom.
+Lokalisation: Multifokal supratentoriell.
+Primäre Resektion am 03.04.2014.
+Primäre Radiotherapie bis 60 Gy vom 18.05.2014 bis 28.06.2014.
+Rezidivbestrahlung bis 30 Gy vom 31.08.2015 bis 14.09.2015.
+Systemische Therapien: Temozolomid, Nivolumab.
+Begleitmedikation: Ondansetron, Pantoprazol, Dexamethason.
+
+Beurteilung:
+- Anamnestisch zeigt sich bildmorphologisch vereinbar mit kleiner Strahlennekrose ohne relevante klinische Symptomatik, entsprechend der aktuellen Verlaufseinschätzung seit der letzten Vorstellung bei fortbestehendem Unterstützungsbedarf im Alltag.
+- Aus klinischer Sicht Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 6 Wochen.
+- Supportivtherapie wird symptomorientiert fortgesetzt.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

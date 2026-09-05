@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Earlier in treatment, she previously had urinary fistula, now resolved and at that time, this was affecting routine function and activity tolerance. During week 5 of treatment, she reports laryngeal edema with persistence since the last visit and this is mild and currently manageable. At this visit, she reports meningitis with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior urinary fistula now resolved, ongoing laryngeal edema, and ongoing meningitis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

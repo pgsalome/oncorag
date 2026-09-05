@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Over recent days, she reports jejunal ulcer, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving jejunal ulcer. Plan is to continue routine follow-up and symptom-directed supportive care.

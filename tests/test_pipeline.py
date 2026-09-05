@@ -168,6 +168,74 @@ def supported_response(value=70, **overrides):
     ], **overrides}
 
 
+@pytest.mark.parametrize("example_location", ["examples", "enrichment"])
+def test_generated_guidance_reaches_extraction_and_retries(tmp_path, local_models, monkeypatch, example_location):
+    config, _ = tiny_config(tmp_path)
+    prepare_features = pipeline.prepare_features
+    guidance = {
+        "rules": {"extraction_guidelines": ["Use the most recent measured weight."]},
+        "output_format": {"type": "numeric", "unit": "kg"},
+    }
+    examples = [{"context": "Example weight is 90 kg.", "value": 90}]
+    if example_location == "enrichment":
+        guidance["ehr_examples"] = ["Example weight is 90 kg."]
+    else:
+        guidance["examples"] = examples
+
+    def enriched_features(config, specs):
+        features = prepare_features(config, specs)
+        features["weight"].update({key: value for key, value in guidance.items() if key != "ehr_examples"})
+        if example_location == "enrichment":
+            features["weight"]["enrichment"]["ehr_examples"] = guidance["ehr_examples"]
+        return features
+
+    monkeypatch.setattr(pipeline, "prepare_features", enriched_features)
+    extractor = Mock(side_effect=[
+        supported_response(value=90, evidence=[{
+            "note_id": "oncology/2025-01-02", "quote": "Example weight is 90 kg.",
+        }]),
+        supported_response(),
+    ])
+
+    result = pipeline.run_pipeline(config, extractor=extractor)
+
+    assert result["failures"] == 0
+    assert result["results"][0]["value"] == 70
+    assert result["results"][0]["attempts"] == 2
+    for call in extractor.call_args_list:
+        prompt = call.args[0]
+        actual = json.loads(prompt.split("\nFEATURE CONFIGURATION: ", 1)[1].split("\nFEATURE: ", 1)[0])
+        assert actual == guidance
+        assert "cite only EVIDENCE" in prompt
+    assert "Evidence quote or note ID is not in retrieved context" in extractor.call_args.args[0]
+
+
+def test_extraction_prompt_keeps_declared_labels_and_generated_option_mapping():
+    spec = {"name": "treatment", "type": "categorical",
+            "expected_range": ["chemotherapy", "radiotherapy"]}
+    config = {"output_format": {"options": {
+        "A": "chemotherapy", "B": "radiotherapy", "C": "Missing",
+    }}, "top_cuis": ["unused-ontology-payload"]}
+    context = [{"note_id": "n1", "text": "Radiotherapy started."}]
+
+    prompt = pipeline.extraction_prompt(spec, context, {}, config)
+
+    assert prompt_parts(prompt) == (spec, context)
+    assert json.dumps(config["output_format"]) in prompt
+    assert "unused-ontology-payload" not in prompt
+    assert "FEATURE defines the authoritative output type" in prompt
+    assert "JSON null for missing values" in prompt
+    with pytest.raises(ValueError, match="allowed category"):
+        pipeline.validate_extraction({"value": "B"}, spec, context)
+
+
+def test_extraction_prompt_accepts_missing_feature_configuration():
+    spec = {"name": "weight", "type": "numeric"}
+    prompt = pipeline.extraction_prompt(spec, [], {})
+    assert "\nFEATURE CONFIGURATION: {}\nFEATURE: " in prompt
+    assert prompt_parts(prompt) == (spec, [])
+
+
 @pytest.mark.parametrize("response,status", [
     (supported_response(), "ok"),
     (supported_response(value=301), "invalid"),
@@ -363,6 +431,20 @@ def test_graph_cache_changes_with_note_content_and_settings_and_forced_rebuild(t
     forced = pipeline.run_pipeline(config, graph_builder=builder, force_rebuild=True, stage="graph")
     assert forced["graphs"] == new_settings["graphs"]
     assert builder.call_count == 4
+
+
+def test_pipeline_version_invalidates_cached_graphs_and_run_fingerprint(tmp_path, local_models, monkeypatch):
+    config, _ = tiny_config(tmp_path)
+    builder = Mock(wraps=graph_builder.build_patient_graph)
+    current_version = pipeline.PIPELINE_VERSION
+    with monkeypatch.context() as old_runtime:
+        old_runtime.setattr(pipeline, "PIPELINE_VERSION", "portable-v1.1")
+        old = pipeline.run_pipeline(config, graph_builder=builder, stage="graph")
+    current = pipeline.run_pipeline(config, graph_builder=builder, stage="graph")
+    assert current["pipeline_version"] == current_version
+    assert current["run_fingerprint"] != old["run_fingerprint"]
+    assert current["graphs"] != old["graphs"]
+    assert builder.call_count == 2
 
 
 def test_retrieval_parameters_and_feature_config_reach_the_pipeline(tmp_path, local_models):

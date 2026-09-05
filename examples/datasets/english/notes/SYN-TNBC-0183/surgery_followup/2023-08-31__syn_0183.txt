@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-08-31, she returns for surgical follow-up with interval symptom review. At this visit, she reports skin infection with persistence since the last visit and required urgent evaluation due to symptom severity. After cycle 2, she previously had abnormal body odor, now resolved and at that time, this was mild and currently manageable. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing skin infection that is clinically significant and prior body odor now resolved. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

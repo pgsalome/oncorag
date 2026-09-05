@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. During systemic therapy, she reports episodes of emesis with persistence since the last visit. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing vomiting limiting oral intake. Plan is to continue routine follow-up and symptom-directed supportive care.

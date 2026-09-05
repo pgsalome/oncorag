@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. During week 5 of treatment, she reports mania with persistence since the last visit and this is affecting routine function and activity tolerance. Since last visit, she reports hypophosphatemia, improved since the prior visit but still present and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing mania and improving hypophosphatemia. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. At this visit, she denies joint range of motion decreased lumbar spine. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current joint range of motion decreased lumbar spine. Plan is to continue routine follow-up and symptom-directed supportive care.

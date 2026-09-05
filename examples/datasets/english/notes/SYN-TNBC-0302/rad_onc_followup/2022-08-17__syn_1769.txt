@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Over the past week, she reports worsening seizure and this is affecting routine function and activity tolerance. At this visit, she reports abdominal distension with persistence since the last visit and required urgent evaluation due to symptom severity. If symptoms progress, discussed risk of future meningitis and symptom monitoring precautions. No active symptoms related to this concern are present today. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening seizure, ongoing abdominal distension that is clinically significant, and future risk counseling for meningitis. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

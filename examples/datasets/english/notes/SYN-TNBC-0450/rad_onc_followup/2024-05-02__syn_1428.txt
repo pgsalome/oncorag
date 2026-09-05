@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Over the past week, she reports worsening pulmonary fistula and required urgent evaluation due to symptom severity. During treatment, she reports worsening failure to thrive over the past week and required urgent evaluation due to symptom severity. Today, she reports enterovesical fistula with persistence since the last visit and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening pulmonary fistula that is clinically significant, worsening failure to thrive that is clinically significant, and ongoing enterovesical fistula. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

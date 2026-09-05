@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. During prior cycles, she previously experienced melena and at that time, this was mild and currently manageable. During systemic therapy, she reports rectal necrosis with persistence since the last visit and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior melena and ongoing rectal necrosis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

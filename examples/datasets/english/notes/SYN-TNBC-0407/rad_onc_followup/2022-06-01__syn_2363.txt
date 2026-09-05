@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-06-01, she returns today for routine follow-up. Since last visit, she reports worsening aspiration over the past week and required urgent evaluation due to symptom severity. Since last visit, she reports gallbladder fistula, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During week 5 of treatment, she reports hyponatremia with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening aspiration that is clinically significant, improving gallbladder fistula that is clinically significant, and ongoing hyponatremia that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

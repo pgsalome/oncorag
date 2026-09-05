@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for post-operative interval reassessment. During prior cycles, she previously experienced salivary duct inflammation and at that time, required urgent evaluation due to symptom severity. Since last visit, she reports worsening cholecystitis over the past week and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior salivary duct inflammation and worsening cholecystitis. Plan is to continue routine follow-up and symptom-directed supportive care.

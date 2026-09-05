@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-10-24, she returns today for routine follow-up. At this visit, she reports device related infection with persistence since the last visit and this is affecting routine function and activity tolerance. Since last visit, she reports esophageal varices hemorrhage, improved since the prior visit but still present and this is affecting routine function and activity tolerance. After cycle 2, she previously experienced lymph gland infection and at that time, this was affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing device related infection, improving esophageal varices hemorrhage, and prior lymph gland infection. Plan is to continue routine follow-up and symptom-directed supportive care.

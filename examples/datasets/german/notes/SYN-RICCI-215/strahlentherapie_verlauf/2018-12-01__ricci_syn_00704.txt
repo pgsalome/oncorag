@@ -1,0 +1,36 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: ricci_syn_00704
+Datum: 01.12.2018
+
+Sehr geehrte Frau Kollegin,
+bei Patient SYN-RICCI-215 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 16.04.2017 mit Oligodendrogliom WHO Grad 3.
+Lokalisation: Frontallappen links.
+Primäre Resektion am 12.05.2017.
+Primäre Radiotherapie bis 60 Gy vom 19.06.2017 bis 07.08.2017.
+Rezidivbestrahlung bis 36 Gy vom 06.07.2018 bis 21.07.2018.
+Systemische Therapien: Temozolomid.
+Begleitmedikation: Levetiracetam, Ondansetron, Dexamethason.
+
+Beurteilung:
+- Klinisch zeigt sich fortgeschrittene Radionekrose mit neurologischer Verschlechterung und dringender therapeutischer Intervention im aktuellen Verlauf im Kontext der bekannten Tumor- und Therapiesituation.
+- Parallel hierzu zeigt sich: die Vorstellung erfolgte stationär; die Selbstständigkeit im Alltag ist relevant vermindert Eine kurzfristige Reevaluation wurde empfohlen.
+- Zusammenfassend Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Nebenwirkungen:
+- Klinisch zeigt sich starke Übelkeit mit Flüssigkeitsmangel und stationärer Behandlung, was klinisch relevant eingeordnet wird in den vergangenen Tagen im posttherapeutischen Verlauf.
+- es bestand Behandlungsbedarf unter stationären Bedingungen; Aufgrund der Symptomlast war eine stationäre Behandlung erforderlich Eine kurzfristige Reevaluation wurde empfohlen.
+- Im interdisziplinären Kontext Die Befunde sind am ehesten postradiogen zu werten.
+
+Beschwerden:
+- Anamnestisch zeigt sich lebensbedrohliche Kopfschmerzsymptomatik mit Verdacht auf massive intrakranielle Drucksteigerung und notfallmäßiger intensivmedizinischer Versorgung im aktuellen Verlauf in maximaler Ausprägung.
+- Zusätzlich gilt: es bestand Behandlungsbedarf unter stationären Bedingungen; es musste kurzfristig therapeutisch eskaliert werden; es besteht eine klare Beeinträchtigung der täglichen Funktionsfähigkeit; es lag eine vital bedrohliche Konstellation vor Die Befundkonstellation wurde interdisziplinär erneut diskutiert.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 6 Wochen geplant.
+- Die begleitende Medikation soll nach Bedarf weitergeführt werden.
+- Diskussion einer antiödematösen Therapie bzw. Bevacizumab bei Persistenz der Beschwerden.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-10-12, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. Since last visit, she reports worsening anxiety over the past week and required urgent evaluation due to symptom severity. Since last visit, she reports ileal hemorrhage, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During week 2 of treatment, she denies upper gastrointestinal hemorrhage. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening anxiety that is clinically significant, improving ileal hemorrhage that is clinically significant, and no current upper gastrointestinal hemorrhage. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

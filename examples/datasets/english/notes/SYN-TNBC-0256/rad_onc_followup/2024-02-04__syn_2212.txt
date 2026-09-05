@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. After cycle 2, she previously had easy bruising in the setting of low platelets, now resolved and at that time, she had had increased bruising with low platelets. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior thrombocytopenia now resolved. Plan is to continue routine follow-up and symptom-directed supportive care.

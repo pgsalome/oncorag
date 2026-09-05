@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-10-13, she returns for surgical follow-up with interval symptom review. Since last visit, she reports worsening chest wall necrosis over the past week and required urgent evaluation due to symptom severity. Over the past week, she reports worsening enterovesical fistula and this is mild and currently manageable. During treatment, she reports worsening esophageal hemorrhage over the past week and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening chest wall necrosis that is clinically significant, worsening enterovesical fistula, and worsening esophageal hemorrhage. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

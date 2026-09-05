@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Currently, she reports spasticity with persistence since the last visit and required urgent evaluation due to symptom severity. After cycle 2, she previously had memory impairment, now resolved and at that time, required urgent evaluation due to symptom severity. Since last visit, she reports worsening depressed level of consciousness over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing spasticity that is clinically significant, prior memory impairment now resolved, and worsening depressed level of consciousness that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. During systemic therapy, she reports ileal fistula with persistence since the last visit and required urgent evaluation due to symptom severity. After cycle 2, she previously had stroke, now resolved and at that time, required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing ileal fistula that is clinically significant and prior stroke now resolved. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

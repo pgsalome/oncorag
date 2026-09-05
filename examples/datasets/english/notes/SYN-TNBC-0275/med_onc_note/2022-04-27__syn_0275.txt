@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Since last visit, she reports libido decreased, improved since the prior visit but still present and this is mild and currently manageable. Today, she reports pulmonary fibrosis with persistence since the last visit and required urgent evaluation due to symptom severity. During treatment, she reports worsening esophageal ulcer over the past week and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving libido decreased, ongoing pulmonary fibrosis that is clinically significant, and worsening esophageal ulcer. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

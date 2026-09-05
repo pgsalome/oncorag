@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-03-07, this pathology report was reviewed in context of ongoing treatment toxicity monitoring. During prior cycles, she previously had tricuspid valve disease, now resolved and at that time, required urgent evaluation due to symptom severity. Since last visit, she reports pulmonary valve disease, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior tricuspid valve disease now resolved and improving pulmonary valve disease. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. During prior cycles, she previously experienced typhlitis and at that time, required urgent evaluation due to symptom severity. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior typhlitis. Plan is to continue routine follow-up and symptom-directed supportive care.

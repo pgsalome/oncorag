@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. At follow-up, she reports oropharyngeal pain, improved since the prior visit but still present and this is mild and currently manageable. Currently, she reports central nervous system necrosis with persistence since the last visit and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving oropharyngeal pain and ongoing central nervous system necrosis. Plan is to continue routine follow-up and symptom-directed supportive care.

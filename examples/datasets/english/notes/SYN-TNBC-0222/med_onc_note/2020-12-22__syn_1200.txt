@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Since last visit, she reports serum sickness, improved since the prior visit but still present and this is mild and currently manageable. Earlier in treatment, she previously experienced blood prolactin abnormal and at that time, this was affecting routine function and activity tolerance. At follow-up, she reports tracheitis, improved since the prior visit but still present and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving serum sickness, prior blood prolactin abnormal, and improving tracheitis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. At follow-up, she reports gastric fistula, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Today, she reports peripheral nerve infection with persistence since the last visit and this is affecting routine function and activity tolerance. During radiation treatment, she reports pleural hemorrhage with persistence since the last visit and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving gastric fistula, ongoing peripheral nerve infection, and ongoing pleural hemorrhage. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Since last visit, she reports worsening subcutaneous emphysema over the past week and this is mild and currently manageable. During week 2 of treatment, she reports persistent cough with persistence since the last visit and this is mild and currently manageable. Since last visit, she reports worsening ileal stenosis over the past week and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening subcutaneous emphysema, ongoing cough, and worsening ileal stenosis. Plan is to continue routine follow-up and symptom-directed supportive care.

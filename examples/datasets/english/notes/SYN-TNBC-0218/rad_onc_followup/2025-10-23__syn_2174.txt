@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. During treatment, she reports worsening pharyngeal hemorrhage over the past week and this is affecting routine function and activity tolerance. Over the past week, she reports worsening diabetes mellitus and this is mild and currently manageable. Over the next week, discussed risk of future agitation and symptom monitoring precautions. No active symptoms related to this concern are present today. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening pharyngeal hemorrhage, worsening diabetes mellitus, and future risk counseling for agitation. Plan is to continue routine follow-up and symptom-directed supportive care.

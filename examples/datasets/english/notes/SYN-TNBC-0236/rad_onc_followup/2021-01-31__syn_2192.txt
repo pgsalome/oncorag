@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During systemic therapy, she reports anaphylaxis with persistence since the last visit and required urgent evaluation due to symptom severity. Since last visit, she reports jejunal fistula, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During treatment, she reports worsening laryngeal obstruction over the past week and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing anaphylaxis that is clinically significant, improving jejunal fistula that is clinically significant, and worsening laryngeal obstruction. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

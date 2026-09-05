@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. During treatment, she reports worsening throwing up over the past week and intermittent emesis has occurred with partial oral intake preserved. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening vomiting limiting oral intake. Plan is to continue routine follow-up and symptom-directed supportive care.

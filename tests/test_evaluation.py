@@ -86,8 +86,8 @@ def test_bootstrap_samples_whole_patients_and_is_seeded():
 
 
 @pytest.mark.parametrize("language", ["english", "german", "mixed"])
-def test_fixture_gold_has_perfect_score_when_predicted_exactly(language):
-    gold = load_records(ROOT / "examples" / "datasets" / "fixtures" / language / "gold.jsonl")
+def test_demo_gold_has_perfect_score_when_predicted_exactly(language):
+    gold = load_records(ROOT / "examples" / "datasets" / "demo" / language / "gold.jsonl")
     predictions = [{**record, "status": "ok", "confidence": "High"} for record in gold]
     report = evaluate_results(predictions, gold, feature_specs=load_feature_specs(ROOT / "examples" / "features.synthetic.yaml"), resamples=15)
     assert report["exact_match"] == 1

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Currently, she reports iron overload with persistence since the last visit and required urgent evaluation due to symptom severity. During treatment, she reports worsening pulmonary fistula over the past week and this is affecting routine function and activity tolerance. Over recent days, she reports anal pain, improved since the prior visit but still present and this is mild and currently manageable. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing iron overload that is clinically significant, worsening pulmonary fistula, and improving anal pain. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

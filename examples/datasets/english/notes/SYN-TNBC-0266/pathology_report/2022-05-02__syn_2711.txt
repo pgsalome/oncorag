@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, interval symptom-related findings are summarized below. During treatment, she reports worsening hypermagnesemia over the past week and required urgent evaluation due to symptom severity. Since last visit, she reports worsening central nervous system necrosis over the past week and this is affecting routine function and activity tolerance. At follow-up, she reports cecal infection, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening hypermagnesemia that is clinically significant, worsening central nervous system necrosis, and improving cecal infection that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

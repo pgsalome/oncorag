@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-11-02, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. During prior cycles, she previously experienced atelectasis and at that time, required urgent evaluation due to symptom severity. Earlier in treatment, she previously had pancreatic necrosis, now resolved and at that time, required urgent evaluation due to symptom severity. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior atelectasis and prior pancreatic necrosis now resolved. Plan is to continue routine follow-up and symptom-directed supportive care.

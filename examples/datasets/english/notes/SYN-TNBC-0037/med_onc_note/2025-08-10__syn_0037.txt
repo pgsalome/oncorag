@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Since last visit, she reports hypokalemia, improved since the prior visit but still present and this is mild and currently manageable. During treatment, she reports worsening esophageal discomfort over the past week and mild odynophagia is present with swallowing. Since last visit, she reports worsening localized edema over the past week and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving hypokalemia, worsening esophagitis, and worsening localized edema. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. At this visit, she reports personality change with persistence since the last visit and this is mild and currently manageable. During prior cycles, she previously experienced bladder spasm and at that time, this was mild and currently manageable. During week 5 of treatment, she reports feeling sick to the stomach with persistence since the last visit and nausea has reduced oral intake over the past several days. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing personality change, prior bladder spasm, and ongoing nausea limiting oral intake. Plan is to continue routine follow-up and symptom-directed supportive care.

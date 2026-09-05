@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. At this visit, she reports unequal limb length with persistence since the last visit and this is affecting routine function and activity tolerance. Earlier in treatment, she previously had laryngeal edema, now resolved and at that time, required urgent evaluation due to symptom severity. Over the past week, she reports worsening pleural hemorrhage and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing unequal limb length, prior laryngeal edema now resolved, and worsening pleural hemorrhage. Plan is to continue routine follow-up and symptom-directed supportive care.

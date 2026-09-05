@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+On 2021-05-15, this lab report was reviewed in context of ongoing treatment toxicity monitoring. At this visit, she denies nausea. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current nausea. Plan is to continue routine follow-up and symptom-directed supportive care.

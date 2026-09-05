@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Today, she reports fibrinogen decreased with persistence since the last visit and required urgent evaluation due to symptom severity. During week 6 of treatment, she reports forced expiratory volume decreased with persistence since the last visit and required urgent evaluation due to symptom severity. During treatment, she reports worsening pelvic infection over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing fibrinogen decreased that is clinically significant, ongoing forced expiratory volume decreased that is clinically significant, and worsening pelvic infection that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

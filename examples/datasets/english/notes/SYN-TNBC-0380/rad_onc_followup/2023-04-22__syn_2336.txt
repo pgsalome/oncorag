@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. During prior cycles, she previously had pancreatic duct stenosis, now resolved and at that time, this was mild and currently manageable. During systemic therapy, she denies difficulty swallowing. Since last visit, she reports neutrophil count decreased, improved since the prior visit but still present and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior pancreatic duct stenosis now resolved, no current dysphagia, and improving neutrophil count decreased. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. At this visit, she reports movements involuntary with persistence since the last visit and this is affecting routine function and activity tolerance. During week 7 of treatment, she reports jejunal ulcer with persistence since the last visit and this is mild and currently manageable. Since last visit, she reports jejunal hemorrhage, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing movements involuntary, ongoing jejunal ulcer, and improving jejunal hemorrhage. Plan is to continue routine follow-up and symptom-directed supportive care.

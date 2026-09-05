@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-06-20, she returns today for routine follow-up. After cycle 2, she previously had vasculitis, now resolved and at that time, this was affecting routine function and activity tolerance. At follow-up, she reports gastritis, improved since the prior visit but still present and this is mild and currently manageable. Since last visit, she reports worsening thrombotic thrombocytopenic purpura over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior vasculitis now resolved, improving gastritis, and worsening thrombotic thrombocytopenic purpura that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

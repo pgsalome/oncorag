@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-05-06, she returns today for routine follow-up. At this visit, she reports biliary obstruction with persistence since the last visit and this is mild and currently manageable. During treatment, she reports worsening hypoglycemia over the past week and this is affecting routine function and activity tolerance. Currently, she reports blood antidiuretic hormone abnormal with persistence since the last visit and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing biliary obstruction, worsening hypoglycemia, and ongoing blood antidiuretic hormone abnormal. Plan is to continue routine follow-up and symptom-directed supportive care.

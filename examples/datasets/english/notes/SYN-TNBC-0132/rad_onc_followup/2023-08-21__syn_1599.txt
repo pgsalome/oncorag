@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Currently, she reports epstein-barr virus infection reactivation with persistence since the last visit and required urgent evaluation due to symptom severity. During week 7 of treatment, she reports spinal cord compression with persistence since the last visit and this is mild and currently manageable. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing epstein-barr virus infection reactivation that is clinically significant and ongoing spinal cord compression. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

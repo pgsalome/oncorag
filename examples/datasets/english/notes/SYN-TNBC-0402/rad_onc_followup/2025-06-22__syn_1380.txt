@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-06-22, she returns today for routine follow-up. During prior cycles, she previously had anosmia, now resolved and at that time, this was mild and currently manageable. At this visit, she reports brachial plexopathy with persistence since the last visit and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior anosmia now resolved and ongoing brachial plexopathy. Plan is to continue routine follow-up and symptom-directed supportive care.

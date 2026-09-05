@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. After cycle 2, she previously had hepatic infection, now resolved and at that time, this was affecting routine function and activity tolerance. Over the past week, she reports worsening ileal stenosis and required urgent evaluation due to symptom severity. Over the past week, she reports worsening lymph gland infection and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior hepatic infection now resolved, worsening ileal stenosis that is clinically significant, and worsening lymph gland infection. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

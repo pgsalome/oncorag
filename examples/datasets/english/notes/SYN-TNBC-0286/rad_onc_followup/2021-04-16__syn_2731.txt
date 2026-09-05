@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Today, she reports kyphosis with persistence since the last visit and this is affecting routine function and activity tolerance. Since last visit, she reports worsening breast infection over the past week and required urgent evaluation due to symptom severity. At this visit, she reports gastritis with persistence since the last visit and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing kyphosis, worsening breast infection that is clinically significant, and ongoing gastritis. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

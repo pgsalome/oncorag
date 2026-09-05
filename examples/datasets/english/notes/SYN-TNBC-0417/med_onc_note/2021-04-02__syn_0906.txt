@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During treatment, she reports worsening endocarditis infective over the past week and required urgent evaluation due to symptom severity. During treatment, she reports worsening glossopharyngeal nerve disorder over the past week and required urgent evaluation due to symptom severity. Over recent days, she reports malaise, improved since the prior visit but still present and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening endocarditis infective that is clinically significant, worsening glossopharyngeal nerve disorder that is clinically significant, and improving malaise. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

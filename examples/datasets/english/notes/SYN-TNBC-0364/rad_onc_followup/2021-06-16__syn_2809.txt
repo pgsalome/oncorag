@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. At this visit, she reports anorectal infection with persistence since the last visit and this is affecting routine function and activity tolerance. At this visit, she reports restlessness with persistence since the last visit and this is affecting routine function and activity tolerance. If symptoms progress, discussed risk of future breast infection and symptom monitoring precautions. No active symptoms related to this concern are present today. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing anorectal infection, ongoing restlessness, and future risk counseling for breast infection. Plan is to continue routine follow-up and symptom-directed supportive care.

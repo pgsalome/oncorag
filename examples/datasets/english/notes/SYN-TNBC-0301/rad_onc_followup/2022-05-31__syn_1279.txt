@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. At follow-up, she reports enterocolitis, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During treatment, she reports worsening phantom pain over the past week and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving enterocolitis that is clinically significant and worsening phantom pain. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

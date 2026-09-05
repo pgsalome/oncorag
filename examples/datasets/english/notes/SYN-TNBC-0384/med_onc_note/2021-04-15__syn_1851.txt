@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-04-15, she returns to medical oncology for routine follow-up. Since last visit, she reports edema cerebral, improved since the prior visit but still present and required urgent evaluation due to symptom severity. At follow-up, she reports endophthalmitis, improved since the prior visit but still present and this is affecting routine function and activity tolerance. At this visit, she denies hypoglycemia. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving edema cerebral that is clinically significant, improving endophthalmitis, and no current hypoglycemia. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

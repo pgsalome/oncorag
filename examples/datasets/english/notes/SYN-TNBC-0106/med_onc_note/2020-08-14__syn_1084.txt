@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Over the past week, she reports worsening oropharyngeal pain and this is affecting routine function and activity tolerance. During systemic therapy, she reports hypoxia with persistence since the last visit and this is affecting routine function and activity tolerance. Since last visit, she reports electrocardiogram qt corrected interval prolonged, improved since the prior visit but still present and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening oropharyngeal pain, ongoing hypoxia, and improving electrocardiogram qt corrected interval prolonged. Plan is to continue routine follow-up and symptom-directed supportive care.

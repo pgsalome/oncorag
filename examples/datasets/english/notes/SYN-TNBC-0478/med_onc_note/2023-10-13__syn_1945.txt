@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-10-13, she returns to medical oncology for routine follow-up. Today, she reports anorgasmia with persistence since the last visit and this is affecting routine function and activity tolerance. Over recent days, she reports hypoxia, improved since the prior visit but still present and this is mild and currently manageable. During treatment, she reports worsening tendon reflex decreased over the past week and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing anorgasmia, improving hypoxia, and worsening tendon reflex decreased. Plan is to continue routine follow-up and symptom-directed supportive care.

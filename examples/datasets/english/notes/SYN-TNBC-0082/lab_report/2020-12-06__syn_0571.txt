@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. At upcoming follow-up, discussed risk of future optic neuritis and symptom monitoring precautions. No active symptoms related to this concern are present today. At this visit, she denies alcohol intolerance. During radiation treatment, she denies superficial soft tissue fibrosis. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for optic neuritis, no current alcohol intolerance, and no current superficial soft tissue fibrosis. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-02-18, she returns today for routine follow-up. Since last visit, she reports worsening papulovesicular rash over the past week and required urgent evaluation due to symptom severity. During radiation treatment, she reports supraventricular tachycardia with persistence since the last visit and required urgent evaluation due to symptom severity. At follow-up, she reports cheilitis, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening papulovesicular rash that is clinically significant, ongoing supraventricular tachycardia that is clinically significant, and improving cheilitis. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

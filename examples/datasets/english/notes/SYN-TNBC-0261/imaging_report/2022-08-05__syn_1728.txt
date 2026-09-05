@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. Over the past week, she reports worsening hematochezia and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening hematochezia. Plan is to continue routine follow-up and symptom-directed supportive care.

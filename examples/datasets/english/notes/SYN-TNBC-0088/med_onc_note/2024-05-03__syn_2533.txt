@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Since last visit, she reports tubulointerstitial nephritis, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Currently, she reports fatigue in the setting of low hemoglobin with persistence since the last visit and symptomatic anemia is present with hemoglobin around 9.1 g/dL. At this visit, she denies thrombocytosis. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving tubulointerstitial nephritis, ongoing anemia, and no current thrombocytosis. Plan is to continue routine follow-up and symptom-directed supportive care.

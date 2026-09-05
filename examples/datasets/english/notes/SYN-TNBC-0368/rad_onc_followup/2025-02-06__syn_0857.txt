@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-02-06, she returns today for routine follow-up. Today, she reports easy bruising in the setting of low platelets with persistence since the last visit and critical thrombocytopenia required urgent intervention for bleeding risk. Today, she reports duodenal hemorrhage with persistence since the last visit and this is affecting routine function and activity tolerance. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing thrombocytopenia with bruising and ongoing duodenal hemorrhage. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

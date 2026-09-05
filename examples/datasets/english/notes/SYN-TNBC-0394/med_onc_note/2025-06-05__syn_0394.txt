@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Earlier in treatment, she previously experienced peripheral edema and at that time, this was affecting routine function and activity tolerance. Earlier in treatment, she previously experienced urinary protein increased and at that time, this was mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior peripheral edema and prior urinary protein increased. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Over the past week, she reports worsening easy bruising in the setting of low platelets and required platelet transfusion support for thrombocytopenia. At follow-up, she reports fatigue in the setting of low hemoglobin, improved since the prior visit but still present and required red blood cell transfusion for anemia. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening thrombocytopenia that is clinically significant and improving anemia that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

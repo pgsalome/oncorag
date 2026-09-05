@@ -1,0 +1,35 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: ricci_syn_01771
+Datum: 13.02.2016
+
+Sehr geehrte Frau Kollegin,
+bei Patient SYN-RICCI-304 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 27.07.2013 mit Glioblastom.
+Lokalisation: Multifokal supratentoriell.
+Primäre Resektion am 02.09.2013.
+Primäre Radiotherapie bis 54 Gy vom 28.09.2013 bis 06.11.2013.
+Rezidivbestrahlung bis 30 Gy vom 05.02.2016 bis 17.02.2016.
+Systemische Therapien: CCNU/Lomustin, Regorafenib, Temozolomid.
+Begleitmedikation: Ondansetron.
+
+Hautstatus:
+- Im Verlauf besteht deutliche radiogene Dermatitis mit trockener Schuppung, entsprechend der aktuellen Verlaufseinschätzung seit der letzten Vorstellung bei fortbestehendem Unterstützungsbedarf im Alltag.
+- Parallel hierzu zeigt sich: Die Alltagsaktivität ist nur gering beeinträchtigt Hieraus ergab sich eine enge klinische Überwachung.
+
+Beurteilung:
+- Klinisch zeigt sich bildmorphologisch vereinbar mit kleiner Strahlennekrose ohne relevante klinische Symptomatik, mit klarer Relevanz für die weitere Therapieplanung in den vergangenen Tagen bei ansonsten stabilem Allgemeinzustand.
+- In der Gesamtschau Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Nebenwirkungen:
+- Anamnestisch zeigt sich infauste Übelkeit mit lebensbedrohlicher Exsikkose und sofortiger intensivmedizinischer Behandlung, entsprechend der aktuellen Verlaufseinschätzung unter laufender Therapie unter aktueller Re-Bestrahlung unter systemischer Therapielast im Kontext der bekannten Tumor- und Therapiesituation.
+- Im gleichen Kontext wird berichtet: es bestand Behandlungsbedarf unter stationären Bedingungen; eine unmittelbare Intervention wurde notwendig; die Alltagsaktivitäten sind deutlich eingeschränkt; es lag eine vital bedrohliche Konstellation vor; Es bestand eine vital bedrohliche Situation mit intensivmedizinischer Überwachung Hieraus ergab sich eine enge klinische Überwachung.
+- Zusammenfassend Die Symptomatik erscheint am ehesten systemtherapieassoziiert.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 8 Wochen geplant.
+- Supportivtherapie wird symptomorientiert fortgesetzt.
+- Diskussion einer antiödematösen Therapie bzw. Bevacizumab bei Persistenz der Beschwerden.

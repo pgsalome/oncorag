@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-06-18, she returns for surgical follow-up with interval symptom review. During systemic therapy, she reports dental caries with persistence since the last visit and this is mild and currently manageable. Over recent days, she reports oral hemorrhage, improved since the prior visit but still present and this is mild and currently manageable. Since last visit, she reports worsening bone pain over the past week and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing dental caries, improving oral hemorrhage, and worsening bone pain. Plan is to continue routine follow-up and symptom-directed supportive care.

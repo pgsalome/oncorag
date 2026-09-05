@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2026-02-09, she returns today for routine follow-up. At this visit, she reports fatigue in the setting of low hemoglobin with persistence since the last visit. During prior cycles, she previously had lipase increased, now resolved and at that time, required urgent evaluation due to symptom severity. Over recent days, she reports myelitis, improved since the prior visit but still present and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing anemia, prior lipase increased now resolved, and improving myelitis. Plan is to continue routine follow-up and symptom-directed supportive care.

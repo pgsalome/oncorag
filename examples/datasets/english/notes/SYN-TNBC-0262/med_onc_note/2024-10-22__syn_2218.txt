@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-10-22, she returns to medical oncology for routine follow-up. During treatment, she reports worsening flu like symptoms over the past week and this is mild and currently manageable. During treatment, she reports worsening gastroparesis over the past week and required urgent evaluation due to symptom severity. Currently, she reports ventricular arrhythmia with persistence since the last visit and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening flu like symptoms, worsening gastroparesis that is clinically significant, and ongoing ventricular arrhythmia that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

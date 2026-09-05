@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-11-06, she returns today for routine follow-up. Today, she reports small intestinal perforation with persistence since the last visit and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing small intestinal perforation. Plan is to continue routine follow-up and symptom-directed supportive care.

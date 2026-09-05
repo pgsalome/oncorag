@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Since last visit, she reports worsening salivary duct inflammation over the past week and this is affecting routine function and activity tolerance. Since last visit, she reports pancreatic necrosis, improved since the prior visit but still present and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening salivary duct inflammation and improving pancreatic necrosis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

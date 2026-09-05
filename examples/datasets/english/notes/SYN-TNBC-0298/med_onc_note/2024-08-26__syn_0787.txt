@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-08-26, she returns to medical oncology for routine follow-up. At follow-up, she reports pharyngeal mucositis, improved since the prior visit but still present. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving pharyngeal mucositis limiting oral intake. Plan is to continue routine follow-up and symptom-directed supportive care.

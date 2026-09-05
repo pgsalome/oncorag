@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Over recent days, she reports acoustic nerve disorder nos, improved since the prior visit but still present and this is mild and currently manageable. Today, she reports rotator cuff injury with persistence since the last visit and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving acoustic nerve disorder nos and ongoing rotator cuff injury. Plan is to continue routine follow-up and symptom-directed supportive care.

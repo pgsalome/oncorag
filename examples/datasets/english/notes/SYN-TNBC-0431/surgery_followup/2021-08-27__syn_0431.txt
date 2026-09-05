@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-08-27, she returns for surgical follow-up with interval symptom review. Today, she reports ataxia with persistence since the last visit and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing ataxia. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. Since last visit, she reports worsening sinusoidal obstruction syndrome over the past week and required urgent evaluation due to symptom severity. Over the past week, she reports worsening tooth development disorder and this is affecting routine function and activity tolerance. Over the past week, she reports worsening peripheral sensory neuropathy and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening sinusoidal obstruction syndrome that is clinically significant, worsening tooth development disorder, and worsening peripheral sensory neuropathy that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

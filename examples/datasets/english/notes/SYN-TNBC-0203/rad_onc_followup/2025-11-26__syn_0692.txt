@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-11-26, she returns today for routine follow-up. During systemic therapy, she reports duodenal infection with persistence since the last visit and required urgent evaluation due to symptom severity. At follow-up, she reports unequal limb length, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Over recent days, she reports extrapyramidal disorder, improved since the prior visit but still present and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing duodenal infection that is clinically significant, improving unequal limb length that is clinically significant, and improving extrapyramidal disorder that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

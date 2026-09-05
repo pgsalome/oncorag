@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-07-12, she returns today for routine follow-up. During week 7 of treatment, she reports pancreatitis with persistence since the last visit and required urgent evaluation due to symptom severity. At this visit, she reports portal hypertension with persistence since the last visit and required urgent evaluation due to symptom severity. During radiation treatment, she reports abdominal distension with persistence since the last visit and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing pancreatitis that is clinically significant, ongoing portal hypertension that is clinically significant, and ongoing abdominal distension. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

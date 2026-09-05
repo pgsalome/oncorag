@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. At follow-up, she reports fibrinogen decreased, improved since the prior visit but still present and this is affecting routine function and activity tolerance. At follow-up, she reports hypoglycemia, improved since the prior visit but still present and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving fibrinogen decreased and improving hypoglycemia. Plan is to continue routine follow-up and symptom-directed supportive care.

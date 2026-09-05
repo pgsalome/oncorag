@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During radiation treatment, she reports libido decreased with persistence since the last visit and this is affecting routine function and activity tolerance. Since last visit, she reports worsening diarrhea over the past week and persistent loose stools are limiting routine activity. During treatment, she reports worsening proctitis over the past week and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing libido decreased, worsening diarrhea affecting daily activities, and worsening proctitis. Plan is to continue routine follow-up and symptom-directed supportive care.

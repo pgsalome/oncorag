@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-04-08, she returns today for routine follow-up. During week 5 of treatment, she reports hypophosphatemia with persistence since the last visit and required urgent evaluation due to symptom severity. Over the past week, she reports worsening worsening swallowing difficulty. During treatment, she reports worsening urinary urgency over the past week and this is affecting routine function and activity tolerance. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing hypophosphatemia that is clinically significant, worsening dysphagia that is clinically significant, and worsening urinary urgency. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. At this visit, she reports gastric stenosis with persistence since the last visit and this is affecting routine function and activity tolerance. During treatment, she reports worsening somnolence over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing gastric stenosis and worsening somnolence that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

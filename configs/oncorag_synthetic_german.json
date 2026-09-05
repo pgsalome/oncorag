@@ -4,7 +4,7 @@
     "language": "de"
   },
   "inputs": {
-    "registry_path": "../examples/datasets/fixtures/german/registry.csv"
+    "registry_path": "../examples/datasets/demo/german/registry.csv"
   },
   "features": {
     "specifications": "../examples/features.synthetic.yaml",
@@ -60,7 +60,7 @@
     }
   },
   "evaluation": {
-    "gold_path": "../examples/datasets/fixtures/german/gold.jsonl",
+    "gold_path": "../examples/datasets/demo/german/gold.jsonl",
     "bootstrap": {
       "resamples": 1000,
       "confidence_level": 0.95

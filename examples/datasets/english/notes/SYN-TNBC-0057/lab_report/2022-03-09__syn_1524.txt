@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+On 2022-03-09, this lab report was reviewed in context of ongoing treatment toxicity monitoring. During radiation treatment, she reports fatigue with persistence since the last visit and required urgent evaluation due to symptom severity. If symptoms progress, discussed risk of future upper respiratory infection and symptom monitoring precautions. No active symptoms related to this concern are present today. Over the next week, discussed risk of future soft tissue necrosis upper limb and symptom monitoring precautions. No active symptoms related to this concern are present today. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing fatigue that is clinically significant, future risk counseling for upper respiratory infection, and future risk counseling for soft tissue necrosis upper limb. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

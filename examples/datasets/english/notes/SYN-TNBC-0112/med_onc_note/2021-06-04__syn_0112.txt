@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Over recent days, she reports pancreatic fistula, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Over recent days, she reports vasovagal reaction, improved since the prior visit but still present and this is affecting routine function and activity tolerance. During week 3 of treatment, she reports painful mouth sores with persistence since the last visit and life-threatening oral complications required acute intervention. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving pancreatic fistula that is clinically significant, improving vasovagal reaction, and ongoing oral mucositis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

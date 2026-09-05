@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Over the past week, she reports worsening colonic fistula and this is affecting routine function and activity tolerance. Currently, she reports enterocolitis infectious with persistence since the last visit and required urgent evaluation due to symptom severity. At this visit, she reports meningismus with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening colonic fistula, ongoing enterocolitis infectious that is clinically significant, and ongoing meningismus that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

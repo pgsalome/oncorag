@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-09-07, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. Since last visit, she reports worsening ventricular tachycardia over the past week and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening ventricular tachycardia. Plan is to continue routine follow-up and symptom-directed supportive care.

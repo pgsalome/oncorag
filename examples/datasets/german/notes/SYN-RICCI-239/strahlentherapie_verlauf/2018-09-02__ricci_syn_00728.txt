@@ -1,0 +1,36 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: ricci_syn_00728
+Datum: 02.09.2018
+
+Sehr geehrte Frau Kollegin,
+bei Patient SYN-RICCI-239 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 31.05.2017 mit Astrozytom WHO Grad 4.
+Lokalisation: Temporallappen rechts.
+Primäre Resektion am 04.06.2017.
+Primäre Radiotherapie bis 54 Gy vom 15.07.2017 bis 29.08.2017.
+Rezidivbestrahlung bis 30 Gy vom 12.08.2018 bis 04.09.2018.
+Systemische Therapien: Temozolomid.
+Begleitmedikation: Ondansetron, Levetiracetam, Pantoprazol.
+
+Allgemeinzustand:
+- Anamnestisch zeigt sich leichte Fatigue, Ruhepausen ausreichend, mit klarer Relevanz für die weitere Therapieplanung im aktuellen Verlauf unter systemischer Therapielast unter kombinierter supportiver Behandlung.
+- Aktuell keine stationäre Behandlungsnotwendigkeit Eine kurzfristige Reevaluation wurde empfohlen.
+
+Beurteilung:
+- Es imponiert symptomatische Strahlennekrose mit zunehmendem perifokalem Ödem und Steroidbedarf im postradiogenen Intervall im Kontext der bekannten Tumor- und Therapiesituation.
+- Aktuell keine stationäre Behandlungsnotwendigkeit Eine kurzfristige Reevaluation wurde empfohlen.
+- Im interdisziplinären Kontext Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Nebenwirkungen:
+- Bei der heutigen Vorstellung findet sich persistierendes Erbrechen mit lebensbedrohlicher metabolischer Entgleisung und Notfallintervention, was klinisch relevant eingeordnet wird im postradiogenen Intervall unter aktueller Re-Bestrahlung bei ansonsten stabilem Allgemeinzustand in maximaler Ausprägung.
+- eine stationäre Aufnahme war erforderlich; eine rasche Akutmaßnahme war angezeigt; es besteht eine klare Beeinträchtigung der täglichen Funktionsfähigkeit; es bestand unmittelbare Gefahr einer kritischen Dekompensation; Die Symptomatik erforderte eine notfallmäßige Intervention unter Maximaltherapie.
+- Aus klinischer Sicht Die Symptomatik erscheint am ehesten systemtherapieassoziiert.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 6 Wochen geplant.
+- Die begleitende Medikation soll nach Bedarf weitergeführt werden.
+- Eine antiödematöse Eskalation einschließlich Bevacizumab bleibt vorbehalten.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. At this visit, she reports depressed level of consciousness with persistence since the last visit and this is mild and currently manageable. Earlier in treatment, she previously had ileus, now resolved and at that time, this was mild and currently manageable. Since last visit, she reports hypotension, improved since the prior visit but still present and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing depressed level of consciousness, prior ileus now resolved, and improving hypotension. Plan is to continue routine follow-up and symptom-directed supportive care.

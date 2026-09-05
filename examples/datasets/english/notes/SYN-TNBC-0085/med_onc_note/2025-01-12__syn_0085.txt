@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Since last visit, she reports worsening otitis externa over the past week and required urgent evaluation due to symptom severity. At this visit, she reports extrapyramidal disorder with persistence since the last visit and required urgent evaluation due to symptom severity. Over the past week, she reports worsening cecal infection and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening otitis externa that is clinically significant, ongoing extrapyramidal disorder that is clinically significant, and worsening cecal infection that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

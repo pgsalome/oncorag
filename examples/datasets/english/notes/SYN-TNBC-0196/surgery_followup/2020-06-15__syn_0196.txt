@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Currently, she reports colonic stenosis with persistence since the last visit and this is affecting routine function and activity tolerance. Since last visit, she reports worsening esophageal infection over the past week and this is affecting routine function and activity tolerance. At upcoming follow-up, discussed risk of future neutrophil count decreased and symptom monitoring precautions. No active symptoms related to this concern are present today. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing colonic stenosis, worsening esophageal infection, and future risk counseling for neutrophil count decreased. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Over recent days, she reports glossopharyngeal nerve disorder, improved since the prior visit but still present and required urgent evaluation due to symptom severity. At this visit, she reports hypoxia with persistence since the last visit and required urgent evaluation due to symptom severity. After cycle 2, she previously experienced nail abnormalities and at that time, this was mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving glossopharyngeal nerve disorder that is clinically significant, ongoing hypoxia that is clinically significant, and prior nail changes. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

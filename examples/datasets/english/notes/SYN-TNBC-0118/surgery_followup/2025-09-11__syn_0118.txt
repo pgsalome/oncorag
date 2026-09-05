@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-09-11, she returns for surgical follow-up with interval symptom review. During week 6 of treatment, she reports otitis externa with persistence since the last visit and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing otitis externa. Plan is to continue routine follow-up and symptom-directed supportive care.

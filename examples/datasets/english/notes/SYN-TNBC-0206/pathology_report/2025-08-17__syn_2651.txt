@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. During systemic therapy, she reports duodenal fistula with persistence since the last visit and required urgent evaluation due to symptom severity. Since last visit, she reports agitation, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During radiation treatment, she reports cranial nerve infection with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing duodenal fistula that is clinically significant, improving agitation that is clinically significant, and ongoing cranial nerve infection that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -4,7 +4,7 @@
     "language": "mixed"
   },
   "inputs": {
-    "registry_path": "../examples/datasets/fixtures/mixed/registry.csv"
+    "registry_path": "../examples/datasets/demo/mixed/registry.csv"
   },
   "features": {
     "specifications": "../examples/features.synthetic.yaml",
@@ -60,7 +60,7 @@
     }
   },
   "evaluation": {
-    "gold_path": "../examples/datasets/fixtures/mixed/gold.jsonl",
+    "gold_path": "../examples/datasets/demo/mixed/gold.jsonl",
     "bootstrap": {
       "resamples": 1000,
       "confidence_level": 0.95

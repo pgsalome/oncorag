@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. During treatment, she reports worsening brain fog over the past week and this is affecting routine function and activity tolerance. During treatment, she reports worsening colonic perforation over the past week and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening brain fog and worsening colonic perforation. Plan is to continue routine follow-up and symptom-directed supportive care.

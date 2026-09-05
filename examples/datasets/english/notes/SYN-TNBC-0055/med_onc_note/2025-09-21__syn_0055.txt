@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-09-21, she returns to medical oncology for routine follow-up. Over recent days, she reports penile infection, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Since last visit, she reports worsening abdominal distension over the past week and this is affecting routine function and activity tolerance. During treatment, she reports worsening depression over the past week and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving penile infection that is clinically significant, worsening abdominal distension, and worsening depression. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

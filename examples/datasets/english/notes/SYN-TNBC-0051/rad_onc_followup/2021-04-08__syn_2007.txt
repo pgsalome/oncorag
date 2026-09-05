@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. At follow-up, she reports esophageal necrosis, improved since the prior visit but still present and required urgent evaluation due to symptom severity. At this visit, she reports confusion with persistence since the last visit and this is mild and currently manageable. Today, she reports oral cavity fistula with persistence since the last visit and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving esophageal necrosis that is clinically significant, ongoing confusion, and ongoing oral cavity fistula. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

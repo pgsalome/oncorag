@@ -1,0 +1,33 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: ricci_syn_00729
+Datum: 27.01.2016
+
+Sehr geehrter Herr Kollege,
+nachfolgend der aktuelle Verlauf von Patient SYN-RICCI-240.
+
+Anamnese / Chronologie:
+Erstdiagnose am 27.02.2015 mit Anaplastisches Astrozytom.
+Lokalisation: Thalamus rechts.
+Primäre Resektion am 21.03.2015.
+Primäre Radiotherapie bis 60 Gy vom 19.04.2015 bis 25.05.2015.
+Rezidivbestrahlung bis 33 Gy vom 10.01.2016 bis 01.02.2016.
+Systemische Therapien: Temozolomid.
+Begleitmedikation: Levetiracetam.
+
+Hautstatus:
+- Klinisch zeigt sich ausgeprägte Alopezie mit erheblichem Leidensdruck, mit klarer Relevanz für die weitere Therapieplanung bei wechselnder neurologischer Belastbarkeit.
+- Im gleichen Kontext wird berichtet: es besteht eine klare Beeinträchtigung der täglichen Funktionsfähigkeit.
+- Dokumentiert ist deutliche radiogene Dermatitis mit trockener Schuppung seit der letzten Vorstellung unter aktueller Re-Bestrahlung bei wechselnder neurologischer Belastbarkeit.
+- Ergänzend wird festgehalten: Aktuell keine stationäre Behandlungsnotwendigkeit.
+
+Beurteilung:
+- Neu aufgetreten ist bildmorphologisch vereinbar mit kleiner Strahlennekrose ohne relevante klinische Symptomatik, mit klarer Relevanz für die weitere Therapieplanung nach Re-Bestrahlung unter kombinierter supportiver Behandlung.
+- Aktuell keine stationäre Behandlungsnotwendigkeit Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+- Zusammenfassend Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 6 Wochen.
+- Supportivtherapie wird symptomorientiert fortgesetzt.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

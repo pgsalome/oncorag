@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-08-11, this pathology report was reviewed in context of ongoing treatment toxicity monitoring. If symptoms progress, discussed risk of future pericardial effusion and symptom monitoring precautions. No active symptoms related to this concern are present today. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for pericardial effusion. Plan is to continue routine follow-up and symptom-directed supportive care.

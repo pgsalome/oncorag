@@ -1,0 +1,27 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Arztbrief
+Dokument-ID: ricci_syn_02000
+Datum: 24.04.2018
+
+Sehr geehrte Frau Kollegin,
+bei Patient SYN-RICCI-044 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 23.01.2016 mit Astrozytom WHO Grad 4.
+Lokalisation: Insulär links.
+Primäre Resektion am 06.03.2016.
+Primäre Radiotherapie bis 54 Gy vom 16.05.2016 bis 03.07.2016.
+Rezidivbestrahlung bis 36 Gy vom 14.04.2018 bis 28.04.2018.
+Systemische Therapien: Pembrolizumab, Irinotecan.
+Begleitmedikation: Pantoprazol, Levetiracetam.
+
+Neurologischer Status:
+- Anamnestisch zeigt sich unsicheres Gangbild bei längerer Belastung, was klinisch relevant eingeordnet wird im postradiogenen Intervall unter aktueller Re-Bestrahlung bei wechselnder neurologischer Belastbarkeit.
+- Ergänzend wird festgehalten: Aktuell keine stationäre Behandlungsnotwendigkeit Hieraus ergab sich eine enge klinische Überwachung.
+- Im interdisziplinären Kontext Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 8 Wochen.
+- Supportivtherapie wird symptomorientiert fortgesetzt.
+- Es erfolgt eine zeitnahe neurologische Mitbeurteilung mit Anpassung der Anfallsprophylaxe bei Bedarf.

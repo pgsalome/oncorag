@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-12-07, she returns today for routine follow-up. Over the past week, she reports worsening alopecia and this is affecting routine function and activity tolerance. At this visit, she reports glossopharyngeal nerve disorder with persistence since the last visit and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening alopecia and ongoing glossopharyngeal nerve disorder. Plan is to continue routine follow-up and symptom-directed supportive care.

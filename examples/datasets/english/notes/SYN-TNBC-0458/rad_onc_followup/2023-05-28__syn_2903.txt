@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-05-28, she returns today for routine follow-up. Since last visit, she reports worsening hyponatremia over the past week and required urgent evaluation due to symptom severity. During radiation treatment, she reports lymph node pain with persistence since the last visit and this is mild and currently manageable. Today, she denies tracheitis. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening hyponatremia that is clinically significant, ongoing lymph node pain, and no current tracheitis. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

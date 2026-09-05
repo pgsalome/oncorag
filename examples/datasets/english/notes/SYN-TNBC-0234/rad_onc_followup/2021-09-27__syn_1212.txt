@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-09-27, she returns today for routine follow-up. At this visit, she reports paroxysmal atrial tachycardia with persistence since the last visit and this is mild and currently manageable. During systemic therapy, she reports urinary frequency with persistence since the last visit and this is mild and currently manageable. Over the past week, she reports worsening tendon reflex decreased and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing paroxysmal atrial tachycardia, ongoing urinary frequency, and worsening tendon reflex decreased. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. Over the past week, she reports worsening immune effector cell-associated neurotoxicity syndrome and this is mild and currently manageable. Since last visit, she reports worsening pulmonary valve disease over the past week and required urgent evaluation due to symptom severity. Earlier in treatment, she previously experienced flushing and at that time, this was mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening immune effector cell-associated neurotoxicity syndrome, worsening pulmonary valve disease that is clinically significant, and prior flushing. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

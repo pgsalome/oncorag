@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Over recent days, she reports urine output decreased, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Since last visit, she reports worsening glomerulonephritis over the past week and required urgent evaluation due to symptom severity. During radiation treatment, she reports joint range of motion decreased lumbar spine with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving urine output decreased that is clinically significant, worsening glomerulonephritis that is clinically significant, and ongoing joint range of motion decreased lumbar spine that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

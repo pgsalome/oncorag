@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Over recent days, she reports psychosis, improved since the prior visit but still present and this is affecting routine function and activity tolerance. During week 5 of treatment, she denies anal stenosis. Since last visit, she reports aortic valve disease, improved since the prior visit but still present and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving psychosis, no current anal stenosis, and improving aortic valve disease that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

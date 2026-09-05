@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Since last visit, she reports worsening retroperitoneal hemorrhage over the past week and required urgent evaluation due to symptom severity. During treatment, she reports worsening libido decreased over the past week and this is affecting routine function and activity tolerance. During radiation treatment, she denies serum sickness. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening retroperitoneal hemorrhage that is clinically significant, worsening libido decreased, and no current serum sickness. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

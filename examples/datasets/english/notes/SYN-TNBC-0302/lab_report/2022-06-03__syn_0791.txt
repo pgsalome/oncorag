@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+On 2022-06-03, this lab report was reviewed in context of ongoing treatment toxicity monitoring. At this visit, she denies haptoglobin decreased. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current haptoglobin decreased. Plan is to continue routine follow-up and symptom-directed supportive care.

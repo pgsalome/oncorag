@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. At this visit, she reports biliary tract infection with persistence since the last visit and required urgent evaluation due to symptom severity. Since last visit, she reports worsening easy bruising in the setting of low platelets over the past week. Currently, she reports sick sinus syndrome with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing biliary tract infection that is clinically significant, worsening thrombocytopenia with bruising, and ongoing sick sinus syndrome that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-04-13, she returns today for routine follow-up. During week 7 of treatment, she denies urinary tract infection. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current urinary tract infection. Plan is to continue routine follow-up and symptom-directed supportive care.

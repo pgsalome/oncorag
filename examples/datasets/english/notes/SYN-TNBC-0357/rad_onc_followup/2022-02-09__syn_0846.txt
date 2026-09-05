@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Currently, she reports facial pain with persistence since the last visit and this is affecting routine function and activity tolerance. Today, she reports abdominal pain with persistence since the last visit and this is mild and currently manageable. Over the next week, discussed risk of future gastrointestinal fistula and symptom monitoring precautions. No active symptoms related to this concern are present today. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing facial pain, ongoing abdominal pain, and future risk counseling for gastrointestinal fistula. Plan is to continue routine follow-up and symptom-directed supportive care.

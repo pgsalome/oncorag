@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. Since last visit, she reports worsening diabetes mellitus over the past week and required urgent evaluation due to symptom severity. During radiation treatment, she reports cervicitis infection with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening diabetes mellitus that is clinically significant and ongoing cervicitis infection that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

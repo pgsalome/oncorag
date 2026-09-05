@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. During systemic therapy, she reports encephalitis with persistence since the last visit and required urgent evaluation due to symptom severity. During radiation treatment, she reports sinus bradycardia with persistence since the last visit and this is affecting routine function and activity tolerance. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing encephalitis that is clinically significant and ongoing sinus bradycardia. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

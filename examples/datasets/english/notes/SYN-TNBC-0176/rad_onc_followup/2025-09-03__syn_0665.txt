@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-09-03, she returns today for routine follow-up. At follow-up, she reports pulmonary valve disease, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During treatment, she reports worsening serum amylase increased over the past week and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving pulmonary valve disease that is clinically significant and worsening serum amylase increased. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

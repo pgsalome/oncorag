@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-05-04, she returns to medical oncology for routine follow-up. Over the past week, she reports worsening hoarseness and required urgent evaluation due to symptom severity. Currently, she reports hypersomnia with persistence since the last visit and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening hoarseness that is clinically significant and ongoing hypersomnia. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

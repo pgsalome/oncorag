@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-03-28, she returns today for routine follow-up. Over recent days, she reports upper gastrointestinal hemorrhage, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Since last visit, she reports worsening hematemesis over the past week and required urgent evaluation due to symptom severity. Since last visit, she reports colitis, improved since the prior visit but still present and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving upper gastrointestinal hemorrhage, worsening hematemesis that is clinically significant, and improving colitis. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

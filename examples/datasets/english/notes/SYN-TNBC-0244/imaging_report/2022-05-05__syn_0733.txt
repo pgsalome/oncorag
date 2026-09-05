@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, interval symptom-related findings are summarized below. Today, she denies paroxysmal atrial tachycardia. During radiation treatment, she reports pulmonary hypertension with persistence since the last visit and this is mild and currently manageable. Over recent days, she reports voice alteration, improved since the prior visit but still present and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current paroxysmal atrial tachycardia, ongoing pulmonary hypertension, and improving voice alteration. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. Since last visit, she reports pancreatic duct stenosis, improved since the prior visit but still present and this is affecting routine function and activity tolerance. During systemic therapy, she reports oral hemorrhage with persistence since the last visit and required urgent evaluation due to symptom severity. At follow-up, she reports duodenal ulcer, improved since the prior visit but still present and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving pancreatic duct stenosis, ongoing oral hemorrhage that is clinically significant, and improving duodenal ulcer that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

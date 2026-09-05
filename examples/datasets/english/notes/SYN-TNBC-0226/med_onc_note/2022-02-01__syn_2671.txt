@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. At follow-up, she reports multi-organ failure, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Since last visit, she reports worsening methemoglobinemia over the past week and required urgent evaluation due to symptom severity. During treatment, she reports worsening peritoneal necrosis over the past week and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving multi-organ failure that is clinically significant, worsening methemoglobinemia that is clinically significant, and worsening peritoneal necrosis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,29 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: ricci_syn_01277
+Datum: 19.12.2017
+
+Sehr geehrter Herr Kollege,
+nachfolgend der aktuelle Verlauf von Patient SYN-RICCI-299.
+
+Anamnese / Chronologie:
+Erstdiagnose am 02.06.2016 mit Astrozytom WHO Grad 4.
+Lokalisation: Multifokal supratentoriell.
+Primäre Resektion am 09.07.2016.
+Primäre Radiotherapie bis 60 Gy vom 27.08.2016 bis 02.10.2016.
+Rezidivbestrahlung bis 36 Gy vom 06.02.2018 bis 22.02.2018.
+Systemische Therapien: Nivolumab.
+Begleitmedikation: Cortison, Ondansetron, Dexamethason.
+
+Bildgebung:
+- Aktuell berichtet der Patient über ausgeprägtes Hirnödem mit Massenwirkung und dringender Intervention im aktuellen Verlauf bei ansonsten stabilem Allgemeinzustand.
+
+Beurteilung:
+- Im Verlauf besteht bildmorphologisch vereinbar mit kleiner Strahlennekrose ohne relevante klinische Symptomatik, was klinisch relevant eingeordnet wird unter laufender Therapie mit Verdacht auf postradiogene Genese unter kombinierter supportiver Behandlung.
+- Ferner ist zu beachten: Es erfolgt eine ambulante Verlaufskontrolle.
+- In der Gesamtschau Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 8 Wochen.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

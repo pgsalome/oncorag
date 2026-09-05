@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-12-19, she returns to medical oncology for routine follow-up. Over the past week, she reports worsening bladder perforation and required urgent evaluation due to symptom severity. After cycle 2, she previously experienced edema face and at that time, this was affecting routine function and activity tolerance. After cycle 2, she previously experienced facial nerve disorder and at that time, required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening bladder perforation that is clinically significant, prior edema face, and prior facial nerve disorder. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

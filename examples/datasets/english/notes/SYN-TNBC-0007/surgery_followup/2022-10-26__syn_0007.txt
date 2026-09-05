@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for post-operative interval reassessment. During prior cycles, she previously experienced neck soft tissue necrosis and at that time, required urgent evaluation due to symptom severity. At this visit, she reports inr increased with persistence since the last visit and this is affecting routine function and activity tolerance. Currently, she reports optic neuritis with persistence since the last visit and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior neck soft tissue necrosis, ongoing inr increased, and ongoing optic neuritis. Plan is to continue routine follow-up and symptom-directed supportive care.

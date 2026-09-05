@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. Over recent days, she reports cognitive disturbance, improved since the prior visit but still present and this is mild and currently manageable. At this visit, she reports delirium with persistence since the last visit and this is affecting routine function and activity tolerance. At upcoming follow-up, discussed risk of future rotator cuff injury and symptom monitoring precautions. No active symptoms related to this concern are present today. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving cognitive disturbance, ongoing delirium, and future risk counseling for rotator cuff injury. Plan is to continue routine follow-up and symptom-directed supportive care.

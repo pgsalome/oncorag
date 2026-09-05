@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. During treatment, she reports worsening skin hypopigmentation over the past week and this is affecting routine function and activity tolerance. During treatment, she reports worsening neutrophil count increased over the past week and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening skin hypopigmentation and worsening neutrophil count increased. Plan is to continue routine follow-up and symptom-directed supportive care.

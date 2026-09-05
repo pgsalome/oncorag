@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-10-17, she returns for surgical follow-up with interval symptom review. Today, she reports dizziness with persistence since the last visit and this is mild and currently manageable. During treatment, she reports worsening muscle cramp over the past week and this is affecting routine function and activity tolerance. Currently, she reports unequal limb length with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing dizziness, worsening muscle cramp, and ongoing unequal limb length that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. At upcoming follow-up, discussed risk of future oral pain and symptom monitoring precautions. No active symptoms related to this concern are present today. Today, she reports hypermagnesemia with persistence since the last visit and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for oral pain and ongoing hypermagnesemia. Plan is to continue routine follow-up and symptom-directed supportive care.

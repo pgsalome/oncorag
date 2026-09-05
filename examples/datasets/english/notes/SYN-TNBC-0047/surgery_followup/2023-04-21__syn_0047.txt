@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-04-21, she returns for surgical follow-up with interval symptom review. During treatment, she reports worsening hepatic hemorrhage over the past week and this is affecting routine function and activity tolerance. Over the past week, she reports worsening tumor lysis syndrome and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening hepatic hemorrhage and worsening tumor lysis syndrome. Plan is to continue routine follow-up and symptom-directed supportive care.

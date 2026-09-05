@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Today, she denies anorectal infection. After cycle 2, she previously experienced glucosuria and at that time, this was mild and currently manageable. At this visit, she reports depressed level of consciousness with persistence since the last visit and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current anorectal infection, prior glucosuria, and ongoing depressed level of consciousness that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

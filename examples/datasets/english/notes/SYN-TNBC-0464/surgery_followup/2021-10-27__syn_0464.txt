@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-10-27, she returns for surgical follow-up with interval symptom review. Over the past week, she reports worsening secondary hemophagocytic lymphohistiocytosis and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening secondary hemophagocytic lymphohistiocytosis. Plan is to continue routine follow-up and symptom-directed supportive care.

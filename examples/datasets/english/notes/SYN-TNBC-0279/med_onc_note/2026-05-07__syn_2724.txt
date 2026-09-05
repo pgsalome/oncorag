@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During radiation treatment, she reports abdominal infection with persistence since the last visit and this is affecting routine function and activity tolerance. Since last visit, she reports worsening capillary leak syndrome over the past week and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing abdominal infection and worsening capillary leak syndrome. Plan is to continue routine follow-up and symptom-directed supportive care.

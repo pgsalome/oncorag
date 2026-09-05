@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for post-operative interval reassessment. During treatment, she reports worsening hypocalcemia over the past week and this is affecting routine function and activity tolerance. Over recent days, she reports chest wall necrosis, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During radiation treatment, she reports lethargy with persistence since the last visit and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening hypocalcemia, improving chest wall necrosis that is clinically significant, and ongoing lethargy. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

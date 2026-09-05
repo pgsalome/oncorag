@@ -1,0 +1,30 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: ricci_syn_00376
+Datum: 29.10.2015
+
+Sehr geehrte Kolleginnen und Kollegen,
+wir berichten über den Verlauf von Patient SYN-RICCI-376.
+
+Anamnese / Chronologie:
+Erstdiagnose am 05.10.2013 mit Astrozytom WHO Grad 4.
+Lokalisation: Multifokal supratentoriell.
+Primäre Resektion am 09.10.2013.
+Primäre Radiotherapie bis 59 Gy vom 14.11.2013 bis 29.12.2013.
+Rezidivbestrahlung bis 30 Gy vom 22.06.2015 bis 13.07.2015.
+Systemische Therapien: CCNU/Lomustin, Nivolumab, Pembrolizumab.
+Begleitmedikation: Ondansetron.
+
+Bildgebung:
+- Neu aufgetreten ist zunehmendes perifokales Ödem mit steroidpflichtiger Symptomatik, wie auch im Verlauf mehrfach dokumentiert im posttherapeutischen Verlauf bildgebend unter kombinierter supportiver Behandlung.
+
+Beurteilung:
+- Neu aufgetreten ist radiogene Nekrose mit klinisch relevanten Beschwerden, derzeit konservativ behandelbar, wie auch im Verlauf mehrfach dokumentiert nach Re-Bestrahlung im posttherapeutischen Verlauf bildgebend bei ansonsten stabilem Allgemeinzustand.
+- Im gleichen Kontext wird berichtet: Aktuell keine stationäre Behandlungsnotwendigkeit.
+- Im interdisziplinären Kontext Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 6 Wochen.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.
+- Eine antiödematöse Eskalation einschließlich Bevacizumab bleibt vorbehalten.

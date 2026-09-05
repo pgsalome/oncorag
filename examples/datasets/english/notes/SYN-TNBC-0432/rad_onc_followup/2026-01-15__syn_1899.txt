@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2026-01-15, she returns today for routine follow-up. Since last visit, she reports worsening gastrointestinal fistula over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening gastrointestinal fistula that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

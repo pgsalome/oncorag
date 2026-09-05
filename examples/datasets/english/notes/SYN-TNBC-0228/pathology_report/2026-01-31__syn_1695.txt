@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. After cycle 2, she previously had rectal perforation, now resolved and at that time, required urgent evaluation due to symptom severity. Over recent days, she reports spinal cord compression, improved since the prior visit but still present and this is mild and currently manageable. At this visit, she reports rectal fissure with persistence since the last visit and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior rectal perforation now resolved, improving spinal cord compression, and ongoing rectal fissure. Plan is to continue routine follow-up and symptom-directed supportive care.

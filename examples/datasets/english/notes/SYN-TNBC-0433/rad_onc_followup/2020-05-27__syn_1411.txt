@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During systemic therapy, she reports hepatic hemorrhage with persistence since the last visit and required urgent evaluation due to symptom severity. Today, she reports melena with persistence since the last visit and this is mild and currently manageable. Over the past week, she reports worsening muscle weakness lower limb and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing hepatic hemorrhage that is clinically significant, ongoing melena, and worsening muscle weakness lower limb. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

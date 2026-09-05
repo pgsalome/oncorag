@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During week 2 of treatment, she reports pancreatic insufficiency with persistence since the last visit and this is mild and currently manageable. Over the past week, she reports worsening otitis externa and this is mild and currently manageable. At this visit, she denies colonic obstruction. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing pancreatic insufficiency, worsening otitis externa, and no current colonic obstruction. Plan is to continue routine follow-up and symptom-directed supportive care.

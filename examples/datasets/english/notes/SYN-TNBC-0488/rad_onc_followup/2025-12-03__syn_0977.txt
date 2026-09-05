@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Currently, she reports recurrent laryngeal nerve palsy with persistence since the last visit and this is mild and currently manageable. At follow-up, she reports bronchial fistula, improved since the prior visit but still present and this is mild and currently manageable. Over recent days, she reports seizure, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing recurrent laryngeal nerve palsy, improving bronchial fistula, and improving seizure that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

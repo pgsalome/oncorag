@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Over the past week, she reports worsening spinal cord compression and required urgent evaluation due to symptom severity. Today, she reports pneumonia with persistence since the last visit and this is affecting routine function and activity tolerance. Today, she reports hemorrhoids with persistence since the last visit and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening spinal cord compression that is clinically significant, ongoing pneumonia, and ongoing hemorrhoids. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

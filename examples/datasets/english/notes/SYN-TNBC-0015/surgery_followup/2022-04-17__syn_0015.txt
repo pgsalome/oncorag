@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for post-operative interval reassessment. Over the past week, she reports worsening pruritus and required urgent evaluation due to symptom severity. Earlier in treatment, she previously experienced kyphosis and at that time, this was mild and currently manageable. At this visit, she reports cd4 lymphocytes decreased with persistence since the last visit and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening pruritus that is clinically significant, prior kyphosis, and ongoing cd4 lymphocytes decreased. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

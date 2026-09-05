@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During prior cycles, she previously experienced suicidal ideation and at that time, required urgent evaluation due to symptom severity. During treatment, she reports worsening pericarditis over the past week and this is mild and currently manageable. Since last visit, she reports worsening anaphylaxis over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior suicidal ideation, worsening pericarditis, and worsening anaphylaxis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

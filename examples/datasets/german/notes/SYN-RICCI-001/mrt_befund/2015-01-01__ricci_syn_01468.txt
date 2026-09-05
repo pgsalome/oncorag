@@ -1,0 +1,31 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: ricci_syn_01468
+Datum: 01.01.2015
+
+Sehr geehrter Herr Kollege,
+nachfolgend der aktuelle Verlauf von Patient SYN-RICCI-001.
+
+Anamnese / Chronologie:
+Erstdiagnose am 01.04.2013 mit Glioblastom.
+Lokalisation: Temporallappen rechts.
+Primäre Resektion am 05.04.2013.
+Primäre Radiotherapie bis 60 Gy vom 05.06.2013 bis 14.07.2013.
+Rezidivbestrahlung bis 30 Gy vom 17.09.2014 bis 04.10.2014.
+Systemische Therapien: Temozolomid, Bevacizumab.
+Begleitmedikation: Ondansetron.
+
+Beurteilung:
+- Im Verlauf besteht symptomatische Strahlennekrose mit zunehmendem perifokalem Ödem und Steroidbedarf, was klinisch relevant eingeordnet wird in den vergangenen Tagen bildgebend unter kombinierter supportiver Behandlung.
+- Parallel hierzu zeigt sich: Die Alltagsaktivität ist nur gering beeinträchtigt Die Befundkonstellation wurde interdisziplinär erneut diskutiert.
+- Zusammenfassend Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Bildgebung:
+- Dokumentiert ist zunehmendes perifokales Ödem mit steroidpflichtiger Symptomatik, mit klarer Relevanz für die weitere Therapieplanung unter laufender Therapie im posttherapeutischen Verlauf bei wechselnder neurologischer Belastbarkeit.
+- Ferner ist zu beachten: Aktuell keine stationäre Behandlungsnotwendigkeit Hieraus ergab sich eine enge klinische Überwachung.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 10 Wochen geplant.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.
+- Diskussion einer antiödematösen Therapie bzw. Bevacizumab bei Persistenz der Beschwerden.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for post-operative interval reassessment. During week 5 of treatment, she reports muscle weakness upper limb with persistence since the last visit and required urgent evaluation due to symptom severity. Over recent days, she reports otitis media, improved since the prior visit but still present and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing muscle weakness upper limb that is clinically significant and improving otitis media. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

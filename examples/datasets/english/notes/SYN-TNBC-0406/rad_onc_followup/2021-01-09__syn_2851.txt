@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-01-09, she returns today for routine follow-up. Over the next week, discussed risk of future tooth discoloration and symptom monitoring precautions. No active symptoms related to this concern are present today. Since last visit, she reports worsening postnasal drip over the past week and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for tooth discoloration and worsening postnasal drip. Plan is to continue routine follow-up and symptom-directed supportive care.

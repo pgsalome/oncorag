@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+On 2025-06-01, this lab report was reviewed in context of ongoing treatment toxicity monitoring. Since last visit, she reports worsening optic neuritis over the past week and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening optic neuritis. Plan is to continue routine follow-up and symptom-directed supportive care.

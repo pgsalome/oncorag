@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-06-14, she returns today for routine follow-up. During week 6 of treatment, she reports laryngeal hemorrhage with persistence since the last visit and required urgent evaluation due to symptom severity. Earlier in treatment, she previously had gastritis, now resolved and at that time, this was affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing laryngeal hemorrhage that is clinically significant and prior gastritis now resolved. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

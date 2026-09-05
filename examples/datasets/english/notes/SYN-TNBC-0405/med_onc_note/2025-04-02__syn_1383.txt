@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During systemic therapy, she reports spasticity with persistence since the last visit and required urgent evaluation due to symptom severity. At follow-up, she reports oral pain, improved since the prior visit but still present and this is affecting routine function and activity tolerance. During prior cycles, she previously had unequal limb length, now resolved and at that time, this was affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing spasticity that is clinically significant, improving oral pain, and prior unequal limb length now resolved. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

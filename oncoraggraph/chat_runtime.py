@@ -66,6 +66,7 @@ class ChatSession:
     def select_patient(self, patient_id, *, force_rebuild=False):
         # Invalidate before validation or I/O so a failed switch cannot expose old data.
         self.close()
+        validate_pipeline_config(self.config)
         self._specs, self._patients = prepare_inputs(self.config)
         if not isinstance(patient_id, str) or patient_id not in self._patients:
             raise ValueError("Selected patient is not present in the configured inputs")

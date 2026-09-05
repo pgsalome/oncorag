@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-03-19, she returns today for routine follow-up. Over the past week, she reports worsening arteritis infective and required urgent evaluation due to symptom severity. During week 4 of treatment, she reports cytokine release syndrome with persistence since the last visit and this is affecting routine function and activity tolerance. At this visit, she reports memory impairment with persistence since the last visit and this is mild and currently manageable. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening arteritis infective that is clinically significant, ongoing cytokine release syndrome, and ongoing memory impairment. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

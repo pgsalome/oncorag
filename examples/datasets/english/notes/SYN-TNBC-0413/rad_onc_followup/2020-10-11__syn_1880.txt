@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Currently, she reports muscle cramp with persistence since the last visit and this is mild and currently manageable. Over recent days, she reports superior vena cava syndrome, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During systemic therapy, she reports rectal mucositis with persistence since the last visit. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing muscle cramp, improving superior vena cava syndrome that is clinically significant, and ongoing rectal mucositis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-07-29, she returns today for routine follow-up. After cycle 2, she previously experienced left ventricular dysfunction and at that time, this was affecting routine function and activity tolerance. Since last visit, she reports worsening conjunctivitis over the past week and required urgent evaluation due to symptom severity. During radiation treatment, she reports hypersomnia with persistence since the last visit and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior left ventricular dysfunction, worsening conjunctivitis that is clinically significant, and ongoing hypersomnia. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

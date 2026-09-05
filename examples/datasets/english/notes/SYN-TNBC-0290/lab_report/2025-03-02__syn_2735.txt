@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+On 2025-03-02, this lab report was reviewed in context of ongoing treatment toxicity monitoring. At this visit, she reports conjunctivitis with persistence since the last visit and required urgent evaluation due to symptom severity. At this visit, she reports esophageal infection with persistence since the last visit and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing conjunctivitis that is clinically significant and ongoing esophageal infection that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

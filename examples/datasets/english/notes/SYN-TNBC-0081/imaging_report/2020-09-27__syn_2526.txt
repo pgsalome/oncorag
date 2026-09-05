@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. During radiation treatment, she reports peripheral sensory neuropathy with persistence since the last visit and this is affecting routine function and activity tolerance. Currently, she reports hepatic pain with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing peripheral sensory neuropathy and ongoing hepatic pain that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Currently, she denies dermatosis bullous. During treatment, she reports worsening white blood cell decreased over the past week and this is affecting routine function and activity tolerance. During radiation treatment, she reports shingles with persistence since the last visit and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current dermatosis bullous, worsening white blood cell decreased, and ongoing shingles. Plan is to continue routine follow-up and symptom-directed supportive care.

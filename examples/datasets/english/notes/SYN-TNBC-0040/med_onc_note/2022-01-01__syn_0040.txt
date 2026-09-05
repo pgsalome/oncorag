@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. During treatment, she reports worsening gastrointestinal fistula over the past week and required urgent evaluation due to symptom severity. At follow-up, she reports ventricular tachycardia, improved since the prior visit but still present and required urgent evaluation due to symptom severity. At this visit, she reports spasticity with persistence since the last visit and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening gastrointestinal fistula that is clinically significant, improving ventricular tachycardia that is clinically significant, and ongoing spasticity. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

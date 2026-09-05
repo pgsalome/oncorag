@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Currently, she reports dehydration with persistence since the last visit and this is affecting routine function and activity tolerance. During prior cycles, she previously had ileal obstruction, now resolved and at that time, this was mild and currently manageable. Earlier in treatment, she previously had laryngopharyngeal dysesthesia, now resolved and at that time, this was mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing dehydration, prior ileal obstruction now resolved, and prior laryngopharyngeal dysesthesia now resolved. Plan is to continue routine follow-up and symptom-directed supportive care.

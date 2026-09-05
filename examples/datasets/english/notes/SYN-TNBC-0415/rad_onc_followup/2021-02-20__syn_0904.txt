@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-02-20, she returns today for routine follow-up. During week 3 of treatment, she reports pulmonary valve disease with persistence since the last visit and this is mild and currently manageable. Over the past week, she reports worsening hypotension and this is mild and currently manageable. Currently, she reports hemiparesis with persistence since the last visit and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing pulmonary valve disease, worsening hypotension, and ongoing hemiparesis. Plan is to continue routine follow-up and symptom-directed supportive care.

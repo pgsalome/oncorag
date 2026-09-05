@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. Since last visit, she reports sleep apnea, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Since last visit, she reports worsening rectal obstruction over the past week and this is mild and currently manageable. Since last visit, she reports worsening gastric stenosis over the past week and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving sleep apnea that is clinically significant, worsening rectal obstruction, and worsening gastric stenosis. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

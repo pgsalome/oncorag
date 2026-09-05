@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. At follow-up, she reports pain, improved since the prior visit but still present and this is mild and currently manageable. During systemic therapy, she reports hemiparesis with persistence since the last visit and this is affecting routine function and activity tolerance. Today, she reports hemiparesis related to hemiparesis with persistence since the last visit and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving pain, ongoing hemiparesis, and ongoing hemiparesis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-11-03, she returns today for routine follow-up. At this visit, she reports adult respiratory distress syndrome with persistence since the last visit and required urgent evaluation due to symptom severity. At this visit, she reports jejunal hemorrhage with persistence since the last visit and this is mild and currently manageable. Currently, she reports atrial fibrillation with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing adult respiratory distress syndrome that is clinically significant, ongoing jejunal hemorrhage, and ongoing atrial fibrillation that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

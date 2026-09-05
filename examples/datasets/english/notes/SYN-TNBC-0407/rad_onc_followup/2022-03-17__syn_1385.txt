@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. During prior cycles, she previously had candidiasis, now resolved and at that time, this was affecting routine function and activity tolerance. Over the past week, she reports worsening gastric hemorrhage and required urgent evaluation due to symptom severity. Over the past week, she reports worsening hallucinations and this is mild and currently manageable. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior candidiasis now resolved, worsening gastric hemorrhage that is clinically significant, and worsening hallucinations. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

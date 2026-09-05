@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-12-30, she returns for surgical follow-up with interval symptom review. At this visit, she reports soft tissue necrosis upper limb with persistence since the last visit and required urgent evaluation due to symptom severity. During week 1 of treatment, she denies atrial flutter. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing soft tissue necrosis upper limb that is clinically significant and no current atrial flutter. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

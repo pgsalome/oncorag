@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Over the past week, she reports worsening back pain and required urgent evaluation due to symptom severity. Over recent days, she reports mobitz (type) ii atrioventricular block, improved since the prior visit but still present and this is mild and currently manageable. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening back pain that is clinically significant and improving mobitz (type) ii atrioventricular block. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

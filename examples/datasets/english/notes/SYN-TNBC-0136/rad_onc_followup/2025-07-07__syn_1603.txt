@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-07-07, she returns today for routine follow-up. Since last visit, she reports anal stenosis, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During prior cycles, she previously experienced pain in extremity and at that time, this was affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving anal stenosis that is clinically significant and prior pain in extremity. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

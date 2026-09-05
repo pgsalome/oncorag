@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Over the past week, she reports worsening dysesthesia and this is mild and currently manageable. During treatment, she reports worsening tracheal stenosis over the past week and required urgent evaluation due to symptom severity. Since last visit, she reports pulmonary fibrosis, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening dysesthesia, worsening tracheal stenosis that is clinically significant, and improving pulmonary fibrosis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

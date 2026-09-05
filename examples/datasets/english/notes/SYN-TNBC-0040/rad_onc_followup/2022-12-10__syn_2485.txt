@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Over the past week, she reports worsening pancreatic insufficiency and this is affecting routine function and activity tolerance. At this visit, she reports portal vein thrombosis with persistence since the last visit and this is affecting routine function and activity tolerance. Since last visit, she reports amnesia, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening pancreatic insufficiency, ongoing portal vein thrombosis, and improving amnesia. Plan is to continue routine follow-up and symptom-directed supportive care.

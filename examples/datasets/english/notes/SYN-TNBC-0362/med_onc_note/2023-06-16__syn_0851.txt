@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Since last visit, she reports worsening jejunal stenosis over the past week and this is mild and currently manageable. During week 5 of treatment, she reports superior vena cava syndrome with persistence since the last visit and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening jejunal stenosis and ongoing superior vena cava syndrome. Plan is to continue routine follow-up and symptom-directed supportive care.

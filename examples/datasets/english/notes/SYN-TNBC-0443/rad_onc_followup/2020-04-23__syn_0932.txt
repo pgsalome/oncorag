@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During treatment, she reports worsening skin ulceration over the past week and this is mild and currently manageable. During systemic therapy, she reports dysesthesia with persistence since the last visit and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening skin ulceration and ongoing dysesthesia. Plan is to continue routine follow-up and symptom-directed supportive care.

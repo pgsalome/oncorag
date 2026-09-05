@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. During radiation treatment, she denies bile duct stenosis. During systemic therapy, she reports neutrophil count decreased with persistence since the last visit and this is mild and currently manageable. At follow-up, she reports epstein-barr virus infection reactivation, improved since the prior visit but still present and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current bile duct stenosis, ongoing neutrophil count decreased, and improving epstein-barr virus infection reactivation. Plan is to continue routine follow-up and symptom-directed supportive care.

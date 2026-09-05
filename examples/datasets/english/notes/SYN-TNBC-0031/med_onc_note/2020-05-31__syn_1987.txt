@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-05-31, she returns to medical oncology for routine follow-up. During radiation treatment, she reports erythema multiforme with persistence since the last visit and this is affecting routine function and activity tolerance. During treatment, she reports worsening peripheral ischemia over the past week and required urgent evaluation due to symptom severity. Currently, she reports sleep apnea with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing erythema multiforme, worsening peripheral ischemia that is clinically significant, and ongoing sleep apnea that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

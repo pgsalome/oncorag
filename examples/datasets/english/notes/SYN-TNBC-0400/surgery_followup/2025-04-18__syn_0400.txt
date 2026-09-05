@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Over recent days, she reports cervicitis infection, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Earlier in treatment, she previously experienced paresthesia and at that time, this was affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving cervicitis infection that is clinically significant and prior paresthesia. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

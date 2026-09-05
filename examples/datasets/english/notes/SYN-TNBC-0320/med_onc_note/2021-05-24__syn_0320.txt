@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Since last visit, she reports worsening thrombocytosis over the past week and this is mild and currently manageable. Since last visit, she reports worsening alcohol intolerance over the past week and required urgent evaluation due to symptom severity. During radiation treatment, she reports injection site reaction with persistence since the last visit and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening thrombocytosis, worsening alcohol intolerance that is clinically significant, and ongoing injection site reaction. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-01-27, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. After cycle 2, she previously experienced hypotension and at that time, required urgent evaluation due to symptom severity. Since last visit, she reports worsening rectal mucositis over the past week. During week 2 of treatment, she reports hot flashes with persistence since the last visit and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior hypotension, worsening rectal mucositis limiting oral intake, and ongoing hot flashes. Plan is to continue routine follow-up and symptom-directed supportive care.

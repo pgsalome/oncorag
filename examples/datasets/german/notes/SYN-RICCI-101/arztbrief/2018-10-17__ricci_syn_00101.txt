@@ -1,0 +1,30 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Arztbrief
+Dokument-ID: ricci_syn_00101
+Datum: 17.10.2018
+
+Sehr geehrter Herr Kollege,
+nachfolgend der aktuelle Verlauf von Patient SYN-RICCI-101.
+
+Anamnese / Chronologie:
+Erstdiagnose am 02.05.2016 mit Anaplastisches Astrozytom.
+Lokalisation: Parietallappen links.
+Primäre Resektion am 23.05.2016.
+Primäre Radiotherapie bis 54 Gy vom 22.06.2016 bis 07.08.2016.
+Rezidivbestrahlung bis 36 Gy vom 07.12.2018 bis 21.12.2018.
+Systemische Therapien: Bevacizumab, PCV, Irinotecan.
+Begleitmedikation: Ondansetron.
+
+Beurteilung:
+- Anamnestisch zeigt sich radiogene Nekrose mit klinisch relevanten Beschwerden, derzeit konservativ behandelbar, mit klarer Relevanz für die weitere Therapieplanung während der neuroonkologischen Verlaufskontrolle mit Verdacht auf postradiogene Genese bei ansonsten stabilem Allgemeinzustand.
+- Begleitend fällt auf: Aktuell keine stationäre Behandlungsnotwendigkeit Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+- Aus klinischer Sicht Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Allgemeinzustand:
+- Anamnestisch zeigt sich leichte Fatigue, Ruhepausen ausreichend, was klinisch relevant eingeordnet wird nach Re-Bestrahlung unter systemischer Therapielast bei wechselnder neurologischer Belastbarkeit.
+- Zusätzlich gilt: Es erfolgt eine ambulante Verlaufskontrolle Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 10 Wochen.
+- Diskussion einer antiödematösen Therapie bzw. Bevacizumab bei Persistenz der Beschwerden.

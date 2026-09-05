@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-09-07, she returns for surgical follow-up with interval symptom review. During treatment, she reports worsening myocarditis over the past week and required urgent evaluation due to symptom severity. During treatment, she reports worsening bile duct stenosis over the past week and this is affecting routine function and activity tolerance. Over recent days, she reports reversible posterior leukoencephalopathy syndrome, improved since the prior visit but still present and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening myocarditis that is clinically significant, worsening bile duct stenosis, and improving reversible posterior leukoencephalopathy syndrome that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-05-22, she returns to medical oncology for routine follow-up. During radiation treatment, she reports thrombotic microangiopathy with persistence since the last visit and required urgent evaluation due to symptom severity. If symptoms progress, discussed risk of future urinary tract obstruction and symptom monitoring precautions. No active symptoms related to this concern are present today. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing thrombotic microangiopathy that is clinically significant and future risk counseling for urinary tract obstruction. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

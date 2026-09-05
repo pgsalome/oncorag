@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. Over the past week, she reports worsening transient ischemic attacks and this is affecting routine function and activity tolerance. Currently, she reports laryngeal obstruction with persistence since the last visit and this is affecting routine function and activity tolerance. During systemic therapy, she reports esophageal perforation with persistence since the last visit and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening transient ischemic attacks, ongoing laryngeal obstruction, and ongoing esophageal perforation. Plan is to continue routine follow-up and symptom-directed supportive care.

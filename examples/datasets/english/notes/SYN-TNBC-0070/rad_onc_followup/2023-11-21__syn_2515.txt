@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. At follow-up, she reports hypoalbuminemia, improved since the prior visit but still present and this is mild and currently manageable. Over the past week, she reports worsening personality change and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving hypoalbuminemia and worsening personality change that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

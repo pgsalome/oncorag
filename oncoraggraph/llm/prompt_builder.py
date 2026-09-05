@@ -499,9 +499,50 @@ def rerank_context(
         and syn.strip().lower() not in stopwords
     }
 
+    feature_terms = [normalized_name or "", *(synonyms or [])]
+    short_feature_terms = {
+        term.strip().lower()
+        for term in feature_terms
+        if isinstance(term, str) and re.fullmatch(r"[A-Za-z][A-Za-z0-9]{1,2}", term.strip())
+    }
+    for term in feature_terms:
+        # Preserve configured abbreviations such as ER in "ER status".
+        short_feature_terms.update(
+            token.lower() for token in re.findall(r"\b[A-Z][A-Z0-9]{1,2}\b", str(term))
+        )
+    short_feature_terms.difference_update(stopwords)
+
+    def _extract_tokens(text: str) -> list[str]:
+        return [
+            tok for tok in re.findall(r"[a-z0-9]+", text.lower())
+            if len(tok) >= 4 or tok in short_feature_terms
+        ]
+
+    if normalized_name:
+        core_patterns.update(_extract_tokens(normalized_name))
+    if synonyms:
+        for syn in synonyms:
+            core_patterns.update(_extract_tokens(str(syn)))
+
+    lowered_name = (normalized_name or "").lower()
+    if "alcohol" in lowered_name or "etoh" in lowered_name:
+        core_patterns.update({"alcohol", "drink", "drinks", "drinking", "etoh", "wine", "beer", "liquor"})
+    if not core_patterns:
+        core_patterns.update({"alcohol", "etoh"})
+
+    def _contains_keyword(lower_sentence: str, term: str) -> bool:
+        term = term.lower()
+        if not term:
+            return False
+        if (len(term) <= 3 and term.isalpha()) or (
+            len(term) <= 4 and term.isalnum() and any(char.isdigit() for char in term)
+        ):
+            return re.search(rf"\b{re.escape(term)}\b", lower_sentence) is not None
+        return term in lower_sentence
+
     def _is_relevant(term: str) -> bool:
         lower = term.lower()
-        return any(pattern in lower for pattern in core_patterns)
+        return any(_contains_keyword(lower, pattern) for pattern in core_patterns)
 
     boost_terms: List[str] = []
 
@@ -598,24 +639,6 @@ def rerank_context(
 
     important_short_terms = {"no", "yes", "rare", "mild", "high", "low", "none", "etoh"}
 
-    def _extract_tokens(text: str) -> list[str]:
-        return [tok for tok in re.findall(r"[a-z0-9]+", text.lower()) if len(tok) >= 4]
-
-    if normalized_name:
-        core_patterns.update(_extract_tokens(normalized_name))
-    if synonyms:
-        for syn in synonyms:
-            core_patterns.update(_extract_tokens(str(syn)))
-
-    lowered_name = (normalized_name or "").lower()
-    if "alcohol" in lowered_name or "etoh" in lowered_name:
-        core_patterns.update({"alcohol", "drink", "drinks", "drinking", "etoh", "wine", "beer", "liquor"})
-
-    if not core_patterns and normalized_name:
-        core_patterns.update(_extract_tokens(normalized_name))
-    if not core_patterns:
-        core_patterns.update({"alcohol", "etoh"})
-
     def _register_term(term: str, weight: float = 1.0) -> None:
         if not term:
             return
@@ -626,7 +649,12 @@ def rerank_context(
             return
         if cleaned in stopwords:
             return
-        if len(cleaned) < 4 and cleaned not in important_short_terms and " " not in cleaned:
+        if (
+            len(cleaned) < 4
+            and cleaned not in important_short_terms
+            and cleaned not in short_feature_terms
+            and " " not in cleaned
+        ):
             return
         lexical_terms[cleaned] = max(weight, lexical_terms.get(cleaned, 0.0))
 
@@ -710,7 +738,7 @@ def rerank_context(
         priority_indices = []
         fallback_indices = []
         for idx, lower in enumerate(sent_lowers):
-            if any(term in lower for term in boost_terms):
+            if any(_contains_keyword(lower, term) for term in boost_terms):
                 priority_indices.append(idx)
             else:
                 fallback_indices.append(idx)
@@ -811,20 +839,11 @@ def rerank_context(
             if max_name_score > 0:
                 name_scores_norm = [score / max_name_score for score in best_scores]
 
-    def _contains_keyword(lower_sentence: str, term: str) -> bool:
-        term = term.lower()
-        if not term:
-            return False
-        if len(term) <= 3 and term.isalpha():
-            pattern = rf"\\b{re.escape(term)}\\b"
-            return re.search(pattern, lower_sentence) is not None
-        return term in lower_sentence
-
     lexical_scores: List[float] = []
     if lexical_terms:
         for lower in sent_lowers:
             score = 0.0
-            has_alcohol_term = any(tok in lower for tok in core_patterns)
+            has_alcohol_term = any(_contains_keyword(lower, tok) for tok in core_patterns)
             for term, weight in lexical_terms.items():
                 if _contains_keyword(lower, term):
                     score += weight

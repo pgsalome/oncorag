@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. At this visit, she denies myalgia. Over the past week, she reports worsening hypertension and this is affecting routine function and activity tolerance. Over the past week, she reports worsening vital capacity abnormal and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current myalgia, worsening hypertension, and worsening vital capacity abnormal. Plan is to continue routine follow-up and symptom-directed supportive care.

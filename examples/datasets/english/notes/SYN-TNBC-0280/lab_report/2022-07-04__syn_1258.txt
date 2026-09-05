@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. During treatment, she reports worsening pulmonary edema over the past week and this is mild and currently manageable. Since last visit, she reports worsening cd4 lymphocytes decreased over the past week and this is mild and currently manageable. During systemic therapy, she reports skin hyperpigmentation with persistence since the last visit and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening pulmonary edema, worsening cd4 lymphocytes decreased, and ongoing skin hyperpigmentation. Plan is to continue routine follow-up and symptom-directed supportive care.

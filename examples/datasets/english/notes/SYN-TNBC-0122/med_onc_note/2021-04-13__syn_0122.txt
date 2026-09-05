@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Today, she reports ileal ulcer with persistence since the last visit and this is mild and currently manageable. Today, she reports anal pain with persistence since the last visit and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing ileal ulcer and ongoing anal pain. Plan is to continue routine follow-up and symptom-directed supportive care.

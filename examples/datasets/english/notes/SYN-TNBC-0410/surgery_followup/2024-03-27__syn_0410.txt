@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-03-27, she returns for surgical follow-up with interval symptom review. During radiation treatment, she reports supraventricular tachycardia with persistence since the last visit and this is mild and currently manageable. Currently, she reports abdominal infection with persistence since the last visit and required urgent evaluation due to symptom severity. During prior cycles, she previously experienced neutrophil count increased and at that time, this was mild and currently manageable. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing supraventricular tachycardia, ongoing abdominal infection that is clinically significant, and prior neutrophil count increased. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

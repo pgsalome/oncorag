@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During systemic therapy, she reports duodenal hemorrhage with persistence since the last visit and this is mild and currently manageable. During systemic therapy, she reports soft tissue necrosis lower limb with persistence since the last visit and required urgent evaluation due to symptom severity. Since last visit, she reports worsening lethargy over the past week and this is mild and currently manageable. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing duodenal hemorrhage, ongoing soft tissue necrosis lower limb that is clinically significant, and worsening lethargy. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

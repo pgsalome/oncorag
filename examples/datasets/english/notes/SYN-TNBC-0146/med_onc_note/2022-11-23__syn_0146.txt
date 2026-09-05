@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Since last visit, she reports worsening rash maculo-papular over the past week and required urgent evaluation due to symptom severity. During week 1 of treatment, she reports cd4 lymphocytes decreased with persistence since the last visit and this is mild and currently manageable. During radiation treatment, she reports urinary protein increased with persistence since the last visit and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening rash maculo-papular that is clinically significant, ongoing cd4 lymphocytes decreased, and ongoing urinary protein increased that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

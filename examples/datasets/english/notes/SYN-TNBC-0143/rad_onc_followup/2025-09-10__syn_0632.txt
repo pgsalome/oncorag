@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During treatment, she reports worsening tooth development disorder over the past week and this is mild and currently manageable. At upcoming follow-up, discussed risk of future disseminated intravascular coagulation and symptom monitoring precautions. No active symptoms related to this concern are present today. Over recent days, she reports soft tissue necrosis lower limb, improved since the prior visit but still present and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening tooth development disorder, future risk counseling for disseminated intravascular coagulation, and improving soft tissue necrosis lower limb that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

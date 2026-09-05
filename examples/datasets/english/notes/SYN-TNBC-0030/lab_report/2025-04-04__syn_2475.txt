@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+On 2025-04-04, this lab report was reviewed in context of ongoing treatment toxicity monitoring. During treatment, she reports worsening sick sinus syndrome over the past week and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening sick sinus syndrome. Plan is to continue routine follow-up and symptom-directed supportive care.

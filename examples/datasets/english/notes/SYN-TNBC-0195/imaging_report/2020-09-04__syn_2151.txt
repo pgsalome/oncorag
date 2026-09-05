@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-09-04, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. Over the past week, she reports worsening oculomotor nerve disorder and required urgent evaluation due to symptom severity. Over recent days, she reports pleuritic pain, improved since the prior visit but still present and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening oculomotor nerve disorder that is clinically significant and improving pleuritic pain. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

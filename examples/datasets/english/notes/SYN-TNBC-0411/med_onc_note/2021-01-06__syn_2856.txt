@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-01-06, she returns to medical oncology for routine follow-up. Since last visit, she reports hypoglycemia, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Over the past week, she reports worsening joint effusion and this is mild and currently manageable. Over the past week, she reports worsening encephalomyelitis and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving hypoglycemia, worsening joint effusion, and worsening encephalomyelitis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

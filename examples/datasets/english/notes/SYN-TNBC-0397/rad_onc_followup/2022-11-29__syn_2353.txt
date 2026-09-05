@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Over the past week, she reports worsening paroxysmal atrial tachycardia and required urgent evaluation due to symptom severity. Since last visit, she reports mania, improved since the prior visit but still present and required urgent evaluation due to symptom severity. At follow-up, she reports throat pain with swallowing, improved since the prior visit but still present and painful swallowing now requires a soft diet. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening paroxysmal atrial tachycardia that is clinically significant, improving mania that is clinically significant, and improving esophagitis limiting oral intake. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Today, she reports methemoglobinemia with persistence since the last visit and this is affecting routine function and activity tolerance. Over the past week, she reports worsening left ventricular dysfunction and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing methemoglobinemia and worsening left ventricular dysfunction. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. At this visit, she reports flu like symptoms with persistence since the last visit and this is mild and currently manageable. During radiation treatment, she reports chest wall pain with persistence since the last visit and this is affecting routine function and activity tolerance. Today, she reports myasthenia gravis with persistence since the last visit and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing flu like symptoms, ongoing chest wall pain, and ongoing myasthenia gravis. Plan is to continue routine follow-up and symptom-directed supportive care.

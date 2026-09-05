@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Over the past week, she reports worsening cerebrospinal fluid leakage and this is mild and currently manageable. At follow-up, she reports anorexia, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Today, she reports rash pustular with persistence since the last visit and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening cerebrospinal fluid leakage, improving anorexia that is clinically significant, and ongoing rash pustular. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

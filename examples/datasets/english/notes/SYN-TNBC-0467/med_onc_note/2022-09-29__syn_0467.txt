@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-09-29, she returns to medical oncology for routine follow-up. During treatment, she reports worsening conjunctivitis over the past week and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening conjunctivitis. Plan is to continue routine follow-up and symptom-directed supportive care.

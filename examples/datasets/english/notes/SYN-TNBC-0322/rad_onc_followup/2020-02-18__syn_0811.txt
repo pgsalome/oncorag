@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-02-18, she returns today for routine follow-up. Since last visit, she reports bronchopleural fistula, improved since the prior visit but still present and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving bronchopleural fistula. Plan is to continue routine follow-up and symptom-directed supportive care.

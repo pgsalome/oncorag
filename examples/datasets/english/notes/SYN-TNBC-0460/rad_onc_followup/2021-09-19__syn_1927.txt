@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During radiation treatment, she reports pelvic infection with persistence since the last visit and this is affecting routine function and activity tolerance. During treatment, she reports worsening malabsorption over the past week and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing pelvic infection and worsening malabsorption. Plan is to continue routine follow-up and symptom-directed supportive care.

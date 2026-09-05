@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-03-03, she returns today for routine follow-up. Currently, she reports epistaxis with persistence since the last visit and this is affecting routine function and activity tolerance. Currently, she reports penile infection with persistence since the last visit and this is mild and currently manageable. At this visit, she reports vulval infection with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing epistaxis, ongoing penile infection, and ongoing vulval infection that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

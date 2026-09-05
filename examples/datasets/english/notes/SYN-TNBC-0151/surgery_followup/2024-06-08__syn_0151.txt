@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. During treatment, she reports worsening hypermagnesemia over the past week and required urgent evaluation due to symptom severity. During systemic therapy, she reports arachnoiditis with persistence since the last visit and this is affecting routine function and activity tolerance. At this visit, she reports uterine infection with persistence since the last visit and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening hypermagnesemia that is clinically significant, ongoing arachnoiditis, and ongoing uterine infection. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

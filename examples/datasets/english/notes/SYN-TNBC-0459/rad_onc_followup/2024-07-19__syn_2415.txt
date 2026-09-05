@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-07-19, she returns today for routine follow-up. During treatment, she reports worsening breast infection over the past week and this is affecting routine function and activity tolerance. Over the past week, she reports worsening hepatic hemorrhage and this is mild and currently manageable. At follow-up, she reports duodenal ulcer, improved since the prior visit but still present and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening breast infection, worsening hepatic hemorrhage, and improving duodenal ulcer. Plan is to continue routine follow-up and symptom-directed supportive care.

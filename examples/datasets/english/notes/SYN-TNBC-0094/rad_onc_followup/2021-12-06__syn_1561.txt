@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. During week 7 of treatment, she reports respiratory failure with persistence since the last visit and required urgent evaluation due to symptom severity. Since last visit, she reports suicidal ideation, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Over the past week, she reports worsening hemoglobin increased and this is affecting routine function and activity tolerance. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing respiratory failure that is clinically significant, improving suicidal ideation that is clinically significant, and worsening hemoglobin increased. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

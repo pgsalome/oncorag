@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-01-17, she returns today for routine follow-up. During treatment, she reports worsening acidosis over the past week and required urgent evaluation due to symptom severity. Over recent days, she reports colonic stenosis, improved since the prior visit but still present and this is affecting routine function and activity tolerance. During treatment, she reports worsening skin hyperpigmentation over the past week and this is affecting routine function and activity tolerance. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening acidosis that is clinically significant, improving colonic stenosis, and worsening skin hyperpigmentation. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

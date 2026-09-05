@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-09-28, she returns for surgical follow-up with interval symptom review. Currently, she reports ovarian infection with persistence since the last visit and this is affecting routine function and activity tolerance. Over the past week, she reports worsening mediastinal hemorrhage and required urgent evaluation due to symptom severity. Since last visit, she reports worsening herpes simplex reactivation over the past week and this is mild and currently manageable. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing ovarian infection, worsening mediastinal hemorrhage that is clinically significant, and worsening herpes simplex reactivation. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

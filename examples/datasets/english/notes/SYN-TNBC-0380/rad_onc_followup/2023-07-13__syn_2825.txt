@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Over the past week, she reports worsening hemorrhoidal hemorrhage and this is affecting routine function and activity tolerance. Since last visit, she reports pericardial effusion, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Since last visit, she reports worsening duodenal obstruction over the past week and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening hemorrhoidal hemorrhage, improving pericardial effusion that is clinically significant, and worsening duodenal obstruction. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

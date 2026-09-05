@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During prior cycles, she previously had arachnoiditis, now resolved and at that time, this was affecting routine function and activity tolerance. During treatment, she reports worsening purpura over the past week and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior arachnoiditis now resolved and worsening purpura. Plan is to continue routine follow-up and symptom-directed supportive care.

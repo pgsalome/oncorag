@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. At follow-up, she reports tooth discoloration, improved since the prior visit but still present and this is mild and currently manageable. After cycle 2, she previously experienced phlebitis and at that time, this was affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving tooth discoloration and prior phlebitis. Plan is to continue routine follow-up and symptom-directed supportive care.

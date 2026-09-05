@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-08-24, she returns today for routine follow-up. Earlier in treatment, she previously experienced jejunal fistula and at that time, required urgent evaluation due to symptom severity. At this visit, she reports hepatic failure with persistence since the last visit and required urgent evaluation due to symptom severity. Over the next week, discussed risk of future laryngeal hemorrhage and symptom monitoring precautions. No active symptoms related to this concern are present today. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior jejunal fistula, ongoing hepatic failure that is clinically significant, and future risk counseling for laryngeal hemorrhage. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

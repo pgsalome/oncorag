@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-06-05, she returns to medical oncology for routine follow-up. During systemic therapy, she reports palmar-plantar erythrodysesthesia syndrome with persistence since the last visit and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing palmar-plantar erythrodysesthesia syndrome. Plan is to continue routine follow-up and symptom-directed supportive care.

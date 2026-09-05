@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. During week 3 of treatment, she reports rhinitis infective with persistence since the last visit and this is affecting routine function and activity tolerance. Since last visit, she reports pruritus, improved since the prior visit but still present and this is mild and currently manageable. During treatment, she reports worsening gallbladder pain over the past week and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing rhinitis infective, improving pruritus, and worsening gallbladder pain. Plan is to continue routine follow-up and symptom-directed supportive care.

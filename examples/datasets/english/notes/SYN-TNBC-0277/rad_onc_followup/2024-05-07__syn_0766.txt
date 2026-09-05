@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. After cycle 2, she previously had tricuspid valve disease, now resolved and at that time, this was affecting routine function and activity tolerance. During systemic therapy, she reports encephalopathy with persistence since the last visit and required urgent evaluation due to symptom severity. During week 7 of treatment, she reports pancreatic insufficiency with persistence since the last visit and this is affecting routine function and activity tolerance. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior tricuspid valve disease now resolved, ongoing encephalopathy that is clinically significant, and ongoing pancreatic insufficiency. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-02-10, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. If symptoms progress, discussed risk of future hemolytic anemia and symptom monitoring precautions. No active symptoms related to this concern are present today. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for hemolytic anemia. Plan is to continue routine follow-up and symptom-directed supportive care.

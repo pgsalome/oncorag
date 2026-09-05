@@ -1,0 +1,32 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: ricci_syn_01294
+Datum: 13.09.2019
+
+Sehr geehrte Frau Kollegin,
+bei Patient SYN-RICCI-316 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 10.04.2016 mit Oligodendrogliom WHO Grad 3.
+Lokalisation: Insulär links.
+Primäre Resektion am 05.05.2016.
+Primäre Radiotherapie bis 54 Gy vom 25.06.2016 bis 11.08.2016.
+Rezidivbestrahlung bis 33 Gy vom 21.01.2019 bis 03.02.2019.
+Systemische Therapien: Pembrolizumab, Temozolomid.
+Begleitmedikation: Ondansetron, Pantoprazol, Cortison.
+
+Beurteilung:
+- Dokumentiert ist bildmorphologisch vereinbar mit kleiner Strahlennekrose ohne relevante klinische Symptomatik, entsprechend der aktuellen Verlaufseinschätzung unter laufender Therapie im posttherapeutischen Verlauf mit Verdacht auf postradiogene Genese bei wechselnder neurologischer Belastbarkeit.
+- Zusätzlich gilt: Es erfolgt eine ambulante Verlaufskontrolle Eine kurzfristige Reevaluation wurde empfohlen.
+- In der Gesamtschau Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Nebenwirkungen:
+- Dokumentiert ist gelegentliche Übelkeit ohne relevante Nahrungsrestriktion im aktuellen Verlauf.
+- Parallel hierzu zeigt sich: Es erfolgt eine ambulante Verlaufskontrolle Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+- In der Gesamtschau Die Symptomatik erscheint am ehesten systemtherapieassoziiert.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 8 Wochen geplant.
+- Supportivtherapie wird symptomorientiert fortgesetzt.
+- Eine antiödematöse Eskalation einschließlich Bevacizumab bleibt vorbehalten.

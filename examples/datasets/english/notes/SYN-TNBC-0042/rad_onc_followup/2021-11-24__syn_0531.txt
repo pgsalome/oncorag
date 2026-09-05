@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Today, she reports skin atrophy with persistence since the last visit and this is mild and currently manageable. After cycle 2, she previously experienced depression and at that time, required urgent evaluation due to symptom severity. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing skin atrophy and prior depression. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,31 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: ricci_syn_00207
+Datum: 16.02.2017
+
+Sehr geehrter Herr Kollege,
+nachfolgend der aktuelle Verlauf von Patient SYN-RICCI-207.
+
+Anamnese / Chronologie:
+Erstdiagnose am 25.04.2015 mit Oligodendrogliom WHO Grad 3.
+Lokalisation: Insulär links.
+Primäre Resektion am 08.06.2015.
+Primäre Radiotherapie bis 54 Gy vom 25.06.2015 bis 11.08.2015.
+Rezidivbestrahlung bis 30 Gy vom 09.10.2016 bis 03.11.2016.
+Systemische Therapien: Temozolomid, Pembrolizumab.
+Begleitmedikation: Levetiracetam.
+
+Bildgebung:
+- Im Verlauf besteht diskretes perifokales Hirnödem ohne relevante Klinik, mit klarer Relevanz für die weitere Therapieplanung im postradiogenen Intervall im posttherapeutischen Verlauf mit Verdacht auf postradiogene Genese bei fortbestehendem Unterstützungsbedarf im Alltag.
+- Parallel hierzu zeigt sich: Aktuell keine stationäre Behandlungsnotwendigkeit Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+
+Beurteilung:
+- Anamnestisch zeigt sich diskrete postradiogene Nekrosezeichen ohne akuten Interventionsbedarf, entsprechend der aktuellen Verlaufseinschätzung im postradiogenen Intervall im posttherapeutischen Verlauf mit Verdacht auf postradiogene Genese unter kombinierter supportiver Behandlung.
+- Begleitend fällt auf: Die Alltagsaktivität ist nur gering beeinträchtigt Die Befundkonstellation wurde interdisziplinär erneut diskutiert.
+- In der Gesamtschau Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 6 Wochen.
+- Supportivtherapie wird symptomorientiert fortgesetzt.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

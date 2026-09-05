@@ -1,4 +1,4 @@
-"""Run real local-model chat checks on the paired multilingual fixtures."""
+"""Run real local-model chat checks on the paired multilingual synthetic example cohorts."""
 
 from __future__ import annotations
 
@@ -107,14 +107,14 @@ def run_variant(config: dict, *, session_factory=None) -> dict[str, Any]:
         if language in {"de", "german"} else ("What treatment actually started?", "When did it start? Use YYYY-MM-DD.")
     for index, patient_id in enumerate(patient_ids):
         if patient_id not in session.patient_ids:
-            failures.append(f"Fixture patient unavailable: {patient_id}")
+            failures.append(f"Synthetic example patient unavailable: {patient_id}")
             continue
         session.select_patient(patient_id)
         if session.patient_id != patient_id or session.history:
             failures.append("Selecting a patient did not reset conversation state")
         treatment_notes = [note for note in notes if note.patient_id == patient_id and note.report_type == "treatment"]
         if len(treatment_notes) != 1 or treatments.get(patient_id) not in TREATMENT_ALIASES:
-            raise ValueError("Smoke input must use the authored single-treatment fixtures")
+            raise ValueError("Smoke input must use the authored single-treatment synthetic examples")
         treatment_note = treatment_notes[0]
         for position, question in enumerate(questions if index == 0 else questions[:1]):
             history_before = len(session.history)
@@ -150,7 +150,7 @@ def run_smoke(ollama_host: str, ollama_model: str, output_dir: Path, *, session_
         print(f"{variant}: {'passed' if results[variant]['passed'] else 'failed'}", flush=True)
     summary = {
         "model": ollama_model, "passed": all(result["passed"] for result in results.values()),
-        "scope": "Nine real-model chat turns over paired authored fixtures; not clinical performance validation",
+        "scope": "Nine real-model chat turns over paired synthetic example cohorts; not clinical performance validation",
         "variants": {variant: {key: result[key] for key in ("passed", "turn_count", "failures")} for variant, result in results.items()},
     }
     (output_dir / "summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

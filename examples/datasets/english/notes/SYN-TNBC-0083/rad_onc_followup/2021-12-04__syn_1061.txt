@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. During week 3 of treatment, she reports easy bruising in the setting of low platelets with persistence since the last visit and required platelet transfusion support for thrombocytopenia. Over the past week, she reports worsening paronychia and required urgent evaluation due to symptom severity. After cycle 2, she previously experienced laryngeal inflammation and at that time, this was affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing thrombocytopenia that is clinically significant, worsening paronychia that is clinically significant, and prior laryngeal inflammation. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

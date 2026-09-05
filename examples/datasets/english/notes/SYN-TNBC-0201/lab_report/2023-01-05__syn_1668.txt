@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. During week 2 of treatment, she reports palmar-plantar erythrodysesthesia syndrome with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing palmar-plantar erythrodysesthesia syndrome that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

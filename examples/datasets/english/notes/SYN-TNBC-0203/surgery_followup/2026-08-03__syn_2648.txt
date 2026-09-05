@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Today, she reports ggt increased with persistence since the last visit and this is affecting routine function and activity tolerance. Since last visit, she reports pleural hemorrhage, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Since last visit, she reports new shortness of breath and cough, improved since the prior visit but still present and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing ggt increased, improving pleural hemorrhage that is clinically significant, and improving pneumonitis. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

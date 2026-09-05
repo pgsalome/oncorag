@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-02-15, she returns to medical oncology for routine follow-up. During week 6 of treatment, she reports bloating with persistence since the last visit and this is mild and currently manageable. Over the past week, she reports worsening gastroesophageal reflux disease and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing bloating and worsening gastroesophageal reflux disease. Plan is to continue routine follow-up and symptom-directed supportive care.

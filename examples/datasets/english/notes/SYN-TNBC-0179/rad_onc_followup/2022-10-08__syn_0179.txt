@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Earlier in treatment, she previously had rectal mucositis, now resolved and at that time, oral soreness was mild and manageable with supportive care. Since last visit, she reports worsening breast infection over the past week and required urgent evaluation due to symptom severity. Over the past week, she reports worsening euphoria and this is mild and currently manageable. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior rectal mucositis now resolved, worsening breast infection that is clinically significant, and worsening euphoria. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

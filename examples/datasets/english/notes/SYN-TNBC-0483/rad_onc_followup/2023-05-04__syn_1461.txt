@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-05-04, she returns today for routine follow-up. Over the past week, she reports worsening esophageal perforation and required urgent evaluation due to symptom severity. During treatment, she reports worsening difficulty passing stool over the past week and critical constipation complications required emergent intervention. Since last visit, she reports worsening growth hormone abnormal over the past week and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening esophageal perforation that is clinically significant, worsening constipation that is clinically significant, and worsening growth hormone abnormal. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

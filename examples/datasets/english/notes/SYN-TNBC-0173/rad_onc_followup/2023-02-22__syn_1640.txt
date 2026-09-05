@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. At upcoming follow-up, discussed risk of future enterocolitis and symptom monitoring precautions. No active symptoms related to this concern are present today. Over the past week, she reports worsening anorgasmia and this is affecting routine function and activity tolerance. Currently, she reports pustular drug eruption with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for enterocolitis, worsening anorgasmia, and ongoing pustular drug eruption that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

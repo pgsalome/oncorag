@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-09-13, she returns to medical oncology for routine follow-up. Over the past week, she reports worsening cytomegalovirus infection reactivation and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening cytomegalovirus infection reactivation. Plan is to continue routine follow-up and symptom-directed supportive care.

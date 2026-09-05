@@ -1,0 +1,26 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: ricci_syn_00225
+Datum: 08.02.2016
+
+Sehr geehrte Frau Kollegin,
+bei Patient SYN-RICCI-225 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 20.03.2014 mit Oligodendrogliom WHO Grad 3.
+Lokalisation: Parietallappen links.
+Primäre Resektion am 03.05.2014.
+Primäre Radiotherapie bis 54 Gy vom 14.06.2014 bis 31.07.2014.
+Rezidivbestrahlung bis 30 Gy vom 07.06.2015 bis 19.06.2015.
+Systemische Therapien: Pembrolizumab.
+Begleitmedikation: Pantoprazol, Ondansetron.
+
+Nebenwirkungen:
+- Dokumentiert ist regelmäßige Übelkeit mit reduziertem Appetit und Bedarfsmedikation, was klinisch relevant eingeordnet wird im postradiogenen Intervall im posttherapeutischen Verlauf im Kontext der bekannten Tumor- und Therapiesituation.
+- Begleitend fällt auf: Die Alltagsaktivität ist nur gering beeinträchtigt.
+- In der Gesamtschau Die Symptomatik erscheint am ehesten systemtherapieassoziiert.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 10 Wochen.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.

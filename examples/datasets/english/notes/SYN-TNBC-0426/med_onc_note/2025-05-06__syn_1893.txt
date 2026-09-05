@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Currently, she reports rectal mucositis with persistence since the last visit and oral soreness is mild and manageable with supportive care. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing rectal mucositis. Plan is to continue routine follow-up and symptom-directed supportive care.

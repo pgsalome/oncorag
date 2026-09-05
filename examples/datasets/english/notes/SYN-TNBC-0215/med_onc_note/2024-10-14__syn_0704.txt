@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. If symptoms progress, discussed risk of future seizure and symptom monitoring precautions. No active symptoms related to this concern are present today. After cycle 2, she previously had osteonecrosis, now resolved and at that time, required urgent evaluation due to symptom severity. Since last visit, she reports periodontal disease, improved since the prior visit but still present and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for seizure, prior osteonecrosis now resolved, and improving periodontal disease. Plan is to continue routine follow-up and symptom-directed supportive care.

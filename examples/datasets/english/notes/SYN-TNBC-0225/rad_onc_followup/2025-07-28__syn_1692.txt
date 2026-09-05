@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-07-28, she returns today for routine follow-up. Since last visit, she reports worsening facial nerve disorder over the past week and this is affecting routine function and activity tolerance. Since last visit, she reports gastric perforation, improved since the prior visit but still present and required urgent evaluation due to symptom severity. At this visit, she reports hypertriglyceridemia with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening facial nerve disorder, improving gastric perforation that is clinically significant, and ongoing hypertriglyceridemia that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

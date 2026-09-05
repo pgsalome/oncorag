@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-04-01, she returns today for routine follow-up. Today, she reports seizure with persistence since the last visit and this is affecting routine function and activity tolerance. During systemic therapy, she reports blood antidiuretic hormone abnormal with persistence since the last visit and required urgent evaluation due to symptom severity. Since last visit, she reports worsening tracheal fistula over the past week and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing seizure, ongoing blood antidiuretic hormone abnormal that is clinically significant, and worsening tracheal fistula. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

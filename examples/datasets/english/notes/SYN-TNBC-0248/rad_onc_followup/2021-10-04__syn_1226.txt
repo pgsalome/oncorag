@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-10-04, she returns today for routine follow-up. Today, she reports joint infection with persistence since the last visit and required urgent evaluation due to symptom severity. Over the past week, she reports worsening mania and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing joint infection that is clinically significant and worsening mania that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

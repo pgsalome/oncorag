@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, interval symptom-related findings are summarized below. During systemic therapy, she reports tracheal mucositis with persistence since the last visit and life-threatening oral complications required acute intervention. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing tracheal mucositis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

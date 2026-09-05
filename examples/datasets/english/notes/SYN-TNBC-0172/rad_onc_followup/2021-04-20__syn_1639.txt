@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-04-20, she returns today for routine follow-up. Over the past week, she reports worsening chest wall necrosis and required urgent evaluation due to symptom severity. At follow-up, she reports stridor, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During treatment, she reports worsening obstruction gastric over the past week and this is mild and currently manageable. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening chest wall necrosis that is clinically significant, improving stridor that is clinically significant, and worsening obstruction gastric. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

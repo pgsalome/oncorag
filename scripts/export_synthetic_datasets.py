@@ -33,6 +33,10 @@ SOURCE_PATIENT_PATTERNS = {
     "en": re.compile(r"SYN-TNBC-\d+\Z"),
     "de": re.compile(r"SYN-RICCI-\d+\Z"),
 }
+SOURCE_IDENTIFIER_FIELDS = {
+    "source_style_patient_id", "source_style_patient_ids", "style_source_patient_ids",
+    "sampled_source_patient_ids", "style_patient_ids",
+}
 
 
 def safe_child(root: Path, relative: str) -> Path:
@@ -60,18 +64,35 @@ def screen_text(text: str, identifiers: re.Pattern[str] | None = None) -> None:
 
 
 def identifier_pattern(records: list[dict[str, Any]]) -> re.Pattern[str] | None:
-    identifiers = {
-        str(record["source_style_patient_id"]).strip()
-        for record in records
-        if record.get("source_style_patient_id") not in (None, "", "style_unknown")
-    }
+    identifiers: set[str] = set()
+
+    def add_identifiers(value: Any) -> None:
+        if isinstance(value, list):
+            for item in value:
+                add_identifiers(item)
+        elif value is not None:
+            if type(value) not in (str, int):
+                raise ValueError("Source identifier fields require strings, integers, or lists")
+            identifier = str(value).strip()
+            if identifier not in ("", "style_unknown"):
+                identifiers.add(identifier)
+
+    def visit(value: Any) -> None:
+        if isinstance(value, dict):
+            for key, item in value.items():
+                if key in SOURCE_IDENTIFIER_FIELDS:
+                    add_identifiers(item)
+                else:
+                    visit(item)
+        elif isinstance(value, list):
+            for item in value:
+                visit(item)
+
+    visit(records)
     if not identifiers:
         return None
-    return re.compile(
-        r"(?<![A-Za-z0-9])(?:"
-        + "|".join(re.escape(value) for value in sorted(identifiers))
-        + r")(?![A-Za-z0-9])"
-    )
+    # Prefixes and suffixes must not disguise a known source identifier.
+    return re.compile("|".join(re.escape(value) for value in sorted(identifiers)))
 
 
 def compact_events(events: Any, identifiers: re.Pattern[str] | None) -> list[dict[str, Any]]:
@@ -188,15 +209,6 @@ def export_cohort(source: Path, destination: Path, language: str, seed: int = 42
             note_date = str(record.get("note_date", ""))
             if date.fromisoformat(note_date).isoformat() != note_date:
                 raise ValueError("Synthetic note date must be YYYY-MM-DD")
-            note_path = safe_child(notes_dir, note_id + ".txt")
-            note_text = note_path.read_text(encoding="utf-8")
-            if not note_text.strip():
-                raise ValueError("Empty synthetic note")
-            screen_text(note_text, identifiers)
-            relative = f"notes/{patient_id}/{report_type}/{note_date}__{note_id}.txt"
-            output_note = safe_child(staging, relative)
-            output_note.parent.mkdir(parents=True, exist_ok=True)
-            output_note.write_text(note_text, encoding="utf-8")
             metadata = {
                 "patient_id": patient_id,
                 "note_id": note_id,
@@ -204,6 +216,17 @@ def export_cohort(source: Path, destination: Path, language: str, seed: int = 42
                 "date": note_date,
                 "language": language,
             }
+            relative = f"notes/{patient_id}/{report_type}/{note_date}__{note_id}.txt"
+            for value in (*metadata.values(), relative):
+                screen_text(value, identifiers)
+            note_path = safe_child(notes_dir, note_id + ".txt")
+            note_text = note_path.read_text(encoding="utf-8")
+            if not note_text.strip():
+                raise ValueError("Empty synthetic note")
+            screen_text(note_text, identifiers)
+            output_note = safe_child(staging, relative)
+            output_note.parent.mkdir(parents=True, exist_ok=True)
+            output_note.write_text(note_text, encoding="utf-8")
             registry.append({**metadata, "path": relative})
             labels.append({**metadata, "events": compact_events(record.get("events"), identifiers)})
             patient_ids.append(patient_id)
@@ -247,7 +270,7 @@ def export_cohort(source: Path, destination: Path, language: str, seed: int = 42
 
 
 # These cases are authored here, with no source-cohort or patient-derived text.
-FIXTURE_CASES = [
+DEMO_CASES = [
     {"id": "SYN-DEMO-001", "diagnosis_date": "2020-03-01", "age": 52,
      "treatment": "temozolomide", "diagnosis": {"en": "glioblastoma", "de": "Glioblastom"},
      "therapy_date": "2020-03-15", "lab_date": "2020-04-01", "early_hb": 12.4, "latest_hb": 11.2},
@@ -260,7 +283,7 @@ FIXTURE_CASES = [
 ]
 
 
-def fixture_text(case: dict[str, Any], kind: str, language: str) -> str:
+def demo_text(case: dict[str, Any], kind: str, language: str) -> str:
     diagnosis = case["diagnosis"][language]
     treatment = case["treatment"] if language == "en" else {
         "temozolomide": "Temozolomid", "bevacizumab": "Bevacizumab", "radiotherapy": "Strahlentherapie"
@@ -288,19 +311,19 @@ def fixture_text(case: dict[str, Any], kind: str, language: str) -> str:
     return f"{title}\n\n{bodies[kind]}\n"
 
 
-def export_fixtures(destination: Path) -> None:
+def export_demo(destination: Path) -> None:
     if destination.exists():
-        raise FileExistsError("Fixture output exists; use a new output directory")
+        raise FileExistsError("Demo output exists; use a new output directory")
     destination.parent.mkdir(parents=True, exist_ok=True)
-    with tempfile.TemporaryDirectory(prefix=".synthetic-fixtures-", dir=destination.parent) as temporary:
-        staging = Path(temporary) / "fixtures"
+    with tempfile.TemporaryDirectory(prefix=".synthetic-demo-", dir=destination.parent) as temporary:
+        staging = Path(temporary) / "demo"
         staging.mkdir()
         for variant in ("english", "german", "mixed"):
             root = staging / variant
             root.mkdir()
             registry = []
             gold = []
-            for index, case in enumerate(FIXTURE_CASES):
+            for index, case in enumerate(DEMO_CASES):
                 note_ids = {}
                 for position, kind in enumerate(("oncology", "treatment", "laboratory")):
                     language = "en" if variant == "english" else "de"
@@ -312,7 +335,7 @@ def export_fixtures(destination: Path) -> None:
                     relative = f"notes/{case['id']}/{kind}/{note_date}__{note_id}.txt"
                     path = root / relative
                     path.parent.mkdir(parents=True, exist_ok=True)
-                    path.write_text(fixture_text(case, kind, language), encoding="utf-8")
+                    path.write_text(demo_text(case, kind, language), encoding="utf-8")
                     registry.append({"patient_id": case["id"], "note_id": note_id, "report_type": kind,
                                      "date": note_date, "language": language, "path": relative})
                 for feature, value, supporting_note in (
@@ -326,11 +349,11 @@ def export_fixtures(destination: Path) -> None:
             write_registry(root / "registry.csv", registry)
             write_jsonl(root / "gold.jsonl", gold)
             write_manifest(root, {
-                "schema_version": 1, "dataset_id": f"fixture_{variant}", "language": variant,
-                "patient_count": len(FIXTURE_CASES), "note_count": len(registry), "gold_count": len(gold),
-                "provenance": "Purpose-authored synthetic regression cases; no source clinical text or patient data",
+                "schema_version": 1, "dataset_id": f"demo_{variant}", "language": variant,
+                "patient_count": len(DEMO_CASES), "note_count": len(registry), "gold_count": len(gold),
+                "provenance": "Purpose-authored synthetic example cohorts; no source clinical text or patient data",
                 "paired_variants": True,
-                "scope": "Regression fixtures, not a held-out clinical performance benchmark",
+                "scope": "Synthetic example cohorts for software testing, not clinical validation",
             })
         staging.rename(destination)
 
@@ -341,21 +364,22 @@ def main() -> int:
     parser.add_argument("--german-source", type=Path)
     parser.add_argument("--output-root", type=Path, required=True)
     parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--fixtures-only", action="store_true")
+    parser.add_argument("--demo-only", action="store_true", help="Export only the small synthetic example cohorts")
+    parser.add_argument("--fixtures-only", dest="demo_only", action="store_true", help=argparse.SUPPRESS)
     args = parser.parse_args()
-    if not args.fixtures_only and (args.english_source is None or args.german_source is None):
-        parser.error("Both --english-source and --german-source are required unless --fixtures-only is set")
-    targets = [args.output_root / "fixtures"]
-    if not args.fixtures_only:
+    if not args.demo_only and (args.english_source is None or args.german_source is None):
+        parser.error("Both --english-source and --german-source are required unless --demo-only is set")
+    targets = [args.output_root / "demo"]
+    if not args.demo_only:
         targets += [args.output_root / "english", args.output_root / "german"]
     if any(target.exists() for target in targets):
         parser.error("Output datasets already exist; use a new versioned output root")
     summaries = []
-    if not args.fixtures_only:
+    if not args.demo_only:
         summaries.append(export_cohort(args.english_source, args.output_root / "english", "en", args.seed))
         summaries.append(export_cohort(args.german_source, args.output_root / "german", "de", args.seed))
-    export_fixtures(args.output_root / "fixtures")
-    print(json.dumps({"cohorts": summaries, "fixture_variants": ["english", "german", "mixed"]}, indent=2))
+    export_demo(args.output_root / "demo")
+    print(json.dumps({"cohorts": summaries, "demo_variants": ["english", "german", "mixed"]}, indent=2))
     return 0
 
 

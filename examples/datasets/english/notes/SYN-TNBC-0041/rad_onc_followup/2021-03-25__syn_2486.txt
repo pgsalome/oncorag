@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. At this visit, she reports facial muscle weakness with persistence since the last visit and required urgent evaluation due to symptom severity. Since last visit, she reports flushing, improved since the prior visit but still present and this is affecting routine function and activity tolerance. If symptoms progress, discussed risk of future atrioventricular block complete and symptom monitoring precautions. No active symptoms related to this concern are present today. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing facial muscle weakness that is clinically significant, improving flushing, and future risk counseling for atrioventricular block complete. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

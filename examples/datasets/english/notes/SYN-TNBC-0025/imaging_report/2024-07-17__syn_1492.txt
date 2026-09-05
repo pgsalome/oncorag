@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-07-17, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. At follow-up, she reports glomerulonephritis, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Over the past week, she reports worsening eye infection and required urgent evaluation due to symptom severity. Today, she reports hematuria with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving glomerulonephritis, worsening eye infection that is clinically significant, and ongoing hematuria that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

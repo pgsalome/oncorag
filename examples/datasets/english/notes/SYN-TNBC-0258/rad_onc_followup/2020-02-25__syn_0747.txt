@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. During radiation treatment, she reports perforation bile duct with persistence since the last visit and required urgent evaluation due to symptom severity. During radiation treatment, she reports enterocolitis with persistence since the last visit and required urgent evaluation due to symptom severity. Over the past week, she reports worsening tracheal mucositis. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing perforation bile duct that is clinically significant, ongoing enterocolitis that is clinically significant, and worsening tracheal mucositis limiting oral intake. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

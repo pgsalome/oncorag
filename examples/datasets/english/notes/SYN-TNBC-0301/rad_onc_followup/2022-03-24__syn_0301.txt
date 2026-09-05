@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Over recent days, she reports small intestine ulcer, improved since the prior visit but still present and required urgent evaluation due to symptom severity. At this visit, she reports tooth development disorder with persistence since the last visit and this is affecting routine function and activity tolerance. During radiation treatment, she reports fibrosis deep connective tissue with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving small intestine ulcer that is clinically significant, ongoing tooth development disorder, and ongoing fibrosis deep connective tissue that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

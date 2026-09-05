@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-12-19, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. Currently, she denies gastroesophageal reflux disease. During treatment, she reports worsening colonic obstruction over the past week and this is mild and currently manageable. Since last visit, she reports worsening laryngeal obstruction over the past week and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current gastroesophageal reflux disease, worsening colonic obstruction, and worsening laryngeal obstruction that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

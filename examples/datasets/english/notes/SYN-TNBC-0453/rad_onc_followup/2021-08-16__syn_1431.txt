@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-08-16, she returns today for routine follow-up. Since last visit, she reports capillary leak syndrome, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Currently, she reports bronchospasm with persistence since the last visit and this is affecting routine function and activity tolerance. During radiation treatment, she reports pneumonia with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving capillary leak syndrome that is clinically significant, ongoing bronchospasm, and ongoing pneumonia that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-09-08, she returns today for routine follow-up. Since last visit, she reports pulmonary edema, improved since the prior visit but still present and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving pulmonary edema. Plan is to continue routine follow-up and symptom-directed supportive care.

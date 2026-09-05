@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-03-21, she returns to medical oncology for routine follow-up. Since last visit, she reports ileal fistula, improved since the prior visit but still present and this is mild and currently manageable. Currently, she reports anorectal infection with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving ileal fistula and ongoing anorectal infection that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

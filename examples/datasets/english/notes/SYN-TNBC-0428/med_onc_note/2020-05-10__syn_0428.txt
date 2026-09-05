@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-05-10, she returns to medical oncology for routine follow-up. Since last visit, she reports worsening laryngeal mucositis over the past week and oral soreness is mild and manageable with supportive care. At follow-up, she reports chylous ascites, improved since the prior visit but still present and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening laryngeal mucositis and improving chylous ascites. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-12-20, she returns today for routine follow-up. Over the past week, she reports worsening hypertriglyceridemia and required urgent evaluation due to symptom severity. During systemic therapy, she reports extrapyramidal disorder with persistence since the last visit and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening hypertriglyceridemia that is clinically significant and ongoing extrapyramidal disorder. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

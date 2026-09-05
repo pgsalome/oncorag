@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-11-24, this pathology report was reviewed in context of ongoing treatment toxicity monitoring. At this visit, she reports encephalopathy with persistence since the last visit and this is mild and currently manageable. Since last visit, she reports exostosis, improved since the prior visit but still present and this is mild and currently manageable. Over the past week, she reports worsening intra-abdominal hemorrhage and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing encephalopathy, improving exostosis, and worsening intra-abdominal hemorrhage that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

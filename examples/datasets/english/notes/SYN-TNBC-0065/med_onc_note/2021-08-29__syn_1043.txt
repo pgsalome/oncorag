@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-08-29, she returns to medical oncology for routine follow-up. At upcoming follow-up, discussed risk of future anorexia and symptom monitoring precautions. No active symptoms related to this concern are present today. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for anorexia. Plan is to continue routine follow-up and symptom-directed supportive care.

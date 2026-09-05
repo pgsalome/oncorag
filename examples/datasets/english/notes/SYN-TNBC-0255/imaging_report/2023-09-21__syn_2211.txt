@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-09-21, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. Over recent days, she reports chronic kidney disease, improved since the prior visit but still present and this is mild and currently manageable. Currently, she denies muscle weakness lower limb. Since last visit, she reports worsening hypermagnesemia over the past week and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving chronic kidney disease, no current muscle weakness lower limb, and worsening hypermagnesemia. Plan is to continue routine follow-up and symptom-directed supportive care.

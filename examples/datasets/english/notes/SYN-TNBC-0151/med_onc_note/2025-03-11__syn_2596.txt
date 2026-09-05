@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Over the next week, discussed risk of future thrombotic microangiopathy and symptom monitoring precautions. No active symptoms related to this concern are present today. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for thrombotic microangiopathy. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -149,16 +149,18 @@ def _clean_ricci_document(document: str) -> str:
         header_keywords = (
             "universitätsklinikum",
             "universitaetsklinikum",
-            "heidelberg",
+            "universitatsklinikum",
+            "klinikum ",
+            "krankenhaus ",
             "radioonkologie",
             "strahlentherapie",
-            "czernyklinik",
             "terminvereinbarungen",
             "ambulanz",
             "privat-sprechstunde",
             "tel",
             "fax",
-            "im neuenheimer feld",
+            "anschrift",
+            "postfach",
         )
         for idx, line in enumerate(lines):
             normalized = line.strip().lstrip("|").strip().lower()
@@ -195,7 +197,10 @@ def _split_ricci_style_notes(file_content: str) -> List[str]:
     if not file_content.strip():
         return []
 
-    header_pattern = re.compile(r"^(?:\|)?\s*universit[äa]tsklinikum\s+heidelberg", re.IGNORECASE)
+    header_pattern = re.compile(
+        r"^(?:\|)?\s*(?:universit(?:ä|ae|a)tsklinikum|klinikum|krankenhaus)\b",
+        re.IGNORECASE,
+    )
     sections: List[str] = []
     current: List[str] = []
 

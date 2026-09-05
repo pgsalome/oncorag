@@ -53,6 +53,7 @@ Thumbs.db
 # Portable public examples; never expose arbitrary clinical CSV/markdown files.
 !README.md
 !examples/datasets/README.md
+!examples/datasets/PROVENANCE.md
 !examples/datasets/**/registry.csv
 !docs/*.md
 outputs/

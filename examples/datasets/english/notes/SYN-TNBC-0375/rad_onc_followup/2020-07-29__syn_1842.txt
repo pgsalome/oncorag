@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-07-29, she returns today for routine follow-up. Since last visit, she reports worsening spinal cord compression over the past week and this is mild and currently manageable. Since last visit, she reports superficial soft tissue fibrosis, improved since the prior visit but still present and this is mild and currently manageable. During radiation treatment, she reports ventricular arrhythmia with persistence since the last visit and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening spinal cord compression, improving superficial soft tissue fibrosis, and ongoing ventricular arrhythmia. Plan is to continue routine follow-up and symptom-directed supportive care.

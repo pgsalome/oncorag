@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-04-19, she returns to medical oncology for routine follow-up. After cycle 2, she previously experienced amnesia and at that time, this was affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior amnesia. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During radiation treatment, she reports spasticity with persistence since the last visit and this is affecting routine function and activity tolerance. At this visit, she reports lipase increased with persistence since the last visit and required urgent evaluation due to symptom severity. Earlier in treatment, she previously had v-fib, now resolved and at that time, required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing spasticity, ongoing lipase increased that is clinically significant, and prior ventricular fibrillation now resolved. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

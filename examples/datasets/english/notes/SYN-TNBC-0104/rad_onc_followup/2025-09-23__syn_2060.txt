@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Over recent days, she reports spasticity, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Over the past week, she reports worsening cognitive disturbance and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving spasticity and worsening cognitive disturbance. Plan is to continue routine follow-up and symptom-directed supportive care.

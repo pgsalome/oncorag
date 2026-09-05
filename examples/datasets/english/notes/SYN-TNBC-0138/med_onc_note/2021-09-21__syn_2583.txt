@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-09-21, she returns to medical oncology for routine follow-up. Earlier in treatment, she previously experienced sinus tachycardia and at that time, this was affecting routine function and activity tolerance. During systemic therapy, she reports blood lactate dehydrogenase increased with persistence since the last visit and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior sinus tachycardia and ongoing blood lactate dehydrogenase increased. Plan is to continue routine follow-up and symptom-directed supportive care.

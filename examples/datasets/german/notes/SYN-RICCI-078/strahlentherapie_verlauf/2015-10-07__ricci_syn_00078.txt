@@ -1,0 +1,32 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: ricci_syn_00078
+Datum: 07.10.2015
+
+Sehr geehrte Frau Kollegin,
+bei Patient SYN-RICCI-078 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 10.02.2013 mit Anaplastisches Astrozytom.
+Lokalisation: Frontallappen links.
+Primäre Resektion am 08.03.2013.
+Primäre Radiotherapie bis 59 Gy vom 25.04.2013 bis 13.06.2013.
+Rezidivbestrahlung bis 33 Gy vom 01.10.2015 bis 22.10.2015.
+Systemische Therapien: Pembrolizumab, Irinotecan, Temozolomid.
+Begleitmedikation: Ondansetron.
+
+Nebenwirkungen:
+- Anamnestisch zeigt sich rezidivierendes Erbrechen mit deutlicher Einschränkung der oralen Aufnahme im aktuellen Verlauf unter aktueller Re-Bestrahlung bei ansonsten stabilem Allgemeinzustand.
+- Begleitend fällt auf: Die Alltagsaktivität ist nur gering beeinträchtigt Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+- Aus klinischer Sicht Die Symptomatik erscheint am ehesten systemtherapieassoziiert.
+
+Beurteilung:
+- Neu aufgetreten ist bildmorphologisch vereinbar mit kleiner Strahlennekrose ohne relevante klinische Symptomatik, wie auch im Verlauf mehrfach dokumentiert in den vergangenen Tagen unter fortgesetzter Steroidtherapie.
+- Zusätzlich gilt: Aktuell keine stationäre Behandlungsnotwendigkeit Hieraus ergab sich eine enge klinische Überwachung.
+- Zusammenfassend Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 12 Wochen.
+- Supportivtherapie wird symptomorientiert fortgesetzt.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

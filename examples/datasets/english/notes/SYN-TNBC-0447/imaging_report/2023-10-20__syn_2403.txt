@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, interval symptom-related findings are summarized below. At follow-up, she reports belching, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Today, she reports renal hemorrhage with persistence since the last visit and required urgent evaluation due to symptom severity. During systemic therapy, she reports guillain-barre syndrome with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving belching, ongoing renal hemorrhage that is clinically significant, and ongoing guillain-barre syndrome that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

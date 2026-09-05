@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-09-01, she returns today for routine follow-up. Over the past week, she reports worsening rash maculo-papular and this is affecting routine function and activity tolerance. During treatment, she reports worsening hypertriglyceridemia over the past week and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening rash maculo-papular and worsening hypertriglyceridemia that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

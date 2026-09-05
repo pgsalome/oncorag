@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-09-18, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. Currently, she reports gastrointestinal fistula with persistence since the last visit and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing gastrointestinal fistula. Plan is to continue routine follow-up and symptom-directed supportive care.

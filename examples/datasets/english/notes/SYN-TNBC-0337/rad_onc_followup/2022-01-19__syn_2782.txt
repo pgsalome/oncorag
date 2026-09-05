@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. During week 5 of treatment, she reports autonomic neuropathy with persistence since the last visit and required urgent evaluation due to symptom severity. At this visit, she reports esophageal stenosis with persistence since the last visit and this is mild and currently manageable. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing autonomic neuropathy that is clinically significant and ongoing esophageal stenosis. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

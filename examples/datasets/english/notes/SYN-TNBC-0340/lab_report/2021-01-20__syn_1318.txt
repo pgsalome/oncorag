@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+After completing radiation, interval symptom-related findings are summarized below. During prior cycles, she previously had lymphocyte count increased, now resolved and at that time, required urgent evaluation due to symptom severity. Since last visit, she reports worsening scoliosis over the past week and required urgent evaluation due to symptom severity. During systemic therapy, she reports splenic infection with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior lymphocyte count increased now resolved, worsening scoliosis that is clinically significant, and ongoing splenic infection that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. At this visit, she reports bronchial stricture with persistence since the last visit and this is mild and currently manageable. At this visit, she reports pancreatic necrosis with persistence since the last visit and required urgent evaluation due to symptom severity. Today, she reports peripheral sensory neuropathy with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing bronchial stricture, ongoing pancreatic necrosis that is clinically significant, and ongoing peripheral sensory neuropathy that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

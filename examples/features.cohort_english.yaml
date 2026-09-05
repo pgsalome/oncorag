@@ -1,0 +1,41 @@
+features:
+  - name: latest_explicit_visit_date
+    display_name: Latest explicitly dated visit
+    type: date
+    synonyms: [visit date, follow-up date, report date]
+    description: >-
+      The most recent calendar date explicitly stated as the date of a visit or
+      report in the supplied note text, in YYYY-MM-DD format. Exclude dates of
+      earlier events mentioned within that report. Use only dates present in
+      the note body; return null when no visit or report date is explicit.
+  - name: highest_documented_treatment_week
+    display_name: Highest documented treatment week
+    type: integer
+    synonyms: [week of treatment, treatment week, during week]
+    expected_range: [1, 52]
+    description: >-
+      The largest explicitly stated week number of an ongoing or completed
+      treatment course across the supplied notes. Count only wording that
+      identifies a numbered week of treatment. Exclude cycle numbers, elapsed
+      weeks since an event, and planned future treatment weeks. Do not calculate
+      a week number from dates; return null when no treatment week is stated.
+  - name: greatest_documented_functional_limitation
+    display_name: Greatest documented functional limitation
+    type: ordinal
+    synonyms: [ADL, daily activities, routine function, self care, activity tolerance]
+    expected_range:
+      - preserved_function
+      - routine_activity_limitation
+      - self_care_limitation
+    description: >-
+      Across the supplied notes, select the greatest explicitly documented
+      functional limitation associated with symptoms active at the time of
+      that note. Use self_care_limitation for documented interference with
+      self-care activities or a need for help with them; use
+      routine_activity_limitation for documented limitations in routine or
+      instrumental daily activities or activity tolerance; use
+      preserved_function only when independence or preserved daily function is
+      explicit and no greater eligible limitation is documented. Ignore
+      negated, resolved, hypothetical, and historical-only limitations. Do not
+      infer functional impairment from a symptom name, severity adjective, or
+      CTCAE grade. Return null when functional status is not documented.

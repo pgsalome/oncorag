@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-03-08, she returns today for routine follow-up. At this visit, she denies gum infection. Since last visit, she reports postnasal drip, improved since the prior visit but still present and this is mild and currently manageable. During treatment, she reports worsening tricuspid valve disease over the past week and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current gum infection, improving postnasal drip, and worsening tricuspid valve disease. Plan is to continue routine follow-up and symptom-directed supportive care.

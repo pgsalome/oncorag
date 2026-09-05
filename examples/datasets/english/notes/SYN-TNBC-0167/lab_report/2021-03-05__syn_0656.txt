@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+On 2021-03-05, this lab report was reviewed in context of ongoing treatment toxicity monitoring. At follow-up, she reports recurrent laryngeal nerve palsy, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Since last visit, she reports ileal obstruction, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving recurrent laryngeal nerve palsy that is clinically significant and improving ileal obstruction that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

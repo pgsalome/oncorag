@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-06-28, she returns for surgical follow-up with interval symptom review. Over the past week, she reports worsening oral cavity fistula and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening oral cavity fistula. Plan is to continue routine follow-up and symptom-directed supportive care.

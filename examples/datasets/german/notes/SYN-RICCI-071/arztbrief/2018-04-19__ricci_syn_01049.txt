@@ -1,0 +1,37 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Arztbrief
+Dokument-ID: ricci_syn_01049
+Datum: 19.04.2018
+
+Sehr geehrter Herr Kollege,
+nachfolgend der aktuelle Verlauf von Patient SYN-RICCI-071.
+
+Anamnese / Chronologie:
+Erstdiagnose am 29.01.2015 mit Astrozytom WHO Grad 4.
+Lokalisation: Thalamus rechts.
+Primäre Resektion am 01.02.2015.
+Primäre Radiotherapie bis 60 Gy vom 23.03.2015 bis 10.05.2015.
+Rezidivbestrahlung bis 33 Gy vom 08.10.2017 bis 19.10.2017.
+Systemische Therapien: Temozolomid, Nivolumab.
+Begleitmedikation: Cortison.
+
+Neurologischer Status:
+- Dokumentiert ist diskrete Ataxie bei der Tandemgangprüfung, mit klarer Relevanz für die weitere Therapieplanung unter laufender Therapie unter fortgesetzter Steroidtherapie.
+- Zusätzlich gilt: Es erfolgt eine ambulante Verlaufskontrolle.
+- Aus klinischer Sicht Die Beschwerden sind am ehesten tumorkorreliert.
+
+Beurteilung:
+- Aktuell berichtet der Patient über ausgeprägte Strahlennekrose mit deutlicher Massenwirkung, hochdosierter Steroidtherapie und stationärem Management, mit klarer Relevanz für die weitere Therapieplanung in den vergangenen Tagen im posttherapeutischen Verlauf unter kombinierter supportiver Behandlung in klinisch hochrelevanter Form.
+- die Vorstellung erfolgte stationär; die Selbstständigkeit im Alltag ist relevant vermindert Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+- In der Gesamtschau Die Befunde sind am ehesten postradiogen zu werten.
+
+Hautstatus:
+- Weiterhin nachweisbar ist deutliche radiogene Dermatitis mit trockener Schuppung, was klinisch relevant eingeordnet wird im postradiogenen Intervall bei fortbestehendem Unterstützungsbedarf im Alltag.
+- Parallel hierzu zeigt sich: Aktuell keine stationäre Behandlungsnotwendigkeit Eine kurzfristige Reevaluation wurde empfohlen.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 6 Wochen.
+- Die begleitende Medikation soll nach Bedarf weitergeführt werden.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.
+- Neurologische Reevaluation mit Prüfung der antikonvulsiven Therapie ist vorgesehen.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-08-05, she returns for surgical follow-up with interval symptom review. Since last visit, she reports worsening hypernatremia over the past week and this is mild and currently manageable. Over recent days, she reports erythema multiforme, improved since the prior visit but still present and this is mild and currently manageable. During treatment, she reports worsening concentration impairment over the past week and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening hypernatremia, improving erythema multiforme, and worsening concentration impairment. Plan is to continue routine follow-up and symptom-directed supportive care.

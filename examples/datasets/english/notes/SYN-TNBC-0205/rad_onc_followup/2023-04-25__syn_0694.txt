@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. At this visit, she reports duodenal fistula with persistence since the last visit and this is affecting routine function and activity tolerance. During radiation treatment, she reports aphonia with persistence since the last visit and required urgent evaluation due to symptom severity. Over the past week, she reports worsening infusion site extravasation and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing duodenal fistula, ongoing aphonia that is clinically significant, and worsening infusion site extravasation that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

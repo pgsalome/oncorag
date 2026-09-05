@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-10-24, she returns today for routine follow-up. During systemic therapy, she reports corneal infection with persistence since the last visit and required urgent evaluation due to symptom severity. Since last visit, she reports worsening superior vena cava syndrome over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing corneal infection that is clinically significant and worsening superior vena cava syndrome that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

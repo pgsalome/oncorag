@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-07-22, she returns to medical oncology for routine follow-up. At this visit, she reports pharyngeal fistula with persistence since the last visit and required urgent evaluation due to symptom severity. At this visit, she reports skin ulceration with persistence since the last visit and this is affecting routine function and activity tolerance. Over the past week, she reports worsening painful swallowing. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing pharyngeal fistula that is clinically significant, ongoing skin ulceration, and worsening esophagitis limiting oral intake. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

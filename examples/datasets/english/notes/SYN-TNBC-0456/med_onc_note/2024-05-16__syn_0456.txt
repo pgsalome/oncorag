@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-05-16, she returns to medical oncology for routine follow-up. Since last visit, she reports worsening pulmonary valve disease over the past week and this is affecting routine function and activity tolerance. Today, she reports gastrointestinal fistula with persistence since the last visit and required urgent evaluation due to symptom severity. At follow-up, she reports growth suppression, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening pulmonary valve disease, ongoing gastrointestinal fistula that is clinically significant, and improving growth suppression that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-06-05, she returns today for routine follow-up. At this visit, she reports extrapyramidal disorder with persistence since the last visit and required urgent evaluation due to symptom severity. Over the past week, she reports worsening hyperglycemia and this is mild and currently manageable. Over the next week, discussed risk of future delayed orgasm and symptom monitoring precautions. No active symptoms related to this concern are present today. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing extrapyramidal disorder that is clinically significant, worsening hyperglycemia, and future risk counseling for delayed orgasm. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

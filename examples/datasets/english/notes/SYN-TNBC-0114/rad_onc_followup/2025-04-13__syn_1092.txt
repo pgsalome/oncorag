@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-04-13, she returns today for routine follow-up. Earlier in treatment, she previously experienced hepatic hemorrhage and at that time, this was mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior hepatic hemorrhage. Plan is to continue routine follow-up and symptom-directed supportive care.

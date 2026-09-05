@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-04-12, she returns for surgical follow-up with interval symptom review. During systemic therapy, she reports biliary tract infection with persistence since the last visit and required urgent evaluation due to symptom severity. During systemic therapy, she reports hallucinations with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing biliary tract infection that is clinically significant and ongoing hallucinations that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

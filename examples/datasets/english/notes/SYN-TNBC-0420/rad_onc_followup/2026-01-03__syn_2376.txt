@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Over the past week, she reports worsening dental caries and this is mild and currently manageable. During prior cycles, she previously experienced meningoencephalitis and at that time, required urgent evaluation due to symptom severity. Over recent days, she reports chills, improved since the prior visit but still present and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening dental caries, prior meningoencephalitis, and improving chills. Plan is to continue routine follow-up and symptom-directed supportive care.

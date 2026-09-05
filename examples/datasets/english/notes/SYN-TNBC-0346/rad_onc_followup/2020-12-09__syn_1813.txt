@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Over the past week, she reports worsening psychosis and this is mild and currently manageable. Over the past week, she reports worsening concentration impairment and required urgent evaluation due to symptom severity. During week 5 of treatment, she reports bronchial fistula with persistence since the last visit and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening psychosis, worsening concentration impairment that is clinically significant, and ongoing bronchial fistula. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

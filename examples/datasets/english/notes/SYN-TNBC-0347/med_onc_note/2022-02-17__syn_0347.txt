@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-02-17, she returns to medical oncology for routine follow-up. During treatment, she reports worsening pancreatitis over the past week and required urgent evaluation due to symptom severity. Today, she reports stridor with persistence since the last visit and required urgent evaluation due to symptom severity. During prior cycles, she previously experienced dysgeusia and at that time, this was mild and currently manageable. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening pancreatitis that is clinically significant, ongoing stridor that is clinically significant, and prior dysgeusia. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

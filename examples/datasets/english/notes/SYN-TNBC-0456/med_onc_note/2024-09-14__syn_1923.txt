@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-09-14, she returns to medical oncology for routine follow-up. Over the next week, discussed risk of future chest wall necrosis and symptom monitoring precautions. No active symptoms related to this concern are present today. During treatment, she reports worsening pleural effusion over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for chest wall necrosis and worsening pleural effusion that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

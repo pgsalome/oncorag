@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-08-10, she returns to medical oncology for routine follow-up. Over the past week, she reports worsening hypercalcemia and this is affecting routine function and activity tolerance. Since last visit, she reports worsening renal calculi over the past week and this is affecting routine function and activity tolerance. Since last visit, she reports worsening epstein-barr virus infection reactivation over the past week and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening hypercalcemia, worsening renal calculi, and worsening epstein-barr virus infection reactivation that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

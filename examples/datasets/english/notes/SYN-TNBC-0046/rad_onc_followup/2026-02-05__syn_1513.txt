@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Since last visit, she reports alanine aminotransferase increased, improved since the prior visit but still present and this is mild and currently manageable. Since last visit, she reports worsening anal stenosis over the past week and required urgent evaluation due to symptom severity. During prior cycles, she previously experienced lymphocele and at that time, this was affecting routine function and activity tolerance. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving alanine aminotransferase increased, worsening anal stenosis that is clinically significant, and prior lymphocele. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

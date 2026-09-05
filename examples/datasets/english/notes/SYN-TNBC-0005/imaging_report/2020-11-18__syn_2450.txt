@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. Over the past week, she reports worsening weight gain and required urgent evaluation due to symptom severity. Earlier in treatment, she previously experienced white blood cell decreased and at that time, required urgent evaluation due to symptom severity. Earlier in treatment, she previously experienced aspartate aminotransferase increased and at that time, this was mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening weight gain that is clinically significant, prior white blood cell decreased, and prior aspartate aminotransferase increased. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

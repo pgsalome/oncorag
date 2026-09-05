@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, interval symptom-related findings are summarized below. During systemic therapy, she reports dermatosis bullous with persistence since the last visit and this is affecting routine function and activity tolerance. During radiation treatment, she reports epistaxis with persistence since the last visit and required urgent evaluation due to symptom severity. Over the past week, she reports worsening melena and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing dermatosis bullous, ongoing epistaxis that is clinically significant, and worsening melena. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

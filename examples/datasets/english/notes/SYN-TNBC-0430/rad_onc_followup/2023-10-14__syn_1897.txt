@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Over recent days, she reports esophageal infection, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During treatment, she reports worsening hemorrhoidal hemorrhage over the past week and required urgent evaluation due to symptom severity. Today, she denies hemorrhoids. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving esophageal infection that is clinically significant, worsening hemorrhoidal hemorrhage that is clinically significant, and no current hemorrhoids. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

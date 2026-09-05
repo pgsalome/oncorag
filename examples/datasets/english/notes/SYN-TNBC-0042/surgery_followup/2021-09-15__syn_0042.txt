@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-09-15, she returns for surgical follow-up with interval symptom review. At follow-up, she reports disseminated intravascular coagulation, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving disseminated intravascular coagulation. Plan is to continue routine follow-up and symptom-directed supportive care.

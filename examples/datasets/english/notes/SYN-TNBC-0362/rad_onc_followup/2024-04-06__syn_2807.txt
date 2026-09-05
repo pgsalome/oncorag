@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Earlier in treatment, she previously had fecal incontinence, now resolved and at that time, required urgent evaluation due to symptom severity. Over the past week, she reports worsening headache and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior fecal incontinence now resolved and worsening headache. Plan is to continue routine follow-up and symptom-directed supportive care.

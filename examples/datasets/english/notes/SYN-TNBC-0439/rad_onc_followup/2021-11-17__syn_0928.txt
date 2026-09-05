@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Since last visit, she reports joint effusion, improved since the prior visit but still present and this is mild and currently manageable. Since last visit, she reports bronchial obstruction, improved since the prior visit but still present and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving joint effusion and improving bronchial obstruction. Plan is to continue routine follow-up and symptom-directed supportive care.

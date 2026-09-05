@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Over the past week, she reports worsening gastroesophageal reflux disease and this is mild and currently manageable. Over recent days, she reports rectal stenosis, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Over the past week, she reports worsening hematoma and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening gastroesophageal reflux disease, improving rectal stenosis, and worsening hematoma. Plan is to continue routine follow-up and symptom-directed supportive care.

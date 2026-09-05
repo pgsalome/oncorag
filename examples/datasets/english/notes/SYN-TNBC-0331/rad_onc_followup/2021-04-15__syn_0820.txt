@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. During prior cycles, she previously had extrapyramidal disorder, now resolved and at that time, required urgent evaluation due to symptom severity. Over the next week, discussed risk of future rectal ulcer and symptom monitoring precautions. No active symptoms related to this concern are present today. Since last visit, she reports gallbladder obstruction, improved since the prior visit but still present and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior extrapyramidal disorder now resolved, future risk counseling for rectal ulcer, and improving gallbladder obstruction. Plan is to continue routine follow-up and symptom-directed supportive care.

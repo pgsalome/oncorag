@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. If symptoms progress, discussed risk of future hepatic failure and symptom monitoring precautions. No active symptoms related to this concern are present today. Over the next week, discussed risk of future esophageal fistula and symptom monitoring precautions. No active symptoms related to this concern are present today. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for hepatic failure and future risk counseling for esophageal fistula. Plan is to continue routine follow-up and symptom-directed supportive care.

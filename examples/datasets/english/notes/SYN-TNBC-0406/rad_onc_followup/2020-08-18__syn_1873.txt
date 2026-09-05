@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-08-18, she returns today for routine follow-up. At this visit, she reports joint effusion with persistence since the last visit and this is affecting routine function and activity tolerance. During treatment, she reports worsening joint range of motion decreased over the past week and this is mild and currently manageable. During treatment, she reports worsening blood corticotrophin decreased over the past week and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing joint effusion, worsening joint range of motion decreased, and worsening blood corticotrophin decreased. Plan is to continue routine follow-up and symptom-directed supportive care.

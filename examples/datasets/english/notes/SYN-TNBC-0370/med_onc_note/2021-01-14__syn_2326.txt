@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-01-14, she returns to medical oncology for routine follow-up. During radiation treatment, she reports sinus disorder with persistence since the last visit and required urgent evaluation due to symptom severity. During treatment, she reports worsening phlebitis infective over the past week and required urgent evaluation due to symptom severity. Since last visit, she reports worsening melena over the past week and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing sinus disorder that is clinically significant, worsening phlebitis infective that is clinically significant, and worsening melena. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

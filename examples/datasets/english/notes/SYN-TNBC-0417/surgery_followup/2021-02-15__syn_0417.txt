@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-02-15, she returns for surgical follow-up with interval symptom review. Currently, she reports flank pain with persistence since the last visit and this is mild and currently manageable. Since last visit, she reports gastric hemorrhage, improved since the prior visit but still present and this is affecting routine function and activity tolerance. During radiation treatment, she reports cyanosis with persistence since the last visit and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing flank pain, improving gastric hemorrhage, and ongoing cyanosis. Plan is to continue routine follow-up and symptom-directed supportive care.

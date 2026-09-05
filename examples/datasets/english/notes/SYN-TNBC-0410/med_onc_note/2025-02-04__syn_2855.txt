@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-02-04, she returns to medical oncology for routine follow-up. After cycle 2, she previously experienced epstein-barr virus infection reactivation and at that time, this was mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior epstein-barr virus infection reactivation. Plan is to continue routine follow-up and symptom-directed supportive care.

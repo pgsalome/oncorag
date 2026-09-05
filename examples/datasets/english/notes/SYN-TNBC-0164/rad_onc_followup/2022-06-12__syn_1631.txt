@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During treatment, she reports worsening aplastic anemia over the past week. During radiation treatment, she reports duodenal ulcer with persistence since the last visit and this is affecting routine function and activity tolerance. Over the past week, she reports worsening laryngeal fistula and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening aplastic anemia that is clinically significant, ongoing duodenal ulcer, and worsening laryngeal fistula. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

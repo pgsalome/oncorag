@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+On 2023-05-24, this lab report was reviewed in context of ongoing treatment toxicity monitoring. If symptoms progress, discussed risk of future hepatic pain and symptom monitoring precautions. No active symptoms related to this concern are present today. Today, she reports cerebral venous sinus thrombosis with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for hepatic pain and ongoing cerebral venous sinus thrombosis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

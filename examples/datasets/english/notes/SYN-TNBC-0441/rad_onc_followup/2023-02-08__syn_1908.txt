@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. At follow-up, she reports radiculitis, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Over the past week, she reports worsening vagus nerve disorder and required urgent evaluation due to symptom severity. Over the past week, she reports worsening tracheal fistula and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving radiculitis that is clinically significant, worsening vagus nerve disorder that is clinically significant, and worsening tracheal fistula. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

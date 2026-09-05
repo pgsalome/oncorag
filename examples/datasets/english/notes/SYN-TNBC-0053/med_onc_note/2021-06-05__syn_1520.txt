@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-06-05, she returns to medical oncology for routine follow-up. Over the past week, she reports worsening stroke and required urgent evaluation due to symptom severity. Since last visit, she reports worsening small intestinal mucositis over the past week and painful oral mucositis has limited tolerance of solid foods. During radiation treatment, she reports serum sickness with persistence since the last visit and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening stroke that is clinically significant, worsening small intestinal mucositis limiting oral intake, and ongoing serum sickness. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

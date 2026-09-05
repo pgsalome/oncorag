@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for post-operative interval reassessment. During prior cycles, she previously experienced hyperkalemia and at that time, this was mild and currently manageable. At upcoming follow-up, discussed risk of future duodenal perforation and symptom monitoring precautions. No active symptoms related to this concern are present today. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior hyperkalemia and future risk counseling for duodenal perforation. Plan is to continue routine follow-up and symptom-directed supportive care.

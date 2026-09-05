@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Earlier in treatment, she previously experienced chronic kidney disease and at that time, this was mild and currently manageable. During radiation treatment, she reports hydrocephalus with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior chronic kidney disease and ongoing hydrocephalus that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-04-26, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. Over the past week, she reports worsening depressed level of consciousness and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening depressed level of consciousness. Plan is to continue routine follow-up and symptom-directed supportive care.

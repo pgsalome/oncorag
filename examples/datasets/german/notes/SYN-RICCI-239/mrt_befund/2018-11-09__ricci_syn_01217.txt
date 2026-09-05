@@ -1,0 +1,31 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: ricci_syn_01217
+Datum: 09.11.2018
+
+Sehr geehrte Frau Kollegin,
+bei Patient SYN-RICCI-239 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 31.05.2017 mit Astrozytom WHO Grad 4.
+Lokalisation: Temporallappen rechts.
+Primäre Resektion am 04.06.2017.
+Primäre Radiotherapie bis 54 Gy vom 15.07.2017 bis 29.08.2017.
+Rezidivbestrahlung bis 30 Gy vom 12.08.2018 bis 04.09.2018.
+Systemische Therapien: Temozolomid.
+Begleitmedikation: Ondansetron, Levetiracetam, Pantoprazol.
+
+Bildgebung:
+- Es imponiert lebensbedrohliches Hirnödem mit kritischer Massenwirkung, Verlagerungslinie und notfallmäßiger intensivmedizinischer Behandlung seit der letzten Vorstellung im posttherapeutischen Verlauf bildgebend mit Verdacht auf postradiogene Genese unter fortgesetzter Steroidtherapie.
+- Ferner ist zu beachten: es bestand Behandlungsbedarf unter stationären Bedingungen; es musste kurzfristig therapeutisch eskaliert werden; die Selbstständigkeit im Alltag ist relevant vermindert; es bestand unmittelbare Gefahr einer kritischen Dekompensation; Die Symptomatik erforderte eine notfallmäßige Intervention unter Maximaltherapie Hieraus ergab sich eine enge klinische Überwachung.
+
+Beurteilung:
+- Im Verlauf besteht bildmorphologisch vereinbar mit kleiner Strahlennekrose ohne relevante klinische Symptomatik, mit klarer Relevanz für die weitere Therapieplanung nach Re-Bestrahlung im posttherapeutischen Verlauf bildgebend unter fortgesetzter Steroidtherapie.
+- Aktuell keine stationäre Behandlungsnotwendigkeit Hieraus ergab sich eine enge klinische Überwachung.
+- Im interdisziplinären Kontext Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 6 Wochen geplant.
+- Supportivtherapie wird symptomorientiert fortgesetzt.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

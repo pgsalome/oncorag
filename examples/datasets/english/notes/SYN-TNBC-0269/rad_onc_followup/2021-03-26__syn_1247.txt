@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. At upcoming follow-up, discussed risk of future dysesthesia and symptom monitoring precautions. No active symptoms related to this concern are present today. During systemic therapy, she reports non-cardiac chest pain with persistence since the last visit and this is affecting routine function and activity tolerance. Today, she reports mouth sores with persistence since the last visit and oral mucositis caused inadequate intake and urgent supportive treatment. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for dysesthesia, ongoing non-cardiac chest pain, and ongoing oral mucositis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

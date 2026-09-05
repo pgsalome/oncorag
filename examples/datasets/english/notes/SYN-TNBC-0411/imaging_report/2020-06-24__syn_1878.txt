@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. During treatment, she reports worsening generalized edema over the past week and this is affecting routine function and activity tolerance. Since last visit, she reports pneumonia, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Since last visit, she reports worsening bronchial fistula over the past week and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening generalized edema, improving pneumonia that is clinically significant, and worsening bronchial fistula. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

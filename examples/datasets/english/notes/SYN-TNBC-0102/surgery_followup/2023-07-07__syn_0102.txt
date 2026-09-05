@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Over the past week, she reports worsening infective myositis and this is affecting routine function and activity tolerance. During treatment, she reports worsening jejunal hemorrhage over the past week and this is affecting routine function and activity tolerance. During treatment, she reports worsening pulmonary hypertension over the past week and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening infective myositis, worsening jejunal hemorrhage, and worsening pulmonary hypertension. Plan is to continue routine follow-up and symptom-directed supportive care.

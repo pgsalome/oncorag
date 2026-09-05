@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Currently, she reports atrial flutter with persistence since the last visit and this is affecting routine function and activity tolerance. Currently, she reports heart failure with persistence since the last visit and this is mild and currently manageable. During systemic therapy, she reports gastric fistula with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing atrial flutter, ongoing heart failure, and ongoing gastric fistula that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

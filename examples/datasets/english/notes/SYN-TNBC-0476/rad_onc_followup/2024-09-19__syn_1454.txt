@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-09-19, she returns today for routine follow-up. During treatment, she reports worsening cough over the past week and this is mild and currently manageable. During treatment, she reports worsening fibrinogen decreased over the past week and this is mild and currently manageable. During week 6 of treatment, she reports hyperhidrosis with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening cough, worsening fibrinogen decreased, and ongoing hyperhidrosis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

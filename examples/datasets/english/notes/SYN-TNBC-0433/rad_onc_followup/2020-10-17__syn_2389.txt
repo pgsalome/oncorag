@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Over the past week, she reports worsening duodenal obstruction and this is affecting routine function and activity tolerance. At follow-up, she reports dysarthria, improved since the prior visit but still present and required urgent evaluation due to symptom severity. At this visit, she reports non-cardiac chest pain with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening duodenal obstruction, improving dysarthria that is clinically significant, and ongoing non-cardiac chest pain that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

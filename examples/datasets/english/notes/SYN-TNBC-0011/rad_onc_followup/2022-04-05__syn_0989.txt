@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-04-05, she returns today for routine follow-up. Over the past week, she reports worsening hematuria and this is mild and currently manageable. Over recent days, she reports pulmonary fibrosis, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Since last visit, she reports acoustic nerve disorder nos, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening hematuria, improving pulmonary fibrosis, and improving acoustic nerve disorder nos. Plan is to continue routine follow-up and symptom-directed supportive care.

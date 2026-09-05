@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-01-14, she returns today for routine follow-up. During treatment, she reports worsening laryngeal edema over the past week and this is affecting routine function and activity tolerance. During radiation treatment, she reports laryngeal mucositis with persistence since the last visit and oral soreness is mild and manageable with supportive care. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening laryngeal edema and ongoing laryngeal mucositis. Plan is to continue routine follow-up and symptom-directed supportive care.

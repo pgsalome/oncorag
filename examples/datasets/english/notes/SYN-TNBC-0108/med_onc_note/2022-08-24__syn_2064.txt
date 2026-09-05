@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-08-24, she returns to medical oncology for routine follow-up. At follow-up, she reports viremia, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During systemic therapy, she reports hypoglossal nerve disorder with persistence since the last visit and this is affecting routine function and activity tolerance. Since last visit, she reports personality change, improved since the prior visit but still present and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving viremia that is clinically significant, ongoing hypoglossal nerve disorder, and improving personality change. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-07-04, she returns to medical oncology for routine follow-up. Today, she reports pericardial effusion with persistence since the last visit and required urgent evaluation due to symptom severity. At follow-up, she reports gallbladder perforation, improved since the prior visit but still present and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing pericardial effusion that is clinically significant and improving gallbladder perforation that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

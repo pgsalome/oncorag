@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. Since last visit, she reports worsening secondary hemophagocytic lymphohistiocytosis over the past week and required urgent evaluation due to symptom severity. After cycle 2, she previously experienced cecal infection and at that time, this was affecting routine function and activity tolerance. During treatment, she reports worsening allergic reaction over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening secondary hemophagocytic lymphohistiocytosis that is clinically significant, prior cecal infection, and worsening allergic reaction that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

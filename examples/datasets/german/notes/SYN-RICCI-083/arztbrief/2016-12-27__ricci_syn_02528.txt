@@ -1,0 +1,27 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Arztbrief
+Dokument-ID: ricci_syn_02528
+Datum: 27.12.2016
+
+Sehr geehrte Frau Kollegin,
+bei Patient SYN-RICCI-083 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 12.08.2015 mit Astrozytom WHO Grad 4.
+Lokalisation: Thalamus rechts.
+Primäre Resektion am 22.09.2015.
+Primäre Radiotherapie bis 60 Gy vom 15.10.2015 bis 20.11.2015.
+Rezidivbestrahlung bis 36 Gy vom 24.09.2016 bis 12.10.2016.
+Systemische Therapien: CCNU/Lomustin, Temozolomid.
+Begleitmedikation: Ondansetron, Pantoprazol, Dexamethason.
+
+Beurteilung:
+- Es imponiert symptomatische Strahlennekrose mit zunehmendem perifokalem Ödem und Steroidbedarf unter laufender Therapie bei wechselnder neurologischer Belastbarkeit.
+- Im gleichen Kontext wird berichtet: Die Alltagsaktivität ist nur gering beeinträchtigt Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+- Im interdisziplinären Kontext Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 8 Wochen geplant.
+- Die begleitende Medikation soll nach Bedarf weitergeführt werden.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

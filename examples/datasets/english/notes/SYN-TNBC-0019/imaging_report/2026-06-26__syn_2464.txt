@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. Since last visit, she reports reversible posterior leukoencephalopathy syndrome, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Over the past week, she reports worsening lichenoid dermatitis and this is affecting routine function and activity tolerance. During systemic therapy, she reports salivary gland fistula with persistence since the last visit and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving reversible posterior leukoencephalopathy syndrome, worsening lichenoid dermatitis, and ongoing salivary gland fistula. Plan is to continue routine follow-up and symptom-directed supportive care.

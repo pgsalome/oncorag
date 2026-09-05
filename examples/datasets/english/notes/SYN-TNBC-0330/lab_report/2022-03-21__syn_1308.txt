@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+On 2022-03-21, this lab report was reviewed in context of ongoing treatment toxicity monitoring. At follow-up, she reports depressed level of consciousness, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving depressed level of consciousness. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. At this visit, she reports telangiectasia with persistence since the last visit and this is mild and currently manageable. During prior cycles, she previously experienced hematochezia and at that time, this was mild and currently manageable. Since last visit, she reports worsening bronchial stricture over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing telangiectasia, prior hematochezia, and worsening bronchial stricture that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

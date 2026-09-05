@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. During week 7 of treatment, she denies immune effector cell-associated neurotoxicity syndrome. At this visit, she reports vagus nerve disorder with persistence since the last visit and required urgent evaluation due to symptom severity. Over the past week, she reports worsening atrioventricular block complete and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current immune effector cell-associated neurotoxicity syndrome, ongoing vagus nerve disorder that is clinically significant, and worsening atrioventricular block complete that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

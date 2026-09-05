@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. During treatment, she reports worsening anal stenosis over the past week and this is affecting routine function and activity tolerance. At this visit, she reports hypophosphatemia with persistence since the last visit and this is affecting routine function and activity tolerance. During prior cycles, she previously had aplastic anemia, now resolved and at that time, required red blood cell transfusion for anemia. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening anal stenosis, ongoing hypophosphatemia, and prior aplastic anemia now resolved. Plan is to continue routine follow-up and symptom-directed supportive care.

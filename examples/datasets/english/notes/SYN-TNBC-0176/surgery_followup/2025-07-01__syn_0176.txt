@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for post-operative interval reassessment. Currently, she reports laryngeal mucositis with persistence since the last visit and life-threatening oral complications required acute intervention. After cycle 2, she previously experienced tracheal mucositis and at that time, painful oral mucositis had limited tolerance of solid foods. At follow-up, she reports anal stenosis, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing laryngeal mucositis that is clinically significant, prior tracheal mucositis, and improving anal stenosis. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

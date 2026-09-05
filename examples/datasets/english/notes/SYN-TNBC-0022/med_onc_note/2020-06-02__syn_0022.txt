@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-06-02, she returns to medical oncology for routine follow-up. Over recent days, she reports tracheal mucositis, improved since the prior visit but still present. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving tracheal mucositis limiting oral intake. Plan is to continue routine follow-up and symptom-directed supportive care.

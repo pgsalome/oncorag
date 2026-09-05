@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. During treatment, she reports worsening rectal stenosis over the past week and required urgent evaluation due to symptom severity. Earlier in treatment, she previously experienced rectal fistula and at that time, this was affecting routine function and activity tolerance. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening rectal stenosis that is clinically significant and prior rectal fistula. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

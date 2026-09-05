@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-07-05, she returns today for routine follow-up. Since last visit, she reports worsening glossopharyngeal nerve disorder over the past week and this is mild and currently manageable. During treatment, she reports worsening nystagmus over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening glossopharyngeal nerve disorder and worsening nystagmus that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

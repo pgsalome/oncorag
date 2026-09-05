@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for post-operative interval reassessment. During treatment, she reports worsening kidney infection over the past week and this is affecting routine function and activity tolerance. Over the past week, she reports worsening muscle weakness upper limb and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening kidney infection and worsening muscle weakness upper limb. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,30 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: ricci_syn_00006
+Datum: 01.06.2016
+
+Sehr geehrter Herr Kollege,
+nachfolgend der aktuelle Verlauf von Patient SYN-RICCI-006.
+
+Anamnese / Chronologie:
+Erstdiagnose am 21.08.2015 mit Anaplastisches Astrozytom.
+Lokalisation: Insulär links.
+Primäre Resektion am 27.08.2015.
+Primäre Radiotherapie bis 59 Gy vom 24.09.2015 bis 11.11.2015.
+Rezidivbestrahlung bis 30 Gy vom 10.06.2016 bis 30.06.2016.
+Systemische Therapien: CCNU/Lomustin, Irinotecan, Temozolomid.
+Begleitmedikation: Pantoprazol, Ondansetron.
+
+Beurteilung:
+- Dokumentiert ist bildmorphologisch vereinbar mit kleiner Strahlennekrose ohne relevante klinische Symptomatik, wie auch im Verlauf mehrfach dokumentiert in den vergangenen Tagen unter fortgesetzter Steroidtherapie.
+- Es erfolgt eine ambulante Verlaufskontrolle Hieraus ergab sich eine enge klinische Überwachung.
+- In der Gesamtschau Die Befunde sind am ehesten postradiogen zu werten.
+
+Bildgebung:
+- Dokumentiert ist zunehmendes perifokales Ödem mit steroidpflichtiger Symptomatik, was klinisch relevant eingeordnet wird in den vergangenen Tagen unter kombinierter supportiver Behandlung.
+- Im gleichen Kontext wird berichtet: Es erfolgt eine ambulante Verlaufskontrolle.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 8 Wochen.
+- Eine antiödematöse Eskalation einschließlich Bevacizumab bleibt vorbehalten.

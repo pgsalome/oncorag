@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. During systemic therapy, she denies duodenal obstruction. At this visit, she reports ataxia with persistence since the last visit and this is affecting routine function and activity tolerance. Since last visit, she reports worsening osteonecrosis over the past week and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current duodenal obstruction, ongoing ataxia, and worsening osteonecrosis. Plan is to continue routine follow-up and symptom-directed supportive care.

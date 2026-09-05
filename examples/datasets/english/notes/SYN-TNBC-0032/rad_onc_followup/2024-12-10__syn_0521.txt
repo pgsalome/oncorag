@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Since last visit, she reports worsening proctitis over the past week and this is affecting routine function and activity tolerance. During systemic therapy, she reports peripheral motor neuropathy with persistence since the last visit and this is mild and currently manageable. Currently, she reports atrioventricular block first degree with persistence since the last visit and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening proctitis, ongoing peripheral motor neuropathy, and ongoing atrioventricular block first degree. Plan is to continue routine follow-up and symptom-directed supportive care.

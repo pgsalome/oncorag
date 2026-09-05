@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. During systemic therapy, she reports gastric ulcer with persistence since the last visit and required urgent evaluation due to symptom severity. At follow-up, she reports esophageal ulcer, improved since the prior visit but still present and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing gastric ulcer that is clinically significant and improving esophageal ulcer that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Earlier in treatment, she previously had bronchial infection, now resolved and at that time, this was affecting routine function and activity tolerance. Over recent days, she reports colonic ulcer, improved since the prior visit but still present and this is affecting routine function and activity tolerance. During treatment, she reports worsening somnolence over the past week and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior bronchial infection now resolved, improving colonic ulcer, and worsening somnolence. Plan is to continue routine follow-up and symptom-directed supportive care.

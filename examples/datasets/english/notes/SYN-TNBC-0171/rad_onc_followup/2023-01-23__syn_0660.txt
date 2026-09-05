@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Over the past week, she reports worsening eczematous dermatitis and this is mild and currently manageable. Over the past week, she reports worsening acute kidney injury and required urgent evaluation due to symptom severity. At this visit, she reports anxiety with persistence since the last visit and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening eczematous dermatitis, worsening acute kidney injury that is clinically significant, and ongoing anxiety. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

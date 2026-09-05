@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. During treatment, she reports worsening colonic stenosis over the past week and this is mild and currently manageable. Since last visit, she reports worsening ventricular arrhythmia over the past week and this is affecting routine function and activity tolerance. Over the past week, she reports worsening adult respiratory distress syndrome and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening colonic stenosis, worsening ventricular arrhythmia, and worsening adult respiratory distress syndrome that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

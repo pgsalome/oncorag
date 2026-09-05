@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. During treatment, she reports worsening urethral infection over the past week and required urgent evaluation due to symptom severity. At follow-up, she reports lymph node pain, improved since the prior visit but still present and this is mild and currently manageable. Earlier in treatment, she previously had hypothermia, now resolved and at that time, required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening urethral infection that is clinically significant, improving lymph node pain, and prior hypothermia now resolved. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

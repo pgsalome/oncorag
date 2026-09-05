@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2026-04-17, she returns for surgical follow-up with interval symptom review. At this visit, she reports enterovesical fistula with persistence since the last visit and this is affecting routine function and activity tolerance. After cycle 2, she previously experienced urethral infection and at that time, this was affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing enterovesical fistula and prior urethral infection. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. After cycle 2, she previously had hypertriglyceridemia, now resolved and at that time, required urgent evaluation due to symptom severity. Over the past week, she reports worsening joint range of motion decreased lumbar spine and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior hypertriglyceridemia now resolved and worsening joint range of motion decreased lumbar spine. Plan is to continue routine follow-up and symptom-directed supportive care.

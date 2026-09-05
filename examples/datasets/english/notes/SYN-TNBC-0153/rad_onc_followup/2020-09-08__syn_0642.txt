@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. At follow-up, she reports pericardial effusion, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Today, she reports gastrointestinal fistula with persistence since the last visit and this is mild and currently manageable. During radiation treatment, she reports epistaxis with persistence since the last visit and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving pericardial effusion, ongoing gastrointestinal fistula, and ongoing epistaxis. Plan is to continue routine follow-up and symptom-directed supportive care.

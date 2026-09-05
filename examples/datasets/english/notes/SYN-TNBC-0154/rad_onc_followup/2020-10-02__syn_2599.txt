@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-10-02, she returns today for routine follow-up. At upcoming follow-up, discussed risk of future anal mucositis and symptom monitoring precautions. No active symptoms related to this concern are present today. Since last visit, she reports worsening melena over the past week and required urgent evaluation due to symptom severity. Over the past week, she reports worsening acidosis and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for anal mucositis, worsening melena that is clinically significant, and worsening acidosis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

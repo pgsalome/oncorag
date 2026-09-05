@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Since last visit, she reports worsening shingles over the past week and this is mild and currently manageable. At this visit, she reports increasing cough with persistence since the last visit and this is affecting routine function and activity tolerance. During systemic therapy, she reports esophageal infection with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening shingles, ongoing cough, and ongoing esophageal infection that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

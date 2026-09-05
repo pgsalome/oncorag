@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-12-25, she returns today for routine follow-up. Over the past week, she reports worsening cerebrospinal fluid leakage and this is affecting routine function and activity tolerance. Over the past week, she reports worsening scrotal infection and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening cerebrospinal fluid leakage and worsening scrotal infection. Plan is to continue routine follow-up and symptom-directed supportive care.

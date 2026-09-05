@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Since last visit, she reports worsening jejunal perforation over the past week and required urgent evaluation due to symptom severity. Since last visit, she reports worsening aspiration over the past week and this is affecting routine function and activity tolerance. Over recent days, she reports laryngeal mucositis, improved since the prior visit but still present and life-threatening oral complications required acute intervention. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening jejunal perforation that is clinically significant, worsening aspiration, and improving laryngeal mucositis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

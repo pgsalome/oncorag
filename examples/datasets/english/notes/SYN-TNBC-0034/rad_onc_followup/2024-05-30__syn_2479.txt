@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-05-30, she returns today for routine follow-up. Over the next week, discussed risk of future portal hypertension and symptom monitoring precautions. No active symptoms related to this concern are present today. During systemic therapy, she reports chest wall pain with persistence since the last visit and this is mild and currently manageable. During treatment, she reports worsening vulval infection over the past week and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for portal hypertension, ongoing chest wall pain, and worsening vulval infection that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

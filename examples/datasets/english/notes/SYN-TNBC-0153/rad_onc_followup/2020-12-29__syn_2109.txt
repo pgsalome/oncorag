@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Since last visit, she reports worsening esophageal fistula over the past week and this is affecting routine function and activity tolerance. At this visit, she reports atrioventricular block first degree with persistence since the last visit and this is affecting routine function and activity tolerance. Since last visit, she reports worsening atrial fibrillation over the past week and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening esophageal fistula, ongoing atrioventricular block first degree, and worsening atrial fibrillation. Plan is to continue routine follow-up and symptom-directed supportive care.

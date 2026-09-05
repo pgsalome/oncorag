@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-02-22, she returns to medical oncology for routine follow-up. Over recent days, she reports ileal perforation, improved since the prior visit but still present and required urgent evaluation due to symptom severity. At this visit, she reports flatulence with persistence since the last visit and this is mild and currently manageable. Earlier in treatment, she previously experienced vagus nerve disorder and at that time, required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving ileal perforation that is clinically significant, ongoing flatulence, and prior vagus nerve disorder. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

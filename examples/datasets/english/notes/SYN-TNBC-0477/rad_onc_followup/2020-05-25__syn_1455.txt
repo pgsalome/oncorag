@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Today, she reports fibrosis deep connective tissue with persistence since the last visit and this is mild and currently manageable. During treatment, she reports worsening hypertrichosis over the past week and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing fibrosis deep connective tissue and worsening hypertrichosis. Plan is to continue routine follow-up and symptom-directed supportive care.

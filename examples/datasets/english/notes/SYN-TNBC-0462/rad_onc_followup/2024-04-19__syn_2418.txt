@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-04-19, she returns today for routine follow-up. During systemic therapy, she denies pancreatitis. At this visit, she reports skin hypopigmentation with persistence since the last visit and this is mild and currently manageable. During week 5 of treatment, she reports bronchial stricture with persistence since the last visit and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current pancreatitis, ongoing skin hypopigmentation, and ongoing bronchial stricture that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

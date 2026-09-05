@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. At this visit, she reports abdominal soft tissue necrosis with persistence since the last visit and required urgent evaluation due to symptom severity. At follow-up, she reports dry mouth, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Since last visit, she reports gastrointestinal fistula, improved since the prior visit but still present and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing abdominal soft tissue necrosis that is clinically significant, improving dry mouth that is clinically significant, and improving gastrointestinal fistula. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-11-29, she returns today for routine follow-up. During systemic therapy, she reports anal fistula with persistence since the last visit and this is affecting routine function and activity tolerance. Over the past week, she reports worsening blood lactate dehydrogenase increased and this is mild and currently manageable. Over the next week, discussed risk of future generalized muscle weakness and symptom monitoring precautions. No active symptoms related to this concern are present today. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing anal fistula, worsening blood lactate dehydrogenase increased, and future risk counseling for generalized muscle weakness. Plan is to continue routine follow-up and symptom-directed supportive care.

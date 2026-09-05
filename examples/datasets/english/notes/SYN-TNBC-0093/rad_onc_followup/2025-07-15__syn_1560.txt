@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-07-15, she returns today for routine follow-up. Today, she denies brain fog. At follow-up, she reports white blood cell decreased, improved since the prior visit but still present and this is mild and currently manageable. Earlier in treatment, she previously had aspiration, now resolved and at that time, required urgent evaluation due to symptom severity. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current brain fog, improving white blood cell decreased, and prior aspiration now resolved. Plan is to continue routine follow-up and symptom-directed supportive care.

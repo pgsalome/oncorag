@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Since last visit, she reports worsening easy bruising in the setting of low platelets over the past week and critical thrombocytopenia required urgent intervention for bleeding risk. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening thrombocytopenia with bruising. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

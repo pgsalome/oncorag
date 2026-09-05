@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-11-24, she returns today for routine follow-up. At upcoming follow-up, discussed risk of future pain and symptom monitoring precautions. No active symptoms related to this concern are present today. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for pain. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Over the past week, she reports worsening duodenal ulcer and this is mild and currently manageable. Today, she reports duodenal obstruction with persistence since the last visit and this is mild and currently manageable. After cycle 2, she previously experienced atrioventricular block first degree and at that time, this was mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening duodenal ulcer, ongoing duodenal obstruction, and prior atrioventricular block first degree. Plan is to continue routine follow-up and symptom-directed supportive care.

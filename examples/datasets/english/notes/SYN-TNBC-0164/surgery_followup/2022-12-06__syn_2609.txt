@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-12-06, she returns for surgical follow-up with interval symptom review. During treatment, she reports worsening activated partial thromboplastin time prolonged over the past week and this is mild and currently manageable. During treatment, she reports worsening oral dysesthesia over the past week and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening activated partial thromboplastin time prolonged and worsening oral dysesthesia. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. After cycle 2, she previously had purpura, now resolved and at that time, this was mild and currently manageable. At follow-up, she reports small intestine infection, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Since last visit, she reports worsening small intestinal perforation over the past week and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior purpura now resolved, improving small intestine infection, and worsening small intestinal perforation. Plan is to continue routine follow-up and symptom-directed supportive care.

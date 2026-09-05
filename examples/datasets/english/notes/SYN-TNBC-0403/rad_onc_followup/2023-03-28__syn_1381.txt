@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-03-28, she returns today for routine follow-up. During systemic therapy, she reports lymph gland infection with persistence since the last visit and required urgent evaluation due to symptom severity. Today, she reports herpes simplex reactivation with persistence since the last visit and this is mild and currently manageable. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing lymph gland infection that is clinically significant and ongoing herpes simplex reactivation. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

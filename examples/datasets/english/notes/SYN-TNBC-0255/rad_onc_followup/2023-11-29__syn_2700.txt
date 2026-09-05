@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-11-29, she returns today for routine follow-up. Currently, she reports colonic fistula with persistence since the last visit and required urgent evaluation due to symptom severity. After cycle 2, she previously experienced cyanosis and at that time, this was affecting routine function and activity tolerance. Since last visit, she reports worsening cecal hemorrhage over the past week and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing colonic fistula that is clinically significant, prior cyanosis, and worsening cecal hemorrhage. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

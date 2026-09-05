@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. At follow-up, she reports hypokalemia, improved since the prior visit but still present and this is affecting routine function and activity tolerance. During prior cycles, she previously experienced duodenal stenosis and at that time, required urgent evaluation due to symptom severity. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving hypokalemia and prior duodenal stenosis. Plan is to continue routine follow-up and symptom-directed supportive care.

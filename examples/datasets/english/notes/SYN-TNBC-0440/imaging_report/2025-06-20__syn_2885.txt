@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, interval symptom-related findings are summarized below. Over the past week, she reports worsening hyperlipidemia and required urgent evaluation due to symptom severity. Over the next week, discussed risk of future infective myositis and symptom monitoring precautions. No active symptoms related to this concern are present today. Since last visit, she reports cytokine release syndrome, improved since the prior visit but still present and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening hyperlipidemia that is clinically significant, future risk counseling for infective myositis, and improving cytokine release syndrome. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

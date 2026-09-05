@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Over the past week, she reports worsening ileal perforation and this is affecting routine function and activity tolerance. At this visit, she reports abdominal pain with persistence since the last visit and this is affecting routine function and activity tolerance. Currently, she denies failure to thrive. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening ileal perforation, ongoing abdominal pain, and no current failure to thrive. Plan is to continue routine follow-up and symptom-directed supportive care.

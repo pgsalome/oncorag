@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During prior cycles, she previously experienced hypokalemia and at that time, required urgent evaluation due to symptom severity. During systemic therapy, she denies jejunal obstruction. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior hypokalemia and no current jejunal obstruction. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-08-03, she returns today for routine follow-up. Since last visit, she reports worsening periorbital infection over the past week and this is affecting routine function and activity tolerance. At upcoming follow-up, discussed risk of future blood lactate dehydrogenase increased and symptom monitoring precautions. No active symptoms related to this concern are present today. Over the past week, she reports worsening oral dysesthesia and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening periorbital infection, future risk counseling for blood lactate dehydrogenase increased, and worsening oral dysesthesia that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

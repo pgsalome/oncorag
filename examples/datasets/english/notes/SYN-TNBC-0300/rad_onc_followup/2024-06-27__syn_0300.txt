@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. During week 1 of treatment, she denies gastric perforation. During radiation treatment, she reports tumor inflammation-associated neurotoxicity with persistence since the last visit and required urgent evaluation due to symptom severity. At follow-up, she reports dermatosis bullous, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current gastric perforation, ongoing tumor inflammation-associated neurotoxicity that is clinically significant, and improving dermatosis bullous. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

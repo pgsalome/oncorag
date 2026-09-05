@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-05-14, she returns to medical oncology for routine follow-up. During radiation treatment, she denies urine discoloration. During radiation treatment, she reports myelitis with persistence since the last visit and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current urine discoloration and ongoing myelitis. Plan is to continue routine follow-up and symptom-directed supportive care.

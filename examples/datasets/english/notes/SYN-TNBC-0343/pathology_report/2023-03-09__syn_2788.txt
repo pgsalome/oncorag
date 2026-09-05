@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, interval symptom-related findings are summarized below. Currently, she reports sinus bradycardia with persistence since the last visit and required urgent evaluation due to symptom severity. During radiation treatment, she reports esophageal varices hemorrhage with persistence since the last visit and this is affecting routine function and activity tolerance. Over the past week, she reports worsening gallbladder fistula and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing sinus bradycardia that is clinically significant, ongoing esophageal varices hemorrhage, and worsening gallbladder fistula. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

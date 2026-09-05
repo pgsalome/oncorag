@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Today, she reports paroxysmal atrial tachycardia with persistence since the last visit and this is affecting routine function and activity tolerance. During radiation treatment, she reports duodenal hemorrhage with persistence since the last visit and required urgent evaluation due to symptom severity. During treatment, she reports worsening malaise over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing paroxysmal atrial tachycardia, ongoing duodenal hemorrhage that is clinically significant, and worsening malaise that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-06-18, she returns for surgical follow-up with interval symptom review. Over the past week, she reports worsening hair texture abnormal and this is mild and currently manageable. At this visit, she reports low energy with persistence since the last visit and this is affecting routine function and activity tolerance. Over the past week, she reports worsening white blood cell decreased and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening hair texture abnormal, ongoing fatigue, and worsening white blood cell decreased. Plan is to continue routine follow-up and symptom-directed supportive care.

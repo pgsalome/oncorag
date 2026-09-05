@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for post-operative interval reassessment. During radiation treatment, she reports nephrotic syndrome with persistence since the last visit and required urgent evaluation due to symptom severity. Over the past week, she reports worsening reversible posterior leukoencephalopathy syndrome and required urgent evaluation due to symptom severity. During treatment, she reports worsening chronic kidney disease over the past week and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing nephrotic syndrome that is clinically significant, worsening reversible posterior leukoencephalopathy syndrome that is clinically significant, and worsening chronic kidney disease. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

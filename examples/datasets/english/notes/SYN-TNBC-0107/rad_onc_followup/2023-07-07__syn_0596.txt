@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Over the past week, she reports worsening gallbladder pain and required urgent evaluation due to symptom severity. During treatment, she reports worsening hepatitis over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening gallbladder pain that is clinically significant and worsening hepatitis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

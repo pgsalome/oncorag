@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. After cycle 2, she previously had chills, now resolved and at that time, required urgent evaluation due to symptom severity. During treatment, she reports worsening urinary frequency over the past week and this is affecting routine function and activity tolerance. Since last visit, she reports worsening paronychia over the past week and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior chills now resolved, worsening urinary frequency, and worsening paronychia. Plan is to continue routine follow-up and symptom-directed supportive care.

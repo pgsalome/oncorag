@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. At this visit, she reports sick sinus syndrome with persistence since the last visit and this is mild and currently manageable. Over the past week, she reports worsening peripheral sensory neuropathy and this is mild and currently manageable. Currently, she reports hair texture abnormal with persistence since the last visit and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing sick sinus syndrome, worsening peripheral sensory neuropathy, and ongoing hair texture abnormal. Plan is to continue routine follow-up and symptom-directed supportive care.

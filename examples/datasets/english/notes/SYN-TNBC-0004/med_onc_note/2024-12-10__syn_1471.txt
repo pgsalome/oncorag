@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. At this visit, she reports visceral arterial ischemia with persistence since the last visit and required urgent evaluation due to symptom severity. Over recent days, she reports urine output decreased, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During week 1 of treatment, she reports rhabdomyolysis with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing visceral arterial ischemia that is clinically significant, improving urine output decreased that is clinically significant, and ongoing rhabdomyolysis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

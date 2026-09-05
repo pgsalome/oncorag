@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. At this visit, she denies ascites. Since last visit, she reports worsening salivary gland fistula over the past week and this is affecting routine function and activity tolerance. Earlier in treatment, she previously experienced cervicitis infection and at that time, required urgent evaluation due to symptom severity. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current ascites, worsening salivary gland fistula, and prior cervicitis infection. Plan is to continue routine follow-up and symptom-directed supportive care.

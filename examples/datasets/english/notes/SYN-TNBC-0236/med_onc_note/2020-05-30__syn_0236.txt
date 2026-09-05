@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. During systemic therapy, she reports neuralgia with persistence since the last visit and this is affecting routine function and activity tolerance. During treatment, she reports worsening hematuria over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing neuralgia and worsening hematuria that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

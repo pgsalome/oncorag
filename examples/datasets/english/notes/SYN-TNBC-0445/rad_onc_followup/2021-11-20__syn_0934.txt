@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. During prior cycles, she previously experienced alkalosis and at that time, required urgent evaluation due to symptom severity. Over the past week, she reports worsening capillary leak syndrome and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior alkalosis and worsening capillary leak syndrome that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

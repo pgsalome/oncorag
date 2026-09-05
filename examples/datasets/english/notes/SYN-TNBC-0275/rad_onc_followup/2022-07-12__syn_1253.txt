@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Since last visit, she reports worsening colitis over the past week and this is mild and currently manageable. Over the past week, she reports worsening otitis media and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening colitis and worsening otitis media that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

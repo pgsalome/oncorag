@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. During week 1 of treatment, she reports hypokalemia with persistence since the last visit and this is mild and currently manageable. Over the past week, she reports worsening hypercalcemia and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing hypokalemia and worsening hypercalcemia that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

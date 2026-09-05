@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. During treatment, she reports worsening herpes simplex reactivation over the past week and required urgent evaluation due to symptom severity. Over the past week, she reports worsening bladder infection and required urgent evaluation due to symptom severity. Since last visit, she reports hypertrichosis, improved since the prior visit but still present and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening herpes simplex reactivation that is clinically significant, worsening bladder infection that is clinically significant, and improving hypertrichosis. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

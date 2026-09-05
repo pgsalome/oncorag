@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. During week 7 of treatment, she reports scrotal infection with persistence since the last visit and this is affecting routine function and activity tolerance. Over the past week, she reports worsening cytokine release syndrome and required urgent evaluation due to symptom severity. Over the past week, she reports worsening v-fib and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing scrotal infection, worsening cytokine release syndrome that is clinically significant, and worsening ventricular fibrillation that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

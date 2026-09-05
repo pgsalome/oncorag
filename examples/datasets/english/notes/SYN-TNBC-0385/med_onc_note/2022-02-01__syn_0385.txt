@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. During systemic therapy, she reports colonic ulcer with persistence since the last visit and this is affecting routine function and activity tolerance. During systemic therapy, she reports herpes simplex reactivation with persistence since the last visit and required urgent evaluation due to symptom severity. Over recent days, she reports stomach pain, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing colonic ulcer, ongoing herpes simplex reactivation that is clinically significant, and improving stomach pain. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

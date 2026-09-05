@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. At this visit, she reports gastric hemorrhage with persistence since the last visit and this is mild and currently manageable. Over the next week, discussed risk of future cognitive disturbance and symptom monitoring precautions. No active symptoms related to this concern are present today. During treatment, she reports worsening cutaneous pain over the past week and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing gastric hemorrhage, future risk counseling for cognitive disturbance, and worsening pain of skin. Plan is to continue routine follow-up and symptom-directed supportive care.

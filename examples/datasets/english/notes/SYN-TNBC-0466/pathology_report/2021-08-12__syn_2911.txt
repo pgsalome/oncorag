@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. Currently, she reports constipation with persistence since the last visit and bowel movements are less frequent with mild straining. Since last visit, she reports worsening buttock pain over the past week and this is mild and currently manageable. After cycle 2, she previously had pain, now resolved and at that time, required urgent evaluation due to symptom severity. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing constipation, worsening buttock pain, and prior pain now resolved. Plan is to continue routine follow-up and symptom-directed supportive care.

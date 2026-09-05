@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-12-04, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. Currently, she reports gastric stenosis with persistence since the last visit and this is mild and currently manageable. Over recent days, she reports cyanosis, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Since last visit, she reports worsening hypernatremia over the past week and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing gastric stenosis, improving cyanosis, and worsening hypernatremia that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

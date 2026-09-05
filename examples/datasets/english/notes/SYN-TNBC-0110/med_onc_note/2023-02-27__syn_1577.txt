@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-02-27, she returns to medical oncology for routine follow-up. At follow-up, she reports paresthesia, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Since last visit, she reports worsening hemolytic uremic syndrome over the past week and required urgent evaluation due to symptom severity. Since last visit, she reports worsening salivary gland fistula over the past week and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving paresthesia, worsening hemolytic uremic syndrome that is clinically significant, and worsening salivary gland fistula. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

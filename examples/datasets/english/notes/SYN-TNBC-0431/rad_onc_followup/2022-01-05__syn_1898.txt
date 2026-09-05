@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During treatment, she reports worsening mania over the past week and this is affecting routine function and activity tolerance. During treatment, she reports worsening alkalosis over the past week and this is mild and currently manageable. During treatment, she reports worsening hyperphosphatemia over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening mania, worsening alkalosis, and worsening hyperphosphatemia that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

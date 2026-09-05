@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. Over the next week, discussed risk of future urine output decreased and symptom monitoring precautions. No active symptoms related to this concern are present today. During treatment, she reports worsening laryngeal edema over the past week and this is mild and currently manageable. Since last visit, she reports worsening buttock pain over the past week and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for urine output decreased, worsening laryngeal edema, and worsening buttock pain. Plan is to continue routine follow-up and symptom-directed supportive care.

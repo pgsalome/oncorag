@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. Over the past week, she reports worsening rectal ulcer and required urgent evaluation due to symptom severity. Since last visit, she reports bone marrow hypocellular, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During radiation treatment, she denies forced expiratory volume decreased. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening rectal ulcer that is clinically significant, improving bone marrow hypocellular that is clinically significant, and no current forced expiratory volume decreased. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

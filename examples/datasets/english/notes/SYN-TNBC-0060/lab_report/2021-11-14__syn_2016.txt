@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+After completing radiation, interval symptom-related findings are summarized below. During systemic therapy, she reports duodenal infection with persistence since the last visit and required urgent evaluation due to symptom severity. At this visit, she reports rectal obstruction with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing duodenal infection that is clinically significant and ongoing rectal obstruction that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-09-08, she returns today for routine follow-up. At follow-up, she reports pleural hemorrhage, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Over recent days, she reports dehydration, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving pleural hemorrhage that is clinically significant and improving dehydration that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

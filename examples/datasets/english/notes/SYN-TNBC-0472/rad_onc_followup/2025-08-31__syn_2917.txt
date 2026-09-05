@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. At this visit, she reports peripheral sensory neuropathy with persistence since the last visit and this is mild and currently manageable. Earlier in treatment, she previously had neck pain, now resolved and at that time, this was affecting routine function and activity tolerance. During week 3 of treatment, she reports increased tiredness with persistence since the last visit and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing peripheral sensory neuropathy, prior neck pain now resolved, and ongoing fatigue. Plan is to continue routine follow-up and symptom-directed supportive care.

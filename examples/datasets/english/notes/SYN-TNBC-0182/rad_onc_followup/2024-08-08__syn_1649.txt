@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Since last visit, she reports worsening immune effector cell-associated neurotoxicity syndrome over the past week and required urgent evaluation due to symptom severity. Since last visit, she reports colonic perforation, improved since the prior visit but still present and this is affecting routine function and activity tolerance. During treatment, she reports worsening mania over the past week and this is mild and currently manageable. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening immune effector cell-associated neurotoxicity syndrome that is clinically significant, improving colonic perforation, and worsening mania. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

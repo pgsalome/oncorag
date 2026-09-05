@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-08-19, she returns today for routine follow-up. Since last visit, she reports presyncope, improved since the prior visit but still present and this is affecting routine function and activity tolerance. During treatment, she reports worsening bladder spasm over the past week and this is affecting routine function and activity tolerance. During treatment, she reports worsening bone marrow hypocellular over the past week and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving presyncope, worsening bladder spasm, and worsening bone marrow hypocellular. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-12-21, she returns today for routine follow-up. Today, she reports atrial flutter with persistence since the last visit and this is mild and currently manageable. During radiation treatment, she denies vasovagal reaction. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing atrial flutter and no current vasovagal reaction. Plan is to continue routine follow-up and symptom-directed supportive care.

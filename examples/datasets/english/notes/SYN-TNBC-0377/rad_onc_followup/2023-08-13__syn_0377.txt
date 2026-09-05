@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Earlier in treatment, she previously had laryngeal mucositis, now resolved and at that time, oral mucositis caused inadequate intake and urgent supportive treatment. At follow-up, she reports hemorrhoids, improved since the prior visit but still present and this is mild and currently manageable. During prior cycles, she previously experienced bone pain and at that time, required urgent evaluation due to symptom severity. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior laryngeal mucositis now resolved, improving hemorrhoids, and prior bone pain. Plan is to continue routine follow-up and symptom-directed supportive care.

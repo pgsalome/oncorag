@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Earlier in treatment, she previously had easy bruising in the setting of low platelets, now resolved and at that time, required platelet transfusion support for thrombocytopenia. After cycle 2, she previously experienced fever with low neutrophil counts and at that time, fever with neutropenia required urgent evaluation. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior thrombocytopenia now resolved and prior febrile neutropenia. Plan is to continue routine follow-up and symptom-directed supportive care.

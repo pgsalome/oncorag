@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Since last visit, she reports gastric necrosis, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During systemic therapy, she reports sleep apnea with persistence since the last visit and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving gastric necrosis that is clinically significant and ongoing sleep apnea. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

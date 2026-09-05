@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Over recent days, she reports melena, improved since the prior visit but still present and this is mild and currently manageable. Today, she reports blood gonadotrophin abnormal with persistence since the last visit and this is affecting routine function and activity tolerance. During systemic therapy, she reports accessory nerve disorder with persistence since the last visit and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving melena, ongoing blood gonadotrophin abnormal, and ongoing accessory nerve disorder. Plan is to continue routine follow-up and symptom-directed supportive care.

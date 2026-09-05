@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+On 2024-04-23, this lab report was reviewed in context of ongoing treatment toxicity monitoring. During treatment, she reports worsening blood prolactin abnormal over the past week and this is mild and currently manageable. Over recent days, she reports oculomotor nerve disorder, improved since the prior visit but still present and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening blood prolactin abnormal and improving oculomotor nerve disorder. Plan is to continue routine follow-up and symptom-directed supportive care.

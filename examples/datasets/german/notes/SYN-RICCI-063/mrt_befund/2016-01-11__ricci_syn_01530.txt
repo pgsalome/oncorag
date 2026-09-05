@@ -1,0 +1,30 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: ricci_syn_01530
+Datum: 11.01.2016
+
+Sehr geehrte Frau Kollegin,
+bei Patient SYN-RICCI-063 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 31.08.2013 mit Oligodendrogliom WHO Grad 3.
+Lokalisation: Thalamus rechts.
+Primäre Resektion am 01.10.2013.
+Primäre Radiotherapie bis 60 Gy vom 18.11.2013 bis 30.12.2013.
+Rezidivbestrahlung bis 33 Gy vom 16.06.2015 bis 06.07.2015.
+Systemische Therapien: Nivolumab, Methadon, Temozolomid.
+Begleitmedikation: Cortison, Pantoprazol.
+
+Bildgebung:
+- Es imponiert lebensbedrohliches Hirnödem mit kritischer Massenwirkung, Verlagerungslinie und notfallmäßiger intensivmedizinischer Behandlung im postradiogenen Intervall bildgebend bei ansonsten stabilem Allgemeinzustand in maximaler Ausprägung.
+- Ferner ist zu beachten: es bestand Behandlungsbedarf unter stationären Bedingungen; es musste kurzfristig therapeutisch eskaliert werden; die Alltagsaktivitäten sind deutlich eingeschränkt; die Situation war lebensbedrohlich einzustufen.
+
+Beurteilung:
+- Im aktuellen Arztbrief wird beschrieben symptomatische Strahlennekrose mit zunehmendem perifokalem Ödem und Steroidbedarf, entsprechend der aktuellen Verlaufseinschätzung seit der letzten Vorstellung im posttherapeutischen Verlauf bei wechselnder neurologischer Belastbarkeit.
+- Aus klinischer Sicht Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 10 Wochen geplant.
+- Die begleitende Medikation soll nach Bedarf weitergeführt werden.
+- Diskussion einer antiödematösen Therapie bzw. Bevacizumab bei Persistenz der Beschwerden.

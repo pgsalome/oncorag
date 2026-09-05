@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Over recent days, she reports conjunctivitis infective, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Today, she reports cholecystitis with persistence since the last visit and this is affecting routine function and activity tolerance. At this visit, she reports vasculitis with persistence since the last visit and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving conjunctivitis infective, ongoing cholecystitis, and ongoing vasculitis. Plan is to continue routine follow-up and symptom-directed supportive care.

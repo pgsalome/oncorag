@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Since last visit, she reports worsening catheter related infection over the past week and required urgent evaluation due to symptom severity. Today, she reports brachial plexopathy with persistence since the last visit and required urgent evaluation due to symptom severity. During treatment, she reports worsening oral pain over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening catheter related infection that is clinically significant, ongoing brachial plexopathy that is clinically significant, and worsening oral pain that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

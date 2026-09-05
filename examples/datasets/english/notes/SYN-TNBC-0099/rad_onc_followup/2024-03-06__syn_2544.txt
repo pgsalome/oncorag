@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-03-06, she returns today for routine follow-up. During systemic therapy, she reports erythema multiforme with persistence since the last visit and required urgent evaluation due to symptom severity. Over the next week, discussed risk of future stomach pain and symptom monitoring precautions. No active symptoms related to this concern are present today. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing erythema multiforme that is clinically significant and future risk counseling for stomach pain. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

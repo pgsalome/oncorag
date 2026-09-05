@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Over recent days, she reports sinusoidal obstruction syndrome, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During treatment, she reports worsening urinary retention over the past week and this is affecting routine function and activity tolerance. At this visit, she reports bone marrow hypocellular with persistence since the last visit and this is affecting routine function and activity tolerance. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving sinusoidal obstruction syndrome that is clinically significant, worsening urinary retention, and ongoing bone marrow hypocellular. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

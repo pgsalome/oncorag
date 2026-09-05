@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, interval symptom-related findings are summarized below. Since last visit, she reports worsening hyponatremia over the past week and this is affecting routine function and activity tolerance. Over the past week, she reports worsening dizziness and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening hyponatremia and worsening dizziness. Plan is to continue routine follow-up and symptom-directed supportive care.

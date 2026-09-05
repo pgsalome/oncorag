@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During treatment, she reports worsening radiculitis over the past week and required urgent evaluation due to symptom severity. Since last visit, she reports worsening feeling sick to the stomach over the past week and persistent nausea led to inadequate oral intake requiring IV hydration. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening radiculitis that is clinically significant and worsening nausea limiting oral intake. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

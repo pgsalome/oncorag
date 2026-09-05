@@ -1,0 +1,38 @@
+features:
+  - name: diagnosis_date
+    display_name: Datum der Erstdiagnose
+    type: date
+    description: >-
+      Datum der initialen Tumordiagnose aus der Anamnese, dort als Erstdiagnose
+      dokumentiert. Datumsangaben im Format DD.MM.YYYY als YYYY-MM-DD ausgeben.
+      Das Datum des Berichts oder der Rezidivbestrahlung ist kein Erstdiagnosedatum.
+  - name: prior_radiotherapy_dose
+    display_name: Gesamtdosis der primaeren Radiotherapie
+    type: numeric
+    unit: Gy
+    expected_range: [0, 100]
+    description: >-
+      Dokumentierte Gesamtdosis der primaeren Radiotherapie in Gy aus der
+      Anamnese. Den Zahlenwert der ersten Bestrahlungsserie ausgeben, ohne
+      Einheit. Die Dosis der Rezidivbestrahlung separat behandeln; die beiden
+      Bestrahlungsserien nicht addieren.
+  - name: recurrent_radiotherapy_dose
+    display_name: Gesamtdosis der Rezidivbestrahlung
+    type: numeric
+    unit: Gy
+    expected_range: [0, 100]
+    description: >-
+      Dokumentierte Gesamtdosis der Rezidivbestrahlung in Gy aus der Anamnese.
+      Den Zahlenwert der erneuten Bestrahlungsserie ausgeben, ohne Einheit.
+      Die Dosis der primaeren Radiotherapie separat behandeln; die beiden
+      Bestrahlungsserien nicht addieren.
+  - name: tumor_laterality
+    display_name: Seitenlokalisation des Tumors
+    type: categorical
+    expected_range: [left, right, bilateral]
+    description: >-
+      Tumorseite anhand der dokumentierten anatomischen Lokalisation bestimmen.
+      Links als left, rechts als right und ausdruecklich beidseitig oder
+      bilateral als bilateral ausgeben. Ohne dokumentierte Seitenangabe
+      einen fehlenden Wert zurueckgeben. Multifokal oder supratentoriell allein
+      belegt keine beidseitige Lokalisation.

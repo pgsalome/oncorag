@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. During week 3 of treatment, she reports gastric ulcer with persistence since the last visit and this is mild and currently manageable. Over recent days, she reports dysphasia, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Over the past week, she reports worsening laryngeal stenosis and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing gastric ulcer, improving dysphasia, and worsening laryngeal stenosis. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. During systemic therapy, she reports abducens nerve disorder with persistence since the last visit and required urgent evaluation due to symptom severity. After cycle 2, she previously experienced ileal ulcer and at that time, required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing abducens nerve disorder that is clinically significant and prior ileal ulcer. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-08-04, she returns today for routine follow-up. After cycle 2, she previously experienced buttock pain and at that time, required urgent evaluation due to symptom severity. Since last visit, she reports worsening paroxysmal atrial tachycardia over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior buttock pain and worsening paroxysmal atrial tachycardia that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

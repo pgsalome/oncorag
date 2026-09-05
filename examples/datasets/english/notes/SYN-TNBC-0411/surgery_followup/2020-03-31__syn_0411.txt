@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-03-31, she returns for surgical follow-up with interval symptom review. Since last visit, she reports worsening dysphasia over the past week and required urgent evaluation due to symptom severity. Today, she reports laryngeal obstruction with persistence since the last visit and required urgent evaluation due to symptom severity. Over the past week, she reports worsening pelvic soft tissue necrosis and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening dysphasia that is clinically significant, ongoing laryngeal obstruction that is clinically significant, and worsening pelvic soft tissue necrosis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

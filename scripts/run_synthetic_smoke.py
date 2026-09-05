@@ -1,4 +1,4 @@
-"""Run actual models on all three small, paired multilingual regression fixtures."""
+"""Run actual models on all three small, paired multilingual synthetic example cohorts."""
 
 import argparse
 import json

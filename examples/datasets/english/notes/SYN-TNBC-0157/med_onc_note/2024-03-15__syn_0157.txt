@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-03-15, she returns to medical oncology for routine follow-up. Over the past week, she reports worsening gastric ulcer and this is mild and currently manageable. Over the past week, she reports worsening hemolytic anemia and mild fatigue is present in the setting of low hemoglobin. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening gastric ulcer and worsening hemolytic anemia. Plan is to continue routine follow-up and symptom-directed supportive care.

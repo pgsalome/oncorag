@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-08-15, she returns to medical oncology for routine follow-up. Today, she reports chest wall necrosis with persistence since the last visit and required urgent evaluation due to symptom severity. During treatment, she reports worsening bronchopleural fistula over the past week and required urgent evaluation due to symptom severity. After cycle 2, she previously experienced akathisia and at that time, required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing chest wall necrosis that is clinically significant, worsening bronchopleural fistula that is clinically significant, and prior akathisia. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

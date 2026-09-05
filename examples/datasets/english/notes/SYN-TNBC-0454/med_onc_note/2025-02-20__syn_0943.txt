@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-02-20, she returns to medical oncology for routine follow-up. Over recent days, she reports laryngeal stenosis, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving laryngeal stenosis. Plan is to continue routine follow-up and symptom-directed supportive care.

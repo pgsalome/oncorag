@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-04-06, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. At this visit, she reports soft tissue necrosis upper limb with persistence since the last visit and this is affecting routine function and activity tolerance. During systemic therapy, she reports upper gastrointestinal hemorrhage with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing soft tissue necrosis upper limb and ongoing upper gastrointestinal hemorrhage that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

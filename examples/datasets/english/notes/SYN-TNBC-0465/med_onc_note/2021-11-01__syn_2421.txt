@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. During systemic therapy, she reports jejunal obstruction with persistence since the last visit and this is affecting routine function and activity tolerance. During treatment, she reports worsening atrial flutter over the past week and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing jejunal obstruction and worsening atrial flutter. Plan is to continue routine follow-up and symptom-directed supportive care.

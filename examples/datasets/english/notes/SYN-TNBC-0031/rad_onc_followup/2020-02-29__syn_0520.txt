@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Since last visit, she reports worsening neuralgia over the past week and this is mild and currently manageable. During prior cycles, she previously experienced pelvic soft tissue necrosis and at that time, this was affecting routine function and activity tolerance. During week 2 of treatment, she reports bladder infection with persistence since the last visit and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening neuralgia, prior pelvic soft tissue necrosis, and ongoing bladder infection. Plan is to continue routine follow-up and symptom-directed supportive care.

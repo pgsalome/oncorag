@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Since last visit, she reports pancreatic fistula, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Since last visit, she reports worsening allergic rhinitis over the past week and this is affecting routine function and activity tolerance. At this visit, she reports edema cerebral with persistence since the last visit and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving pancreatic fistula, worsening allergic rhinitis, and ongoing edema cerebral that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

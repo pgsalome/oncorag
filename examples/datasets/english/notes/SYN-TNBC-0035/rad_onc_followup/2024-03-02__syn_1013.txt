@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-03-02, she returns today for routine follow-up. Since last visit, she reports worsening disseminated intravascular coagulation over the past week and required urgent evaluation due to symptom severity. At this visit, she reports intracranial hemorrhage with persistence since the last visit and required urgent evaluation due to symptom severity. At follow-up, she reports endophthalmitis, improved since the prior visit but still present and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening disseminated intravascular coagulation that is clinically significant, ongoing intracranial hemorrhage that is clinically significant, and improving endophthalmitis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

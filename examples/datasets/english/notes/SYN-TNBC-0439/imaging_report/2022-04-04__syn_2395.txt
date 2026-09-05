@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. Currently, she reports pancreatic hemorrhage with persistence since the last visit and this is mild and currently manageable. If symptoms progress, discussed risk of future fungemia and symptom monitoring precautions. No active symptoms related to this concern are present today. During treatment, she reports worsening urinary tract infection over the past week and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing pancreatic hemorrhage, future risk counseling for fungemia, and worsening urinary tract infection. Plan is to continue routine follow-up and symptom-directed supportive care.

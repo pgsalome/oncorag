@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+On 2025-11-20, this lab report was reviewed in context of ongoing treatment toxicity monitoring. Over the past week, she reports worsening memory impairment and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening memory impairment that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

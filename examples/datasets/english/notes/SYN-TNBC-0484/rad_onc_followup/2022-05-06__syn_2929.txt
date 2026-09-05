@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Over recent days, she reports radiation pneumonitis symptoms, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During prior cycles, she previously had persistent cough, now resolved and at that time, this was affecting routine function and activity tolerance. Today, she reports dyspnea with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving pneumonitis that is clinically significant, prior cough now resolved, and ongoing dyspnea that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

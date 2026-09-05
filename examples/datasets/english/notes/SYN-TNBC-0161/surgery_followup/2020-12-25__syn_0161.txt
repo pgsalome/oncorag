@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-12-25, she returns for surgical follow-up with interval symptom review. At this visit, she reports mucosal infection with persistence since the last visit and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing mucosal infection. Plan is to continue routine follow-up and symptom-directed supportive care.

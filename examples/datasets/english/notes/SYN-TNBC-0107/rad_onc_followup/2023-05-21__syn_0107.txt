@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. During week 5 of treatment, she reports rash maculo-papular with persistence since the last visit and this is mild and currently manageable. During systemic therapy, she reports esophageal ulcer with persistence since the last visit and this is affecting routine function and activity tolerance. Over the past week, she reports worsening cheilitis and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing rash maculo-papular, ongoing esophageal ulcer, and worsening cheilitis. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-03-11, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. During treatment, she reports worsening vagus nerve disorder over the past week and this is affecting routine function and activity tolerance. Since last visit, she reports worsening laryngitis over the past week and required urgent evaluation due to symptom severity. Currently, she reports amnesia with persistence since the last visit and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening vagus nerve disorder, worsening laryngitis that is clinically significant, and ongoing amnesia. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

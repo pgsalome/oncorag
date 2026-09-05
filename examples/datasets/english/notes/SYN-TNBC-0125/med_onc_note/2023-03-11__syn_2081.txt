@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Over recent days, she reports dermatitis psoriasiform, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Since last visit, she reports worsening appendicitis perforated over the past week and required urgent evaluation due to symptom severity. Since last visit, she reports worsening dermatosis bullous over the past week and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving dermatitis psoriasiform, worsening appendicitis perforated that is clinically significant, and worsening dermatosis bullous. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

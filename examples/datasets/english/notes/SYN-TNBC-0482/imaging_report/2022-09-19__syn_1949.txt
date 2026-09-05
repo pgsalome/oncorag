@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. Over recent days, she reports pulmonary fistula, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Today, she reports penile infection with persistence since the last visit and this is affecting routine function and activity tolerance. At this visit, she reports muscle weakness trunk with persistence since the last visit and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving pulmonary fistula, ongoing penile infection, and ongoing muscle weakness trunk. Plan is to continue routine follow-up and symptom-directed supportive care.

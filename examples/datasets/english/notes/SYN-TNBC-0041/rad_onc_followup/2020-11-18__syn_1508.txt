@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Over the past week, she reports worsening arterial thromboembolism and required urgent evaluation due to symptom severity. During week 3 of treatment, she reports bone marrow hypocellular with persistence since the last visit and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening arterial thromboembolism that is clinically significant and ongoing bone marrow hypocellular. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

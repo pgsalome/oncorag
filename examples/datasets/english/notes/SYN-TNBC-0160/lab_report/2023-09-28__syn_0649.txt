@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. Over the past week, she reports worsening lip pain and this is mild and currently manageable. During radiation treatment, she reports pleural effusion with persistence since the last visit and this is mild and currently manageable. During radiation treatment, she reports difficulty passing stool with persistence since the last visit and severe constipation required urgent evaluation and bowel intervention. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening lip pain, ongoing pleural effusion, and ongoing constipation that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

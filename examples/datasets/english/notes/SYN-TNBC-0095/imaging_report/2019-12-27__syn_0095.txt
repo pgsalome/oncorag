@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2019-12-27, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. If symptoms progress, discussed risk of future epistaxis and symptom monitoring precautions. No active symptoms related to this concern are present today. Since last visit, she reports activated partial thromboplastin time prolonged, improved since the prior visit but still present and required urgent evaluation due to symptom severity. At follow-up, she reports bronchial stricture, improved since the prior visit but still present and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for epistaxis, improving activated partial thromboplastin time prolonged that is clinically significant, and improving bronchial stricture. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

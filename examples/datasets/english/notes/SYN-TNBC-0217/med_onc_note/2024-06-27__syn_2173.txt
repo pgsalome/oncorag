@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. At follow-up, she reports peripheral ischemia, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Since last visit, she reports pain in extremity, improved since the prior visit but still present and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving peripheral ischemia that is clinically significant and improving pain in extremity. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

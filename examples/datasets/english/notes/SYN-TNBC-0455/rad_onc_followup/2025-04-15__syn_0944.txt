@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. At this visit, she reports pain of skin with persistence since the last visit and this is mild and currently manageable. At this visit, she reports gallbladder obstruction with persistence since the last visit and this is mild and currently manageable. Since last visit, she reports hallucinations, improved since the prior visit but still present and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing pain of skin, ongoing gallbladder obstruction, and improving hallucinations that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

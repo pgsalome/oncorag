@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Currently, she reports hypercalcemia with persistence since the last visit and this is mild and currently manageable. Over the next week, discussed risk of future edema cerebral and symptom monitoring precautions. No active symptoms related to this concern are present today. Over the past week, she reports worsening superior vena cava syndrome and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing hypercalcemia, future risk counseling for edema cerebral, and worsening superior vena cava syndrome. Plan is to continue routine follow-up and symptom-directed supportive care.

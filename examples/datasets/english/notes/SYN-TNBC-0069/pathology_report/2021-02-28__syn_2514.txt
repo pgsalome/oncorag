@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-02-28, this pathology report was reviewed in context of ongoing treatment toxicity monitoring. At this visit, she denies leukocytosis. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current leukocytosis. Plan is to continue routine follow-up and symptom-directed supportive care.

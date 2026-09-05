@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Over the past week, she reports worsening facial pain and required urgent evaluation due to symptom severity. During radiation treatment, she reports supraventricular tachycardia with persistence since the last visit and this is affecting routine function and activity tolerance. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening facial pain that is clinically significant and ongoing supraventricular tachycardia. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Today, she denies dental caries. Currently, she reports hiccups with persistence since the last visit and required urgent evaluation due to symptom severity. Since last visit, she reports worsening cd4 lymphocytes decreased over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current dental caries, ongoing hiccups that is clinically significant, and worsening cd4 lymphocytes decreased that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

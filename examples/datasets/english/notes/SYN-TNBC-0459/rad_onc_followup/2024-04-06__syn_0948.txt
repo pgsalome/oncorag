@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-04-06, she returns today for routine follow-up. Over recent days, she reports enterocolitis infectious, improved since the prior visit but still present and required urgent evaluation due to symptom severity. If symptoms progress, discussed risk of future herpes simplex reactivation and symptom monitoring precautions. No active symptoms related to this concern are present today. At this visit, she denies hyperuricemia. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving enterocolitis infectious that is clinically significant, future risk counseling for herpes simplex reactivation, and no current hyperuricemia. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

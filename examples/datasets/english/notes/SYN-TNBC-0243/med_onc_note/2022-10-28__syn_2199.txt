@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Today, she reports pancreatic insufficiency with persistence since the last visit and required urgent evaluation due to symptom severity. During systemic therapy, she reports left ventricular dysfunction with persistence since the last visit and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing pancreatic insufficiency that is clinically significant and ongoing left ventricular dysfunction. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

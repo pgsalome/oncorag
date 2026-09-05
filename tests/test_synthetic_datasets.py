@@ -3,6 +3,8 @@ import hashlib
 import importlib.util
 import json
 from pathlib import Path
+import subprocess
+import sys
 
 import pytest
 
@@ -24,8 +26,8 @@ def write_source(root, note_text="Synthetic report. Hemoglobin 12.1 g/dL.", **ov
                     "temporality": "current", "source_grade_evidence": ["private payload"]}],
         **overrides,
     }
-    (root / "synthetic_notes/syn_0001.txt").write_text(note_text, encoding="utf-8")
-    (root / "labels/syn_0001.json").write_text(json.dumps(payload), encoding="utf-8")
+    (root / "synthetic_notes" / f"{payload['note_id']}.txt").write_text(note_text, encoding="utf-8")
+    (root / "labels" / f"{payload['note_id']}.json").write_text(json.dumps(payload), encoding="utf-8")
     return root
 
 
@@ -51,6 +53,7 @@ def test_export_allowlists_labels_and_preserves_note_metadata(tmp_path):
 
 @pytest.mark.parametrize("text", [
     "Record 987654321 contains synthetic content.",
+    "Record prefix987654321suffix contains synthetic content.",
     "Contact person@example.org.",
     "MRN: 12345678.",
     "Source file /home/person/notes.txt.",
@@ -60,6 +63,48 @@ def test_export_rejects_source_identifiers_and_contact_markers(tmp_path, text):
     with pytest.raises(ValueError, match="review required"):
         exporter.export_cohort(source, tmp_path / "public", "en")
     assert not (tmp_path / "public").exists()
+
+
+@pytest.mark.parametrize("overrides", [
+    {"patient_id": "SYN-TNBC-987654321"},
+    {"note_id": "syn987654321suffix"},
+    {"note_type": "oncology987654321suffix"},
+    {"source_style_patient_id": "syn_0001.txt"},
+])
+def test_export_rejects_source_identifiers_in_metadata_and_paths(tmp_path, overrides):
+    source = write_source(tmp_path / "source", **overrides)
+    with pytest.raises(ValueError, match="Known source identifier"):
+        exporter.export_cohort(source, tmp_path / "public", "en")
+    assert not (tmp_path / "public").exists()
+
+
+@pytest.mark.parametrize("field,value,identifier", [
+    ("source_style_patient_id", "FICTIONAL-ID-24681357", "FICTIONAL-ID-24681357"),
+    ("source_style_patient_ids", ["FICTIONAL-ID-24681357"], "FICTIONAL-ID-24681357"),
+    ("style_source_patient_ids", ["FICTIONAL-ID-24681357"], "FICTIONAL-ID-24681357"),
+    ("sampled_source_patient_ids", [246813579], "246813579"),
+    ("style_patient_ids", [None, "", "style_unknown", "FICTIONAL-ID-24681357"], "FICTIONAL-ID-24681357"),
+])
+def test_export_rejects_nested_source_identifier_fields(tmp_path, field, value, identifier):
+    source = write_source(
+        tmp_path / "source", note_text=f"Synthetic note contains prefix{identifier}suffix.",
+        history={"sources": [{field: value}]},
+    )
+    with pytest.raises(ValueError, match="Known source identifier"):
+        exporter.export_cohort(source, tmp_path / "public", "en")
+    assert not (tmp_path / "public").exists()
+
+
+@pytest.mark.parametrize("source_identifier", [None, "", "style_unknown", "  ", " style_unknown "])
+def test_export_does_not_treat_synthetic_metadata_or_empty_ids_as_source_ids(tmp_path, source_identifier):
+    source = write_source(
+        tmp_path / "source", note_text="Synthetic patient SYN-TNBC-0001, note syn_0001.",
+        source_style_patient_id=source_identifier,
+        history={"patient_id": "SYN-TNBC-0001", "note_id": "syn_0001"},
+    )
+    destination = tmp_path / "public"
+    exporter.export_cohort(source, destination, "en")
+    assert (destination / "registry.csv").is_file()
 
 
 def test_export_rejects_symlink_escape(tmp_path):
@@ -116,9 +161,9 @@ def test_patient_splits_are_reproducible_and_patient_disjoint():
     }
 
 
-def test_mixed_fixtures_have_both_languages_with_matching_gold(tmp_path):
-    destination = tmp_path / "fixtures"
-    exporter.export_fixtures(destination)
+def test_mixed_demo_has_both_languages_with_matching_gold(tmp_path):
+    destination = tmp_path / "demo"
+    exporter.export_demo(destination)
     reference_gold = None
     for variant in ("english", "german", "mixed"):
         root = destination / variant
@@ -144,15 +189,37 @@ def test_mixed_fixtures_have_both_languages_with_matching_gold(tmp_path):
 
 
 @pytest.mark.parametrize("variant", ["english", "german", "mixed"])
-def test_committed_fixture_manifests_are_complete_and_match_hashes(variant):
-    root = ROOT / "examples/datasets/fixtures" / variant
+def test_committed_demo_manifests_are_complete_and_match_hashes(variant):
+    root = ROOT / "examples/datasets/demo" / variant
     manifest = json.loads((root / "manifest.json").read_text())
+    assert manifest["dataset_id"] == f"demo_{variant}"
     files = {path.relative_to(root).as_posix() for path in root.rglob("*") if path.is_file()}
     assert files == set(manifest["files"]) | {"manifest.json"}
     for relative, expected in manifest["files"].items():
         path = exporter.safe_child(root, relative)
         assert hashlib.sha256(path.read_bytes()).hexdigest() == expected["sha256"]
         assert path.stat().st_size == expected["bytes"]
+
+
+@pytest.mark.parametrize("option", ["--demo-only", "--fixtures-only"])
+def test_demo_only_cli_reproduces_bundled_examples_without_source_data(tmp_path, option):
+    result = subprocess.run(
+        [sys.executable, str(ROOT / "scripts/export_synthetic_datasets.py"),
+         option, "--output-root", str(tmp_path)],
+        check=True, capture_output=True, text=True,
+    )
+    assert json.loads(result.stdout) == {
+        "cohorts": [], "demo_variants": ["english", "german", "mixed"],
+    }
+    assert {path.name for path in tmp_path.iterdir()} == {"demo"}
+    for variant in ("english", "german", "mixed"):
+        bundled = ROOT / "examples/datasets/demo" / variant
+        generated = tmp_path / "demo" / variant
+        expected_files = {path.relative_to(bundled) for path in bundled.rglob("*") if path.is_file()}
+        actual_files = {path.relative_to(generated) for path in generated.rglob("*") if path.is_file()}
+        assert actual_files == expected_files
+        for relative in expected_files:
+            assert (generated / relative).read_bytes() == (bundled / relative).read_bytes()
 
 
 @pytest.mark.parametrize("variant,events", [("english", 5761), ("german", 5987)])

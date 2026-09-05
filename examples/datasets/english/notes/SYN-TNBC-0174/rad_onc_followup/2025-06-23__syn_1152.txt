@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Currently, she reports fever with persistence since the last visit and required urgent evaluation due to symptom severity. After cycle 2, she previously had restlessness, now resolved and at that time, this was affecting routine function and activity tolerance. At this visit, she reports vasculitis with persistence since the last visit and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing fever that is clinically significant, prior restlessness now resolved, and ongoing vasculitis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

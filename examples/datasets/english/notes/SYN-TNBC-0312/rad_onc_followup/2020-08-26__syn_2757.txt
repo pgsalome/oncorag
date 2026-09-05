@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-08-26, she returns today for routine follow-up. Over the past week, she reports worsening hematemesis and required urgent evaluation due to symptom severity. During radiation treatment, she reports pleural effusion with persistence since the last visit and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening hematemesis that is clinically significant and ongoing pleural effusion. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

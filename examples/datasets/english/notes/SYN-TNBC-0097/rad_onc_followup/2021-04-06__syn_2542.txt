@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-04-06, she returns today for routine follow-up. During week 5 of treatment, she reports serum amylase increased with persistence since the last visit and this is affecting routine function and activity tolerance. After cycle 2, she previously experienced bronchial fistula and at that time, required urgent evaluation due to symptom severity. Over the past week, she reports worsening kyphosis and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing serum amylase increased, prior bronchial fistula, and worsening kyphosis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

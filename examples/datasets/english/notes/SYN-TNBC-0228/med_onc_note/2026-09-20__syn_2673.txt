@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. During week 7 of treatment, she reports lymph gland infection with persistence since the last visit and required urgent evaluation due to symptom severity. If symptoms progress, discussed risk of future back pain and symptom monitoring precautions. No active symptoms related to this concern are present today. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing lymph gland infection that is clinically significant and future risk counseling for back pain. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

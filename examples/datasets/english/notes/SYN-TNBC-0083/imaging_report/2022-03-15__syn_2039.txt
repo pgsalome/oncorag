@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. At this visit, she reports generalized edema with persistence since the last visit and this is affecting routine function and activity tolerance. At follow-up, she reports dizziness, improved since the prior visit but still present and this is mild and currently manageable. During week 1 of treatment, she denies capillary leak syndrome. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing generalized edema, improving dizziness, and no current capillary leak syndrome. Plan is to continue routine follow-up and symptom-directed supportive care.

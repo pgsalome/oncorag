@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-10-14, she returns today for routine follow-up. At upcoming follow-up, discussed risk of future small intestine ulcer and symptom monitoring precautions. No active symptoms related to this concern are present today. Since last visit, she reports worsening rectal obstruction over the past week and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for small intestine ulcer and worsening rectal obstruction. Plan is to continue routine follow-up and symptom-directed supportive care.

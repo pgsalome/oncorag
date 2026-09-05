@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-12-13, she returns to medical oncology for routine follow-up. Currently, she denies concentration impairment. During week 1 of treatment, she reports soft tissue necrosis lower limb with persistence since the last visit and this is affecting routine function and activity tolerance. At this visit, she reports bloating with persistence since the last visit and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current concentration impairment, ongoing soft tissue necrosis lower limb, and ongoing bloating. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. Over the past week, she reports worsening extrapyramidal disorder and required urgent evaluation due to symptom severity. At this visit, she reports small intestinal mucositis with persistence since the last visit and painful oral mucositis has limited tolerance of solid foods. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening extrapyramidal disorder that is clinically significant and ongoing small intestinal mucositis limiting oral intake. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

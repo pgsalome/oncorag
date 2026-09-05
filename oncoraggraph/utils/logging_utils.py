@@ -1,8 +1,6 @@
 import logging
-from loguru import logger
 
 # Configure third-party logging noise suppression
-logger.remove()
 logging.getLogger("PyRuSH").setLevel(logging.CRITICAL)
 logging.getLogger("PyRuSH.PyRuSHSentencizer").setLevel(logging.CRITICAL)
 logging.getLogger("medspacy").setLevel(logging.CRITICAL)

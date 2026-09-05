@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-05-06, she returns today for routine follow-up. Today, she reports laryngeal fistula with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing laryngeal fistula that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

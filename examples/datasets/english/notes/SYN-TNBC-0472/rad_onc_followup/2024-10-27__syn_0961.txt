@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Earlier in treatment, she previously had dermatitis psoriasiform, now resolved and at that time, this was affecting routine function and activity tolerance. Today, she reports portal hypertension with persistence since the last visit and this is affecting routine function and activity tolerance. Currently, she reports pyramidal tract syndrome with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior dermatitis psoriasiform now resolved, ongoing portal hypertension, and ongoing pyramidal tract syndrome that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

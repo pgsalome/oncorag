@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-03-12, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. Since last visit, she reports enterocolitis, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Over the past week, she reports worsening prostate infection and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving enterocolitis and worsening prostate infection. Plan is to continue routine follow-up and symptom-directed supportive care.

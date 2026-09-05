@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-08-04, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. Over the past week, she reports worsening rhinorrhea and this is mild and currently manageable. At upcoming follow-up, discussed risk of future viremia and symptom monitoring precautions. No active symptoms related to this concern are present today. At follow-up, she reports pulmonary valve disease, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening rhinorrhea, future risk counseling for viremia, and improving pulmonary valve disease. Plan is to continue routine follow-up and symptom-directed supportive care.

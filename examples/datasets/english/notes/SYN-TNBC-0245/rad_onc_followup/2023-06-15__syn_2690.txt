@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Currently, she reports hepatitis with persistence since the last visit and this is affecting routine function and activity tolerance. During radiation treatment, she reports lichenoid dermatitis with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing hepatitis and ongoing lichenoid dermatitis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

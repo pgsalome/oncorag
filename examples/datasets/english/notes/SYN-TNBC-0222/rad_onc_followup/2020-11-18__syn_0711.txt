@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. During week 1 of treatment, she reports allergic rhinitis with persistence since the last visit and this is affecting routine function and activity tolerance. Today, she reports arachnoiditis with persistence since the last visit and this is mild and currently manageable. Over the past week, she reports worsening biliary obstruction and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing allergic rhinitis, ongoing arachnoiditis, and worsening biliary obstruction. Plan is to continue routine follow-up and symptom-directed supportive care.

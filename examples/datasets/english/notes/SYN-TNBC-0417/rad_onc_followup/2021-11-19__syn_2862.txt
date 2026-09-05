@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-11-19, she returns today for routine follow-up. At this visit, she reports myalgia with persistence since the last visit and this is affecting routine function and activity tolerance. At follow-up, she reports sinusitis, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing myalgia and improving sinusitis. Plan is to continue routine follow-up and symptom-directed supportive care.

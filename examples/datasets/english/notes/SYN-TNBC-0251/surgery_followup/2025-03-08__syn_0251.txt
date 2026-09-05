@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-03-08, she returns for surgical follow-up with interval symptom review. Since last visit, she reports thrombotic microangiopathy, improved since the prior visit but still present and this is affecting routine function and activity tolerance. During systemic therapy, she reports mucosal infection with persistence since the last visit and required urgent evaluation due to symptom severity. Since last visit, she reports worsening enterocolitis over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving thrombotic microangiopathy, ongoing mucosal infection that is clinically significant, and worsening enterocolitis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

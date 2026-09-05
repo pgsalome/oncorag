@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-08-17, she returns today for routine follow-up. At this visit, she reports mediastinal hemorrhage with persistence since the last visit and required urgent evaluation due to symptom severity. During systemic therapy, she reports oropharyngeal pain with persistence since the last visit and this is mild and currently manageable. Since last visit, she reports flushing, improved since the prior visit but still present and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing mediastinal hemorrhage that is clinically significant, ongoing oropharyngeal pain, and improving flushing. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

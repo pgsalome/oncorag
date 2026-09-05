@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. At upcoming follow-up, discussed risk of future depressed level of consciousness and symptom monitoring precautions. No active symptoms related to this concern are present today. Over recent days, she reports joint infection, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Over the next week, discussed risk of future small intestinal obstruction and symptom monitoring precautions. No active symptoms related to this concern are present today. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for depressed level of consciousness, improving joint infection, and future risk counseling for small intestinal obstruction. Plan is to continue routine follow-up and symptom-directed supportive care.

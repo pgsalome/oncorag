@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-11-02, this pathology report was reviewed in context of ongoing treatment toxicity monitoring. At this visit, she reports vasovagal reaction with persistence since the last visit and required urgent evaluation due to symptom severity. At upcoming follow-up, discussed risk of future rectal fissure and symptom monitoring precautions. No active symptoms related to this concern are present today. At this visit, she reports peripheral ischemia with persistence since the last visit and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing vasovagal reaction that is clinically significant, future risk counseling for rectal fissure, and ongoing peripheral ischemia. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

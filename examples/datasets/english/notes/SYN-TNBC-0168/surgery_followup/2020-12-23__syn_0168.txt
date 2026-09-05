@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-12-23, she returns for surgical follow-up with interval symptom review. Currently, she reports gastrointestinal fistula with persistence since the last visit and required urgent evaluation due to symptom severity. Since last visit, she reports worsening olfactory nerve disorder over the past week and this is affecting routine function and activity tolerance. During radiation treatment, she reports central nervous system necrosis with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing gastrointestinal fistula that is clinically significant, worsening olfactory nerve disorder, and ongoing central nervous system necrosis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Since last visit, she reports worsening enterocolitis over the past week and this is mild and currently manageable. During treatment, she reports worsening tumor lysis syndrome over the past week and required urgent evaluation due to symptom severity. During treatment, she reports worsening esophageal infection over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening enterocolitis, worsening tumor lysis syndrome that is clinically significant, and worsening esophageal infection that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

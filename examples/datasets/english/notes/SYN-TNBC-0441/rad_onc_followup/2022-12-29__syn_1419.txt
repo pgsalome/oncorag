@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-12-29, she returns today for routine follow-up. During treatment, she reports worsening gallbladder obstruction over the past week and required urgent evaluation due to symptom severity. During radiation treatment, she reports colonic stenosis with persistence since the last visit and required urgent evaluation due to symptom severity. Over the past week, she reports worsening belching and this is mild and currently manageable. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening gallbladder obstruction that is clinically significant, ongoing colonic stenosis that is clinically significant, and worsening belching. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

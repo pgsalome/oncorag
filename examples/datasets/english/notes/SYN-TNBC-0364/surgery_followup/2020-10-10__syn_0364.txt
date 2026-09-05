@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-10-10, she returns for surgical follow-up with interval symptom review. During radiation treatment, she reports myocarditis with persistence since the last visit and required urgent evaluation due to symptom severity. During treatment, she reports worsening pharyngeal mucositis over the past week. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing myocarditis that is clinically significant and worsening pharyngeal mucositis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

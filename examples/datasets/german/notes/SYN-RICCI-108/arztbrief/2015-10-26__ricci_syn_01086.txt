@@ -1,0 +1,25 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Arztbrief
+Dokument-ID: ricci_syn_01086
+Datum: 26.10.2015
+
+Sehr geehrte Frau Kollegin,
+bei Patient SYN-RICCI-108 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 08.07.2014 mit Astrozytom WHO Grad 4.
+Lokalisation: Temporallappen rechts.
+Primäre Resektion am 12.07.2014.
+Primäre Radiotherapie bis 54 Gy vom 15.08.2014 bis 03.10.2014.
+Rezidivbestrahlung bis 30 Gy vom 11.07.2015 bis 31.07.2015.
+Systemische Therapien: Bevacizumab, Nivolumab, Irinotecan.
+Begleitmedikation: Pantoprazol, Dexamethason.
+
+Allgemeinzustand:
+- Klinisch zeigt sich persistierende Fatigue mit Einschränkung der Aktivität im Tagesverlauf, entsprechend der aktuellen Verlaufseinschätzung seit der letzten Vorstellung unter kombinierter supportiver Behandlung.
+- Ferner ist zu beachten: Die Alltagsaktivität ist nur gering beeinträchtigt Eine kurzfristige Reevaluation wurde empfohlen.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 6 Wochen geplant.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.

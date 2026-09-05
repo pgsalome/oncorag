@@ -1,0 +1,31 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: ricci_syn_02301
+Datum: 25.01.2019
+
+Sehr geehrte Frau Kollegin,
+bei Patient SYN-RICCI-345 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 18.12.2017 mit Oligodendrogliom WHO Grad 3.
+Lokalisation: Temporallappen rechts.
+Primäre Resektion am 07.01.2018.
+Primäre Radiotherapie bis 59 Gy vom 16.02.2018 bis 26.03.2018.
+Rezidivbestrahlung bis 30 Gy vom 01.12.2018 bis 16.12.2018.
+Systemische Therapien: Temozolomid, PCV.
+Begleitmedikation: Levetiracetam.
+
+Beurteilung:
+- Weiterhin nachweisbar ist radiogene Nekrose mit klinisch relevanten Beschwerden, derzeit konservativ behandelbar, mit klarer Relevanz für die weitere Therapieplanung bildgebend im Kontext der bekannten Tumor- und Therapiesituation.
+- Ferner ist zu beachten: Es erfolgt eine ambulante Verlaufskontrolle Hieraus ergab sich eine enge klinische Überwachung.
+- Im interdisziplinären Kontext Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Bildgebung:
+- Weiterhin nachweisbar ist massives zerebrales Ödem mit akuter Herniationsgefahr und sofortiger neurointensivmedizinischer Intervention in den vergangenen Tagen im posttherapeutischen Verlauf unter kombinierter supportiver Behandlung.
+- Im gleichen Kontext wird berichtet: eine stationäre Aufnahme war erforderlich; eine rasche Akutmaßnahme war angezeigt; die Selbstständigkeit im Alltag ist relevant vermindert; Es lag eine lebensbedrohliche Dekompensation mit unmittelbarer Krisenbehandlung vor.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 10 Wochen geplant.
+- Supportivtherapie wird symptomorientiert fortgesetzt.
+- Diskussion einer antiödematösen Therapie bzw. Bevacizumab bei Persistenz der Beschwerden.

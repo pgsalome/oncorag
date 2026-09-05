@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Over recent days, she reports hyperlipidemia, improved since the prior visit but still present and this is mild and currently manageable. Over the past week, she reports worsening esophageal stenosis and this is affecting routine function and activity tolerance. Over the past week, she reports worsening periodontal disease and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving hyperlipidemia, worsening esophageal stenosis, and worsening periodontal disease that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

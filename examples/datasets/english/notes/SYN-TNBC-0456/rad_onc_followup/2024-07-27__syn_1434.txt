@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Since last visit, she reports worsening soft tissue necrosis lower limb over the past week and required urgent evaluation due to symptom severity. Earlier in treatment, she previously had conjunctivitis infective, now resolved and at that time, required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening soft tissue necrosis lower limb that is clinically significant and prior conjunctivitis infective now resolved. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

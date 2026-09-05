@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. At this visit, she reports fibrosis deep connective tissue with persistence since the last visit and required urgent evaluation due to symptom severity. Currently, she reports soft tissue necrosis lower limb with persistence since the last visit and required urgent evaluation due to symptom severity. Earlier in treatment, she previously had vulval infection, now resolved and at that time, required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing fibrosis deep connective tissue that is clinically significant, ongoing soft tissue necrosis lower limb that is clinically significant, and prior vulval infection now resolved. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

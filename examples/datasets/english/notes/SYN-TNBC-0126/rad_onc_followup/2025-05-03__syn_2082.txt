@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-05-03, she returns today for routine follow-up. Currently, she reports otitis media with persistence since the last visit and required urgent evaluation due to symptom severity. Earlier in treatment, she previously had hypomagnesemia, now resolved and at that time, required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing otitis media that is clinically significant and prior hypomagnesemia now resolved. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

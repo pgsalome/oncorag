@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. At this visit, she reports transient ischemic attacks with persistence since the last visit and this is affecting routine function and activity tolerance. Over the past week, she reports worsening soft tissue infection and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing transient ischemic attacks and worsening soft tissue infection. Plan is to continue routine follow-up and symptom-directed supportive care.

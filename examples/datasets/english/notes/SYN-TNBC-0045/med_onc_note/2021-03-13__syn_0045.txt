@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-03-13, she returns to medical oncology for routine follow-up. Since last visit, she reports worsening aspartate aminotransferase increased over the past week and this is mild and currently manageable. Over the next week, discussed risk of future vaginal infection and symptom monitoring precautions. No active symptoms related to this concern are present today. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening aspartate aminotransferase increased and future risk counseling for vaginal infection. Plan is to continue routine follow-up and symptom-directed supportive care.

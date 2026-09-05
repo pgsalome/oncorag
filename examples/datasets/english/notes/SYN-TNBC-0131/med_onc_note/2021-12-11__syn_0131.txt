@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. At follow-up, she reports trochlear nerve disorder, improved since the prior visit but still present and this is affecting routine function and activity tolerance. At follow-up, she reports stroke, improved since the prior visit but still present and this is affecting routine function and activity tolerance. At this visit, she reports candidiasis with persistence since the last visit and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving trochlear nerve disorder, improving stroke, and ongoing candidiasis. Plan is to continue routine follow-up and symptom-directed supportive care.

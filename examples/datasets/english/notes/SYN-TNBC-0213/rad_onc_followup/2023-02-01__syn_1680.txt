@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-02-01, she returns today for routine follow-up. After cycle 2, she previously experienced visceral arterial ischemia and at that time, required urgent evaluation due to symptom severity. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior visceral arterial ischemia. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2026-05-31, this pathology report was reviewed in context of ongoing treatment toxicity monitoring. Since last visit, she reports worsening nystagmus over the past week and this is affecting routine function and activity tolerance. Since last visit, she reports worsening erythema multiforme over the past week and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening nystagmus and worsening erythema multiforme. Plan is to continue routine follow-up and symptom-directed supportive care.

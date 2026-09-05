@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. At this visit, she reports epstein-barr virus infection reactivation with persistence since the last visit and required urgent evaluation due to symptom severity. Since last visit, she reports worsening toothache over the past week and this is mild and currently manageable. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing epstein-barr virus infection reactivation that is clinically significant and worsening toothache. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

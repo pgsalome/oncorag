@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-04-01, she returns today for routine follow-up. During radiation treatment, she reports bladder perforation with persistence since the last visit and required urgent evaluation due to symptom severity. At this visit, she reports cytomegalovirus infection reactivation with persistence since the last visit and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing bladder perforation that is clinically significant and ongoing cytomegalovirus infection reactivation. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

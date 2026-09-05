@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Since last visit, she reports worsening glucosuria over the past week and this is mild and currently manageable. During week 1 of treatment, she reports hematochezia with persistence since the last visit and required urgent evaluation due to symptom severity. Today, she reports musculoskeletal deformity with persistence since the last visit and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening glucosuria, ongoing hematochezia that is clinically significant, and ongoing musculoskeletal deformity. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

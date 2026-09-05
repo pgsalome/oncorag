@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Since last visit, she reports bronchopleural fistula, improved since the prior visit but still present and this is affecting routine function and activity tolerance. At this visit, she reports myasthenia gravis with persistence since the last visit and required urgent evaluation due to symptom severity. At this visit, she reports visceral arterial ischemia with persistence since the last visit and this is affecting routine function and activity tolerance. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving bronchopleural fistula, ongoing myasthenia gravis that is clinically significant, and ongoing visceral arterial ischemia. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

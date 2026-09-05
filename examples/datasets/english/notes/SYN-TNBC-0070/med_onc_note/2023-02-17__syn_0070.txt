@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-02-17, she returns to medical oncology for routine follow-up. Over the past week, she reports worsening pancreatic hemorrhage and this is affecting routine function and activity tolerance. During radiation treatment, she reports chronic kidney disease with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening pancreatic hemorrhage and ongoing chronic kidney disease that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

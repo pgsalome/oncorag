@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Since last visit, she reports worsening bronchopleural fistula over the past week and this is affecting routine function and activity tolerance. During radiation treatment, she reports enterocolitis infectious with persistence since the last visit and this is affecting routine function and activity tolerance. Since last visit, she reports hair color changes, improved since the prior visit but still present and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening bronchopleural fistula, ongoing enterocolitis infectious, and improving hair color changes. Plan is to continue routine follow-up and symptom-directed supportive care.

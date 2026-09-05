@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-01-22, she returns today for routine follow-up. At this visit, she reports flushing with persistence since the last visit and required urgent evaluation due to symptom severity. During treatment, she reports worsening serum sickness over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing flushing that is clinically significant and worsening serum sickness that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

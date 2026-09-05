@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. If symptoms progress, discussed risk of future gastric stenosis and symptom monitoring precautions. No active symptoms related to this concern are present today. Over the past week, she reports worsening abducens nerve disorder and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for gastric stenosis and worsening abducens nerve disorder. Plan is to continue routine follow-up and symptom-directed supportive care.

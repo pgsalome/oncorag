@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. During treatment, she reports worsening alanine aminotransferase increased over the past week and this is affecting routine function and activity tolerance. During radiation treatment, she reports urinary tract obstruction with persistence since the last visit and required urgent evaluation due to symptom severity. Since last visit, she reports worsening meningismus over the past week and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening alanine aminotransferase increased, ongoing urinary tract obstruction that is clinically significant, and worsening meningismus. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

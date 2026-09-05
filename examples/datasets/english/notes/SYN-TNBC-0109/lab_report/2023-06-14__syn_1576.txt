@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+On 2023-06-14, this lab report was reviewed in context of ongoing treatment toxicity monitoring. At this visit, she reports cholesterol high with persistence since the last visit and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing cholesterol high. Plan is to continue routine follow-up and symptom-directed supportive care.

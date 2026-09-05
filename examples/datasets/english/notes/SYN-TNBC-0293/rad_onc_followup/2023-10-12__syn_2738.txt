@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-10-12, she returns today for routine follow-up. During treatment, she reports worsening oral dysesthesia over the past week and this is mild and currently manageable. Over the past week, she reports worsening urine output decreased and required urgent evaluation due to symptom severity. During treatment, she reports worsening loose stools over the past week and stool frequency has mildly increased above baseline. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening oral dysesthesia, worsening urine output decreased that is clinically significant, and worsening diarrhea. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. At this visit, she denies nail loss. During week 7 of treatment, she reports fatigue with persistence since the last visit and this is mild and currently manageable. During week 1 of treatment, she reports worsening pain with persistence since the last visit and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current nail loss, ongoing fatigue, and ongoing pain. Plan is to continue routine follow-up and symptom-directed supportive care.

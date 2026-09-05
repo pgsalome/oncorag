@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. At follow-up, she reports pustular drug eruption, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Since last visit, she reports gastric ulcer, improved since the prior visit but still present and this is mild and currently manageable. Currently, she reports portal hypertension with persistence since the last visit and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving pustular drug eruption, improving gastric ulcer, and ongoing portal hypertension that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

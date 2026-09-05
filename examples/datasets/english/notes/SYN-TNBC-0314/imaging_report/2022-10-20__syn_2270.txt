@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-10-20, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. Over recent days, she reports pancreatic hemorrhage, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Earlier in treatment, she previously had musculoskeletal deformity, now resolved and at that time, required urgent evaluation due to symptom severity. Since last visit, she reports worsening retroperitoneal hemorrhage over the past week and this is affecting routine function and activity tolerance. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving pancreatic hemorrhage that is clinically significant, prior musculoskeletal deformity now resolved, and worsening retroperitoneal hemorrhage. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

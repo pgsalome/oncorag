@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Since last visit, she reports worsening worsening pain over the past week and this is affecting routine function and activity tolerance. During week 4 of treatment, she reports alanine aminotransferase increased with persistence since the last visit and this is mild and currently manageable. At this visit, she reports laryngeal hemorrhage with persistence since the last visit and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening pain, ongoing alanine aminotransferase increased, and ongoing laryngeal hemorrhage. Plan is to continue routine follow-up and symptom-directed supportive care.

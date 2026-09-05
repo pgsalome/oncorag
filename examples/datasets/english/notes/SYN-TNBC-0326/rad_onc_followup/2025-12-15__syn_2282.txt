@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-12-15, she returns today for routine follow-up. During treatment, she reports worsening depressed level of consciousness over the past week and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening depressed level of consciousness. Plan is to continue routine follow-up and symptom-directed supportive care.

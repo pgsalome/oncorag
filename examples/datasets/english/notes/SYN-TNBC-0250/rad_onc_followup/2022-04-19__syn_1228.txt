@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. During treatment, she reports worsening acute kidney injury over the past week and required urgent evaluation due to symptom severity. Over the past week, she reports worsening blood antidiuretic hormone abnormal and this is affecting routine function and activity tolerance. Over recent days, she reports gallbladder pain, improved since the prior visit but still present and this is mild and currently manageable. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening acute kidney injury that is clinically significant, worsening blood antidiuretic hormone abnormal, and improving gallbladder pain. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

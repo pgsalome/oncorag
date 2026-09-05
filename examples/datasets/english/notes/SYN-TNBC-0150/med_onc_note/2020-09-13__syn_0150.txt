@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Since last visit, she reports worsening disseminated intravascular coagulation over the past week and this is affecting routine function and activity tolerance. At this visit, she reports pharyngeal mucositis with persistence since the last visit and life-threatening oral complications required acute intervention. During treatment, she reports worsening gastric fistula over the past week and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening disseminated intravascular coagulation, ongoing pharyngeal mucositis that is clinically significant, and worsening gastric fistula. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During systemic therapy, she reports peripheral motor neuropathy with persistence since the last visit and required urgent evaluation due to symptom severity. Over the next week, discussed risk of future growth hormone abnormal and symptom monitoring precautions. No active symptoms related to this concern are present today. After cycle 2, she previously had hypoglossal nerve disorder, now resolved and at that time, this was affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing peripheral motor neuropathy that is clinically significant, future risk counseling for growth hormone abnormal, and prior hypoglossal nerve disorder now resolved. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

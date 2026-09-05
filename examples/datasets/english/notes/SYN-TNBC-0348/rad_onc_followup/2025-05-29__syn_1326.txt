@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. During radiation treatment, she reports duodenal perforation with persistence since the last visit and required urgent evaluation due to symptom severity. During prior cycles, she previously had vital capacity abnormal, now resolved and at that time, this was affecting routine function and activity tolerance. At this visit, she reports skin atrophy with persistence since the last visit and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing duodenal perforation that is clinically significant, prior vital capacity abnormal now resolved, and ongoing skin atrophy. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

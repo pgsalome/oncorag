@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During week 5 of treatment, she denies vitamin d decreased. Since last visit, she reports anal ulcer, improved since the prior visit but still present and this is mild and currently manageable. At this visit, she reports vasovagal reaction with persistence since the last visit and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current vitamin d decreased, improving anal ulcer, and ongoing vasovagal reaction. Plan is to continue routine follow-up and symptom-directed supportive care.

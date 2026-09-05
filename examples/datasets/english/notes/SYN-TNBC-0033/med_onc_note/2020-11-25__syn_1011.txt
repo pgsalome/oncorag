@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Over the next week, discussed risk of future mobitz (type) ii atrioventricular block and symptom monitoring precautions. No active symptoms related to this concern are present today. Since last visit, she reports worsening brachial plexopathy over the past week and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for mobitz (type) ii atrioventricular block and worsening brachial plexopathy. Plan is to continue routine follow-up and symptom-directed supportive care.

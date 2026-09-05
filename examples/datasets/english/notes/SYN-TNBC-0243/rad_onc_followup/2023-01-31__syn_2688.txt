@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. At follow-up, she reports vaginal infection, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Today, she reports gallbladder necrosis with persistence since the last visit and required urgent evaluation due to symptom severity. At this visit, she reports atrial flutter with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving vaginal infection, ongoing gallbladder necrosis that is clinically significant, and ongoing atrial flutter that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

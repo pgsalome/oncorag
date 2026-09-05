@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During prior cycles, she previously had duodenal ulcer, now resolved and at that time, required urgent evaluation due to symptom severity. At follow-up, she reports rectal perforation, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior duodenal ulcer now resolved and improving rectal perforation. Plan is to continue routine follow-up and symptom-directed supportive care.

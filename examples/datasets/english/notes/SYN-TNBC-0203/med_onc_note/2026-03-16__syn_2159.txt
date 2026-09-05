@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2026-03-16, she returns to medical oncology for routine follow-up. At this visit, she denies anxiety. Over recent days, she reports meningismus, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current anxiety and improving meningismus. Plan is to continue routine follow-up and symptom-directed supportive care.

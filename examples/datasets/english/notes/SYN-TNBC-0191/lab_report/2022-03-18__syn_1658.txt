@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+On 2022-03-18, this lab report was reviewed in context of ongoing treatment toxicity monitoring. Over recent days, she reports bronchial stricture, improved since the prior visit but still present and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving bronchial stricture that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

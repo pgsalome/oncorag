@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Currently, she reports glomerulonephritis with persistence since the last visit and this is mild and currently manageable. At follow-up, she reports hemorrhoidal hemorrhage, improved since the prior visit but still present and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing glomerulonephritis and improving hemorrhoidal hemorrhage. Plan is to continue routine follow-up and symptom-directed supportive care.

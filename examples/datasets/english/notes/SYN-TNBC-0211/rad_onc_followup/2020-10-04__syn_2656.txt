@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-10-04, she returns today for routine follow-up. Since last visit, she reports worsening soft tissue necrosis upper limb over the past week and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening soft tissue necrosis upper limb. Plan is to continue routine follow-up and symptom-directed supportive care.

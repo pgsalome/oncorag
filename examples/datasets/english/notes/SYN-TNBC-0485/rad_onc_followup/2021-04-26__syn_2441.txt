@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-04-26, she returns today for routine follow-up. Over the past week, she reports worsening anorgasmia and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening anorgasmia. Plan is to continue routine follow-up and symptom-directed supportive care.

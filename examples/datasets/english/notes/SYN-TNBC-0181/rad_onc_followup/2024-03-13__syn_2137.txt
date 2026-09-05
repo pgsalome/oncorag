@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-03-13, she returns today for routine follow-up. During radiation treatment, she reports uterine infection with persistence since the last visit and required urgent evaluation due to symptom severity. During systemic therapy, she reports obstruction gastric with persistence since the last visit and this is affecting routine function and activity tolerance. Since last visit, she reports worsening colonic fistula over the past week and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing uterine infection that is clinically significant, ongoing obstruction gastric, and worsening colonic fistula that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

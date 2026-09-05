@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-04-28, she returns to medical oncology for routine follow-up. Over recent days, she reports growth hormone abnormal, improved since the prior visit but still present and this is affecting routine function and activity tolerance. During treatment, she reports worsening toxic epidermal necrolysis over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving growth hormone abnormal and worsening toxic epidermal necrolysis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

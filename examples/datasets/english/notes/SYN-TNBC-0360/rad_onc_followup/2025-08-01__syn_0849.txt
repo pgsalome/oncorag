@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Since last visit, she reports salivary gland fistula, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Earlier in treatment, she previously experienced fever with low neutrophil counts and at that time, febrile neutropenia with sepsis concern required hospitalization. During radiation treatment, she reports nail ridging with persistence since the last visit and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving salivary gland fistula, prior febrile neutropenia, and ongoing nail ridging. Plan is to continue routine follow-up and symptom-directed supportive care.

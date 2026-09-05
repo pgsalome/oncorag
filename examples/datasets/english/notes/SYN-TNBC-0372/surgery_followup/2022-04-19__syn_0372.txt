@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. At follow-up, she reports ileal ulcer, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During systemic therapy, she reports bronchial obstruction with persistence since the last visit and required urgent evaluation due to symptom severity. Over the past week, she reports worsening belching and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving ileal ulcer that is clinically significant, ongoing bronchial obstruction that is clinically significant, and worsening belching. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

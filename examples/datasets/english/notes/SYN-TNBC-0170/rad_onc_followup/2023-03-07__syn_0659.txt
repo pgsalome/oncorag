@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-03-07, she returns today for routine follow-up. During week 2 of treatment, she reports infusion site extravasation with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing infusion site extravasation that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

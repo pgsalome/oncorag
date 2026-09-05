@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. During week 5 of treatment, she reports lipase increased with persistence since the last visit and required urgent evaluation due to symptom severity. Since last visit, she reports worsening myocardial infarction over the past week and this is affecting routine function and activity tolerance. During prior cycles, she previously experienced tendon reflex decreased and at that time, this was affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing lipase increased that is clinically significant, worsening myocardial infarction, and prior tendon reflex decreased. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

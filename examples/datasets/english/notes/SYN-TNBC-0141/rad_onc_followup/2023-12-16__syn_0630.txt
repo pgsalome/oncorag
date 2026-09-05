@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-12-16, she returns today for routine follow-up. If symptoms progress, discussed risk of future device related infection and symptom monitoring precautions. No active symptoms related to this concern are present today. During treatment, she reports worsening thyroid stimulating hormone increased over the past week and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for device related infection and worsening thyroid stimulating hormone increased. Plan is to continue routine follow-up and symptom-directed supportive care.

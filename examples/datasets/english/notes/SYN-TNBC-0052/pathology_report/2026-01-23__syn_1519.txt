@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2026-01-23, this pathology report was reviewed in context of ongoing treatment toxicity monitoring. During treatment, she reports worsening jejunal stenosis over the past week and required urgent evaluation due to symptom severity. Currently, she reports viremia with persistence since the last visit and this is affecting routine function and activity tolerance. Over the past week, she reports worsening agitation and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening jejunal stenosis that is clinically significant, ongoing viremia, and worsening agitation that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

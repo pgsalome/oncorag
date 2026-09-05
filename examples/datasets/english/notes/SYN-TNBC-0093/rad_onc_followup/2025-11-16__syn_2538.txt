@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-11-16, she returns today for routine follow-up. Since last visit, she reports worsening concentration impairment over the past week and this is affecting routine function and activity tolerance. During week 2 of treatment, she reports neck soft tissue necrosis with persistence since the last visit and required urgent evaluation due to symptom severity. Over the past week, she reports worsening erythema multiforme and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening concentration impairment, ongoing neck soft tissue necrosis that is clinically significant, and worsening erythema multiforme. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

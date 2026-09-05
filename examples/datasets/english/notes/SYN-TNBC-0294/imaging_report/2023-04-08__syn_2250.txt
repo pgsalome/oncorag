@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. During week 5 of treatment, she reports conjunctivitis with persistence since the last visit and this is affecting routine function and activity tolerance. At follow-up, she reports fecal incontinence, improved since the prior visit but still present and this is affecting routine function and activity tolerance. At this visit, she reports urinary incontinence with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing conjunctivitis, improving fecal incontinence, and ongoing urinary incontinence that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

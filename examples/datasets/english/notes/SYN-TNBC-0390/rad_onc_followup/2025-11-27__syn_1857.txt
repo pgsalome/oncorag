@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. During week 3 of treatment, she reports hypersomnia with persistence since the last visit and required urgent evaluation due to symptom severity. Over the past week, she reports worsening gingival pain and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing hypersomnia that is clinically significant and worsening gingival pain. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

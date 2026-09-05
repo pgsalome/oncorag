@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Over recent days, she reports lip pain, improved since the prior visit but still present and this is mild and currently manageable. Since last visit, she reports worsening dehydration over the past week and this is mild and currently manageable. Over the past week, she reports worsening pharyngeal stenosis and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving lip pain, worsening dehydration, and worsening pharyngeal stenosis. Plan is to continue routine follow-up and symptom-directed supportive care.

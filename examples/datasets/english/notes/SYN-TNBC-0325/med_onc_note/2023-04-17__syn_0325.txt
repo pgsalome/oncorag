@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-04-17, she returns to medical oncology for routine follow-up. During systemic therapy, she reports musculoskeletal deformity with persistence since the last visit and required urgent evaluation due to symptom severity. Since last visit, she reports worsening shingles over the past week and required urgent evaluation due to symptom severity. Over the past week, she reports worsening renal hemorrhage and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing musculoskeletal deformity that is clinically significant, worsening shingles that is clinically significant, and worsening renal hemorrhage. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

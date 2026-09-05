@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-05-02, this pathology report was reviewed in context of ongoing treatment toxicity monitoring. Over the past week, she reports worsening head soft tissue necrosis and this is affecting routine function and activity tolerance. Over recent days, she reports rhinitis infective, improved since the prior visit but still present and this is affecting routine function and activity tolerance. During week 4 of treatment, she reports ventricular tachycardia with persistence since the last visit and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening head soft tissue necrosis, improving rhinitis infective, and ongoing ventricular tachycardia that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

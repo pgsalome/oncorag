@@ -1,89 +1,130 @@
 # Synthetic Datasets
 
-The public release includes only the purpose-authored regression fixtures in
-`fixtures/english`, `fixtures/german`, and `fixtures/mixed`. Each variant has
-3 synthetic patients, 9 notes and 12 typed reference answers. Every patient in
-`mixed` has both German and English notes in one timeline.
+The full English and German cohorts are included in this repository, along with
+all notes, relative registries, projected event labels, patient splits and file
+manifests. No separate data download is needed.
+
+| Directory | Patients | Notes | Annotation scope |
+| --- | ---: | ---: | --- |
+| `english` | 489 | 2,930 | 5,761 note-level CTCAE events |
+| `german` | 489 | 2,930 | 5,987 note-level toxicity events |
+| `demo/english` | 3 | 9 | 12 typed patient-feature answers |
+| `demo/german` | 3 | 9 | 12 typed patient-feature answers |
+| `demo/mixed` | 3 | 9 | 12 typed patient-feature answers |
+
+Full English and German cohorts contain different generated patients. Do not merge
+unrelated patients to construct bilingual timelines. The three small synthetic
+example cohorts are parallel versions of the same three synthetic patients; every
+patient in the mixed-language cohort has both German and English notes in one timeline.
+
+## Run The Full Cohorts
+
+After installing OncoRAG and its extraction models, run from the repository root:
+
+```bash
+python scripts/run_oncorag.py --config configs/oncorag_synthetic_english_full.json
+python scripts/run_oncorag.py --config configs/oncorag_synthetic_german_full.json
+```
+
+Use `--stage validate` to check all inputs without contacting model services.
+The full-cohort feature lists are [English](../features.cohort_english.yaml) and
+[German](../features.cohort_german.yaml). Replace them with your own variables as
+needed. The examples use deterministic manual feature configuration and separate
+graph/vector/output namespaces. They intentionally have no `evaluation.gold_path`:
+event labels are not answers to arbitrary patient-level questions.
+
+English examples target explicitly documented visit dates, treatment weeks and
+functional limitations. German examples target diagnosis dates, radiotherapy doses
+and explicitly documented laterality. The full notes do not consistently document
+the age and hemoglobin variables used in the small synthetic example cohorts.
+
+## Files And Metadata
 
 A single canonical copy of each note is stored under
-`notes/<patient_id>/<report_type>/<date>__<note_id>.txt` within each variant.
+`notes/<patient_id>/<report_type>/<date>__<note_id>.txt` within each dataset.
 The suffix preserves multiple reports of the same type on the same date.
 
 `registry.csv` supplies patient ID, note ID, report type, ISO date, language, and
 a path relative to the registry directory. Folder paths and registry metadata
-describe the same documents. `manifest.json` records counts, SHA-256 file hashes,
-provenance, and the fixture scope.
+describe the same documents. Use the registry when note-level language and stable
+annotation note IDs are required. `manifest.json` records counts, SHA-256 file
+hashes, provenance and scope.
 
-## Labels and Regression Fixtures
+Full-cohort `labels.jsonl` contains only note metadata and selected term, grade,
+negation and temporal event labels. Missing negation remains absent. Private
+source-style identifiers, demographics, history payloads, local source paths and
+upstream evidence snippets are not included. Each note is explicitly marked
+synthetic; the German derivative removes a real institution header.
 
-The fixtures contain parallel, purpose-authored versions of the same three
-synthetic patient timelines and have no upstream patient-derived text. All three
-versions share dates, facts, note identities, and patient-feature gold answers.
-They should be isolated by dataset ID in caches, not interpreted as independent
-evaluation subjects.
+`splits.json` assigns each patient to exactly one split using seed 42: 342 training,
+73 development and 74 test patients per full cohort. These are patient-disjoint
+partitions of template-generated data, not independent clinical validation cohorts.
+Templates are shared across splits. Splits do not filter pipeline inputs
+automatically; use `--patient-ids-file` for a selected subset.
 
-Use `../features.synthetic.yaml` for these four fixture variables:
+## Small Synthetic Example Cohorts
+
+The small synthetic example cohorts are purpose-authored versions of the same
+three synthetic timelines, with no upstream patient-derived text. They share dates,
+facts, note identities and gold answers. Their dataset IDs are `demo_english`,
+`demo_german` and `demo_mixed`. Isolate them by dataset ID in caches; do not count
+the language variants as independent subjects.
+
+Use [features.synthetic.yaml](../features.synthetic.yaml) for these four variables:
 
 - `diagnosis_date`: explicit initial diagnosis date.
 - `age_at_diagnosis`: explicit age in whole years.
 - `treatment_name`: started treatment, normalized to an English enum label.
-- `latest_hemoglobin`: value in g/dL from the latest report date, not the earlier
-  value in the initial oncology report.
+- `latest_hemoglobin`: value in g/dL from the latest report date.
 
 `gold.jsonl` has one row per patient and feature, with a typed `value` and
-`evidence_note_ids`. These small cases check ingestion, temporal selection,
-multilingual normalization and output types. They are regression fixtures, not a
-clinical accuracy benchmark or independent train/test cohorts.
+`evidence_note_ids`. These cases check ingestion, temporal selection, multilingual
+normalization and output types. They are software regression tests, not a clinical
+accuracy benchmark.
 
-## Full Cohorts: Local Review Only
+## Provenance And Limitations
 
-The larger English and German cohorts are **not distributed** with this public
-release. Each locally prepared cohort has 489 synthetic patients and 2,930 notes.
-Publication remains pending provenance and text/template redistribution review.
+The [technical provenance review](PROVENANCE.md) explains the source generators,
+privacy projection, exact reviewed versions and known label-quality limitations.
+English notes are CTCAE template-generated text with upstream Synthea metadata,
+not verbatim Synthea note exports. German notes come from a standalone seeded
+template generator, not the Synthea engine. Neither cohort establishes clinical
+grade correctness, real-world language coverage or clinical population realism.
 
-- English: CTCAE template-derived oncology notes with Synthea encounter metadata
-  added by the upstream generator. These are not verbatim Synthea clinical-note
-  exports. Clinical sources informed the upstream style templates.
-- German: purpose-generated German recurrent high-grade glioma template notes.
-  The upstream generator uses a Synthea-compatible layout; this alone does not
-  mean Synthea generated the German notes.
-- Only note metadata and selected term, grade, negation and temporal event labels
-  are exported. Original history, demographics, style-source identifiers, paths,
-  provenance payloads, and evidence snippets in the source labels are excluded.
+## Recreating An Export
 
-The export checks text for known upstream source identifiers, explicit contact
-or medical-record markers, and local filesystem paths. The counters are recorded
-in each manifest. These limited checks are not a complete privacy review of the
-template-derived text. Release licensing and the upstream text/template
-redistribution review remain pending. No license is inferred from Synthea's
-license for text generated by a separate template pipeline. Local preparation
-does not establish approval to publish these cohorts.
-
-Full-cohort `labels.jsonl` contains note-level CTCAE event labels, not
-patient-level gold for arbitrary phenotype variables. No new patient-level
-clinical answers are inferred from those labels. The supplied event grade and
-temporality are preserved; missing negation information remains absent.
-`splits.json` assigns each patient to exactly one split using seed 42 and
-approximate 70/15/15 proportions.
-
-## Recreating a Local Export
-
-For separately authorized source data, run from the repository root, supplying
-local upstream directories explicitly:
+Users can work directly with the bundled files. Maintainers with the separately
+authorized original inputs can recreate the exact reviewed derivatives:
 
 ```bash
-python scripts/export_synthetic_datasets.py \
+python scripts/prepare_reviewed_cohorts.py \
   --english-source /path/to/hybrid_synthea_ctcae_phase2 \
   --german-source /path/to/ricci_rhgg_termgrade_longitudinal \
   --output-root /path/to/new/versioned-output
 ```
 
-Only `synthetic_notes/` and `labels/` are read from each source. The exporter
-refuses existing output datasets, rejects paths escaping their source root, and
-does not copy split-folder duplicates or clinical template assets. Fixture-only
-regeneration needs no source datasets:
+This wrapper projects fields, checks fixed fingerprints of both audited inputs,
+adds the synthetic notices and writes new manifests. Changed inputs are refused
+and require a new review. No clinical template assets or private source files are
+bundled to make this command self-contained.
+
+The generic `scripts/export_synthetic_datasets.py` remains available for separately
+authorized local inputs. Its marker checks alone do not approve data for release.
+Regenerating only the small synthetic example cohorts needs no upstream data:
 
 ```bash
 python scripts/export_synthetic_datasets.py \
-  --fixtures-only --output-root /path/to/new/fixture-output
+  --demo-only --output-root /path/to/new/demo-output
 ```
+
+## Use And Citation
+
+The OncoRAG synthetic-note derivatives and release metadata are distributed under
+the repository's [PolyForm Noncommercial License](../../LICENSE). The original
+terminology and generator attribution is described in [PROVENANCE.md](PROVENANCE.md);
+the repository does not relicense third-party terminology or source datasets.
+
+When using these cohorts, cite the [OncoRAG paper](https://doi.org/10.1038/s41746-026-03170-8)
+and record the dataset ID, repository commit and manifest hash. These community
+datasets are not the paper's clinical evaluation cohorts. No separate dataset DOI
+has been assigned.

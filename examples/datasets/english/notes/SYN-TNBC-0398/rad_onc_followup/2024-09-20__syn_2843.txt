@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-09-20, she returns today for routine follow-up. After cycle 2, she previously experienced hives and at that time, required urgent evaluation due to symptom severity. Since last visit, she reports worsening dysarthria over the past week and this is affecting routine function and activity tolerance. During radiation treatment, she reports spinal cord compression with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior urticaria, worsening dysarthria, and ongoing spinal cord compression that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

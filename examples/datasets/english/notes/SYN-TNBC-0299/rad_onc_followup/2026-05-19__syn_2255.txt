@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Since last visit, she reports worsening difficulty passing stool over the past week and this has persisted and is interfering with routine activity. During week 1 of treatment, she reports suicide attempt with persistence since the last visit and required urgent evaluation due to symptom severity. After cycle 2, she previously experienced rhabdomyolysis and at that time, this was affecting routine function and activity tolerance. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening constipation affecting daily activities, ongoing suicide attempt that is clinically significant, and prior rhabdomyolysis. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-10-12, she returns to medical oncology for routine follow-up. Over recent days, she reports constipation, improved since the prior visit but still present and this has persisted and is interfering with routine activity. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving constipation affecting daily activities. Plan is to continue routine follow-up and symptom-directed supportive care.

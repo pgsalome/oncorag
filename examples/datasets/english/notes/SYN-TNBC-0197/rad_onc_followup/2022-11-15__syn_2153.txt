@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. During radiation treatment, she reports fever with low neutrophil counts with persistence since the last visit and fever with neutropenia required urgent evaluation. During treatment, she reports worsening atrial flutter over the past week and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing febrile neutropenia that is clinically significant and worsening atrial flutter. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

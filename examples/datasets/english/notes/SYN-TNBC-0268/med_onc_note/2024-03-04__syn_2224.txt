@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. At this visit, she denies abdominal pain. During systemic therapy, she reports forced expiratory volume decreased with persistence since the last visit and this is affecting routine function and activity tolerance. During week 7 of treatment, she reports hyponatremia with persistence since the last visit and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current abdominal pain, ongoing forced expiratory volume decreased, and ongoing hyponatremia. Plan is to continue routine follow-up and symptom-directed supportive care.

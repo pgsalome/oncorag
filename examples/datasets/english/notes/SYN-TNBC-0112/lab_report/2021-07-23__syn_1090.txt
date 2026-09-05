@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. During treatment, she reports worsening neck pain over the past week and this is affecting routine function and activity tolerance. After cycle 2, she previously experienced bronchopleural fistula and at that time, this was mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening neck pain and prior bronchopleural fistula. Plan is to continue routine follow-up and symptom-directed supportive care.

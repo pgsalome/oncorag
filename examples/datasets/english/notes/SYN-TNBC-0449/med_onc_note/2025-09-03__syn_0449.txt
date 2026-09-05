@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-09-03, she returns to medical oncology for routine follow-up. Since last visit, she reports worsening hyperhidrosis over the past week and this is mild and currently manageable. During treatment, she reports worsening myasthenia gravis over the past week and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening hyperhidrosis and worsening myasthenia gravis. Plan is to continue routine follow-up and symptom-directed supportive care.

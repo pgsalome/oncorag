@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-12-25, she returns today for routine follow-up. During radiation treatment, she reports pancreatic duct stenosis with persistence since the last visit and this is affecting routine function and activity tolerance. Earlier in treatment, she previously experienced anaphylaxis and at that time, required urgent evaluation due to symptom severity. At follow-up, she reports vital capacity abnormal, improved since the prior visit but still present and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing pancreatic duct stenosis, prior anaphylaxis, and improving vital capacity abnormal. Plan is to continue routine follow-up and symptom-directed supportive care.

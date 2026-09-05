@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Since last visit, she reports worsening activated partial thromboplastin time prolonged over the past week and required urgent evaluation due to symptom severity. During week 3 of treatment, she reports renal hemorrhage with persistence since the last visit and this is mild and currently manageable. During radiation treatment, she reports productive cough with persistence since the last visit and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening activated partial thromboplastin time prolonged that is clinically significant, ongoing renal hemorrhage, and ongoing productive cough that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

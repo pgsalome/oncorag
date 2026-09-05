@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. During prior cycles, she previously had alanine aminotransferase increased, now resolved and at that time, this was affecting routine function and activity tolerance. Over recent days, she reports melena, improved since the prior visit but still present and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior alanine aminotransferase increased now resolved and improving melena that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

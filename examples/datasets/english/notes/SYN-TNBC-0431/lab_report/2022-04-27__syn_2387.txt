@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+On 2022-04-27, this lab report was reviewed in context of ongoing treatment toxicity monitoring. Over the past week, she reports worsening multi-organ failure and required urgent evaluation due to symptom severity. At follow-up, she reports soft tissue necrosis upper limb, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Since last visit, she reports colonic stenosis, improved since the prior visit but still present and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening multi-organ failure that is clinically significant, improving soft tissue necrosis upper limb, and improving colonic stenosis. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

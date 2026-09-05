@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2019-12-22, she returns for surgical follow-up with interval symptom review. During prior cycles, she previously had toothache, now resolved and at that time, this was mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior toothache now resolved. Plan is to continue routine follow-up and symptom-directed supportive care.

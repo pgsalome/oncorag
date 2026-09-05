@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Over recent days, she reports ileal obstruction, improved since the prior visit but still present and this is affecting routine function and activity tolerance. During treatment, she reports worsening creatinine clearance decreased over the past week and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving ileal obstruction and worsening creatinine clearance decreased. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. If symptoms progress, discussed risk of future duodenal fistula and symptom monitoring precautions. No active symptoms related to this concern are present today. Over the past week, she reports worsening upper gastrointestinal hemorrhage and this is affecting routine function and activity tolerance. During treatment, she reports worsening urinary tract pain over the past week and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for duodenal fistula, worsening upper gastrointestinal hemorrhage, and worsening urinary tract pain. Plan is to continue routine follow-up and symptom-directed supportive care.

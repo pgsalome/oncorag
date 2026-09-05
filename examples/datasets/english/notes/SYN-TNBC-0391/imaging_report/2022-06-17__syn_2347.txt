@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. Since last visit, she reports worsening small intestinal obstruction over the past week and required urgent evaluation due to symptom severity. During treatment, she reports worsening anaphylaxis over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening small intestinal obstruction that is clinically significant and worsening anaphylaxis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

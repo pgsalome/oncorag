@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for post-operative interval reassessment. At this visit, she reports laryngeal stenosis with persistence since the last visit and required urgent evaluation due to symptom severity. During treatment, she reports worsening aseptic meningitis over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing laryngeal stenosis that is clinically significant and worsening aseptic meningitis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

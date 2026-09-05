@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-01-06, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. At follow-up, she reports mitral valve disease, improved since the prior visit but still present and this is affecting routine function and activity tolerance. At follow-up, she reports wound infection, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Over the past week, she reports worsening hypoalbuminemia and this is affecting routine function and activity tolerance. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving mitral valve disease, improving wound infection that is clinically significant, and worsening hypoalbuminemia. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

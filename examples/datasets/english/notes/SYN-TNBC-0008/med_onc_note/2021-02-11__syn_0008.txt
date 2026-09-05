@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Earlier in treatment, she previously experienced jejunal stenosis and at that time, required urgent evaluation due to symptom severity. During systemic therapy, she denies ovarian infection. Since last visit, she reports tracheal fistula, improved since the prior visit but still present and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior jejunal stenosis, no current ovarian infection, and improving tracheal fistula. Plan is to continue routine follow-up and symptom-directed supportive care.

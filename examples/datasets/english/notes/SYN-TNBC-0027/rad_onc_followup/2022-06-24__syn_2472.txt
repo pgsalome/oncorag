@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During week 6 of treatment, she reports diabetes mellitus with persistence since the last visit and required urgent evaluation due to symptom severity. Since last visit, she reports increasing cough, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing diabetes mellitus that is clinically significant and improving cough. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

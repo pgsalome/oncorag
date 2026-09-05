@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-08-16, she returns today for routine follow-up. Over the past week, she reports worsening bronchopulmonary hemorrhage and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening bronchopulmonary hemorrhage that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

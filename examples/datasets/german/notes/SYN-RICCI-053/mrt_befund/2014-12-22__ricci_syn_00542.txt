@@ -1,0 +1,31 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: ricci_syn_00542
+Datum: 22.12.2014
+
+Sehr geehrte Frau Kollegin,
+bei Patient SYN-RICCI-053 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 10.02.2013 mit Glioblastom.
+Lokalisation: Temporallappen rechts.
+Primäre Resektion am 26.02.2013.
+Primäre Radiotherapie bis 54 Gy vom 21.04.2013 bis 29.05.2013.
+Rezidivbestrahlung bis 30 Gy vom 22.08.2014 bis 03.09.2014.
+Systemische Therapien: Bevacizumab.
+Begleitmedikation: Ondansetron, Pantoprazol, Cortison.
+
+Bildgebung:
+- Bei der heutigen Vorstellung findet sich zunehmendes perifokales Ödem mit steroidpflichtiger Symptomatik, was klinisch relevant eingeordnet wird im posttherapeutischen Verlauf bei fortbestehendem Unterstützungsbedarf im Alltag.
+- Ferner ist zu beachten: Die Alltagsaktivität ist nur gering beeinträchtigt.
+
+Beurteilung:
+- Anamnestisch zeigt sich lebensbedrohliche Strahlennekrose mit kritischer Hirndrucksymptomatik, neurochirurgischer Notfallbehandlung und intensivmedizinischer Überwachung, entsprechend der aktuellen Verlaufseinschätzung während der neuroonkologischen Verlaufskontrolle im posttherapeutischen Verlauf mit Verdacht auf postradiogene Genese bei ansonsten stabilem Allgemeinzustand.
+- die Vorstellung erfolgte stationär; eine rasche Akutmaßnahme war angezeigt; es besteht eine klare Beeinträchtigung der täglichen Funktionsfähigkeit Hieraus ergab sich eine enge klinische Überwachung.
+- Im interdisziplinären Kontext Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 8 Wochen.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

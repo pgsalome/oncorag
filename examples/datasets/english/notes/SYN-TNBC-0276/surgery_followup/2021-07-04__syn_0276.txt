@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-07-04, she returns for surgical follow-up with interval symptom review. Over the past week, she reports worsening phlebitis infective and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening phlebitis infective. Plan is to continue routine follow-up and symptom-directed supportive care.

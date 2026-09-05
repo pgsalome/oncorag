@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-02-28, she returns to medical oncology for routine follow-up. At follow-up, she reports carbon monoxide diffusing capacity decreased, improved since the prior visit but still present and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving carbon monoxide diffusing capacity decreased. Plan is to continue routine follow-up and symptom-directed supportive care.

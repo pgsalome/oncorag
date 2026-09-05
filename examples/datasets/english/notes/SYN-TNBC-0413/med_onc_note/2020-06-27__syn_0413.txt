@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-06-27, she returns to medical oncology for routine follow-up. At upcoming follow-up, discussed risk of future cytomegalovirus infection reactivation and symptom monitoring precautions. No active symptoms related to this concern are present today. After cycle 2, she previously had salivary gland fistula, now resolved and at that time, this was affecting routine function and activity tolerance. During systemic therapy, she reports gastrointestinal pain with persistence since the last visit and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for cytomegalovirus infection reactivation, prior salivary gland fistula now resolved, and ongoing gastrointestinal pain. Plan is to continue routine follow-up and symptom-directed supportive care.

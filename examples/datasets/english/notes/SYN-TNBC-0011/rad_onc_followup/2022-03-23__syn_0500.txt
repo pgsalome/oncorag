@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. During week 6 of treatment, she reports atrial fibrillation with persistence since the last visit and this is mild and currently manageable. Over the next week, discussed risk of future lip infection and symptom monitoring precautions. No active symptoms related to this concern are present today. During radiation treatment, she reports jejunal obstruction with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing atrial fibrillation, future risk counseling for lip infection, and ongoing jejunal obstruction that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

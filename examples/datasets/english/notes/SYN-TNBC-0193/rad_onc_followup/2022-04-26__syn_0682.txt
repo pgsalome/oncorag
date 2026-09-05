@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. During treatment, she reports worsening guillain-barre syndrome over the past week and this is mild and currently manageable. During radiation treatment, she reports hypokalemia with persistence since the last visit and required urgent evaluation due to symptom severity. After cycle 2, she previously experienced fibrosis deep connective tissue and at that time, required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening guillain-barre syndrome, ongoing hypokalemia that is clinically significant, and prior fibrosis deep connective tissue. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

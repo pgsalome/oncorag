@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-01-25, she returns to medical oncology for routine follow-up. During treatment, she reports worsening stoma site infection over the past week and this is affecting routine function and activity tolerance. Since last visit, she reports worsening sleep apnea over the past week and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening stoma site infection and worsening sleep apnea. Plan is to continue routine follow-up and symptom-directed supportive care.

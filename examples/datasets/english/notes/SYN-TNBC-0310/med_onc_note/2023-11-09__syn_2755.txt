@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. During prior cycles, she previously had penile infection, now resolved and at that time, this was mild and currently manageable. At this visit, she reports optic neuritis with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior penile infection now resolved and ongoing optic neuritis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

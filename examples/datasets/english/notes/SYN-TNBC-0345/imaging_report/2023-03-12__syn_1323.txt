@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. At this visit, she reports head pain with persistence since the last visit and this is affecting routine function and activity tolerance. At this visit, she reports skin induration with persistence since the last visit and required urgent evaluation due to symptom severity. During radiation treatment, she reports trouble swallowing with persistence since the last visit. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing headache, ongoing skin induration that is clinically significant, and ongoing dysphagia. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

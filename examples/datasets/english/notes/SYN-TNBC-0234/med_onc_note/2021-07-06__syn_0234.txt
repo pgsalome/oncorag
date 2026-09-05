@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Earlier in treatment, she previously had nocturia, now resolved and at that time, this was mild and currently manageable. Over recent days, she reports pharyngeal fistula, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior nocturia now resolved and improving pharyngeal fistula. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-01-27, this pathology report was reviewed in context of ongoing treatment toxicity monitoring. After cycle 2, she previously had hypercalcemia, now resolved and at that time, this was mild and currently manageable. During treatment, she reports worsening fever with low neutrophil counts over the past week and febrile neutropenia with sepsis concern required hospitalization. Today, she reports intracranial hemorrhage with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior hypercalcemia now resolved, worsening febrile neutropenia that is clinically significant, and ongoing intracranial hemorrhage that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

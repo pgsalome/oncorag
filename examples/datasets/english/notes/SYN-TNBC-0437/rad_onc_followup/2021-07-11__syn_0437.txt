@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Over the past week, she reports worsening pyramidal tract syndrome and required urgent evaluation due to symptom severity. Since last visit, she reports facial muscle weakness, improved since the prior visit but still present and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening pyramidal tract syndrome that is clinically significant and improving facial muscle weakness. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

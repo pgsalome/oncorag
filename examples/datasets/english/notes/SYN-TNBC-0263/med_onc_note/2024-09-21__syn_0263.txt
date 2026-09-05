@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. After cycle 2, she previously had duodenal infection, now resolved and at that time, this was affecting routine function and activity tolerance. During treatment, she reports worsening atrial flutter over the past week and required urgent evaluation due to symptom severity. At upcoming follow-up, discussed risk of future gallbladder necrosis and symptom monitoring precautions. No active symptoms related to this concern are present today. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior duodenal infection now resolved, worsening atrial flutter that is clinically significant, and future risk counseling for gallbladder necrosis. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

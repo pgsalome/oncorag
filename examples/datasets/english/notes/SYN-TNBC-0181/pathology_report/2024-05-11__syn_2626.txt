@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-05-11, this pathology report was reviewed in context of ongoing treatment toxicity monitoring. Today, she reports jejunal stenosis with persistence since the last visit and required urgent evaluation due to symptom severity. During treatment, she reports worsening palmar-plantar erythrodysesthesia syndrome over the past week and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing jejunal stenosis that is clinically significant and worsening palmar-plantar erythrodysesthesia syndrome that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-01-13, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. Over the past week, she reports worsening laryngopharyngeal dysesthesia and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening laryngopharyngeal dysesthesia. Plan is to continue routine follow-up and symptom-directed supportive care.

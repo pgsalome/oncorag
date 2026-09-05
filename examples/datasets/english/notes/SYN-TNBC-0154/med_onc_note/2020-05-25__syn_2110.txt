@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Since last visit, she reports worsening dehydration over the past week and this is affecting routine function and activity tolerance. During week 1 of treatment, she reports laryngeal stenosis with persistence since the last visit and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening dehydration and ongoing laryngeal stenosis. Plan is to continue routine follow-up and symptom-directed supportive care.

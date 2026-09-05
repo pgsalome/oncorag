@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Over the past week, she reports worsening sneezing and this is affecting routine function and activity tolerance. At follow-up, she reports hard stools, improved since the prior visit but still present and critical constipation complications required emergent intervention. During week 5 of treatment, she reports pharyngeal fistula with persistence since the last visit and this is affecting routine function and activity tolerance. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening sneezing, improving constipation that is clinically significant, and ongoing pharyngeal fistula. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

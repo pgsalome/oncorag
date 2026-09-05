@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Over the past week, she reports worsening hiccups and this is affecting routine function and activity tolerance. Currently, she reports ataxia with persistence since the last visit and required urgent evaluation due to symptom severity. At this visit, she denies skin induration. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening hiccups, ongoing ataxia that is clinically significant, and no current skin induration. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

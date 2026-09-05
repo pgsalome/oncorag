@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-07-29, she returns today for routine follow-up. Over recent days, she reports jejunal hemorrhage, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During treatment, she reports worsening urticaria over the past week and required urgent evaluation due to symptom severity. Currently, she reports oral cavity fistula with persistence since the last visit and this is mild and currently manageable. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving jejunal hemorrhage that is clinically significant, worsening urticaria that is clinically significant, and ongoing oral cavity fistula. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-10-14, she returns today for routine follow-up. Since last visit, she reports worsening vasculitis over the past week and this is affecting routine function and activity tolerance. Over the past week, she reports worsening depression and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening vasculitis and worsening depression. Plan is to continue routine follow-up and symptom-directed supportive care.

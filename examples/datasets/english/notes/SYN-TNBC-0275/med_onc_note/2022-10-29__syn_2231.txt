@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Since last visit, she reports worsening peripheral nerve infection over the past week and this is affecting routine function and activity tolerance. Over the past week, she reports worsening cerebrospinal fluid leakage and required urgent evaluation due to symptom severity. During systemic therapy, she reports ventricular tachycardia with persistence since the last visit and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening peripheral nerve infection, worsening cerebrospinal fluid leakage that is clinically significant, and ongoing ventricular tachycardia. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

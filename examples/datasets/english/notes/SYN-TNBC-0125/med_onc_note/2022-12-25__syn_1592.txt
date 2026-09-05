@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-12-25, she returns to medical oncology for routine follow-up. Since last visit, she reports worsening ileal fistula over the past week and this is mild and currently manageable. At follow-up, she reports acidosis, improved since the prior visit but still present and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening ileal fistula and improving acidosis. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-08-19, she returns today for routine follow-up. At this visit, she reports cerebrospinal fluid leakage with persistence since the last visit and this is mild and currently manageable. Earlier in treatment, she previously had throat pain with swallowing, now resolved and at that time, painful swallowing now required a soft diet. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing cerebrospinal fluid leakage and prior esophagitis now resolved. Plan is to continue routine follow-up and symptom-directed supportive care.

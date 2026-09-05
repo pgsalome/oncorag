@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+On 2022-05-07, this lab report was reviewed in context of ongoing treatment toxicity monitoring. Currently, she reports salivary gland fistula with persistence since the last visit and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing salivary gland fistula. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. At upcoming follow-up, discussed risk of future kidney infection and symptom monitoring precautions. No active symptoms related to this concern are present today. At this visit, she reports urinary tract obstruction with persistence since the last visit and this is mild and currently manageable. Currently, she reports atrioventricular block complete with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for kidney infection, ongoing urinary tract obstruction, and ongoing atrioventricular block complete that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

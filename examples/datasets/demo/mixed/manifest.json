@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "dataset_id": "demo_mixed",
+  "language": "mixed",
+  "patient_count": 3,
+  "note_count": 9,
+  "gold_count": 12,
+  "provenance": "Purpose-authored synthetic example cohorts; no source clinical text or patient data",
+  "paired_variants": true,
+  "scope": "Synthetic example cohorts for software testing, not clinical validation",
+  "files": {
+    "gold.jsonl": {
+      "sha256": "9a6a1a3ad219ff39e3650c1f69b42954ce6d08d809334fff76a597efac616887",
+      "bytes": 1463
+    },
+    "notes/SYN-DEMO-001/laboratory/2020-04-01__SYN-DEMO-001-laboratory.txt": {
+      "sha256": "612325d0ac7d16c14245524151100e2975144896216a001412ab3faf04ea421b",
+      "bytes": 108
+    },
+    "notes/SYN-DEMO-001/oncology/2020-03-01__SYN-DEMO-001-oncology.txt": {
+      "sha256": "23b2c4c4e77e75f548ba20194ff49fa8657e61757b339025ee837804ccae5c0a",
+      "bytes": 186
+    },
+    "notes/SYN-DEMO-001/treatment/2020-03-15__SYN-DEMO-001-treatment.txt": {
+      "sha256": "fd2fbcecb1ba194e51237149d5695ffed66325da1dc154dfb29b75a6518e3cb9",
+      "bytes": 152
+    },
+    "notes/SYN-DEMO-002/laboratory/2021-06-03__SYN-DEMO-002-laboratory.txt": {
+      "sha256": "d97dba2b32aa06e3f16789ec8d842c56e9c210a5840cf29bc1deb652bd19156a",
+      "bytes": 118
+    },
+    "notes/SYN-DEMO-002/oncology/2021-05-10__SYN-DEMO-002-oncology.txt": {
+      "sha256": "48031d95365068dbb449b642f3a72f5ff88b8eebe3253de102b47f9ddd1b39db",
+      "bytes": 176
+    },
+    "notes/SYN-DEMO-002/treatment/2021-05-24__SYN-DEMO-002-treatment.txt": {
+      "sha256": "88ba09cbd18fdbef97732c9ad5725b1ef9b0b244e1dce74b33edeb3908b52f57",
+      "bytes": 168
+    },
+    "notes/SYN-DEMO-003/laboratory/2022-02-07__SYN-DEMO-003-laboratory.txt": {
+      "sha256": "3280bbf42ab9e421a9c4d2bc066b1e90420f465630db4a542ee2d9e9a701f288",
+      "bytes": 108
+    },
+    "notes/SYN-DEMO-003/oncology/2022-01-08__SYN-DEMO-003-oncology.txt": {
+      "sha256": "71443575508aed2cecba191d2ae30668b807b201edb80e34c2a199cbae994f76",
+      "bytes": 185
+    },
+    "notes/SYN-DEMO-003/treatment/2022-01-22__SYN-DEMO-003-treatment.txt": {
+      "sha256": "d8161997126bc75d768e2734d505d37893486b90d716b28e57d87d3fc1169315",
+      "bytes": 152
+    },
+    "registry.csv": {
+      "sha256": "90c75f1d60c0b5ec2d30061ff1912f461769a96419d85dd56633887dcec7edf1",
+      "bytes": 1202
+    }
+  },
+  "payload_bytes": 4018
+}

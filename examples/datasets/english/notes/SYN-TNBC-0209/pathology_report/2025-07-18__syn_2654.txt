@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, interval symptom-related findings are summarized below. If symptoms progress, discussed risk of future hyperhidrosis and symptom monitoring precautions. No active symptoms related to this concern are present today. During systemic therapy, she reports atrial flutter with persistence since the last visit and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for hyperhidrosis and ongoing atrial flutter that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

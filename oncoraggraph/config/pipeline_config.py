@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import copy
+import ipaddress
 import json
 import math
 from pathlib import Path
@@ -50,6 +51,15 @@ def _path(value, name):
         raise ValueError(f"{name} must be a nonempty path")
 
 
+def _is_loopback_host(host):
+    if host.casefold() == "localhost":
+        return True
+    try:
+        return ipaddress.ip_address(host).is_loopback
+    except ValueError:
+        return False
+
+
 def validate_runtime_config(runtime):
     """Apply the same generation limits and local-host policy to every interface."""
     if not isinstance(runtime, dict):
@@ -67,7 +77,7 @@ def validate_runtime_config(runtime):
             raise ValueError("Port must be positive")
     except ValueError as exc:
         raise ValueError("runtime.ollama.host has an invalid port") from exc
-    if runtime.get("local_processing_only", True) and url.hostname not in {"localhost", "127.0.0.1", "::1"}:
+    if runtime.get("local_processing_only", True) and not _is_loopback_host(url.hostname):
         raise ValueError("local_processing_only requires a loopback Ollama host")
     if not isinstance(ollama.get("model"), str) or not ollama["model"].strip():
         raise ValueError("runtime.ollama.model is required")
@@ -135,7 +145,10 @@ def validate_pipeline_config(config):
                 raise ValueError(f"outputs.{key} must be relative to outputs.root")
     if "vector_store" in config:
         from ..vector_store.config import validate_vector_store_config
-        validate_vector_store_config(config["vector_store"])
+        vector_store = validate_vector_store_config(config["vector_store"])
+        if (runtime.get("local_processing_only", True) and vector_store["backend"] == "iris"
+                and not _is_loopback_host(vector_store["iris"]["host"])):
+            raise ValueError("local_processing_only requires a loopback IRIS host")
     graph = _optional_mapping(config, "graph")
     _boolean_fields(graph, ("include_report_sentences",), "graph")
     context = _optional_mapping(graph, "context_filters")

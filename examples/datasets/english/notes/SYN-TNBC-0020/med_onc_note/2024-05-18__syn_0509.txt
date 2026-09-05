@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-05-18, she returns to medical oncology for routine follow-up. Over recent days, she reports esophageal ulcer, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Over the past week, she reports worsening hepatic infection and this is affecting routine function and activity tolerance. During treatment, she reports worsening euphoria over the past week and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving esophageal ulcer that is clinically significant, worsening hepatic infection, and worsening euphoria. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-10-13, she returns today for routine follow-up. Since last visit, she reports phantom pain, improved since the prior visit but still present and this is affecting routine function and activity tolerance. At this visit, she reports laryngopharyngeal dysesthesia with persistence since the last visit and required urgent evaluation due to symptom severity. During week 6 of treatment, she reports central nervous system necrosis with persistence since the last visit and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving phantom pain, ongoing laryngopharyngeal dysesthesia that is clinically significant, and ongoing central nervous system necrosis. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

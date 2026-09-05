@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-08-22, she returns to medical oncology for routine follow-up. At follow-up, she reports ataxia, improved since the prior visit but still present and this is mild and currently manageable. At this visit, she reports anal pain with persistence since the last visit and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving ataxia and ongoing anal pain. Plan is to continue routine follow-up and symptom-directed supportive care.

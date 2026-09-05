@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. At this visit, she reports dyspepsia with persistence since the last visit and this is mild and currently manageable. At follow-up, she reports hepatic hemorrhage, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During week 1 of treatment, she reports shingles with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing dyspepsia, improving hepatic hemorrhage that is clinically significant, and ongoing shingles that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Today, she reports rectal fistula with persistence since the last visit and this is mild and currently manageable. Since last visit, she reports worsening oral hemorrhage over the past week and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing rectal fistula and worsening oral hemorrhage. Plan is to continue routine follow-up and symptom-directed supportive care.

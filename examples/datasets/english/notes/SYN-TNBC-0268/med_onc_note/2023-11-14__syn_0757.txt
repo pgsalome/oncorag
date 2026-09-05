@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. During systemic therapy, she denies adult respiratory distress syndrome. Over the past week, she reports worsening ggt increased and required urgent evaluation due to symptom severity. During radiation treatment, she denies hypersomnia. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current adult respiratory distress syndrome, worsening ggt increased that is clinically significant, and no current hypersomnia. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

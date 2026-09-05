@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-02-05, she returns today for routine follow-up. Since last visit, she reports worsening decreased cervical range of motion over the past week and this is affecting routine function and activity tolerance. Over the past week, she reports worsening ileal hemorrhage and this is affecting routine function and activity tolerance. During treatment, she reports worsening eosinophilia over the past week and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening joint range of motion decreased cervical spine, worsening ileal hemorrhage, and worsening eosinophilia. Plan is to continue routine follow-up and symptom-directed supportive care.

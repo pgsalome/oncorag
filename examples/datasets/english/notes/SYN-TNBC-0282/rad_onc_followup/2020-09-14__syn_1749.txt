@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During week 3 of treatment, she reports stomach pain with persistence since the last visit and this is mild and currently manageable. At follow-up, she reports hepatitis viral, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Over the next week, discussed risk of future skin infection and symptom monitoring precautions. No active symptoms related to this concern are present today. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing stomach pain, improving hepatitis viral that is clinically significant, and future risk counseling for skin infection. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

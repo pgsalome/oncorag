@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-09-19, this pathology report was reviewed in context of ongoing treatment toxicity monitoring. During treatment, she reports worsening pancreatic insufficiency over the past week and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening pancreatic insufficiency. Plan is to continue routine follow-up and symptom-directed supportive care.

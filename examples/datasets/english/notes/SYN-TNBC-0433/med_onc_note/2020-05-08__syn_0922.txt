@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. At follow-up, she reports dysphasia, improved since the prior visit but still present and this is mild and currently manageable. Earlier in treatment, she previously experienced sepsis and at that time, required urgent evaluation due to symptom severity. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving dysphasia and prior sepsis. Plan is to continue routine follow-up and symptom-directed supportive care.

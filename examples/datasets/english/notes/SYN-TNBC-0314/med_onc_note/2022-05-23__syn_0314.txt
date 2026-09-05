@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. During radiation treatment, she reports mania with persistence since the last visit and this is mild and currently manageable. Earlier in treatment, she previously experienced intra-abdominal hemorrhage and at that time, required urgent evaluation due to symptom severity. During prior cycles, she previously had paronychia, now resolved and at that time, this was mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing mania, prior intra-abdominal hemorrhage, and prior paronychia now resolved. Plan is to continue routine follow-up and symptom-directed supportive care.

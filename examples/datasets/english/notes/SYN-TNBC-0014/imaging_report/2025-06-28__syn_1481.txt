@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. During week 2 of treatment, she reports psychosis with persistence since the last visit and required urgent evaluation due to symptom severity. Since last visit, she reports cytomegalovirus infection reactivation, improved since the prior visit but still present and this is affecting routine function and activity tolerance. During systemic therapy, she reports pancreatic fistula with persistence since the last visit and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing psychosis that is clinically significant, improving cytomegalovirus infection reactivation, and ongoing pancreatic fistula. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

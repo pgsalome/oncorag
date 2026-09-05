@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. During week 5 of treatment, she reports blood corticotrophin decreased with persistence since the last visit and this is mild and currently manageable. After cycle 2, she previously had pain of skin, now resolved and at that time, required urgent evaluation due to symptom severity. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing blood corticotrophin decreased and prior pain of skin now resolved. Plan is to continue routine follow-up and symptom-directed supportive care.

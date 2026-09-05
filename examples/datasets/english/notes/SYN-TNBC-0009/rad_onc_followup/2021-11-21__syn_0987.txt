@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. At follow-up, she reports shingles, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During systemic therapy, she reports anal stenosis with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving shingles that is clinically significant and ongoing anal stenosis that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

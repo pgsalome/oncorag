@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Over recent days, she reports photosensitivity, improved since the prior visit but still present and this is mild and currently manageable. Since last visit, she reports ggt increased, improved since the prior visit but still present and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving photosensitivity and improving ggt increased that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

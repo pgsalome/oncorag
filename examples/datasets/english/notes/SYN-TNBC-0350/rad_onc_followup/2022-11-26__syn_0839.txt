@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. At this visit, she reports voice alteration with persistence since the last visit and this is mild and currently manageable. During prior cycles, she previously experienced nail ridging and at that time, this was mild and currently manageable. Earlier in treatment, she previously had acute kidney injury, now resolved and at that time, required urgent evaluation due to symptom severity. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing voice alteration, prior nail ridging, and prior acute kidney injury now resolved. Plan is to continue routine follow-up and symptom-directed supportive care.

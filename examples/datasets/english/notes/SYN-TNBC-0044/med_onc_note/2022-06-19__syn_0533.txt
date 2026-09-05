@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Since last visit, she reports erythroderma, improved since the prior visit but still present and this is affecting routine function and activity tolerance. During treatment, she reports worsening diabetes mellitus over the past week and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving erythroderma and worsening diabetes mellitus. Plan is to continue routine follow-up and symptom-directed supportive care.

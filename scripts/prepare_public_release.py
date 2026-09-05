@@ -35,6 +35,10 @@ ROOT_FILES = ("README.md", "pyproject.toml", "setup.py", "LICENSE", "LICENSE.txt
 REVIEWED_ASSETS = {
     "graphicalabstract.png": "b23335b44752ff857becc554f683053e6b9d7fd031eeb78b2ba0bb008bbe5864",
 }
+REVIEWED_DATASET_MANIFESTS = {
+    "english": "5a119027589c30b07a8f52b3559325c216f943dba5c451ec2c74a349e62f82fd",
+    "german": "c19c138e46ae183d53be3358c4665e9805c8045a0a888606ee9caa8d716eb505",
+}
 CHAT_FILES = (
     "chat_runtime.py", "chat_app.py", "chat/__init__.py", "chat/service.py",
     "chat/medical_definitions.py", "chat/reranking.py", "chat/context_extraction.py",
@@ -42,7 +46,8 @@ CHAT_FILES = (
     "chat/temporal_extraction.py",
 )
 SCRIPT_FILES = (
-    "run_oncorag_full_pipeline.py", "export_synthetic_datasets.py", "prepare_public_release.py",
+    "run_oncorag.py", "export_synthetic_datasets.py", "prepare_public_release.py",
+    "prepare_reviewed_cohorts.py",
     "evaluate_synthetic.py",
     "run_synthetic_smoke.py",
     "run_chat_smoke.py",
@@ -117,6 +122,22 @@ def _source_file(root: Path, relative: str) -> Path:
     return path
 
 
+def validate_reviewed_dataset(root: Path, variant: str) -> None:
+    manifest_path = _source_file(root, "manifest.json")
+    contents = manifest_path.read_bytes()
+    if hashlib.sha256(contents).hexdigest() != REVIEWED_DATASET_MANIFESTS[variant]:
+        raise ValueError("Dataset manifest is not the reviewed version")
+    manifest = json.loads(contents)
+    files = manifest["files"]
+    actual = {path.relative_to(root).as_posix() for path in root.rglob("*") if path.is_file()}
+    if actual != set(files) | {"manifest.json"}:
+        raise ValueError("Dataset files differ from the reviewed manifest")
+    for relative, expected in files.items():
+        data = _source_file(root, relative).read_bytes()
+        if len(data) != expected["bytes"] or hashlib.sha256(data).hexdigest() != expected["sha256"]:
+            raise ValueError("Dataset payload differs from the reviewed manifest")
+
+
 def select_files(source: Path, include_datasets: bool = False) -> dict[str, Path]:
     selected: dict[str, Path] = {}
 
@@ -157,17 +178,22 @@ def select_files(source: Path, include_datasets: bool = False) -> dict[str, Path
     include("tests/conftest.py")
     include(".github/workflows/tests.yml")
     include("examples/features.synthetic.yaml", required=True)
+    include("examples/features.cohort_english.yaml")
+    include("examples/features.cohort_german.yaml")
     include("examples/datasets/README.md")
+    include("examples/datasets/PROVENANCE.md")
     for pattern in ("oncorag*.example.json", "oncorag_synthetic_*.json", "synthetic*.json", "vector_store.iris.example.yaml"):
         for path in sorted((source / "configs").glob(pattern)):
             include(path.relative_to(source).as_posix())
-    dataset_roots = ["examples/datasets/fixtures"]
+    dataset_roots = ["examples/datasets/demo"]
     if include_datasets:
         dataset_roots += ["examples/datasets/english", "examples/datasets/german"]
     for relative in dataset_roots:
         root = _source_file(source, relative)
         if not root.is_dir():
             raise FileNotFoundError(f"Required dataset directory is missing: {relative}")
+        if root.name in REVIEWED_DATASET_MANIFESTS:
+            validate_reviewed_dataset(root, root.name)
         for path in sorted(root.rglob("*")):
             if path.is_file() and path.suffix in DATASET_EXTENSIONS:
                 include(path.relative_to(source).as_posix())
@@ -278,7 +304,7 @@ def main() -> int:
     operation = parser.add_mutually_exclusive_group(required=True)
     operation.add_argument("--destination", type=Path)
     operation.add_argument("--refresh-manifest", action="store_true", help="Update hashes of approved files in this snapshot after edits")
-    parser.add_argument("--include-datasets", action="store_true", help="Also stage full English/German exports for review; their redistribution review is pending")
+    parser.add_argument("--include-datasets", action="store_true", help="Include the fingerprint-verified, reviewed full English/German cohorts")
     args = parser.parse_args()
     try:
         source = Path(__file__).resolve().parents[1]

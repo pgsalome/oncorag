@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Since last visit, she reports wound infection, improved since the prior visit but still present and this is affecting routine function and activity tolerance. Since last visit, she reports worsening ileal stenosis over the past week and this is affecting routine function and activity tolerance. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving wound infection and worsening ileal stenosis. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-09-10, she returns to medical oncology for routine follow-up. Over the past week, she reports worsening hepatitis and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening hepatitis. Plan is to continue routine follow-up and symptom-directed supportive care.

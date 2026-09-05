@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-03-17, she returns for surgical follow-up with interval symptom review. Over the past week, she reports worsening bronchospasm and this is affecting routine function and activity tolerance. Since last visit, she reports worsening abdominal distension over the past week and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening bronchospasm and worsening abdominal distension. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, interval symptom-related findings are summarized below. Since last visit, she reports worsening tendon reflex decreased over the past week and required urgent evaluation due to symptom severity. At this visit, she reports chylous ascites with persistence since the last visit and required urgent evaluation due to symptom severity. Earlier in treatment, she previously experienced thrombotic thrombocytopenic purpura and at that time, required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening tendon reflex decreased that is clinically significant, ongoing chylous ascites that is clinically significant, and prior thrombotic thrombocytopenic purpura. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

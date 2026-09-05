@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for post-operative interval reassessment. Over the next week, discussed risk of future jejunal perforation and symptom monitoring precautions. No active symptoms related to this concern are present today. During week 5 of treatment, she reports oculomotor nerve disorder with persistence since the last visit and this is mild and currently manageable. During treatment, she reports worsening pericardial effusion over the past week and this is affecting routine function and activity tolerance. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include future risk counseling for jejunal perforation, ongoing oculomotor nerve disorder, and worsening pericardial effusion. Plan is to continue routine follow-up and symptom-directed supportive care.

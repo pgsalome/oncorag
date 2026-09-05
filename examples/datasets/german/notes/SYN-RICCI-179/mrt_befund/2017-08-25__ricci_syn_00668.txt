@@ -1,0 +1,30 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: ricci_syn_00668
+Datum: 25.08.2017
+
+Sehr geehrte Frau Kollegin,
+bei Patient SYN-RICCI-179 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 01.06.2015 mit Oligodendrogliom WHO Grad 3.
+Lokalisation: Parietallappen links.
+Primäre Resektion am 04.06.2015.
+Primäre Radiotherapie bis 59 Gy vom 17.08.2015 bis 27.09.2015.
+Rezidivbestrahlung bis 33 Gy vom 28.02.2017 bis 22.03.2017.
+Systemische Therapien: Regorafenib, Fotemustin, Temozolomid.
+Begleitmedikation: Ondansetron, Cortison.
+
+Bildgebung:
+- Bei der heutigen Vorstellung findet sich diskretes perifokales Hirnödem ohne relevante Klinik, entsprechend der aktuellen Verlaufseinschätzung unter laufender Therapie im Kontext der bekannten Tumor- und Therapiesituation.
+- Im gleichen Kontext wird berichtet: Aktuell keine stationäre Behandlungsnotwendigkeit.
+
+Beurteilung:
+- Im aktuellen Arztbrief wird beschrieben katastrophale Radionekrose mit akuter Einklemmungsgefahr und sofortiger intensivmedizinischer Intervention, entsprechend der aktuellen Verlaufseinschätzung unter laufender Therapie bildgebend mit Verdacht auf postradiogene Genese bei wechselnder neurologischer Belastbarkeit.
+- Aus klinischer Sicht Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 6 Wochen geplant.
+- Supportivtherapie wird symptomorientiert fortgesetzt.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

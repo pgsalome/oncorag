@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+On 2021-12-22, this lab report was reviewed in context of ongoing treatment toxicity monitoring. Since last visit, she reports pulmonary fistula, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Over recent days, she reports epstein-barr virus infection reactivation, improved since the prior visit but still present and this is affecting routine function and activity tolerance. During treatment, she reports worsening guillain-barre syndrome over the past week and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving pulmonary fistula that is clinically significant, improving epstein-barr virus infection reactivation, and worsening guillain-barre syndrome that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

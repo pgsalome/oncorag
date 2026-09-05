@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. Since last visit, she reports stoma site infection, improved since the prior visit but still present and this is affecting routine function and activity tolerance. At this visit, she reports small intestinal perforation with persistence since the last visit and required urgent evaluation due to symptom severity. During treatment, she reports worsening retroperitoneal hemorrhage over the past week and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving stoma site infection, ongoing small intestinal perforation that is clinically significant, and worsening retroperitoneal hemorrhage that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for post-operative interval reassessment. Over recent days, she reports confusion, improved since the prior visit but still present and this is mild and currently manageable. At this visit, she denies rash pustular. During treatment, she reports worsening penile infection over the past week and this is mild and currently manageable. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving confusion, no current rash pustular, and worsening penile infection. Plan is to continue routine follow-up and symptom-directed supportive care.

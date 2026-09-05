@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-08-29, she returns to medical oncology for routine follow-up. During radiation treatment, she reports joint range of motion decreased with persistence since the last visit and this is affecting routine function and activity tolerance. During treatment, she reports worsening osteoporosis over the past week and this is affecting routine function and activity tolerance. During week 5 of treatment, she denies gallbladder perforation. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing joint range of motion decreased, worsening osteoporosis, and no current gallbladder perforation. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-07-29, she returns today for routine follow-up. At this visit, she reports nail loss with persistence since the last visit and this is mild and currently manageable. Currently, she reports pulmonary fistula with persistence since the last visit and required urgent evaluation due to symptom severity. Since last visit, she reports delirium, improved since the prior visit but still present and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing nail loss, ongoing pulmonary fistula that is clinically significant, and improving delirium that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

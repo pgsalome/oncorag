@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. During systemic therapy, she reports cystitis noninfective with persistence since the last visit and required urgent evaluation due to symptom severity. Since last visit, she reports ataxia, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During treatment, she reports worsening productive cough over the past week and this is mild and currently manageable. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing cystitis noninfective that is clinically significant, improving ataxia that is clinically significant, and worsening productive cough. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. During systemic therapy, she reports thrombotic microangiopathy with persistence since the last visit and required urgent evaluation due to symptom severity. At this visit, she reports esophageal fistula with persistence since the last visit and this is affecting routine function and activity tolerance. Over the past week, she reports worsening erythroderma and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing thrombotic microangiopathy that is clinically significant, ongoing esophageal fistula, and worsening erythroderma. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

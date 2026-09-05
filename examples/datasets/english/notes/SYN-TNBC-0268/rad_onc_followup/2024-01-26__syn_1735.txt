@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. Since last visit, she reports worsening urinary tract infection over the past week and required urgent evaluation due to symptom severity. During treatment, she reports worsening sinus tachycardia over the past week and this is mild and currently manageable. If symptoms progress, discussed risk of future trismus and symptom monitoring precautions. No active symptoms related to this concern are present today. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening urinary tract infection that is clinically significant, worsening sinus tachycardia, and future risk counseling for trismus. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

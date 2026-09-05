@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. After cycle 2, she previously experienced chest wall pain and at that time, required urgent evaluation due to symptom severity. Over recent days, she reports muscle weakness upper limb, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During treatment, she reports worsening oropharyngeal pain over the past week and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior chest wall pain, improving muscle weakness upper limb that is clinically significant, and worsening oropharyngeal pain. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

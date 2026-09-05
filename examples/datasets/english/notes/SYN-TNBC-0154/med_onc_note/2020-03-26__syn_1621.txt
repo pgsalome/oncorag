@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2020-03-26, she returns to medical oncology for routine follow-up. Over the past week, she reports worsening sinus pain and this is affecting routine function and activity tolerance. At follow-up, she reports cholesterol high, improved since the prior visit but still present and this is mild and currently manageable. Today, she reports rash maculo-papular with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening sinus pain, improving cholesterol high, and ongoing rash maculo-papular that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

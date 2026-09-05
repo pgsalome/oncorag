@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. At this visit, she reports gastric fistula with persistence since the last visit and this is affecting routine function and activity tolerance. Over the past week, she reports worsening duodenal perforation and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing gastric fistula and worsening duodenal perforation that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

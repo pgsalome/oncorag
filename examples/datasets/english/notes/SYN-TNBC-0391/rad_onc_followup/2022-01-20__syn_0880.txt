@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2022-01-20, she returns today for routine follow-up. During treatment, she reports worsening gait disturbance over the past week and this is mild and currently manageable. At follow-up, she reports renal calculi, improved since the prior visit but still present and required urgent evaluation due to symptom severity. During radiation treatment, she reports bronchopulmonary hemorrhage with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening gait disturbance, improving renal calculi that is clinically significant, and ongoing bronchopulmonary hemorrhage that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

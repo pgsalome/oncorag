@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+SURGICAL FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, symptom burden has evolved as documented below. At this visit, she reports iron overload with persistence since the last visit and this is affecting routine function and activity tolerance. During week 7 of treatment, she reports supraventricular tachycardia with persistence since the last visit and required urgent evaluation due to symptom severity. At upcoming follow-up, discussed risk of future tumor lysis syndrome and symptom monitoring precautions. No active symptoms related to this concern are present today. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing iron overload, ongoing supraventricular tachycardia that is clinically significant, and future risk counseling for tumor lysis syndrome. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

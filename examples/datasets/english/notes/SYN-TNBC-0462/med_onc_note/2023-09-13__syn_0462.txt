@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. Since last visit, she reports worsening conjunctivitis infective over the past week and this is affecting routine function and activity tolerance. Over the past week, she reports worsening throwing up and recurrent emesis has limited oral intake despite antiemetics. Over the past week, she reports worsening subcutaneous emphysema and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening conjunctivitis infective, worsening vomiting limiting oral intake, and worsening subcutaneous emphysema. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. Today, she reports superior vena cava syndrome with persistence since the last visit and required urgent evaluation due to symptom severity. Since last visit, she reports worsening arterial thromboembolism over the past week and required urgent evaluation due to symptom severity. During radiation treatment, she reports hemorrhoidal hemorrhage with persistence since the last visit and this is mild and currently manageable. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing superior vena cava syndrome that is clinically significant, worsening arterial thromboembolism that is clinically significant, and ongoing hemorrhoidal hemorrhage. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. After cycle 2, she previously had small intestinal stenosis, now resolved and at that time, this was affecting routine function and activity tolerance. Over the past week, she reports worsening scalp pain and this is affecting routine function and activity tolerance. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior small intestinal stenosis now resolved and worsening scalp pain. Plan is to continue routine follow-up and symptom-directed supportive care.

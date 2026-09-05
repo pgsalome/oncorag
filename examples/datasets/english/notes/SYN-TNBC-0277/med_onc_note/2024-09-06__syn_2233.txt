@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-09-06, she returns to medical oncology for routine follow-up. During systemic therapy, she reports white blood cell decreased with persistence since the last visit and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing white blood cell decreased. Plan is to continue routine follow-up and symptom-directed supportive care.

@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+Findings were interpreted alongside interval oncology symptoms since the prior visit. Today, she reports osteonecrosis of jaw with persistence since the last visit and this is affecting routine function and activity tolerance. Over the next week, discussed risk of future glossopharyngeal nerve disorder and symptom monitoring precautions. No active symptoms related to this concern are present today. Functional status remains stable and she continues routine daily activities.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing osteonecrosis of jaw and future risk counseling for glossopharyngeal nerve disorder. Plan is to continue routine follow-up and symptom-directed supportive care.

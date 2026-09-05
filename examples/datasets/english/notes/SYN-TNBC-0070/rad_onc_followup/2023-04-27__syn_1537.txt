@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+After completing radiation, she reports the following interval symptom changes. At follow-up, she reports myositis, improved since the prior visit but still present and this is mild and currently manageable. At follow-up, she reports blood bilirubin increased, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Earlier in treatment, she previously experienced oropharyngeal pain and at that time, required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving myositis, improving blood bilirubin increased that is clinically significant, and prior oropharyngeal pain. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

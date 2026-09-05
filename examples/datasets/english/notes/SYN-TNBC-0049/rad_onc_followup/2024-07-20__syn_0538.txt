@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-07-20, she returns today for routine follow-up. Over recent days, she reports ileus, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Over the past week, she reports worsening budd-chiari syndrome and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include improving ileus that is clinically significant and worsening budd-chiari syndrome that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

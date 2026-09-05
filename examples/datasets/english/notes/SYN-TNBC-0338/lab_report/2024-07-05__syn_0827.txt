@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+On 2024-07-05, this lab report was reviewed in context of ongoing treatment toxicity monitoring. Currently, she reports hirsutism with persistence since the last visit and this is mild and currently manageable. During treatment, she reports worsening methemoglobinemia over the past week and this is affecting routine function and activity tolerance. Currently, she reports lip pain with persistence since the last visit and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing hirsutism, worsening methemoglobinemia, and ongoing lip pain. Plan is to continue routine follow-up and symptom-directed supportive care.

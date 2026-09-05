@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. During systemic therapy, she denies growth accelerated. Since last visit, she reports worsening lichenoid dermatitis over the past week and required urgent evaluation due to symptom severity. During radiation treatment, she reports small intestine ulcer with persistence since the last visit and this is mild and currently manageable. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include no current growth accelerated, worsening lichenoid dermatitis that is clinically significant, and ongoing small intestine ulcer. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

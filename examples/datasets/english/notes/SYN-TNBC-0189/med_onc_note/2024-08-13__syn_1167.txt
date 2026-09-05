@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+MEDICAL ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+Since that time, treatment-related symptoms have evolved as summarized below. During week 1 of treatment, she reports bladder spasm with persistence since the last visit and this is mild and currently manageable. At this visit, she reports gallbladder fistula with persistence since the last visit and this is mild and currently manageable. She reports doing reasonably well overall with preserved daily function.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing bladder spasm and ongoing gallbladder fistula. Plan is to continue routine follow-up and symptom-directed supportive care.

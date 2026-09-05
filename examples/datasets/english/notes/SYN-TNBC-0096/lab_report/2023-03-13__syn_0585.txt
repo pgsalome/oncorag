@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+LABORATORY RESULT NOTE
+
+NARRATIVE:
+On 2023-03-13, this lab report was reviewed in context of ongoing treatment toxicity monitoring. At this visit, she reports retroperitoneal hemorrhage with persistence since the last visit and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing retroperitoneal hemorrhage that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

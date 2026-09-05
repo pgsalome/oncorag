@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+PATHOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2021-10-15, this pathology report was reviewed in context of ongoing treatment toxicity monitoring. Currently, she reports gastric stenosis with persistence since the last visit and required urgent evaluation due to symptom severity. Since last visit, she reports myelitis, improved since the prior visit but still present and required urgent evaluation due to symptom severity. Over recent days, she reports urinary retention, improved since the prior visit but still present and required urgent evaluation due to symptom severity. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing gastric stenosis that is clinically significant, improving myelitis that is clinically significant, and improving urinary retention that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

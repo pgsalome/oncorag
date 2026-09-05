@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+IMAGING FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2024-08-24, this imaging report was reviewed in context of ongoing treatment toxicity monitoring. Today, she reports pancreatic hemorrhage with persistence since the last visit and required urgent evaluation due to symptom severity. During treatment, she reports worsening exfoliative dermatitis over the past week and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include ongoing pancreatic hemorrhage that is clinically significant and worsening exfoliative dermatitis. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

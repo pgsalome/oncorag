@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2025-01-18, she returns today for routine follow-up. Over the past week, she reports worsening failure to thrive and this is affecting routine function and activity tolerance. Since last visit, she reports dysgeusia, improved since the prior visit but still present and this is affecting routine function and activity tolerance. During treatment, she reports worsening bronchial infection over the past week and required urgent evaluation due to symptom severity. Energy is reduced and daily activities are meaningfully limited by ongoing symptoms.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening failure to thrive, improving dysgeusia, and worsening bronchial infection that is clinically significant. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

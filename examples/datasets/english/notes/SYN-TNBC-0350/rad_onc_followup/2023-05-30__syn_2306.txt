@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+On 2023-05-30, she returns today for routine follow-up. During treatment, she reports worsening hypertriglyceridemia over the past week and this is affecting routine function and activity tolerance. Today, she reports malabsorption with persistence since the last visit and required urgent evaluation due to symptom severity. Since last visit, she reports atrioventricular block first degree, improved since the prior visit but still present and this is affecting routine function and activity tolerance. She reports lower activity tolerance compared with baseline.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include worsening hypertriglyceridemia, ongoing malabsorption that is clinically significant, and improving atrioventricular block first degree. Continue close monitoring and provide urgent reassessment if symptom severity escalates.

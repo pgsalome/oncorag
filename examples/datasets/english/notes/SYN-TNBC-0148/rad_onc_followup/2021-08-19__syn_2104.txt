@@ -1,0 +1,9 @@
+SYNTHETIC REPORT - not a real patient or clinical record.
+
+RADIATION ONCOLOGY FOLLOW-UP NOTE
+
+NARRATIVE:
+She was last seen at the end of RT and is here for interval reassessment. During prior cycles, she previously had urinary urgency, now resolved and at that time, this was affecting routine function and activity tolerance. During radiation treatment, she reports esophageal obstruction with persistence since the last visit and this is mild and currently manageable. Overall, energy remains fair and she remains independent with ADLs.
+
+IMPRESSION/PLAN:
+Treatment-related toxicities include prior urinary urgency now resolved and ongoing esophageal obstruction. Plan is to continue routine follow-up and symptom-directed supportive care.
