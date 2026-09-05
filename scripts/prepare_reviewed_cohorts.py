@@ -13,7 +13,7 @@ import json
 from pathlib import Path
 import tempfile
 
-from export_synthetic_datasets import export_cohort, write_manifest
+from export_synthetic_datasets import PUBLIC_COHORT_NAMES, export_cohort, rename_public_cohort, write_manifest
 
 
 REVIEWED_INPUTS = {
@@ -79,13 +79,13 @@ def mark_reviewed(root: Path, variant: str) -> dict:
     manifest.pop("payload_bytes")
     manifest_path.unlink()
     write_manifest(root, manifest)
-    return json.loads(manifest_path.read_text(encoding="utf-8"))
+    return rename_public_cohort(root, "en" if variant == "english" else "de")
 
 
 def prepare_reviewed_cohorts(english_source: Path, german_source: Path, output_root: Path) -> dict:
     output_root = output_root.absolute()
     variants = {"english": (english_source, "en"), "german": (german_source, "de")}
-    if any((output_root / variant).exists() for variant in variants):
+    if any((output_root / PUBLIC_COHORT_NAMES[language]).exists() for _, language in variants.values()):
         raise FileExistsError("Cohort output exists; use a new versioned output directory")
     for source, _ in variants.values():
         if output_root.resolve() == source.resolve() or source.resolve() in output_root.resolve().parents:
@@ -95,15 +95,16 @@ def prepare_reviewed_cohorts(english_source: Path, german_source: Path, output_r
         staging = Path(temporary)
         summaries = {}
         for variant, (source, language) in variants.items():
-            export_cohort(source, staging / variant, language, seed=42)
-            manifest = mark_reviewed(staging / variant, variant)
-            summaries[variant] = {
+            cohort = PUBLIC_COHORT_NAMES[language]
+            export_cohort(source, staging / cohort, language, seed=42, _preserve_source_ids=True)
+            manifest = mark_reviewed(staging / cohort, variant)
+            summaries[cohort] = {
                 key: manifest[key] for key in ("patient_count", "note_count", "event_count", "payload_bytes")
             }
         # Both cohorts must pass review before either becomes a release artifact.
         output_root.mkdir(parents=True, exist_ok=True)
-        for variant in variants:
-            (staging / variant).rename(output_root / variant)
+        for cohort in summaries:
+            (staging / cohort).rename(output_root / cohort)
     return summaries
 
 

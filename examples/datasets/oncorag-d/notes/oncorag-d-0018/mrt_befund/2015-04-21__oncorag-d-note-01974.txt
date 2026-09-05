@@ -1,0 +1,31 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-01974
+Datum: 21.04.2015
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0018 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 06.09.2012 mit Glioblastom.
+Lokalisation: Thalamus rechts.
+Primäre Resektion am 29.09.2012.
+Primäre Radiotherapie bis 60 Gy vom 16.10.2012 bis 20.11.2012.
+Rezidivbestrahlung bis 30 Gy vom 07.01.2015 bis 01.02.2015.
+Systemische Therapien: Temozolomid, Bevacizumab, Irinotecan.
+Begleitmedikation: Cortison, Pantoprazol, Dexamethason.
+
+Bildgebung:
+- Aktuell berichtet der Patient über lebensbedrohliches Hirnödem mit kritischer Massenwirkung, Verlagerungslinie und notfallmäßiger intensivmedizinischer Behandlung, mit klarer Relevanz für die weitere Therapieplanung in den vergangenen Tagen im posttherapeutischen Verlauf bildgebend mit Verdacht auf postradiogene Genese in maximaler Ausprägung.
+- Ergänzend wird festgehalten: es bestand Behandlungsbedarf unter stationären Bedingungen; eine unmittelbare Intervention wurde notwendig; die Selbstständigkeit im Alltag ist relevant vermindert; die Situation war lebensbedrohlich einzustufen Eine kurzfristige Reevaluation wurde empfohlen.
+
+Beurteilung:
+- Weiterhin nachweisbar ist katastrophale Radionekrose mit akuter Einklemmungsgefahr und sofortiger intensivmedizinischer Intervention, entsprechend der aktuellen Verlaufseinschätzung nach Re-Bestrahlung bei fortbestehendem Unterstützungsbedarf im Alltag.
+- eine stationäre Aufnahme war erforderlich; es musste kurzfristig therapeutisch eskaliert werden; die Selbstständigkeit im Alltag ist relevant vermindert; es lag eine vital bedrohliche Konstellation vor; Es lag eine lebensbedrohliche Dekompensation mit unmittelbarer Krisenbehandlung vor Eine kurzfristige Reevaluation wurde empfohlen.
+- In der Gesamtschau Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 10 Wochen geplant.
+- Die begleitende Medikation soll nach Bedarf weitergeführt werden.
+- Eine antiödematöse Eskalation einschließlich Bevacizumab bleibt vorbehalten.

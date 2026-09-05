@@ -1,0 +1,25 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Arztbrief
+Dokument-ID: oncorag-d-note-01545
+Datum: 27.08.2015
+
+Sehr geehrter Herr Kollege,
+nachfolgend der aktuelle Verlauf von Patient oncorag-d-0078.
+
+Anamnese / Chronologie:
+Erstdiagnose am 10.02.2013 mit Anaplastisches Astrozytom.
+Lokalisation: Frontallappen links.
+Primäre Resektion am 08.03.2013.
+Primäre Radiotherapie bis 59 Gy vom 25.04.2013 bis 13.06.2013.
+Rezidivbestrahlung bis 33 Gy vom 01.10.2015 bis 22.10.2015.
+Systemische Therapien: Pembrolizumab, Irinotecan, Temozolomid.
+Begleitmedikation: Ondansetron.
+
+Neurologischer Status:
+- Im Verlauf besteht diskrete kognitive Verlangsamung ohne wesentliche Einschränkung der Selbstständigkeit, mit klarer Relevanz für die weitere Therapieplanung nach Re-Bestrahlung im Kontext der bekannten Tumor- und Therapiesituation.
+- Im gleichen Kontext wird berichtet: Aktuell keine stationäre Behandlungsnotwendigkeit Die Befundkonstellation wurde interdisziplinär erneut diskutiert.
+- Aus klinischer Sicht Die Beschwerden sind am ehesten tumorkorreliert.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 8 Wochen.

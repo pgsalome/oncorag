@@ -1,0 +1,30 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-00310
+Datum: 16.07.2019
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0310 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 08.10.2017 mit Glioblastom.
+Lokalisation: Temporallappen rechts.
+Primäre Resektion am 21.11.2017.
+Primäre Radiotherapie bis 59 Gy vom 22.12.2017 bis 29.01.2018.
+Rezidivbestrahlung bis 36 Gy vom 28.12.2018 bis 12.01.2019.
+Systemische Therapien: Bevacizumab, Temozolomid.
+Begleitmedikation: Pantoprazol.
+
+Beurteilung:
+- Neu aufgetreten ist symptomatische Strahlennekrose mit zunehmendem perifokalem Ödem und Steroidbedarf, entsprechend der aktuellen Verlaufseinschätzung bildgebend mit Verdacht auf postradiogene Genese.
+- Aus klinischer Sicht Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Bildgebung:
+- Im Verlauf besteht lebensbedrohliches Hirnödem mit kritischer Massenwirkung, Verlagerungslinie und notfallmäßiger intensivmedizinischer Behandlung unter laufender Therapie.
+- es bestand Behandlungsbedarf unter stationären Bedingungen; es musste kurzfristig therapeutisch eskaliert werden; die Selbstständigkeit im Alltag ist relevant vermindert; es lag eine vital bedrohliche Konstellation vor; Es bestand eine vital bedrohliche Situation mit intensivmedizinischer Überwachung Hieraus ergab sich eine enge klinische Überwachung.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 6 Wochen.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.
+- Eine antiödematöse Eskalation einschließlich Bevacizumab bleibt vorbehalten.

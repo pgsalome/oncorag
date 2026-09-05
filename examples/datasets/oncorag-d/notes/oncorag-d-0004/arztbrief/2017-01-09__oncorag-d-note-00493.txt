@@ -1,0 +1,26 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Arztbrief
+Dokument-ID: oncorag-d-note-00493
+Datum: 09.01.2017
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0004 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 21.01.2016 mit Glioblastom.
+Lokalisation: Multifokal supratentoriell.
+Primäre Resektion am 29.02.2016.
+Primäre Radiotherapie bis 54 Gy vom 26.03.2016 bis 11.05.2016.
+Rezidivbestrahlung bis 33 Gy vom 17.01.2017 bis 28.01.2017.
+Systemische Therapien: Nivolumab, Bevacizumab, CCNU/Lomustin.
+Begleitmedikation: Cortison, Levetiracetam.
+
+Beurteilung:
+- Anamnestisch zeigt sich symptomatische Strahlennekrose mit zunehmendem perifokalem Ödem und Steroidbedarf, wie auch im Verlauf mehrfach dokumentiert im postradiogenen Intervall im Kontext der bekannten Tumor- und Therapiesituation.
+- Ergänzend wird festgehalten: Es erfolgt eine ambulante Verlaufskontrolle.
+- Aus klinischer Sicht Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 10 Wochen.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

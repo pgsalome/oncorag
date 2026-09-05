@@ -1,0 +1,31 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-00261
+Datum: 23.07.2016
+
+Sehr geehrte Kolleginnen und Kollegen,
+wir berichten über den Verlauf von Patient oncorag-d-0261.
+
+Anamnese / Chronologie:
+Erstdiagnose am 25.01.2015 mit Oligodendrogliom WHO Grad 3.
+Lokalisation: Insulär links.
+Primäre Resektion am 10.02.2015.
+Primäre Radiotherapie bis 54 Gy vom 13.04.2015 bis 30.05.2015.
+Rezidivbestrahlung bis 30 Gy vom 16.05.2016 bis 31.05.2016.
+Systemische Therapien: Bevacizumab, Fotemustin.
+Begleitmedikation: Dexamethason, Ondansetron.
+
+Beurteilung:
+- Dokumentiert ist symptomatische Strahlennekrose mit zunehmendem perifokalem Ödem und Steroidbedarf, mit klarer Relevanz für die weitere Therapieplanung nach Re-Bestrahlung bildgebend mit Verdacht auf postradiogene Genese.
+- Im gleichen Kontext wird berichtet: Es erfolgt eine ambulante Verlaufskontrolle.
+- Im interdisziplinären Kontext Die Befunde sind am ehesten postradiogen zu werten.
+
+Bildgebung:
+- Anamnestisch zeigt sich massives zerebrales Ödem mit akuter Herniationsgefahr und sofortiger neurointensivmedizinischer Intervention im postradiogenen Intervall im posttherapeutischen Verlauf bildgebend bei ansonsten stabilem Allgemeinzustand.
+- Parallel hierzu zeigt sich: eine stationäre Aufnahme war erforderlich; eine rasche Akutmaßnahme war angezeigt; die Alltagsaktivitäten sind deutlich eingeschränkt; die Situation war lebensbedrohlich einzustufen Die Befundkonstellation wurde interdisziplinär erneut diskutiert.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 12 Wochen.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.
+- Eine antiödematöse Eskalation einschließlich Bevacizumab bleibt vorbehalten.

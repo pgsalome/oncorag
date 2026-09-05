@@ -1,0 +1,26 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: oncorag-d-note-02685
+Datum: 11.07.2016
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0240 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 27.02.2015 mit Anaplastisches Astrozytom.
+Lokalisation: Thalamus rechts.
+Primäre Resektion am 21.03.2015.
+Primäre Radiotherapie bis 60 Gy vom 19.04.2015 bis 25.05.2015.
+Rezidivbestrahlung bis 33 Gy vom 10.01.2016 bis 01.02.2016.
+Systemische Therapien: Temozolomid.
+Begleitmedikation: Levetiracetam.
+
+Beurteilung:
+- Klinisch zeigt sich bildmorphologisch vereinbar mit kleiner Strahlennekrose ohne relevante klinische Symptomatik, wie auch im Verlauf mehrfach dokumentiert unter laufender Therapie unter kombinierter supportiver Behandlung.
+- Im interdisziplinären Kontext Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 6 Wochen.
+- Die begleitende Medikation soll nach Bedarf weitergeführt werden.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

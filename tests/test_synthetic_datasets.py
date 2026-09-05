@@ -37,7 +37,7 @@ def test_export_allowlists_labels_and_preserves_note_metadata(tmp_path):
     exporter.export_cohort(source, destination, "en")
     labels = [json.loads(line) for line in (destination / "labels.jsonl").read_text().splitlines()]
     assert labels == [{
-        "patient_id": "SYN-TNBC-0001", "note_id": "syn_0001", "report_type": "oncology",
+        "patient_id": "oncorag-e-0001", "note_id": "oncorag-e-note-00001", "report_type": "oncology",
         "date": "2020-01-01", "language": "en",
         "events": [{"event_id": "event_001", "ctcae_term": "Fatigue", "temporality": "current",
                     "grade": 2, "negated": False}],
@@ -47,7 +47,7 @@ def test_export_allowlists_labels_and_preserves_note_metadata(tmp_path):
         assert private_value not in public_text
     with (destination / "registry.csv").open(newline="") as stream:
         row = next(csv.DictReader(stream))
-    assert row["path"] == "notes/SYN-TNBC-0001/oncology/2020-01-01__syn_0001.txt"
+    assert row["path"] == "notes/oncorag-e-0001/oncology/2020-01-01__oncorag-e-note-00001.txt"
     assert (destination / row["path"]).read_text() == (source / "synthetic_notes/syn_0001.txt").read_text()
 
 
@@ -222,7 +222,7 @@ def test_demo_only_cli_reproduces_bundled_examples_without_source_data(tmp_path,
             assert (generated / relative).read_bytes() == (bundled / relative).read_bytes()
 
 
-@pytest.mark.parametrize("variant,events", [("english", 5761), ("german", 5987)])
+@pytest.mark.parametrize("variant,events", [("oncorag-e", 5761), ("oncorag-d", 5987)])
 def test_full_export_manifest_counts_and_patient_split_integrity(variant, events):
     root = ROOT / "examples/datasets" / variant
     if not root.exists():
@@ -232,6 +232,10 @@ def test_full_export_manifest_counts_and_patient_split_integrity(variant, events
         rows = list(csv.DictReader(stream))
     patients = {row["patient_id"] for row in rows}
     splits = json.loads((root / "splits.json").read_text())
+    assert manifest["dataset_id"] == variant
+    assert manifest["public_naming"]["cohort"] == variant
+    assert all(patient.startswith(f"{variant}-") and patient.rsplit("-", 1)[1].isdigit() for patient in patients)
+    assert all(row["note_id"].startswith(f"{variant}-note-") for row in rows)
     assert len(rows) == manifest["note_count"] == 2930
     assert len(patients) == manifest["patient_count"] == 489
     assert manifest["event_count"] == events
@@ -241,6 +245,9 @@ def test_full_export_manifest_counts_and_patient_split_integrity(variant, events
     labels = [json.loads(line) for line in (root / "labels.jsonl").read_text().splitlines()]
     assert len(labels) == len(rows)
     assert sum(len(row["events"]) for row in labels) == events
+    assert [{key: value for key, value in row.items() if key != "events"} for row in labels] == [
+        {key: value for key, value in row.items() if key != "path"} for row in rows
+    ]
     for label in labels:
         assert set(label) == {"patient_id", "note_id", "report_type", "date", "language", "events"}
         for event in label["events"]:

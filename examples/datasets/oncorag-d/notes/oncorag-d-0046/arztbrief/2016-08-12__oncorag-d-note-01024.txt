@@ -1,0 +1,30 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Arztbrief
+Dokument-ID: oncorag-d-note-01024
+Datum: 12.08.2016
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0046 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 18.05.2014 mit Glioblastom.
+Lokalisation: Thalamus rechts.
+Primäre Resektion am 12.06.2014.
+Primäre Radiotherapie bis 60 Gy vom 16.08.2014 bis 24.09.2014.
+Rezidivbestrahlung bis 33 Gy vom 05.03.2016 bis 23.03.2016.
+Systemische Therapien: Temozolomid, Bevacizumab.
+Begleitmedikation: Pantoprazol, Cortison.
+
+Beschwerden:
+- Klinisch zeigt sich deutliche Hörminderung mit Kommunikationserschwernis im postradiogenen Intervall im posttherapeutischen Verlauf unter fortgesetzter Steroidtherapie.
+- Es erfolgt eine ambulante Verlaufskontrolle Eine kurzfristige Reevaluation wurde empfohlen.
+
+Beurteilung:
+- Es imponiert ausgeprägte Strahlennekrose mit deutlicher Massenwirkung, hochdosierter Steroidtherapie und stationärem Management, entsprechend der aktuellen Verlaufseinschätzung im aktuellen Verlauf im posttherapeutischen Verlauf im Kontext der bekannten Tumor- und Therapiesituation.
+- Aus klinischer Sicht Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 10 Wochen geplant.
+- Supportivtherapie wird symptomorientiert fortgesetzt.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

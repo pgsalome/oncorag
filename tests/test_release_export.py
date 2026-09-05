@@ -24,8 +24,12 @@ def source(tmp_path, monkeypatch):
         "oncoraggraph/system_config.yaml": "private local deployment configuration\n",
         "examples/features.synthetic.yaml": "features: []\n",
         "examples/datasets/demo/english/manifest.json": "{}\n",
-        "examples/datasets/english/manifest.json": '{"files": {}}\n',
-        "examples/datasets/german/manifest.json": '{"files": {}}\n',
+        "examples/datasets/oncorag-e/manifest.json": '{"files": {}}\n',
+        "examples/datasets/oncorag-d/manifest.json": '{"files": {}}\n',
+        "configs/oncorag-e.json": '{}\n',
+        "configs/oncorag-d.json": '{}\n',
+        "examples/features.oncorag-e.yaml": "features: []\n",
+        "examples/features.oncorag-d.yaml": "features: []\n",
         "scripts/run_oncorag.py": "print('runner')\n",
         "configs/oncorag_synthetic_mixed.json": "{}\n",
         "tests/test_public.py": "def test_public():\n    assert True\n",
@@ -46,7 +50,7 @@ def source(tmp_path, monkeypatch):
     monkeypatch.setattr(release, "RUNTIME_FILES", ("__init__.py", "core.py"))
     monkeypatch.setattr(release, "REVIEWED_DATASET_MANIFESTS", {
         variant: hashlib.sha256((root / "examples/datasets" / variant / "manifest.json").read_bytes()).hexdigest()
-        for variant in ("english", "german")
+        for variant in ("oncorag-e", "oncorag-d")
     })
     return root
 
@@ -62,7 +66,7 @@ def test_clean_export_excludes_clinical_artifacts_and_git_history(source, tmp_pa
     assert (destination / "examples/datasets/demo/english/manifest.json").is_file()
     for excluded in (".env", ".git", "analysis", "oncoraggraph/prompt_cache", "oncoraggraph/config/feature_configs_real",
                      "oncoraggraph/chat", "oncoraggraph/old_config_scripts", "configs/oncorag_full_pipeline_tnbc.json",
-                     "scripts/unreviewed.py", "examples/datasets/english", "examples/datasets/german"):
+                     "scripts/unreviewed.py", "examples/datasets/oncorag-e", "examples/datasets/oncorag-d"):
         assert not (destination / excluded).exists()
     assert manifest["full_synthetic_datasets_included"] is False
     assert manifest["payload_bytes"] == sum(row["bytes"] for row in manifest["files"].values())
@@ -75,20 +79,22 @@ def test_clean_export_excludes_clinical_artifacts_and_git_history(source, tmp_pa
 def test_full_cohorts_require_explicit_opt_in(source, tmp_path):
     destination = tmp_path / "release"
     manifest = release.prepare_release(source, destination, include_datasets=True)
-    assert (destination / "examples/datasets/english/manifest.json").is_file()
-    assert (destination / "examples/datasets/german/manifest.json").is_file()
+    for cohort in ("oncorag-e", "oncorag-d"):
+        assert (destination / f"examples/datasets/{cohort}/manifest.json").is_file()
+        assert (destination / f"configs/{cohort}.json").is_file()
+        assert (destination / f"examples/features.{cohort}.yaml").is_file()
     assert manifest["full_synthetic_datasets_included"] is True
 
 
 def test_full_cohort_rejects_unreviewed_manifest(source, tmp_path):
-    (source / "examples/datasets/english/manifest.json").write_text('{"files": {}, "changed": true}\n')
+    (source / "examples/datasets/oncorag-e/manifest.json").write_text('{"files": {}, "changed": true}\n')
     with pytest.raises(ValueError, match="not the reviewed version"):
         release.prepare_release(source, tmp_path / "release", include_datasets=True)
     assert not (tmp_path / "release").exists()
 
 
 def test_full_cohort_rejects_extra_files(source, tmp_path):
-    (source / "examples/datasets/english/extra.txt").write_text("Not reviewed")
+    (source / "examples/datasets/oncorag-e/extra.txt").write_text("Not reviewed")
     with pytest.raises(ValueError, match="files differ"):
         release.prepare_release(source, tmp_path / "release", include_datasets=True)
     assert not (tmp_path / "release").exists()
@@ -96,13 +102,13 @@ def test_full_cohort_rejects_extra_files(source, tmp_path):
 
 @pytest.mark.parametrize("change", ["changed", "removed"])
 def test_full_cohort_rejects_changed_reviewed_payload(source, tmp_path, monkeypatch, change):
-    root = source / "examples/datasets/english"
+    root = source / "examples/datasets/oncorag-e"
     note = root / "note.txt"
     note.write_bytes(b"Reviewed synthetic text")
     metadata = {"files": {"note.txt": {"sha256": hashlib.sha256(note.read_bytes()).hexdigest(), "bytes": note.stat().st_size}}}
     manifest = root / "manifest.json"
     manifest.write_text(json.dumps(metadata))
-    monkeypatch.setitem(release.REVIEWED_DATASET_MANIFESTS, "english", hashlib.sha256(manifest.read_bytes()).hexdigest())
+    monkeypatch.setitem(release.REVIEWED_DATASET_MANIFESTS, "oncorag-e", hashlib.sha256(manifest.read_bytes()).hexdigest())
     if change == "removed":
         note.unlink()
     else:

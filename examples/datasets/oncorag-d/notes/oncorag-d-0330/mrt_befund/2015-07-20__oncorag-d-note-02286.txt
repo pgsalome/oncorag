@@ -1,0 +1,30 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-02286
+Datum: 20.07.2015
+
+Sehr geehrte Kolleginnen und Kollegen,
+wir berichten über den Verlauf von Patient oncorag-d-0330.
+
+Anamnese / Chronologie:
+Erstdiagnose am 09.06.2013 mit Astrozytom WHO Grad 4.
+Lokalisation: Thalamus rechts.
+Primäre Resektion am 15.06.2013.
+Primäre Radiotherapie bis 54 Gy vom 01.08.2013 bis 17.09.2013.
+Rezidivbestrahlung bis 36 Gy vom 23.05.2015 bis 17.06.2015.
+Systemische Therapien: PCV, Temozolomid.
+Begleitmedikation: Ondansetron.
+
+Bildgebung:
+- Im Verlauf besteht diskretes perifokales Hirnödem ohne relevante Klinik seit der letzten Vorstellung im posttherapeutischen Verlauf bei fortbestehendem Unterstützungsbedarf im Alltag.
+
+Beurteilung:
+- Aktuell berichtet der Patient über radiogene Nekrose mit klinisch relevanten Beschwerden, derzeit konservativ behandelbar, entsprechend der aktuellen Verlaufseinschätzung unter laufender Therapie im posttherapeutischen Verlauf mit Verdacht auf postradiogene Genese unter fortgesetzter Steroidtherapie.
+- Zusätzlich gilt: Es erfolgt eine ambulante Verlaufskontrolle.
+- Aus klinischer Sicht Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 6 Wochen.
+- Die begleitende Medikation soll nach Bedarf weitergeführt werden.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

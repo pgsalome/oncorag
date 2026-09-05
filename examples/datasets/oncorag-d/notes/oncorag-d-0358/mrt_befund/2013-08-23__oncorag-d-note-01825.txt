@@ -1,0 +1,31 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-01825
+Datum: 23.08.2013
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0358 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 23.02.2012 mit Oligodendrogliom WHO Grad 3.
+Lokalisation: Multifokal supratentoriell.
+Primäre Resektion am 10.03.2012.
+Primäre Radiotherapie bis 54 Gy vom 04.05.2012 bis 15.06.2012.
+Rezidivbestrahlung bis 33 Gy vom 03.03.2013 bis 27.03.2013.
+Systemische Therapien: Irinotecan, Temozolomid, PCV.
+Begleitmedikation: Dexamethason, Ondansetron, Cortison.
+
+Bildgebung:
+- Bei der heutigen Vorstellung findet sich zunehmendes perifokales Ödem mit steroidpflichtiger Symptomatik, entsprechend der aktuellen Verlaufseinschätzung seit der letzten Vorstellung bildgebend mit Verdacht auf postradiogene Genese.
+- Im gleichen Kontext wird berichtet: Die Alltagsaktivität ist nur gering beeinträchtigt Eine kurzfristige Reevaluation wurde empfohlen.
+
+Beurteilung:
+- Klinisch zeigt sich radiogene Nekrose mit klinisch relevanten Beschwerden, derzeit konservativ behandelbar, entsprechend der aktuellen Verlaufseinschätzung im posttherapeutischen Verlauf bei wechselnder neurologischer Belastbarkeit.
+- Parallel hierzu zeigt sich: Aktuell keine stationäre Behandlungsnotwendigkeit Hieraus ergab sich eine enge klinische Überwachung.
+- Aus klinischer Sicht Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 8 Wochen geplant.
+- Die begleitende Medikation soll nach Bedarf weitergeführt werden.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

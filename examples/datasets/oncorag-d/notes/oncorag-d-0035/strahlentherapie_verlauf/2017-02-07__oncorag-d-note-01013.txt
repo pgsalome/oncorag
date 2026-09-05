@@ -1,0 +1,35 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: oncorag-d-note-01013
+Datum: 07.02.2017
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0035 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 09.10.2014 mit Oligodendrogliom WHO Grad 3.
+Lokalisation: Multifokal supratentoriell.
+Primäre Resektion am 21.11.2014.
+Primäre Radiotherapie bis 54 Gy vom 22.12.2014 bis 07.02.2015.
+Rezidivbestrahlung bis 33 Gy vom 20.01.2017 bis 14.02.2017.
+Systemische Therapien: Temozolomid.
+Begleitmedikation: Levetiracetam, Ondansetron.
+
+Nebenwirkungen:
+- Bei der heutigen Vorstellung findet sich infauste Übelkeit mit lebensbedrohlicher Exsikkose und sofortiger intensivmedizinischer Behandlung, mit klarer Relevanz für die weitere Therapieplanung im postradiogenen Intervall unter aktueller Re-Bestrahlung bei fortbestehendem Unterstützungsbedarf im Alltag in maximaler Ausprägung.
+- Ferner ist zu beachten: die Vorstellung erfolgte stationär; eine rasche Akutmaßnahme war angezeigt; die Selbstständigkeit im Alltag ist relevant vermindert; es bestand unmittelbare Gefahr einer kritischen Dekompensation.
+- Im interdisziplinären Kontext Die Symptomatik erscheint am ehesten systemtherapieassoziiert.
+
+Beurteilung:
+- Im Verlauf besteht radiogene Nekrose mit klinisch relevanten Beschwerden, derzeit konservativ behandelbar, mit klarer Relevanz für die weitere Therapieplanung im aktuellen Verlauf unter aktueller Re-Bestrahlung im Kontext der bekannten Tumor- und Therapiesituation.
+- Ferner ist zu beachten: Aktuell keine stationäre Behandlungsnotwendigkeit Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+- Aus klinischer Sicht Die Befunde sind am ehesten postradiogen zu werten.
+
+Hautstatus:
+- Im aktuellen Arztbrief wird beschrieben deutliche radiogene Dermatitis mit trockener Schuppung, was klinisch relevant eingeordnet wird unter aktueller Re-Bestrahlung.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 6 Wochen geplant.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.
+- Diskussion einer antiödematösen Therapie bzw. Bevacizumab bei Persistenz der Beschwerden.

@@ -36,8 +36,8 @@ REVIEWED_ASSETS = {
     "graphicalabstract.png": "b23335b44752ff857becc554f683053e6b9d7fd031eeb78b2ba0bb008bbe5864",
 }
 REVIEWED_DATASET_MANIFESTS = {
-    "english": "5a119027589c30b07a8f52b3559325c216f943dba5c451ec2c74a349e62f82fd",
-    "german": "c19c138e46ae183d53be3358c4665e9805c8045a0a888606ee9caa8d716eb505",
+    "oncorag-e": "840d9a3681d29de8944bf3688818daa257c23875429e4efc70ffee746449f22b",
+    "oncorag-d": "6bac8de0701f5ed7334831b414e862118a98b64da00989c3cd449491267dc49a",
 }
 CHAT_FILES = (
     "chat_runtime.py", "chat_app.py", "chat/__init__.py", "chat/service.py",
@@ -178,8 +178,10 @@ def select_files(source: Path, include_datasets: bool = False) -> dict[str, Path
     include("tests/conftest.py")
     include(".github/workflows/tests.yml")
     include("examples/features.synthetic.yaml", required=True)
-    include("examples/features.cohort_english.yaml")
-    include("examples/features.cohort_german.yaml")
+    include("examples/features.oncorag-e.yaml")
+    include("examples/features.oncorag-d.yaml")
+    include("configs/oncorag-e.json")
+    include("configs/oncorag-d.json")
     include("examples/datasets/README.md")
     include("examples/datasets/PROVENANCE.md")
     for pattern in ("oncorag*.example.json", "oncorag_synthetic_*.json", "synthetic*.json", "vector_store.iris.example.yaml"):
@@ -187,7 +189,7 @@ def select_files(source: Path, include_datasets: bool = False) -> dict[str, Path
             include(path.relative_to(source).as_posix())
     dataset_roots = ["examples/datasets/demo"]
     if include_datasets:
-        dataset_roots += ["examples/datasets/english", "examples/datasets/german"]
+        dataset_roots += ["examples/datasets/oncorag-e", "examples/datasets/oncorag-d"]
     for relative in dataset_roots:
         root = _source_file(source, relative)
         if not root.is_dir():
@@ -304,7 +306,7 @@ def main() -> int:
     operation = parser.add_mutually_exclusive_group(required=True)
     operation.add_argument("--destination", type=Path)
     operation.add_argument("--refresh-manifest", action="store_true", help="Update hashes of approved files in this snapshot after edits")
-    parser.add_argument("--include-datasets", action="store_true", help="Include the fingerprint-verified, reviewed full English/German cohorts")
+    parser.add_argument("--include-datasets", action="store_true", help="Include the fingerprint-verified oncorag-e and oncorag-d cohorts")
     args = parser.parse_args()
     try:
         source = Path(__file__).resolve().parents[1]

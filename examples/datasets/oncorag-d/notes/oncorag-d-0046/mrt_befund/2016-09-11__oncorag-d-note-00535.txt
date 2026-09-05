@@ -1,0 +1,30 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-00535
+Datum: 11.09.2016
+
+Sehr geehrter Herr Kollege,
+nachfolgend der aktuelle Verlauf von Patient oncorag-d-0046.
+
+Anamnese / Chronologie:
+Erstdiagnose am 18.05.2014 mit Glioblastom.
+Lokalisation: Thalamus rechts.
+Primäre Resektion am 12.06.2014.
+Primäre Radiotherapie bis 60 Gy vom 16.08.2014 bis 24.09.2014.
+Rezidivbestrahlung bis 33 Gy vom 05.03.2016 bis 23.03.2016.
+Systemische Therapien: Temozolomid, Bevacizumab.
+Begleitmedikation: Pantoprazol, Cortison.
+
+Beurteilung:
+- Aktuell berichtet der Patient über diskrete postradiogene Nekrosezeichen ohne akuten Interventionsbedarf, was klinisch relevant eingeordnet wird im postradiogenen Intervall im posttherapeutischen Verlauf unter kombinierter supportiver Behandlung.
+- Zusätzlich gilt: Aktuell keine stationäre Behandlungsnotwendigkeit Eine kurzfristige Reevaluation wurde empfohlen.
+- Im interdisziplinären Kontext Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Bildgebung:
+- Bei der heutigen Vorstellung findet sich zunehmendes perifokales Ödem mit steroidpflichtiger Symptomatik, mit klarer Relevanz für die weitere Therapieplanung nach Re-Bestrahlung bei fortbestehendem Unterstützungsbedarf im Alltag.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 12 Wochen.
+- Die begleitende Medikation soll nach Bedarf weitergeführt werden.
+- Eine antiödematöse Eskalation einschließlich Bevacizumab bleibt vorbehalten.

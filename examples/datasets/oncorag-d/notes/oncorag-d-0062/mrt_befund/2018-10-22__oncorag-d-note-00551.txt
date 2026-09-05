@@ -1,0 +1,25 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-00551
+Datum: 22.10.2018
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0062 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 20.04.2016 mit Astrozytom WHO Grad 4.
+Lokalisation: Frontallappen links.
+Primäre Resektion am 05.05.2016.
+Primäre Radiotherapie bis 59 Gy vom 16.07.2016 bis 29.08.2016.
+Rezidivbestrahlung bis 33 Gy vom 30.07.2018 bis 13.08.2018.
+Systemische Therapien: CCNU/Lomustin, Regorafenib, Temozolomid.
+Begleitmedikation: Ondansetron, Pantoprazol.
+
+Bildgebung:
+- Im aktuellen Arztbrief wird beschrieben zunehmendes perifokales Ödem mit steroidpflichtiger Symptomatik, mit klarer Relevanz für die weitere Therapieplanung im aktuellen Verlauf im posttherapeutischen Verlauf bildgebend bei wechselnder neurologischer Belastbarkeit.
+- Parallel hierzu zeigt sich: Die Alltagsaktivität ist nur gering beeinträchtigt Eine kurzfristige Reevaluation wurde empfohlen.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 12 Wochen.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.

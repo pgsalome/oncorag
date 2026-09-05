@@ -1,0 +1,30 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-01964
+Datum: 21.01.2016
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0008 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 25.03.2013 mit Oligodendrogliom WHO Grad 3.
+Lokalisation: Thalamus rechts.
+Primäre Resektion am 06.04.2013.
+Primäre Radiotherapie bis 54 Gy vom 30.05.2013 bis 06.07.2013.
+Rezidivbestrahlung bis 33 Gy vom 29.11.2015 bis 22.12.2015.
+Systemische Therapien: Bevacizumab, Temozolomid.
+Begleitmedikation: Dexamethason, Ondansetron, Levetiracetam.
+
+Bildgebung:
+- Anamnestisch zeigt sich diskretes perifokales Hirnödem ohne relevante Klinik in den vergangenen Tagen im posttherapeutischen Verlauf im Kontext der bekannten Tumor- und Therapiesituation.
+
+Beurteilung:
+- Neu aufgetreten ist bildmorphologisch vereinbar mit kleiner Strahlennekrose ohne relevante klinische Symptomatik, mit klarer Relevanz für die weitere Therapieplanung unter laufender Therapie im posttherapeutischen Verlauf bildgebend.
+- Es erfolgt eine ambulante Verlaufskontrolle Hieraus ergab sich eine enge klinische Überwachung.
+- Aus klinischer Sicht Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 6 Wochen.
+- Die begleitende Medikation soll nach Bedarf weitergeführt werden.
+- Diskussion einer antiödematösen Therapie bzw. Bevacizumab bei Persistenz der Beschwerden.

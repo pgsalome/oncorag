@@ -1,0 +1,30 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-00276
+Datum: 15.04.2017
+
+Sehr geehrte Kolleginnen und Kollegen,
+wir berichten über den Verlauf von Patient oncorag-d-0276.
+
+Anamnese / Chronologie:
+Erstdiagnose am 30.03.2016 mit Glioblastom.
+Lokalisation: Insulär links.
+Primäre Resektion am 27.04.2016.
+Primäre Radiotherapie bis 60 Gy vom 02.07.2016 bis 09.08.2016.
+Rezidivbestrahlung bis 33 Gy vom 26.04.2017 bis 20.05.2017.
+Systemische Therapien: Bevacizumab, Temozolomid, PCV.
+Begleitmedikation: Dexamethason, Ondansetron, Cortison.
+
+Beurteilung:
+- Bei der heutigen Vorstellung findet sich bildmorphologisch vereinbar mit kleiner Strahlennekrose ohne relevante klinische Symptomatik unter laufender Therapie bildgebend unter fortgesetzter Steroidtherapie.
+- Ferner ist zu beachten: Es erfolgt eine ambulante Verlaufskontrolle Hieraus ergab sich eine enge klinische Überwachung.
+- Aus klinischer Sicht Die Befunde sind am ehesten postradiogen zu werten.
+
+Bildgebung:
+- Es imponiert zunehmendes perifokales Ödem mit steroidpflichtiger Symptomatik, entsprechend der aktuellen Verlaufseinschätzung während der neuroonkologischen Verlaufskontrolle.
+- Es erfolgt eine ambulante Verlaufskontrolle Hieraus ergab sich eine enge klinische Überwachung.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 10 Wochen.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

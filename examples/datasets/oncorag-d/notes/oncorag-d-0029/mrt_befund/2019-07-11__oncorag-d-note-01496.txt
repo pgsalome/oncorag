@@ -1,0 +1,30 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-01496
+Datum: 11.07.2019
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0029 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 21.11.2016 mit Astrozytom WHO Grad 4.
+Lokalisation: Parietallappen links.
+Primäre Resektion am 24.11.2016.
+Primäre Radiotherapie bis 59 Gy vom 10.01.2017 bis 28.02.2017.
+Rezidivbestrahlung bis 30 Gy vom 01.03.2019 bis 17.03.2019.
+Systemische Therapien: PCV, Temozolomid.
+Begleitmedikation: Ondansetron, Levetiracetam.
+
+Bildgebung:
+- Aktuell berichtet der Patient über zunehmendes perifokales Ödem mit steroidpflichtiger Symptomatik, was klinisch relevant eingeordnet wird während der neuroonkologischen Verlaufskontrolle im posttherapeutischen Verlauf bildgebend bei fortbestehendem Unterstützungsbedarf im Alltag.
+- Zusätzlich gilt: Die Alltagsaktivität ist nur gering beeinträchtigt Eine kurzfristige Reevaluation wurde empfohlen.
+
+Beurteilung:
+- Im aktuellen Arztbrief wird beschrieben radiogene Nekrose mit klinisch relevanten Beschwerden, derzeit konservativ behandelbar, wie auch im Verlauf mehrfach dokumentiert unter laufender Therapie im posttherapeutischen Verlauf bildgebend bei fortbestehendem Unterstützungsbedarf im Alltag.
+- Zusammenfassend Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 12 Wochen.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

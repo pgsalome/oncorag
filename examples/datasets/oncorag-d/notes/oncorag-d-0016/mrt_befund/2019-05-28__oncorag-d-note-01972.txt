@@ -1,0 +1,30 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-01972
+Datum: 28.05.2019
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0016 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 20.12.2016 mit Oligodendrogliom WHO Grad 3.
+Lokalisation: Frontallappen links.
+Primäre Resektion am 27.01.2017.
+Primäre Radiotherapie bis 54 Gy vom 16.02.2017 bis 23.03.2017.
+Rezidivbestrahlung bis 30 Gy vom 18.07.2019 bis 28.07.2019.
+Systemische Therapien: Temozolomid, CCNU/Lomustin.
+Begleitmedikation: Cortison.
+
+Bildgebung:
+- Dokumentiert ist massives zerebrales Ödem mit akuter Herniationsgefahr und sofortiger neurointensivmedizinischer Intervention im aktuellen Verlauf mit Verdacht auf postradiogene Genese bei wechselnder neurologischer Belastbarkeit in maximaler Ausprägung.
+- die Vorstellung erfolgte stationär; es musste kurzfristig therapeutisch eskaliert werden; die Alltagsaktivitäten sind deutlich eingeschränkt; die Situation war lebensbedrohlich einzustufen; Die Symptomatik erforderte eine notfallmäßige Intervention unter Maximaltherapie Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+
+Beurteilung:
+- Es imponiert diskrete postradiogene Nekrosezeichen ohne akuten Interventionsbedarf, was klinisch relevant eingeordnet wird im postradiogenen Intervall bildgebend im Kontext der bekannten Tumor- und Therapiesituation.
+- Im gleichen Kontext wird berichtet: Es erfolgt eine ambulante Verlaufskontrolle Die Befundkonstellation wurde interdisziplinär erneut diskutiert.
+- In der Gesamtschau Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 8 Wochen geplant.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

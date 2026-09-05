@@ -1,0 +1,25 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Arztbrief
+Dokument-ID: oncorag-d-note-01872
+Datum: 08.06.2014
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0405 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 03.09.2013 mit Astrozytom WHO Grad 4.
+Lokalisation: Temporallappen rechts.
+Primäre Resektion am 16.09.2013.
+Primäre Radiotherapie bis 60 Gy vom 17.10.2013 bis 22.11.2013.
+Rezidivbestrahlung bis 33 Gy vom 05.06.2014 bis 18.06.2014.
+Systemische Therapien: Pembrolizumab.
+Begleitmedikation: Ondansetron, Cortison.
+
+Beschwerden:
+- Weiterhin nachweisbar ist leichte Hörminderung, entsprechend der aktuellen Verlaufseinschätzung im aktuellen Verlauf unter kombinierter supportiver Behandlung.
+- Im gleichen Kontext wird berichtet: Es erfolgt eine ambulante Verlaufskontrolle Hieraus ergab sich eine enge klinische Überwachung.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 10 Wochen.
+- Supportivtherapie wird symptomorientiert fortgesetzt.

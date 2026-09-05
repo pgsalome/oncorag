@@ -1,0 +1,24 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Arztbrief
+Dokument-ID: oncorag-d-note-01012
+Datum: 02.10.2016
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0034 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 17.10.2014 mit Oligodendrogliom WHO Grad 3.
+Lokalisation: Insulär links.
+Primäre Resektion am 27.10.2014.
+Primäre Radiotherapie bis 60 Gy vom 09.12.2014 bis 15.01.2015.
+Rezidivbestrahlung bis 36 Gy vom 31.10.2016 bis 20.11.2016.
+Systemische Therapien: CCNU/Lomustin, Pembrolizumab, Irinotecan.
+Begleitmedikation: Pantoprazol, Levetiracetam.
+
+Beschwerden:
+- Anamnestisch zeigt sich klinisch relevante Visusminderung mit Einschränkung beim Lesen, entsprechend der aktuellen Verlaufseinschätzung im aktuellen Verlauf unter fortgesetzter Steroidtherapie.
+- Ergänzend wird festgehalten: Die Alltagsaktivität ist nur gering beeinträchtigt Die Befundkonstellation wurde interdisziplinär erneut diskutiert.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 8 Wochen.

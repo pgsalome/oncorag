@@ -1,0 +1,34 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: oncorag-d-note-01614
+Datum: 02.05.2014
+
+Sehr geehrte Kolleginnen und Kollegen,
+wir berichten über den Verlauf von Patient oncorag-d-0147.
+
+Anamnese / Chronologie:
+Erstdiagnose am 21.12.2012 mit Glioblastom.
+Lokalisation: Insulär links.
+Primäre Resektion am 18.01.2013.
+Primäre Radiotherapie bis 59 Gy vom 15.03.2013 bis 20.04.2013.
+Rezidivbestrahlung bis 30 Gy vom 24.04.2014 bis 08.05.2014.
+Systemische Therapien: Temozolomid.
+Begleitmedikation: Levetiracetam, Ondansetron.
+
+Nebenwirkungen:
+- Es imponiert regelmäßige Übelkeit mit reduziertem Appetit und Bedarfsmedikation, wie auch im Verlauf mehrfach dokumentiert seit der letzten Vorstellung unter kombinierter supportiver Behandlung.
+- Im gleichen Kontext wird berichtet: Aktuell keine stationäre Behandlungsnotwendigkeit Die Befundkonstellation wurde interdisziplinär erneut diskutiert.
+- Neu aufgetreten ist anhaltendes Erbrechen mit stationärer Flüssigkeitssubstitution unter laufender Therapie unter aktueller Re-Bestrahlung unter systemischer Therapielast im Kontext der bekannten Tumor- und Therapiesituation.
+- Parallel hierzu zeigt sich: eine stationäre Aufnahme war erforderlich; die Selbstständigkeit im Alltag ist relevant vermindert; Aufgrund der Symptomlast war eine stationäre Behandlung erforderlich.
+- In der Gesamtschau Die Befunde sind am ehesten postradiogen zu werten.
+
+Beurteilung:
+- Im Verlauf besteht lebensbedrohliche Strahlennekrose mit kritischer Hirndrucksymptomatik, neurochirurgischer Notfallbehandlung und intensivmedizinischer Überwachung, mit klarer Relevanz für die weitere Therapieplanung unter laufender Therapie im Kontext der bekannten Tumor- und Therapiesituation.
+- Im gleichen Kontext wird berichtet: die Vorstellung erfolgte stationär; eine unmittelbare Intervention wurde notwendig; die Selbstständigkeit im Alltag ist relevant vermindert; es lag eine vital bedrohliche Konstellation vor; Es lag eine lebensbedrohliche Dekompensation mit unmittelbarer Krisenbehandlung vor Eine kurzfristige Reevaluation wurde empfohlen.
+- Zusammenfassend Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 8 Wochen geplant.
+- Die begleitende Medikation soll nach Bedarf weitergeführt werden.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

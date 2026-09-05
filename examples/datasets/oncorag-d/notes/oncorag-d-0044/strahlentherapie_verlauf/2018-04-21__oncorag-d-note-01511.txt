@@ -1,0 +1,32 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: oncorag-d-note-01511
+Datum: 21.04.2018
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0044 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 23.01.2016 mit Astrozytom WHO Grad 4.
+Lokalisation: Insulär links.
+Primäre Resektion am 06.03.2016.
+Primäre Radiotherapie bis 54 Gy vom 16.05.2016 bis 03.07.2016.
+Rezidivbestrahlung bis 36 Gy vom 14.04.2018 bis 28.04.2018.
+Systemische Therapien: Pembrolizumab, Irinotecan.
+Begleitmedikation: Pantoprazol, Levetiracetam.
+
+Beurteilung:
+- Weiterhin nachweisbar ist lebensbedrohliche Strahlennekrose mit kritischer Hirndrucksymptomatik, neurochirurgischer Notfallbehandlung und intensivmedizinischer Überwachung seit der letzten Vorstellung.
+- Parallel hierzu zeigt sich: eine stationäre Aufnahme war erforderlich; eine rasche Akutmaßnahme war angezeigt; es besteht eine klare Beeinträchtigung der täglichen Funktionsfähigkeit; es bestand unmittelbare Gefahr einer kritischen Dekompensation.
+- Aus klinischer Sicht Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Nebenwirkungen:
+- Es imponiert vereinzeltes Erbrechen unter antiemetischer Bedarfsmedikation, entsprechend der aktuellen Verlaufseinschätzung in den vergangenen Tagen bei wechselnder neurologischer Belastbarkeit.
+- Die Alltagsaktivität ist nur gering beeinträchtigt Eine kurzfristige Reevaluation wurde empfohlen.
+- Aus klinischer Sicht Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 8 Wochen.
+- Supportivtherapie wird symptomorientiert fortgesetzt.
+- Eine antiödematöse Eskalation einschließlich Bevacizumab bleibt vorbehalten.

@@ -1,0 +1,29 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-01958
+Datum: 10.10.2014
+
+Sehr geehrter Herr Kollege,
+nachfolgend der aktuelle Verlauf von Patient oncorag-d-0002.
+
+Anamnese / Chronologie:
+Erstdiagnose am 18.04.2012 mit Astrozytom WHO Grad 4.
+Lokalisation: Temporallappen rechts.
+Primäre Resektion am 26.05.2012.
+Primäre Radiotherapie bis 59 Gy vom 21.06.2012 bis 06.08.2012.
+Rezidivbestrahlung bis 36 Gy vom 29.11.2014 bis 22.12.2014.
+Systemische Therapien: Temozolomid, Nivolumab, Irinotecan.
+Begleitmedikation: Levetiracetam, Cortison.
+
+Bildgebung:
+- Aktuell berichtet der Patient über zunehmendes perifokales Ödem mit steroidpflichtiger Symptomatik, entsprechend der aktuellen Verlaufseinschätzung bildgebend.
+
+Beurteilung:
+- Im Verlauf besteht symptomatische Strahlennekrose mit zunehmendem perifokalem Ödem und Steroidbedarf, mit klarer Relevanz für die weitere Therapieplanung seit der letzten Vorstellung bei ansonsten stabilem Allgemeinzustand.
+- Ergänzend wird festgehalten: Es erfolgt eine ambulante Verlaufskontrolle Die Befundkonstellation wurde interdisziplinär erneut diskutiert.
+- Im interdisziplinären Kontext Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 8 Wochen.
+- Eine antiödematöse Eskalation einschließlich Bevacizumab bleibt vorbehalten.

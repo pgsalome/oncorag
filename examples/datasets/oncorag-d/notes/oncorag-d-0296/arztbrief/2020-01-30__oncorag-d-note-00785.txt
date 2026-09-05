@@ -1,0 +1,30 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Arztbrief
+Dokument-ID: oncorag-d-note-00785
+Datum: 30.01.2020
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0296 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 08.11.2016 mit Glioblastom.
+Lokalisation: Thalamus rechts.
+Primäre Resektion am 01.12.2016.
+Primäre Radiotherapie bis 54 Gy vom 16.12.2016 bis 26.01.2017.
+Rezidivbestrahlung bis 36 Gy vom 14.06.2019 bis 27.06.2019.
+Systemische Therapien: CCNU/Lomustin, Irinotecan.
+Begleitmedikation: Levetiracetam.
+
+Beurteilung:
+- Dokumentiert ist fortgeschrittene Radionekrose mit neurologischer Verschlechterung und dringender therapeutischer Intervention nach Re-Bestrahlung unter fortgesetzter Steroidtherapie.
+- Parallel hierzu zeigt sich: eine stationäre Aufnahme war erforderlich; die Selbstständigkeit im Alltag ist relevant vermindert; Die Alltagsaktivität ist deutlich eingeschränkt Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+- Im interdisziplinären Kontext Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Beschwerden:
+- Aktuell berichtet der Patient über schwere Hörminderung mit dringlicher HNO-Abklärung, entsprechend der aktuellen Verlaufseinschätzung im postradiogenen Intervall im posttherapeutischen Verlauf bei wechselnder neurologischer Belastbarkeit.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 8 Wochen.
+- Supportivtherapie wird symptomorientiert fortgesetzt.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

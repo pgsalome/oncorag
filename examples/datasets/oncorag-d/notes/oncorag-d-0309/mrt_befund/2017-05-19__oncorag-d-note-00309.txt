@@ -1,0 +1,27 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-00309
+Datum: 19.05.2017
+
+Sehr geehrter Herr Kollege,
+nachfolgend der aktuelle Verlauf von Patient oncorag-d-0309.
+
+Anamnese / Chronologie:
+Erstdiagnose am 27.10.2014 mit Oligodendrogliom WHO Grad 3.
+Lokalisation: Parietallappen links.
+Primäre Resektion am 23.11.2014.
+Primäre Radiotherapie bis 59 Gy vom 03.02.2015 bis 13.03.2015.
+Rezidivbestrahlung bis 33 Gy vom 18.02.2017 bis 12.03.2017.
+Systemische Therapien: Temozolomid, Pembrolizumab, CCNU/Lomustin.
+Begleitmedikation: Dexamethason.
+
+Beurteilung:
+- Neu aufgetreten ist bildmorphologisch vereinbar mit kleiner Strahlennekrose ohne relevante klinische Symptomatik, was klinisch relevant eingeordnet wird im posttherapeutischen Verlauf bildgebend.
+- Die Alltagsaktivität ist nur gering beeinträchtigt Eine kurzfristige Reevaluation wurde empfohlen.
+- Zusammenfassend Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 6 Wochen.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.
+- Diskussion einer antiödematösen Therapie bzw. Bevacizumab bei Persistenz der Beschwerden.

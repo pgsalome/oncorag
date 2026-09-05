@@ -1,0 +1,32 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: oncorag-d-note-00220
+Datum: 24.12.2014
+
+Sehr geehrter Herr Kollege,
+nachfolgend der aktuelle Verlauf von Patient oncorag-d-0220.
+
+Anamnese / Chronologie:
+Erstdiagnose am 26.01.2013 mit Oligodendrogliom WHO Grad 3.
+Lokalisation: Thalamus rechts.
+Primäre Resektion am 02.03.2013.
+Primäre Radiotherapie bis 60 Gy vom 24.03.2013 bis 08.05.2013.
+Rezidivbestrahlung bis 30 Gy vom 12.12.2014 bis 24.12.2014.
+Systemische Therapien: Temozolomid, CCNU/Lomustin.
+Begleitmedikation: Pantoprazol, Levetiracetam.
+
+Beurteilung:
+- Im Verlauf besteht fortgeschrittene Radionekrose mit neurologischer Verschlechterung und dringender therapeutischer Intervention, entsprechend der aktuellen Verlaufseinschätzung im aktuellen Verlauf unter aktueller Re-Bestrahlung unter fortgesetzter Steroidtherapie.
+- Ergänzend wird festgehalten: es musste kurzfristig therapeutisch eskaliert werden; die Selbstständigkeit im Alltag ist relevant vermindert.
+- Im interdisziplinären Kontext Die Befunde sind am ehesten postradiogen zu werten.
+
+Nebenwirkungen:
+- Weiterhin nachweisbar ist regelmäßige Übelkeit mit reduziertem Appetit und Bedarfsmedikation, mit klarer Relevanz für die weitere Therapieplanung unter laufender Therapie bei wechselnder neurologischer Belastbarkeit.
+- Im gleichen Kontext wird berichtet: Es erfolgt eine ambulante Verlaufskontrolle Die Befundkonstellation wurde interdisziplinär erneut diskutiert.
+- Aus klinischer Sicht Die Symptomatik erscheint am ehesten systemtherapieassoziiert.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 6 Wochen.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.
+- Diskussion einer antiödematösen Therapie bzw. Bevacizumab bei Persistenz der Beschwerden.

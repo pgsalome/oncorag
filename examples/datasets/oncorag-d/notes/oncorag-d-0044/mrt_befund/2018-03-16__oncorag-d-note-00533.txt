@@ -1,0 +1,30 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-00533
+Datum: 16.03.2018
+
+Sehr geehrter Herr Kollege,
+nachfolgend der aktuelle Verlauf von Patient oncorag-d-0044.
+
+Anamnese / Chronologie:
+Erstdiagnose am 23.01.2016 mit Astrozytom WHO Grad 4.
+Lokalisation: Insulär links.
+Primäre Resektion am 06.03.2016.
+Primäre Radiotherapie bis 54 Gy vom 16.05.2016 bis 03.07.2016.
+Rezidivbestrahlung bis 36 Gy vom 14.04.2018 bis 28.04.2018.
+Systemische Therapien: Pembrolizumab, Irinotecan.
+Begleitmedikation: Pantoprazol, Levetiracetam.
+
+Beurteilung:
+- Aktuell berichtet der Patient über diskrete postradiogene Nekrosezeichen ohne akuten Interventionsbedarf, entsprechend der aktuellen Verlaufseinschätzung bildgebend unter fortgesetzter Steroidtherapie.
+- Begleitend fällt auf: Es erfolgt eine ambulante Verlaufskontrolle Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+- In der Gesamtschau Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Bildgebung:
+- Im Verlauf besteht zunehmendes perifokales Ödem mit steroidpflichtiger Symptomatik in den vergangenen Tagen bildgebend mit Verdacht auf postradiogene Genese unter fortgesetzter Steroidtherapie.
+- Es erfolgt eine ambulante Verlaufskontrolle.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 10 Wochen.
+- Eine antiödematöse Eskalation einschließlich Bevacizumab bleibt vorbehalten.

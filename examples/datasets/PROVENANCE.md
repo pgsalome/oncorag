@@ -8,7 +8,7 @@ validation. The release retains reviewed synthetic note bodies with explicit
 synthetic notices, projects label fields and excludes original clinical inputs,
 source-style identifiers and private provenance payloads.
 
-## English
+## oncorag-e (English)
 
 The `hybrid_synthea_ctcae_phase2` source contains 489 synthetic patients, 2,930
 notes and 5,761 annotated events. The hybrid builder copies all 2,930 upstream
@@ -33,7 +33,7 @@ generator contains later changes. Phrase checks are targeted, not exhaustive
 proof of historical authorship. Fixed payload fingerprints prevent a different
 source revision from silently inheriting this review.
 
-## German
+## oncorag-d (German)
 
 The `ricci_rhgg_termgrade_longitudinal` source contains 489 synthetic patients,
 2,930 notes and 5,987 annotated events. All 5,865 original artifacts, including
@@ -70,6 +70,12 @@ history/provenance objects from the raw labels and summaries.
 
 ## Reproducibility And Release Controls
 
+The public cohorts are named `oncorag-e` and `oncorag-d`. Patient and report
+identifiers were renamed consistently in paths, registries, labels, split keys
+and embedded report identifiers. Clinical content, dates, event labels and split
+membership are preserved. Original generator names identify the reviewed source
+lineage.
+
 The reviewed-input fingerprints cover only projected notes, relative registries,
 allowlisted labels and patient splits. Private source identifiers and raw metadata
 are not hashed into these public fingerprints.
@@ -80,9 +86,10 @@ are not hashed into these public fingerprints.
 | German | `def4936409b0b7aaf74c4046b920797f915a22f67350d149f22c12ab2b2106da` |
 
 `scripts/prepare_reviewed_cohorts.py` requires these exact inputs before adding
-notices. `scripts/prepare_public_release.py --include-datasets` then checks pinned
-output manifests and every payload file, rejecting changes, missing files or extra
-files. Each dataset manifest records the review scope and text transformations.
+notices and applying public cohort identifiers.
+`scripts/prepare_public_release.py --include-datasets` then checks pinned output
+manifests and every payload file, rejecting changes, missing files or extra files.
+Each dataset manifest records the review scope and text transformations.
 Neither command commits, pushes, or changes repository visibility.
 
 Reviewed source-code SHA-256 identifiers:

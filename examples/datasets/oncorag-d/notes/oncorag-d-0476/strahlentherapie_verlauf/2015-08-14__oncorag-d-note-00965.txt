@@ -1,0 +1,35 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: oncorag-d-note-00965
+Datum: 14.08.2015
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0476 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 15.11.2013 mit Astrozytom WHO Grad 4.
+Lokalisation: Parietallappen links.
+Primäre Resektion am 22.12.2013.
+Primäre Radiotherapie bis 60 Gy vom 25.01.2014 bis 14.03.2014.
+Rezidivbestrahlung bis 36 Gy vom 30.07.2015 bis 18.08.2015.
+Systemische Therapien: CCNU/Lomustin.
+Begleitmedikation: Dexamethason.
+
+Hautstatus:
+- Klinisch zeigt sich umschriebene Alopezie im Bestrahlungsfeld, mit klarer Relevanz für die weitere Therapieplanung nach Re-Bestrahlung unter fortgesetzter Steroidtherapie.
+- Die Alltagsaktivität ist nur gering beeinträchtigt.
+
+Beurteilung:
+- Weiterhin nachweisbar ist bildmorphologisch vereinbar mit kleiner Strahlennekrose ohne relevante klinische Symptomatik, entsprechend der aktuellen Verlaufseinschätzung unter laufender Therapie mit Verdacht auf postradiogene Genese unter kombinierter supportiver Behandlung.
+- Zusammenfassend Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Nebenwirkungen:
+- Bei der heutigen Vorstellung findet sich infauste Übelkeit mit lebensbedrohlicher Exsikkose und sofortiger intensivmedizinischer Behandlung nach Re-Bestrahlung unter systemischer Therapielast unter kombinierter supportiver Behandlung.
+- Ferner ist zu beachten: es bestand Behandlungsbedarf unter stationären Bedingungen; es musste kurzfristig therapeutisch eskaliert werden; die Alltagsaktivitäten sind deutlich eingeschränkt; es bestand unmittelbare Gefahr einer kritischen Dekompensation; Es bestand eine vital bedrohliche Situation mit intensivmedizinischer Überwachung Eine kurzfristige Reevaluation wurde empfohlen.
+- Zusammenfassend Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 8 Wochen.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.
+- Diskussion einer antiödematösen Therapie bzw. Bevacizumab bei Persistenz der Beschwerden.

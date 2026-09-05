@@ -1,0 +1,31 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Arztbrief
+Dokument-ID: oncorag-d-note-02477
+Datum: 27.12.2019
+
+Sehr geehrter Herr Kollege,
+nachfolgend der aktuelle Verlauf von Patient oncorag-d-0032.
+
+Anamnese / Chronologie:
+Erstdiagnose am 12.10.2017 mit Anaplastisches Astrozytom.
+Lokalisation: Temporallappen rechts.
+Primäre Resektion am 26.11.2017.
+Primäre Radiotherapie bis 60 Gy vom 19.01.2018 bis 04.03.2018.
+Rezidivbestrahlung bis 33 Gy vom 09.08.2019 bis 21.08.2019.
+Systemische Therapien: Temozolomid, Bevacizumab, Methadon.
+Begleitmedikation: Dexamethason, Pantoprazol, Cortison.
+
+Beurteilung:
+- Im Verlauf besteht radiogene Nekrose mit klinisch relevanten Beschwerden, derzeit konservativ behandelbar, mit klarer Relevanz für die weitere Therapieplanung im posttherapeutischen Verlauf unter fortgesetzter Steroidtherapie.
+- Die Alltagsaktivität ist nur gering beeinträchtigt.
+- Zusammenfassend Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Allgemeinzustand:
+- Aktuell berichtet der Patient über deutliche Muskelschwäche mit eingeschränkter Belastbarkeit, was klinisch relevant eingeordnet wird nach Re-Bestrahlung bei wechselnder neurologischer Belastbarkeit.
+- Aktuell keine stationäre Behandlungsnotwendigkeit Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 10 Wochen.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.
+- Diskussion einer antiödematösen Therapie bzw. Bevacizumab bei Persistenz der Beschwerden.

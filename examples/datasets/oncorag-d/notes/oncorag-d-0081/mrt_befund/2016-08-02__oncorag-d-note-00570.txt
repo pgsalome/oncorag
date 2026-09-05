@@ -1,0 +1,29 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-00570
+Datum: 02.08.2016
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0081 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 19.08.2015 mit Glioblastom.
+Lokalisation: Multifokal supratentoriell.
+Primäre Resektion am 23.08.2015.
+Primäre Radiotherapie bis 59 Gy vom 17.09.2015 bis 26.10.2015.
+Rezidivbestrahlung bis 36 Gy vom 15.06.2016 bis 29.06.2016.
+Systemische Therapien: Bevacizumab, Regorafenib.
+Begleitmedikation: Ondansetron, Dexamethason, Cortison.
+
+Beurteilung:
+- Neu aufgetreten ist radiogene Nekrose mit klinisch relevanten Beschwerden, derzeit konservativ behandelbar, mit klarer Relevanz für die weitere Therapieplanung seit der letzten Vorstellung im posttherapeutischen Verlauf mit Verdacht auf postradiogene Genese unter fortgesetzter Steroidtherapie.
+- Aus klinischer Sicht Die Befunde sind am ehesten postradiogen zu werten.
+
+Bildgebung:
+- Dokumentiert ist massives zerebrales Ödem mit akuter Herniationsgefahr und sofortiger neurointensivmedizinischer Intervention, was klinisch relevant eingeordnet wird im posttherapeutischen Verlauf bildgebend unter fortgesetzter Steroidtherapie.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 8 Wochen.
+- Supportivtherapie wird symptomorientiert fortgesetzt.
+- Eine antiödematöse Eskalation einschließlich Bevacizumab bleibt vorbehalten.

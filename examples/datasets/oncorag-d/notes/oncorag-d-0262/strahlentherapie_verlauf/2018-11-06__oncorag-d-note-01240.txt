@@ -1,0 +1,35 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: oncorag-d-note-01240
+Datum: 06.11.2018
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0262 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 26.12.2017 mit Glioblastom.
+Lokalisation: Thalamus rechts.
+Primäre Resektion am 10.01.2018.
+Primäre Radiotherapie bis 54 Gy vom 11.03.2018 bis 20.04.2018.
+Rezidivbestrahlung bis 30 Gy vom 31.10.2018 bis 20.11.2018.
+Systemische Therapien: Temozolomid, Irinotecan.
+Begleitmedikation: Levetiracetam, Cortison.
+
+Allgemeinzustand:
+- Bei der heutigen Vorstellung findet sich lebensbedrohliche Dekonditionierung mit kompletter Bettlägerigkeit und intensivmedizinischer Stabilisierung, wie auch im Verlauf mehrfach dokumentiert im aktuellen Verlauf im Kontext der bekannten Tumor- und Therapiesituation.
+- Zusätzlich gilt: eine stationäre Aufnahme war erforderlich; eine rasche Akutmaßnahme war angezeigt; es besteht eine klare Beeinträchtigung der täglichen Funktionsfähigkeit; die Situation war lebensbedrohlich einzustufen Hieraus ergab sich eine enge klinische Überwachung.
+
+Beurteilung:
+- Anamnestisch zeigt sich symptomatische Strahlennekrose mit zunehmendem perifokalem Ödem und Steroidbedarf, entsprechend der aktuellen Verlaufseinschätzung im postradiogenen Intervall mit Verdacht auf postradiogene Genese.
+- In der Gesamtschau Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Nebenwirkungen:
+- Klinisch zeigt sich regelmäßige Übelkeit mit reduziertem Appetit und Bedarfsmedikation, wie auch im Verlauf mehrfach dokumentiert in den vergangenen Tagen unter aktueller Re-Bestrahlung unter systemischer Therapielast im Kontext der bekannten Tumor- und Therapiesituation.
+- Begleitend fällt auf: Die Alltagsaktivität ist nur gering beeinträchtigt Eine kurzfristige Reevaluation wurde empfohlen.
+- Im interdisziplinären Kontext Die Symptomatik erscheint am ehesten systemtherapieassoziiert.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 8 Wochen.
+- Supportivtherapie wird symptomorientiert fortgesetzt.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

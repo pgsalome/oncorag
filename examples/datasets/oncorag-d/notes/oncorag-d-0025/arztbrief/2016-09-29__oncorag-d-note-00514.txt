@@ -1,0 +1,26 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Arztbrief
+Dokument-ID: oncorag-d-note-00514
+Datum: 29.09.2016
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0025 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 10.05.2014 mit Anaplastisches Astrozytom.
+Lokalisation: Thalamus rechts.
+Primäre Resektion am 28.05.2014.
+Primäre Radiotherapie bis 60 Gy vom 23.07.2014 bis 28.08.2014.
+Rezidivbestrahlung bis 30 Gy vom 21.02.2016 bis 15.03.2016.
+Systemische Therapien: Fotemustin, Irinotecan, Nivolumab.
+Begleitmedikation: Cortison.
+
+Nebenwirkungen:
+- Weiterhin nachweisbar ist anhaltendes Erbrechen mit stationärer Flüssigkeitssubstitution, was klinisch relevant eingeordnet wird im aktuellen Verlauf bei fortbestehendem Unterstützungsbedarf im Alltag.
+- Zusätzlich gilt: eine unmittelbare Intervention wurde notwendig; Die Alltagsaktivität ist deutlich eingeschränkt Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+- Zusammenfassend Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 8 Wochen.
+- Supportivtherapie wird symptomorientiert fortgesetzt.

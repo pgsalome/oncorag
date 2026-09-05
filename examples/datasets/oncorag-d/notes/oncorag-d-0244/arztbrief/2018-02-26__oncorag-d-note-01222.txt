@@ -1,0 +1,31 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Arztbrief
+Dokument-ID: oncorag-d-note-01222
+Datum: 26.02.2018
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0244 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 04.05.2017 mit Anaplastisches Astrozytom.
+Lokalisation: Frontallappen links.
+Primäre Resektion am 26.05.2017.
+Primäre Radiotherapie bis 59 Gy vom 14.06.2017 bis 25.07.2017.
+Rezidivbestrahlung bis 30 Gy vom 25.02.2018 bis 11.03.2018.
+Systemische Therapien: Regorafenib, Temozolomid, CCNU/Lomustin.
+Begleitmedikation: Pantoprazol, Cortison, Levetiracetam.
+
+Allgemeinzustand:
+- Neu aufgetreten ist leichte allgemeine Schwäche während der neuroonkologischen Verlaufskontrolle bei fortbestehendem Unterstützungsbedarf im Alltag.
+- Parallel hierzu zeigt sich: Aktuell keine stationäre Behandlungsnotwendigkeit Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+
+Beurteilung:
+- Aktuell berichtet der Patient über symptomatische Strahlennekrose mit zunehmendem perifokalem Ödem und Steroidbedarf nach Re-Bestrahlung unter aktueller Re-Bestrahlung unter fortgesetzter Steroidtherapie.
+- Zusätzlich gilt: Es erfolgt eine ambulante Verlaufskontrolle Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+- In der Gesamtschau Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 12 Wochen geplant.
+- Supportivtherapie wird symptomorientiert fortgesetzt.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

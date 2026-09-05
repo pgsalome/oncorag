@@ -1,0 +1,27 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: oncorag-d-note-02667
+Datum: 15.08.2018
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0222 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 07.01.2016 mit Astrozytom WHO Grad 4.
+Lokalisation: Frontallappen links.
+Primäre Resektion am 23.01.2016.
+Primäre Radiotherapie bis 54 Gy vom 05.03.2016 bis 13.04.2016.
+Rezidivbestrahlung bis 30 Gy vom 27.01.2018 bis 14.02.2018.
+Systemische Therapien: PCV, Temozolomid, Nivolumab.
+Begleitmedikation: Cortison, Dexamethason.
+
+Beurteilung:
+- Neu aufgetreten ist diskrete postradiogene Nekrosezeichen ohne akuten Interventionsbedarf, mit klarer Relevanz für die weitere Therapieplanung bei ansonsten stabilem Allgemeinzustand.
+- Parallel hierzu zeigt sich: Aktuell keine stationäre Behandlungsnotwendigkeit Hieraus ergab sich eine enge klinische Überwachung.
+- Zusammenfassend Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 8 Wochen.
+- Supportivtherapie wird symptomorientiert fortgesetzt.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

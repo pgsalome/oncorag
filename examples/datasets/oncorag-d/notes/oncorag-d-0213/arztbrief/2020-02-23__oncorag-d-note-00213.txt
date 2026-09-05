@@ -1,0 +1,33 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Arztbrief
+Dokument-ID: oncorag-d-note-00213
+Datum: 23.02.2020
+
+Sehr geehrter Herr Kollege,
+nachfolgend der aktuelle Verlauf von Patient oncorag-d-0213.
+
+Anamnese / Chronologie:
+Erstdiagnose am 15.11.2017 mit Astrozytom WHO Grad 4.
+Lokalisation: Insulär links.
+Primäre Resektion am 22.11.2017.
+Primäre Radiotherapie bis 59 Gy vom 22.12.2017 bis 06.02.2018.
+Rezidivbestrahlung bis 36 Gy vom 17.03.2020 bis 29.03.2020.
+Systemische Therapien: Regorafenib.
+Begleitmedikation: Levetiracetam.
+
+Neurologischer Status:
+- Neu aufgetreten ist massive Gangstörung mit wiederholten Stürzen und Hilfebedarf, mit klarer Relevanz für die weitere Therapieplanung während der neuroonkologischen Verlaufskontrolle.
+- Im gleichen Kontext wird berichtet: es bestand Behandlungsbedarf unter stationären Bedingungen; die Selbstständigkeit im Alltag ist relevant vermindert Eine kurzfristige Reevaluation wurde empfohlen.
+- Zusammenfassend Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Bildgebung:
+- Klinisch zeigt sich diskretes perifokales Hirnödem ohne relevante Klinik, mit klarer Relevanz für die weitere Therapieplanung in den vergangenen Tagen im Kontext der bekannten Tumor- und Therapiesituation.
+- Aktuell keine stationäre Behandlungsnotwendigkeit Eine kurzfristige Reevaluation wurde empfohlen.
+
+Hautstatus:
+- Klinisch zeigt sich ausgeprägte radiogene Dermatitis mit feuchter Desquamation und Wundversorgung nach Re-Bestrahlung im Kontext der bekannten Tumor- und Therapiesituation.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 8 Wochen geplant.
+- Es erfolgt eine zeitnahe neurologische Mitbeurteilung mit Anpassung der Anfallsprophylaxe bei Bedarf.

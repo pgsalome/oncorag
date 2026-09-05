@@ -1,0 +1,30 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Arztbrief
+Dokument-ID: oncorag-d-note-02814
+Datum: 09.03.2017
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0369 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 14.03.2014 mit Oligodendrogliom WHO Grad 3.
+Lokalisation: Temporallappen rechts.
+Primäre Resektion am 21.04.2014.
+Primäre Radiotherapie bis 54 Gy vom 13.06.2014 bis 29.07.2014.
+Rezidivbestrahlung bis 33 Gy vom 14.07.2016 bis 31.07.2016.
+Systemische Therapien: Pembrolizumab.
+Begleitmedikation: Dexamethason.
+
+Allgemeinzustand:
+- Bei der heutigen Vorstellung findet sich deutliche Muskelschwäche mit eingeschränkter Belastbarkeit, was klinisch relevant eingeordnet wird seit der letzten Vorstellung im posttherapeutischen Verlauf bei fortbestehendem Unterstützungsbedarf im Alltag.
+
+Beurteilung:
+- Es imponiert katastrophale Radionekrose mit akuter Einklemmungsgefahr und sofortiger intensivmedizinischer Intervention seit der letzten Vorstellung im posttherapeutischen Verlauf mit Verdacht auf postradiogene Genese bei ansonsten stabilem Allgemeinzustand in maximaler Ausprägung.
+- Parallel hierzu zeigt sich: es bestand Behandlungsbedarf unter stationären Bedingungen; eine unmittelbare Intervention wurde notwendig; es besteht eine klare Beeinträchtigung der täglichen Funktionsfähigkeit; es bestand unmittelbare Gefahr einer kritischen Dekompensation.
+- In der Gesamtschau Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 8 Wochen geplant.
+- Supportivtherapie wird symptomorientiert fortgesetzt.
+- Eine antiödematöse Eskalation einschließlich Bevacizumab bleibt vorbehalten.

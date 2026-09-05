@@ -1,13 +1,13 @@
 # Synthetic Datasets
 
-The full English and German cohorts are included in this repository, along with
-all notes, relative registries, projected event labels, patient splits and file
-manifests. No separate data download is needed.
+The oncorag-e (English) and oncorag-d (German) cohorts are included in this
+repository, along with all notes, relative registries, projected event labels,
+patient splits and file manifests. No separate data download is needed.
 
 | Directory | Patients | Notes | Annotation scope |
 | --- | ---: | ---: | --- |
-| `english` | 489 | 2,930 | 5,761 note-level CTCAE events |
-| `german` | 489 | 2,930 | 5,987 note-level toxicity events |
+| `oncorag-e` | 489 | 2,930 | 5,761 note-level CTCAE events |
+| `oncorag-d` | 489 | 2,930 | 5,987 note-level toxicity events |
 | `demo/english` | 3 | 9 | 12 typed patient-feature answers |
 | `demo/german` | 3 | 9 | 12 typed patient-feature answers |
 | `demo/mixed` | 3 | 9 | 12 typed patient-feature answers |
@@ -22,13 +22,13 @@ patient in the mixed-language cohort has both German and English notes in one ti
 After installing OncoRAG and its extraction models, run from the repository root:
 
 ```bash
-python scripts/run_oncorag.py --config configs/oncorag_synthetic_english_full.json
-python scripts/run_oncorag.py --config configs/oncorag_synthetic_german_full.json
+python scripts/run_oncorag.py --config configs/oncorag-e.json
+python scripts/run_oncorag.py --config configs/oncorag-d.json
 ```
 
 Use `--stage validate` to check all inputs without contacting model services.
-The full-cohort feature lists are [English](../features.cohort_english.yaml) and
-[German](../features.cohort_german.yaml). Replace them with your own variables as
+The full-cohort feature lists are [oncorag-e](../features.oncorag-e.yaml) and
+[oncorag-d](../features.oncorag-d.yaml). Replace them with your own variables as
 needed. The examples use deterministic manual feature configuration and separate
 graph/vector/output namespaces. They intentionally have no `evaluation.gold_path`:
 event labels are not answers to arbitrary patient-level questions.
@@ -49,6 +49,11 @@ a path relative to the registry directory. Folder paths and registry metadata
 describe the same documents. Use the registry when note-level language and stable
 annotation note IDs are required. `manifest.json` records counts, SHA-256 file
 hashes, provenance and scope.
+
+Patient IDs use `oncorag-e-0001` or `oncorag-d-0001`; report IDs use
+`oncorag-e-note-00001` or `oncorag-d-note-00001`. These names are consistent across
+folders, registries, labels and report headers. Existing split membership is
+preserved when identifiers are renamed.
 
 Full-cohort `labels.jsonl` contains only note metadata and selected term, grade,
 negation and temporal event labels. Missing negation remains absent. Private
@@ -98,14 +103,15 @@ authorized original inputs can recreate the exact reviewed derivatives:
 
 ```bash
 python scripts/prepare_reviewed_cohorts.py \
-  --english-source /path/to/hybrid_synthea_ctcae_phase2 \
-  --german-source /path/to/ricci_rhgg_termgrade_longitudinal \
+  --english-source /path/to/english-source \
+  --german-source /path/to/german-source \
   --output-root /path/to/new/versioned-output
 ```
 
 This wrapper projects fields, checks fixed fingerprints of both audited inputs,
-adds the synthetic notices and writes new manifests. Changed inputs are refused
-and require a new review. No clinical template assets or private source files are
+adds the synthetic notices, applies the public identifiers and writes new
+`oncorag-e` and `oncorag-d` directories with their manifests. Changed inputs require
+a new review. No clinical template assets or private source files are
 bundled to make this command self-contained.
 
 The generic `scripts/export_synthetic_datasets.py` remains available for separately

@@ -1,0 +1,27 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Arztbrief
+Dokument-ID: oncorag-d-note-00445
+Datum: 08.06.2018
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0445 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 22.01.2016 mit Glioblastom.
+Lokalisation: Parietallappen links.
+Primäre Resektion am 28.02.2016.
+Primäre Radiotherapie bis 54 Gy vom 14.04.2016 bis 22.05.2016.
+Rezidivbestrahlung bis 30 Gy vom 08.03.2018 bis 24.03.2018.
+Systemische Therapien: PCV, Fotemustin.
+Begleitmedikation: Pantoprazol, Cortison.
+
+Beurteilung:
+- Es imponiert symptomatische Strahlennekrose mit zunehmendem perifokalem Ödem und Steroidbedarf, was klinisch relevant eingeordnet wird nach Re-Bestrahlung bei ansonsten stabilem Allgemeinzustand.
+- Begleitend fällt auf: Aktuell keine stationäre Behandlungsnotwendigkeit Eine kurzfristige Reevaluation wurde empfohlen.
+- Im interdisziplinären Kontext Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 12 Wochen geplant.
+- Supportivtherapie wird symptomorientiert fortgesetzt.
+- Eine antiödematöse Eskalation einschließlich Bevacizumab bleibt vorbehalten.

@@ -1,0 +1,29 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-00257
+Datum: 23.02.2017
+
+Sehr geehrte Kolleginnen und Kollegen,
+wir berichten über den Verlauf von Patient oncorag-d-0257.
+
+Anamnese / Chronologie:
+Erstdiagnose am 29.06.2014 mit Anaplastisches Astrozytom.
+Lokalisation: Thalamus rechts.
+Primäre Resektion am 05.08.2014.
+Primäre Radiotherapie bis 59 Gy vom 28.09.2014 bis 14.11.2014.
+Rezidivbestrahlung bis 30 Gy vom 11.09.2016 bis 02.10.2016.
+Systemische Therapien: Bevacizumab.
+Begleitmedikation: Levetiracetam, Cortison, Ondansetron.
+
+Bildgebung:
+- Neu aufgetreten ist diskretes perifokales Hirnödem ohne relevante Klinik, mit klarer Relevanz für die weitere Therapieplanung während der neuroonkologischen Verlaufskontrolle im posttherapeutischen Verlauf mit Verdacht auf postradiogene Genese unter fortgesetzter Steroidtherapie.
+
+Beurteilung:
+- Es imponiert fortgeschrittene Radionekrose mit neurologischer Verschlechterung und dringender therapeutischer Intervention im aktuellen Verlauf im posttherapeutischen Verlauf bildgebend bei ansonsten stabilem Allgemeinzustand.
+- Aus klinischer Sicht Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 12 Wochen.
+- Die begleitende Medikation soll nach Bedarf weitergeführt werden.
+- Diskussion einer antiödematösen Therapie bzw. Bevacizumab bei Persistenz der Beschwerden.

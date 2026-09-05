@@ -1,0 +1,30 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Arztbrief
+Dokument-ID: oncorag-d-note-02580
+Datum: 24.02.2017
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0135 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 12.05.2015 mit Astrozytom WHO Grad 4.
+Lokalisation: Multifokal supratentoriell.
+Primäre Resektion am 14.06.2015.
+Primäre Radiotherapie bis 54 Gy vom 19.08.2015 bis 23.09.2015.
+Rezidivbestrahlung bis 33 Gy vom 02.04.2017 bis 22.04.2017.
+Systemische Therapien: PCV, CCNU/Lomustin.
+Begleitmedikation: Ondansetron.
+
+Beurteilung:
+- Bei der heutigen Vorstellung findet sich bildmorphologisch vereinbar mit kleiner Strahlennekrose ohne relevante klinische Symptomatik, mit klarer Relevanz für die weitere Therapieplanung im postradiogenen Intervall bei wechselnder neurologischer Belastbarkeit.
+- Es erfolgt eine ambulante Verlaufskontrolle Hieraus ergab sich eine enge klinische Überwachung.
+- Zusammenfassend Die Befunde sind am ehesten postradiogen zu werten.
+
+Beschwerden:
+- Klinisch zeigt sich persistierende Kopfschmerzen mit täglichem Analgetikabedarf, mit klarer Relevanz für die weitere Therapieplanung im postradiogenen Intervall unter fortgesetzter Steroidtherapie.
+- Begleitend fällt auf: Es erfolgt eine ambulante Verlaufskontrolle.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 6 Wochen.
+- Diskussion einer antiödematösen Therapie bzw. Bevacizumab bei Persistenz der Beschwerden.

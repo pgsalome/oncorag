@@ -1,0 +1,27 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Arztbrief
+Dokument-ID: oncorag-d-note-01941
+Datum: 30.04.2019
+
+Sehr geehrter Herr Kollege,
+nachfolgend der aktuelle Verlauf von Patient oncorag-d-0474.
+
+Anamnese / Chronologie:
+Erstdiagnose am 30.09.2017 mit Astrozytom WHO Grad 4.
+Lokalisation: Thalamus rechts.
+Primäre Resektion am 08.11.2017.
+Primäre Radiotherapie bis 54 Gy vom 23.11.2017 bis 10.01.2018.
+Rezidivbestrahlung bis 30 Gy vom 31.03.2019 bis 15.04.2019.
+Systemische Therapien: PCV, Bevacizumab.
+Begleitmedikation: Levetiracetam.
+
+Beurteilung:
+- Neu aufgetreten ist ausgeprägte Strahlennekrose mit deutlicher Massenwirkung, hochdosierter Steroidtherapie und stationärem Management, mit klarer Relevanz für die weitere Therapieplanung in den vergangenen Tagen bei ansonsten stabilem Allgemeinzustand.
+- Im gleichen Kontext wird berichtet: es bestand Behandlungsbedarf unter stationären Bedingungen; es musste kurzfristig therapeutisch eskaliert werden; es besteht eine klare Beeinträchtigung der täglichen Funktionsfähigkeit; Es bestand dringender Interventionsbedarf mit engmaschiger Überwachung.
+- In der Gesamtschau Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 12 Wochen.
+- Supportivtherapie wird symptomorientiert fortgesetzt.
+- Diskussion einer antiödematösen Therapie bzw. Bevacizumab bei Persistenz der Beschwerden.

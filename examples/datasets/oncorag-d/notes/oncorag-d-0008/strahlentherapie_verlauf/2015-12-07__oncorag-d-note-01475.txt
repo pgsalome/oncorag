@@ -1,0 +1,34 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: oncorag-d-note-01475
+Datum: 07.12.2015
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0008 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 25.03.2013 mit Oligodendrogliom WHO Grad 3.
+Lokalisation: Thalamus rechts.
+Primäre Resektion am 06.04.2013.
+Primäre Radiotherapie bis 54 Gy vom 30.05.2013 bis 06.07.2013.
+Rezidivbestrahlung bis 33 Gy vom 29.11.2015 bis 22.12.2015.
+Systemische Therapien: Bevacizumab, Temozolomid.
+Begleitmedikation: Dexamethason, Ondansetron, Levetiracetam.
+
+Nebenwirkungen:
+- Neu aufgetreten ist rezidivierendes Erbrechen mit deutlicher Einschränkung der oralen Aufnahme, was klinisch relevant eingeordnet wird unter laufender Therapie unter aktueller Re-Bestrahlung unter kombinierter supportiver Behandlung.
+- Im interdisziplinären Kontext Die Symptomatik erscheint am ehesten systemtherapieassoziiert.
+
+Beurteilung:
+- Anamnestisch zeigt sich fortgeschrittene Radionekrose mit neurologischer Verschlechterung und dringender therapeutischer Intervention, was klinisch relevant eingeordnet wird nach Re-Bestrahlung unter fortgesetzter Steroidtherapie in klinisch hochrelevanter Form.
+- In der Gesamtschau Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Hautstatus:
+- Im aktuellen Arztbrief wird beschrieben mildes Erythem im Bestrahlungsfeld, was klinisch relevant eingeordnet wird während der neuroonkologischen Verlaufskontrolle unter fortgesetzter Steroidtherapie.
+- Parallel hierzu zeigt sich: Es erfolgt eine ambulante Verlaufskontrolle Die Befundkonstellation wurde interdisziplinär erneut diskutiert.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 8 Wochen.
+- Die begleitende Medikation soll nach Bedarf weitergeführt werden.
+- Diskussion einer antiödematösen Therapie bzw. Bevacizumab bei Persistenz der Beschwerden.

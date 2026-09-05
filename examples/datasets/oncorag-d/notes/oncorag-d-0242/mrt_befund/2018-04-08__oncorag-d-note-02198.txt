@@ -1,0 +1,27 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-02198
+Datum: 08.04.2018
+
+Sehr geehrter Herr Kollege,
+nachfolgend der aktuelle Verlauf von Patient oncorag-d-0242.
+
+Anamnese / Chronologie:
+Erstdiagnose am 06.05.2016 mit Astrozytom WHO Grad 4.
+Lokalisation: Temporallappen rechts.
+Primäre Resektion am 20.05.2016.
+Primäre Radiotherapie bis 59 Gy vom 26.06.2016 bis 14.08.2016.
+Rezidivbestrahlung bis 30 Gy vom 07.03.2018 bis 28.03.2018.
+Systemische Therapien: Temozolomid, Nivolumab.
+Begleitmedikation: Dexamethason, Cortison, Levetiracetam.
+
+Beurteilung:
+- Aktuell berichtet der Patient über radiogene Nekrose mit klinisch relevanten Beschwerden, derzeit konservativ behandelbar, wie auch im Verlauf mehrfach dokumentiert unter laufender Therapie im posttherapeutischen Verlauf bildgebend mit Verdacht auf postradiogene Genese bei ansonsten stabilem Allgemeinzustand.
+- Ergänzend wird festgehalten: Die Alltagsaktivität ist nur gering beeinträchtigt Die Befundkonstellation wurde interdisziplinär erneut diskutiert.
+- Aus klinischer Sicht Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 12 Wochen.
+- Supportivtherapie wird symptomorientiert fortgesetzt.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

@@ -1,0 +1,31 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-02895
+Datum: 20.03.2016
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0450 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 13.07.2013 mit Astrozytom WHO Grad 4.
+Lokalisation: Temporallappen rechts.
+Primäre Resektion am 23.07.2013.
+Primäre Radiotherapie bis 59 Gy vom 29.09.2013 bis 10.11.2013.
+Rezidivbestrahlung bis 30 Gy vom 21.08.2015 bis 13.09.2015.
+Systemische Therapien: Irinotecan, CCNU/Lomustin.
+Begleitmedikation: Cortison, Ondansetron, Dexamethason.
+
+Beurteilung:
+- Neu aufgetreten ist bildmorphologisch vereinbar mit kleiner Strahlennekrose ohne relevante klinische Symptomatik, entsprechend der aktuellen Verlaufseinschätzung seit der letzten Vorstellung mit Verdacht auf postradiogene Genese bei wechselnder neurologischer Belastbarkeit.
+- Ergänzend wird festgehalten: Die Alltagsaktivität ist nur gering beeinträchtigt Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+- Im interdisziplinären Kontext Die Befunde sind am ehesten postradiogen zu werten.
+
+Bildgebung:
+- Es imponiert diskretes perifokales Hirnödem ohne relevante Klinik, wie auch im Verlauf mehrfach dokumentiert während der neuroonkologischen Verlaufskontrolle im posttherapeutischen Verlauf mit Verdacht auf postradiogene Genese unter kombinierter supportiver Behandlung.
+- Parallel hierzu zeigt sich: Die Alltagsaktivität ist nur gering beeinträchtigt.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 10 Wochen.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

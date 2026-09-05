@@ -1,0 +1,31 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-01478
+Datum: 03.07.2016
+
+Sehr geehrte Kolleginnen und Kollegen,
+wir berichten über den Verlauf von Patient oncorag-d-0011.
+
+Anamnese / Chronologie:
+Erstdiagnose am 13.09.2014 mit Anaplastisches Astrozytom.
+Lokalisation: Frontallappen links.
+Primäre Resektion am 22.10.2014.
+Primäre Radiotherapie bis 60 Gy vom 04.01.2015 bis 09.02.2015.
+Rezidivbestrahlung bis 30 Gy vom 03.11.2015 bis 28.11.2015.
+Systemische Therapien: Pembrolizumab, Temozolomid.
+Begleitmedikation: Ondansetron, Pantoprazol, Dexamethason.
+
+Bildgebung:
+- Bei der heutigen Vorstellung findet sich lebensbedrohliches Hirnödem mit kritischer Massenwirkung, Verlagerungslinie und notfallmäßiger intensivmedizinischer Behandlung, mit klarer Relevanz für die weitere Therapieplanung nach Re-Bestrahlung im posttherapeutischen Verlauf bildgebend im Kontext der bekannten Tumor- und Therapiesituation.
+- Parallel hierzu zeigt sich: eine unmittelbare Intervention wurde notwendig; die Selbstständigkeit im Alltag ist relevant vermindert.
+
+Beurteilung:
+- Bei der heutigen Vorstellung findet sich radiogene Nekrose mit klinisch relevanten Beschwerden, derzeit konservativ behandelbar, was klinisch relevant eingeordnet wird im postradiogenen Intervall bildgebend mit Verdacht auf postradiogene Genese bei fortbestehendem Unterstützungsbedarf im Alltag.
+- Parallel hierzu zeigt sich: Die Alltagsaktivität ist nur gering beeinträchtigt Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+- In der Gesamtschau Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 10 Wochen geplant.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

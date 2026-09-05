@@ -1,0 +1,32 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Arztbrief
+Dokument-ID: oncorag-d-note-01098
+Datum: 16.06.2016
+
+Sehr geehrter Herr Kollege,
+nachfolgend der aktuelle Verlauf von Patient oncorag-d-0120.
+
+Anamnese / Chronologie:
+Erstdiagnose am 28.05.2014 mit Oligodendrogliom WHO Grad 3.
+Lokalisation: Frontallappen links.
+Primäre Resektion am 09.07.2014.
+Primäre Radiotherapie bis 54 Gy vom 10.08.2014 bis 25.09.2014.
+Rezidivbestrahlung bis 30 Gy vom 07.08.2016 bis 23.08.2016.
+Systemische Therapien: PCV.
+Begleitmedikation: Levetiracetam.
+
+Neurologischer Status:
+- Weiterhin nachweisbar ist ausgeprägte Ataxie mit fehlender sicherer Eigenmobilität, entsprechend der aktuellen Verlaufseinschätzung unter laufender Therapie bei wechselnder neurologischer Belastbarkeit.
+- Ergänzend wird festgehalten: es musste kurzfristig therapeutisch eskaliert werden; die Selbstständigkeit im Alltag ist relevant vermindert; Aufgrund der Symptomlast war eine stationäre Behandlung erforderlich Die Befundkonstellation wurde interdisziplinär erneut diskutiert.
+- Zusammenfassend Die Beschwerden sind am ehesten tumorkorreliert.
+
+Beurteilung:
+- Aktuell berichtet der Patient über radiogene Nekrose mit klinisch relevanten Beschwerden, derzeit konservativ behandelbar, mit klarer Relevanz für die weitere Therapieplanung während der neuroonkologischen Verlaufskontrolle bei ansonsten stabilem Allgemeinzustand.
+- Ergänzend wird festgehalten: Aktuell keine stationäre Behandlungsnotwendigkeit Hieraus ergab sich eine enge klinische Überwachung.
+- In der Gesamtschau Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 10 Wochen.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.
+- Neurologische Reevaluation mit Prüfung der antikonvulsiven Therapie ist vorgesehen.

@@ -1,0 +1,25 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: oncorag-d-note-01552
+Datum: 03.09.2018
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0085 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 14.10.2016 mit Glioblastom.
+Lokalisation: Multifokal supratentoriell.
+Primäre Resektion am 06.11.2016.
+Primäre Radiotherapie bis 59 Gy vom 01.01.2017 bis 09.02.2017.
+Rezidivbestrahlung bis 30 Gy vom 26.08.2018 bis 09.09.2018.
+Systemische Therapien: Temozolomid, Bevacizumab, Nivolumab.
+Begleitmedikation: Ondansetron.
+
+Nebenwirkungen:
+- Weiterhin nachweisbar ist regelmäßige Übelkeit mit reduziertem Appetit und Bedarfsmedikation nach Re-Bestrahlung unter systemischer Therapielast bei ansonsten stabilem Allgemeinzustand.
+- In der Gesamtschau Die Symptomatik erscheint am ehesten systemtherapieassoziiert.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 8 Wochen.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.

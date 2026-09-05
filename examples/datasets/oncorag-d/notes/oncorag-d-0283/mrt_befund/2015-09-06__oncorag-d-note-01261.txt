@@ -1,0 +1,26 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-01261
+Datum: 06.09.2015
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0283 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 19.07.2013 mit Anaplastisches Astrozytom.
+Lokalisation: Multifokal supratentoriell.
+Primäre Resektion am 17.08.2013.
+Primäre Radiotherapie bis 60 Gy vom 08.10.2013 bis 23.11.2013.
+Rezidivbestrahlung bis 33 Gy vom 28.10.2015 bis 16.11.2015.
+Systemische Therapien: CCNU/Lomustin.
+Begleitmedikation: Levetiracetam, Cortison.
+
+Beurteilung:
+- Bei der heutigen Vorstellung findet sich diskrete postradiogene Nekrosezeichen ohne akuten Interventionsbedarf in den vergangenen Tagen.
+- Parallel hierzu zeigt sich: Die Alltagsaktivität ist nur gering beeinträchtigt Eine kurzfristige Reevaluation wurde empfohlen.
+- Zusammenfassend Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 10 Wochen geplant.
+- Eine antiödematöse Eskalation einschließlich Bevacizumab bleibt vorbehalten.

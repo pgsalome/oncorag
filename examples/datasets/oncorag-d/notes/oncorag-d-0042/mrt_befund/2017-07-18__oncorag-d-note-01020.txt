@@ -1,0 +1,31 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-01020
+Datum: 18.07.2017
+
+Sehr geehrter Herr Kollege,
+nachfolgend der aktuelle Verlauf von Patient oncorag-d-0042.
+
+Anamnese / Chronologie:
+Erstdiagnose am 28.06.2015 mit Glioblastom.
+Lokalisation: Insulär links.
+Primäre Resektion am 07.07.2015.
+Primäre Radiotherapie bis 60 Gy vom 27.08.2015 bis 01.10.2015.
+Rezidivbestrahlung bis 30 Gy vom 11.02.2017 bis 05.03.2017.
+Systemische Therapien: Regorafenib, Temozolomid.
+Begleitmedikation: Levetiracetam, Dexamethason, Ondansetron.
+
+Beurteilung:
+- Weiterhin nachweisbar ist radiogene Nekrose mit klinisch relevanten Beschwerden, derzeit konservativ behandelbar, entsprechend der aktuellen Verlaufseinschätzung unter laufender Therapie bildgebend mit Verdacht auf postradiogene Genese unter kombinierter supportiver Behandlung.
+- Parallel hierzu zeigt sich: Aktuell keine stationäre Behandlungsnotwendigkeit Hieraus ergab sich eine enge klinische Überwachung.
+- Im interdisziplinären Kontext Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Bildgebung:
+- Anamnestisch zeigt sich ausgeprägtes Hirnödem mit Massenwirkung und dringender Intervention, entsprechend der aktuellen Verlaufseinschätzung in den vergangenen Tagen im posttherapeutischen Verlauf bei ansonsten stabilem Allgemeinzustand.
+- Ferner ist zu beachten: eine unmittelbare Intervention wurde notwendig; es besteht eine klare Beeinträchtigung der täglichen Funktionsfähigkeit; Die Alltagsaktivität ist deutlich eingeschränkt Die Befundkonstellation wurde interdisziplinär erneut diskutiert.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 8 Wochen.
+- Die begleitende Medikation soll nach Bedarf weitergeführt werden.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

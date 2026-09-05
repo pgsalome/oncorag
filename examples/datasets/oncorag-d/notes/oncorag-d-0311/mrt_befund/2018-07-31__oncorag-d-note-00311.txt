@@ -1,0 +1,29 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-00311
+Datum: 31.07.2018
+
+Sehr geehrter Herr Kollege,
+nachfolgend der aktuelle Verlauf von Patient oncorag-d-0311.
+
+Anamnese / Chronologie:
+Erstdiagnose am 15.05.2017 mit Anaplastisches Astrozytom.
+Lokalisation: Frontallappen links.
+Primäre Resektion am 17.06.2017.
+Primäre Radiotherapie bis 54 Gy vom 14.07.2017 bis 27.08.2017.
+Rezidivbestrahlung bis 30 Gy vom 07.08.2018 bis 30.08.2018.
+Systemische Therapien: Temozolomid, Irinotecan.
+Begleitmedikation: Ondansetron.
+
+Beurteilung:
+- Klinisch zeigt sich symptomatische Strahlennekrose mit zunehmendem perifokalem Ödem und Steroidbedarf, was klinisch relevant eingeordnet wird unter laufender Therapie bildgebend unter kombinierter supportiver Behandlung.
+- Begleitend fällt auf: Aktuell keine stationäre Behandlungsnotwendigkeit Eine kurzfristige Reevaluation wurde empfohlen.
+- Im interdisziplinären Kontext Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Bildgebung:
+- Im Verlauf besteht diskretes perifokales Hirnödem ohne relevante Klinik, was klinisch relevant eingeordnet wird im postradiogenen Intervall bildgebend mit Verdacht auf postradiogene Genese bei ansonsten stabilem Allgemeinzustand.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 12 Wochen.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

@@ -4,6 +4,7 @@ from collections import Counter
 import hashlib
 import json
 from pathlib import Path
+import re
 
 import pytest
 
@@ -14,6 +15,7 @@ from oncoraggraph.pipeline import run_pipeline
 
 
 ROOT = Path(__file__).resolve().parents[1]
+COHORT_NAMES = {"english": "oncorag-e", "german": "oncorag-d"}
 COHORT_FEATURES = {
     "english": {
         "latest_explicit_visit_date": "date",
@@ -30,7 +32,7 @@ COHORT_FEATURES = {
 
 
 def full_config(language):
-    return load_pipeline_config(ROOT / "configs" / f"oncorag_synthetic_{language}_full.json")
+    return load_pipeline_config(ROOT / "configs" / f"{COHORT_NAMES[language]}.json")
 
 
 def require_bundled_cohort(config):
@@ -52,6 +54,8 @@ def test_bundled_full_cohort_validation(language):
     }
     assert config["features"]["configuration_mode"] == "manual"
     assert config["features"]["language"] == language
+    assert config["cohort"]["name"] == COHORT_NAMES[language]
+    assert config["vector_store"]["collection_namespace"] == COHORT_NAMES[language]
     assert "gold_path" not in config.get("evaluation", {})
 
 
@@ -80,6 +84,31 @@ def test_full_cohort_folder_and_registry_have_identical_note_inventory(language)
     assert len({note.patient_id for note in registered}) == 489
     assert inventory(registered) == inventory(folder_notes)
     assert {note.language for note in registered} == {config["cohort"]["language"]}
+
+
+@pytest.mark.parametrize("language", COHORT_NAMES)
+def test_public_cohort_identifiers_match_paths_labels_and_report_headers(language):
+    config = full_config(language)
+    require_bundled_cohort(config)
+    cohort = COHORT_NAMES[language]
+    root = Path(config["inputs"]["registry_path"]).parent
+    notes = load_notes(registry_path=config["inputs"]["registry_path"])
+    manifest = json.loads((root / "manifest.json").read_text(encoding="utf-8"))
+    labels = {row["note_id"]: row for row in (
+        json.loads(line) for line in (root / "labels.jsonl").read_text(encoding="utf-8").splitlines()
+    )}
+    assert root.name == manifest["dataset_id"] == cohort
+    assert set(labels) == {note.note_id for note in notes}
+    for note in notes:
+        assert re.fullmatch(rf"{cohort}-\d{{4}}", note.patient_id)
+        assert re.fullmatch(rf"{cohort}-note-\d{{5}}", note.note_id)
+        assert labels[note.note_id]["patient_id"] == note.patient_id
+        assert labels[note.note_id]["date"] == note.date
+        assert note.path.name == f"{note.date}__{note.note_id}.txt"
+        assert not re.search(r"SYN-(?:TNBC|RICCI)-|ricci_syn_", note.text)
+        if language == "german":
+            assert f"Dokument-ID: {note.note_id}" in note.text
+            assert f"Patient {note.patient_id}" in note.text
 
 
 def test_full_cohorts_and_demo_use_distinct_namespaces():

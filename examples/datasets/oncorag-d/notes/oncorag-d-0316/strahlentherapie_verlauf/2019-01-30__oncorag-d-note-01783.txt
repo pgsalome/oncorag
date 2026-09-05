@@ -1,0 +1,34 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: oncorag-d-note-01783
+Datum: 30.01.2019
+
+Sehr geehrte Kolleginnen und Kollegen,
+wir berichten über den Verlauf von Patient oncorag-d-0316.
+
+Anamnese / Chronologie:
+Erstdiagnose am 10.04.2016 mit Oligodendrogliom WHO Grad 3.
+Lokalisation: Insulär links.
+Primäre Resektion am 05.05.2016.
+Primäre Radiotherapie bis 54 Gy vom 25.06.2016 bis 11.08.2016.
+Rezidivbestrahlung bis 33 Gy vom 21.01.2019 bis 03.02.2019.
+Systemische Therapien: Pembrolizumab, Temozolomid.
+Begleitmedikation: Ondansetron, Pantoprazol, Cortison.
+
+Beschwerden:
+- Weiterhin nachweisbar ist gelegentliche Kopfschmerzen, analgetisch gut kontrollierbar, was klinisch relevant eingeordnet wird während der neuroonkologischen Verlaufskontrolle unter aktueller Re-Bestrahlung unter kombinierter supportiver Behandlung.
+- Ferner ist zu beachten: Es erfolgt eine ambulante Verlaufskontrolle Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+
+Hautstatus:
+- Es imponiert umschriebene Alopezie im Bestrahlungsfeld, entsprechend der aktuellen Verlaufseinschätzung im postradiogenen Intervall.
+
+Beurteilung:
+- Weiterhin nachweisbar ist radiogene Nekrose mit klinisch relevanten Beschwerden, derzeit konservativ behandelbar unter aktueller Re-Bestrahlung unter kombinierter supportiver Behandlung.
+- Begleitend fällt auf: Es erfolgt eine ambulante Verlaufskontrolle Die Befundkonstellation wurde interdisziplinär erneut diskutiert.
+- Im interdisziplinären Kontext Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 6 Wochen geplant.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

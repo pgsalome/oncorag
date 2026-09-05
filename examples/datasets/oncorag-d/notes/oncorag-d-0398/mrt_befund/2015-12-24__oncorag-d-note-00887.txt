@@ -1,0 +1,30 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-00887
+Datum: 24.12.2015
+
+Sehr geehrte Kolleginnen und Kollegen,
+wir berichten über den Verlauf von Patient oncorag-d-0398.
+
+Anamnese / Chronologie:
+Erstdiagnose am 20.12.2013 mit Anaplastisches Astrozytom.
+Lokalisation: Insulär links.
+Primäre Resektion am 04.01.2014.
+Primäre Radiotherapie bis 54 Gy vom 08.02.2014 bis 28.03.2014.
+Rezidivbestrahlung bis 36 Gy vom 05.09.2015 bis 30.09.2015.
+Systemische Therapien: CCNU/Lomustin, Nivolumab.
+Begleitmedikation: Levetiracetam, Pantoprazol, Cortison.
+
+Beurteilung:
+- Dokumentiert ist symptomatische Strahlennekrose mit zunehmendem perifokalem Ödem und Steroidbedarf im postradiogenen Intervall unter kombinierter supportiver Behandlung.
+- Begleitend fällt auf: Aktuell keine stationäre Behandlungsnotwendigkeit Hieraus ergab sich eine enge klinische Überwachung.
+- Im interdisziplinären Kontext Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Bildgebung:
+- Klinisch zeigt sich zunehmendes perifokales Ödem mit steroidpflichtiger Symptomatik, was klinisch relevant eingeordnet wird unter laufender Therapie bildgebend mit Verdacht auf postradiogene Genese unter kombinierter supportiver Behandlung.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 6 Wochen.
+- Die begleitende Medikation soll nach Bedarf weitergeführt werden.
+- Diskussion einer antiödematösen Therapie bzw. Bevacizumab bei Persistenz der Beschwerden.

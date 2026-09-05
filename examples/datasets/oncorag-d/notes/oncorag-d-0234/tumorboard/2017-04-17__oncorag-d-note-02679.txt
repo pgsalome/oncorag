@@ -1,0 +1,32 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Interdisziplinäres Tumorboard
+Dokument-ID: oncorag-d-note-02679
+Datum: 17.04.2017
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0234 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 01.01.2016 mit Astrozytom WHO Grad 4.
+Lokalisation: Parietallappen links.
+Primäre Resektion am 18.01.2016.
+Primäre Radiotherapie bis 60 Gy vom 14.03.2016 bis 27.04.2016.
+Rezidivbestrahlung bis 36 Gy vom 21.04.2017 bis 13.05.2017.
+Systemische Therapien: PCV.
+Begleitmedikation: Ondansetron, Pantoprazol, Levetiracetam.
+
+Neurologischer Status:
+- Es imponiert deutlicher neurokognitiver Abbau mit Verlust der selbstständigen Alltagsbewältigung, wie auch im Verlauf mehrfach dokumentiert in den vergangenen Tagen bei fortbestehendem Unterstützungsbedarf im Alltag in klinisch hochrelevanter Form.
+- Es imponiert deutliches Gangunsicherheitsgefühl mit Sturzangst und Hilfsmittelbedarf, was klinisch relevant eingeordnet wird seit der letzten Vorstellung bei ansonsten stabilem Allgemeinzustand.
+- Aktuell keine stationäre Behandlungsnotwendigkeit.
+- Aus klinischer Sicht Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Beurteilung:
+- Es imponiert lebensbedrohliche Strahlennekrose mit kritischer Hirndrucksymptomatik, neurochirurgischer Notfallbehandlung und intensivmedizinischer Überwachung, mit klarer Relevanz für die weitere Therapieplanung im aktuellen Verlauf mit Verdacht auf postradiogene Genese unter kombinierter supportiver Behandlung.
+- Zusammenfassend Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 10 Wochen geplant.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.
+- Es erfolgt eine zeitnahe neurologische Mitbeurteilung mit Anpassung der Anfallsprophylaxe bei Bedarf.

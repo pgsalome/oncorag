@@ -1,0 +1,32 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Arztbrief
+Dokument-ID: oncorag-d-note-00014
+Datum: 30.12.2014
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0014 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 25.06.2013 mit Glioblastom.
+Lokalisation: Insulär links.
+Primäre Resektion am 03.08.2013.
+Primäre Radiotherapie bis 54 Gy vom 22.09.2013 bis 03.11.2013.
+Rezidivbestrahlung bis 30 Gy vom 05.01.2015 bis 30.01.2015.
+Systemische Therapien: Bevacizumab, CCNU/Lomustin.
+Begleitmedikation: Dexamethason, Ondansetron, Pantoprazol.
+
+Beurteilung:
+- Bei der heutigen Vorstellung findet sich symptomatische Strahlennekrose mit zunehmendem perifokalem Ödem und Steroidbedarf, entsprechend der aktuellen Verlaufseinschätzung seit der letzten Vorstellung mit Verdacht auf postradiogene Genese.
+- Aktuell keine stationäre Behandlungsnotwendigkeit Eine kurzfristige Reevaluation wurde empfohlen.
+- Im interdisziplinären Kontext Die Befunde sind am ehesten postradiogen zu werten.
+
+Neurologischer Status:
+- Bei der heutigen Vorstellung findet sich rezidivierende prolongierte Krampfanfälle mit Beatmungspflicht und intensivmedizinischer Stabilisierung bei wechselnder neurologischer Belastbarkeit.
+- Ergänzend wird festgehalten: es musste kurzfristig therapeutisch eskaliert werden; die Selbstständigkeit im Alltag ist relevant vermindert; es bestand unmittelbare Gefahr einer kritischen Dekompensation Die Befundkonstellation wurde interdisziplinär erneut diskutiert.
+- Im interdisziplinären Kontext Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 8 Wochen geplant.
+- Diskussion einer antiödematösen Therapie bzw. Bevacizumab bei Persistenz der Beschwerden.
+- Es erfolgt eine zeitnahe neurologische Mitbeurteilung mit Anpassung der Anfallsprophylaxe bei Bedarf.

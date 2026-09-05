@@ -1,0 +1,34 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Neuroonkologischer Verlauf
+Dokument-ID: oncorag-d-note-02019
+Datum: 20.12.2015
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0063 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 31.08.2013 mit Oligodendrogliom WHO Grad 3.
+Lokalisation: Thalamus rechts.
+Primäre Resektion am 01.10.2013.
+Primäre Radiotherapie bis 60 Gy vom 18.11.2013 bis 30.12.2013.
+Rezidivbestrahlung bis 33 Gy vom 16.06.2015 bis 06.07.2015.
+Systemische Therapien: Nivolumab, Methadon, Temozolomid.
+Begleitmedikation: Cortison, Pantoprazol.
+
+Beschwerden:
+- Aktuell berichtet der Patient über leichte Visusminderung, derzeit ohne wesentliche Alltagsrelevanz in den vergangenen Tagen.
+
+Neurologischer Status:
+- Es imponiert deutliches Gangunsicherheitsgefühl mit Sturzangst und Hilfsmittelbedarf, entsprechend der aktuellen Verlaufseinschätzung nach Re-Bestrahlung im posttherapeutischen Verlauf im Kontext der bekannten Tumor- und Therapiesituation.
+- Ferner ist zu beachten: Es erfolgt eine ambulante Verlaufskontrolle Eine kurzfristige Reevaluation wurde empfohlen.
+- Im interdisziplinären Kontext Die Beschwerden sind am ehesten tumorkorreliert.
+
+Allgemeinzustand:
+- Aktuell berichtet der Patient über leichte Fatigue, Ruhepausen ausreichend, was klinisch relevant eingeordnet wird nach Re-Bestrahlung im posttherapeutischen Verlauf unter fortgesetzter Steroidtherapie.
+- Ferner ist zu beachten: Es erfolgt eine ambulante Verlaufskontrolle Eine kurzfristige Reevaluation wurde empfohlen.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 6 Wochen.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.
+- Es erfolgt eine zeitnahe neurologische Mitbeurteilung mit Anpassung der Anfallsprophylaxe bei Bedarf.

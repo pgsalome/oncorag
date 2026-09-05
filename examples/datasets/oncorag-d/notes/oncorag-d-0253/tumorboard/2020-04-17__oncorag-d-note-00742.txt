@@ -1,0 +1,33 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Interdisziplinäres Tumorboard
+Dokument-ID: oncorag-d-note-00742
+Datum: 17.04.2020
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0253 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 25.04.2017 mit Astrozytom WHO Grad 4.
+Lokalisation: Temporallappen rechts.
+Primäre Resektion am 06.05.2017.
+Primäre Radiotherapie bis 59 Gy vom 30.06.2017 bis 06.08.2017.
+Rezidivbestrahlung bis 36 Gy vom 10.10.2019 bis 20.10.2019.
+Systemische Therapien: PCV, Temozolomid.
+Begleitmedikation: Levetiracetam, Pantoprazol.
+
+Neurologischer Status:
+- Anamnestisch zeigt sich generalisierter Krampfanfall mit notfallmäßiger Vorstellung, was klinisch relevant eingeordnet wird unter laufender Therapie im posttherapeutischen Verlauf im Tumorboard bei ansonsten stabilem Allgemeinzustand.
+- Parallel hierzu zeigt sich: die Vorstellung erfolgte stationär Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+- Zusammenfassend Die Befunde sind am ehesten postradiogen zu werten.
+
+Beurteilung:
+- Neu aufgetreten ist bildmorphologisch vereinbar mit kleiner Strahlennekrose ohne relevante klinische Symptomatik, was klinisch relevant eingeordnet wird unter laufender Therapie im posttherapeutischen Verlauf im Tumorboard im Kontext der bekannten Tumor- und Therapiesituation.
+- Ferner ist zu beachten: Es erfolgt eine ambulante Verlaufskontrolle.
+- Im interdisziplinären Kontext Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 10 Wochen.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.
+- Es erfolgt eine zeitnahe neurologische Mitbeurteilung mit Anpassung der Anfallsprophylaxe bei Bedarf.

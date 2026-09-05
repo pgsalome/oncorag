@@ -1,0 +1,30 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Arztbrief
+Dokument-ID: oncorag-d-note-00117
+Datum: 16.09.2016
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0117 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 29.01.2015 mit Anaplastisches Astrozytom.
+Lokalisation: Parietallappen links.
+Primäre Resektion am 13.03.2015.
+Primäre Radiotherapie bis 60 Gy vom 16.05.2015 bis 20.06.2015.
+Rezidivbestrahlung bis 36 Gy vom 02.03.2016 bis 24.03.2016.
+Systemische Therapien: Temozolomid, PCV, Nivolumab.
+Begleitmedikation: Cortison.
+
+Hautstatus:
+- Klinisch zeigt sich deutliche radiogene Dermatitis mit trockener Schuppung, entsprechend der aktuellen Verlaufseinschätzung in den vergangenen Tagen im posttherapeutischen Verlauf unter fortgesetzter Steroidtherapie.
+- Begleitend fällt auf: Es erfolgt eine ambulante Verlaufskontrolle Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+
+Beurteilung:
+- Im Verlauf besteht fortgeschrittene Radionekrose mit neurologischer Verschlechterung und dringender therapeutischer Intervention, mit klarer Relevanz für die weitere Therapieplanung im posttherapeutischen Verlauf bei wechselnder neurologischer Belastbarkeit.
+- Aus klinischer Sicht Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 10 Wochen.
+- Supportivtherapie wird symptomorientiert fortgesetzt.
+- Eine antiödematöse Eskalation einschließlich Bevacizumab bleibt vorbehalten.

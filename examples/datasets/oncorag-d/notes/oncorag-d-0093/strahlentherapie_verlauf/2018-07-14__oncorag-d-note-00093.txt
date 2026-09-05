@@ -1,0 +1,31 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: oncorag-d-note-00093
+Datum: 14.07.2018
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0093 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 06.04.2016 mit Glioblastom.
+Lokalisation: Frontallappen links.
+Primäre Resektion am 13.05.2016.
+Primäre Radiotherapie bis 59 Gy vom 11.07.2016 bis 18.08.2016.
+Rezidivbestrahlung bis 36 Gy vom 11.07.2018 bis 01.08.2018.
+Systemische Therapien: Bevacizumab, Temozolomid.
+Begleitmedikation: Ondansetron, Pantoprazol.
+
+Beurteilung:
+- Dokumentiert ist diskrete postradiogene Nekrosezeichen ohne akuten Interventionsbedarf, entsprechend der aktuellen Verlaufseinschätzung in den vergangenen Tagen unter aktueller Re-Bestrahlung unter kombinierter supportiver Behandlung.
+- Die Alltagsaktivität ist nur gering beeinträchtigt Die Befundkonstellation wurde interdisziplinär erneut diskutiert.
+- Aus klinischer Sicht Die Befunde sind am ehesten postradiogen zu werten.
+
+Nebenwirkungen:
+- Weiterhin nachweisbar ist rezidivierendes Erbrechen mit deutlicher Einschränkung der oralen Aufnahme im Kontext der bekannten Tumor- und Therapiesituation.
+- In der Gesamtschau Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 8 Wochen.
+- Die begleitende Medikation soll nach Bedarf weitergeführt werden.
+- Eine antiödematöse Eskalation einschließlich Bevacizumab bleibt vorbehalten.

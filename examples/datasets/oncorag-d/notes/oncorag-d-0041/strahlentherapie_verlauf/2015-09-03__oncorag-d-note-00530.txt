@@ -1,0 +1,30 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: oncorag-d-note-00530
+Datum: 03.09.2015
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0041 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 27.03.2014 mit Anaplastisches Astrozytom.
+Lokalisation: Insulär links.
+Primäre Resektion am 31.03.2014.
+Primäre Radiotherapie bis 60 Gy vom 23.05.2014 bis 29.06.2014.
+Rezidivbestrahlung bis 30 Gy vom 27.08.2015 bis 10.09.2015.
+Systemische Therapien: Temozolomid, CCNU/Lomustin.
+Begleitmedikation: Ondansetron, Dexamethason, Pantoprazol.
+
+Hautstatus:
+- Neu aufgetreten ist mildes Erythem im Bestrahlungsfeld, was klinisch relevant eingeordnet wird während der neuroonkologischen Verlaufskontrolle unter kombinierter supportiver Behandlung.
+- Zusätzlich gilt: Die Alltagsaktivität ist nur gering beeinträchtigt Eine kurzfristige Reevaluation wurde empfohlen.
+
+Beurteilung:
+- Im Verlauf besteht bildmorphologisch vereinbar mit kleiner Strahlennekrose ohne relevante klinische Symptomatik, mit klarer Relevanz für die weitere Therapieplanung nach Re-Bestrahlung unter aktueller Re-Bestrahlung im Kontext der bekannten Tumor- und Therapiesituation.
+- Im interdisziplinären Kontext Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 12 Wochen.
+- Die begleitende Medikation soll nach Bedarf weitergeführt werden.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

@@ -1,0 +1,31 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-00157
+Datum: 26.02.2018
+
+Sehr geehrte Kolleginnen und Kollegen,
+wir berichten über den Verlauf von Patient oncorag-d-0157.
+
+Anamnese / Chronologie:
+Erstdiagnose am 05.07.2016 mit Anaplastisches Astrozytom.
+Lokalisation: Temporallappen rechts.
+Primäre Resektion am 05.08.2016.
+Primäre Radiotherapie bis 60 Gy vom 02.09.2016 bis 15.10.2016.
+Rezidivbestrahlung bis 33 Gy vom 21.11.2017 bis 02.12.2017.
+Systemische Therapien: PCV, Temozolomid, Irinotecan.
+Begleitmedikation: Levetiracetam, Cortison, Pantoprazol.
+
+Beurteilung:
+- Bei der heutigen Vorstellung findet sich lebensbedrohliche Strahlennekrose mit kritischer Hirndrucksymptomatik, neurochirurgischer Notfallbehandlung und intensivmedizinischer Überwachung, mit klarer Relevanz für die weitere Therapieplanung im postradiogenen Intervall mit Verdacht auf postradiogene Genese bei wechselnder neurologischer Belastbarkeit.
+- die Vorstellung erfolgte stationär; eine rasche Akutmaßnahme war angezeigt; die Alltagsaktivitäten sind deutlich eingeschränkt; die Situation war lebensbedrohlich einzustufen; Es lag eine lebensbedrohliche Dekompensation mit unmittelbarer Krisenbehandlung vor Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+- Im interdisziplinären Kontext Die Befunde sind am ehesten postradiogen zu werten.
+
+Bildgebung:
+- Aktuell berichtet der Patient über lebensbedrohliches Hirnödem mit kritischer Massenwirkung, Verlagerungslinie und notfallmäßiger intensivmedizinischer Behandlung, was klinisch relevant eingeordnet wird seit der letzten Vorstellung im posttherapeutischen Verlauf.
+- Parallel hierzu zeigt sich: eine rasche Akutmaßnahme war angezeigt; die Alltagsaktivitäten sind deutlich eingeschränkt; es bestand unmittelbare Gefahr einer kritischen Dekompensation Die Befundkonstellation wurde interdisziplinär erneut diskutiert.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 10 Wochen geplant.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.
+- Eine antiödematöse Eskalation einschließlich Bevacizumab bleibt vorbehalten.

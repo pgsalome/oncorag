@@ -1,0 +1,35 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Arztbrief
+Dokument-ID: oncorag-d-note-01187
+Datum: 07.09.2013
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0209 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 03.10.2012 mit Oligodendrogliom WHO Grad 3.
+Lokalisation: Insulär links.
+Primäre Resektion am 06.10.2012.
+Primäre Radiotherapie bis 60 Gy vom 05.11.2012 bis 13.12.2012.
+Rezidivbestrahlung bis 33 Gy vom 21.07.2013 bis 01.08.2013.
+Systemische Therapien: Bevacizumab, PCV.
+Begleitmedikation: Ondansetron, Cortison, Pantoprazol.
+
+Beurteilung:
+- Dokumentiert ist bildmorphologisch vereinbar mit kleiner Strahlennekrose ohne relevante klinische Symptomatik im aktuellen Verlauf im posttherapeutischen Verlauf mit Verdacht auf postradiogene Genese.
+- Im gleichen Kontext wird berichtet: Die Alltagsaktivität ist nur gering beeinträchtigt Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+- Im interdisziplinären Kontext Die Befunde sind am ehesten postradiogen zu werten.
+
+Neurologischer Status:
+- Es imponiert kein neuer Krampfanfall, jedoch Aura-artige Episoden unter antikonvulsiver Therapie, entsprechend der aktuellen Verlaufseinschätzung in den vergangenen Tagen im posttherapeutischen Verlauf bei fortbestehendem Unterstützungsbedarf im Alltag.
+- Begleitend fällt auf: Die Alltagsaktivität ist nur gering beeinträchtigt Dies beeinflusst die aktuelle Therapiewahl wesentlich.
+- Neu aufgetreten ist maximal schwere kognitive Entgleisung mit kompletter Aufhebung der sicheren Selbststeuerung und notfallmäßiger Überwachung im aktuellen Verlauf im posttherapeutischen Verlauf mit neurokognitivem Schwerpunkt unter fortgesetzter Steroidtherapie.
+- Parallel hierzu zeigt sich: es bestand Behandlungsbedarf unter stationären Bedingungen; eine rasche Akutmaßnahme war angezeigt; die Alltagsaktivitäten sind deutlich eingeschränkt; die Situation war lebensbedrohlich einzustufen; Es lag eine lebensbedrohliche Dekompensation mit unmittelbarer Krisenbehandlung vor Eine kurzfristige Reevaluation wurde empfohlen.
+- Zusammenfassend Die Beschwerden sind am ehesten tumorkorreliert.
+
+Therapieplan:
+- Wiedervorstellung zur Kontrolle in 10 Wochen.
+- Die begleitende Medikation soll nach Bedarf weitergeführt werden.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.
+- Engmaschige neurologische Verlaufskontrolle und antikonvulsive Reevaluation.

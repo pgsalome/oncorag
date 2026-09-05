@@ -33,6 +33,7 @@ SOURCE_PATIENT_PATTERNS = {
     "en": re.compile(r"SYN-TNBC-\d+\Z"),
     "de": re.compile(r"SYN-RICCI-\d+\Z"),
 }
+PUBLIC_COHORT_NAMES = {"en": "oncorag-e", "de": "oncorag-d"}
 SOURCE_IDENTIFIER_FIELDS = {
     "source_style_patient_id", "source_style_patient_ids", "style_source_patient_ids",
     "sampled_source_patient_ids", "style_patient_ids",
@@ -165,7 +166,120 @@ def write_manifest(root: Path, metadata: dict[str, Any]) -> None:
     write_json(root / "manifest.json", metadata)
 
 
-def export_cohort(source: Path, destination: Path, language: str, seed: int = 42) -> dict[str, Any]:
+def rename_public_cohort(root: Path, language: str) -> dict[str, Any]:
+    """Apply public cohort identifiers to a complete exported dataset in place."""
+    if language not in PUBLIC_COHORT_NAMES:
+        raise ValueError("Full synthetic naming supports en or de")
+    cohort = PUBLIC_COHORT_NAMES[language]
+    manifest_path = root / "manifest.json"
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    if manifest["language"] != language:
+        raise ValueError("Dataset language does not match the requested public cohort")
+    actual_files = {path.relative_to(root).as_posix() for path in root.rglob("*") if path.is_file()}
+    if actual_files != set(manifest["files"]) | {"manifest.json"}:
+        raise ValueError("Dataset files differ from its manifest")
+    for relative, expected in manifest["files"].items():
+        contents = safe_child(root, relative).read_bytes()
+        if len(contents) != expected["bytes"] or hashlib.sha256(contents).hexdigest() != expected["sha256"]:
+            raise ValueError("Dataset file differs from its manifest")
+    with (root / "registry.csv").open(newline="", encoding="utf-8") as stream:
+        registry = list(csv.DictReader(stream))
+    labels = [json.loads(line) for line in (root / "labels.jsonl").read_text(encoding="utf-8").splitlines()]
+    splits = json.loads((root / "splits.json").read_text(encoding="utf-8"))
+    patients = sorted({row["patient_id"] for row in registry})
+    notes = sorted(row["note_id"] for row in registry)
+    if not registry or len(notes) != len(set(notes)):
+        raise ValueError("Expected nonempty registry with unique note identifiers")
+    if set(splits["patients"]) != set(patients):
+        raise ValueError("Patient splits do not match the registry")
+    note_paths = {row["path"] for row in registry}
+    if len(note_paths) != len(registry) or note_paths | {"registry.csv", "labels.jsonl", "splits.json"} != set(manifest["files"]):
+        raise ValueError("Dataset note inventory does not match the registry")
+    metadata_by_note = {row["note_id"]: {key: value for key, value in row.items() if key != "path"} for row in registry}
+    if len(labels) != len(notes) or {row["note_id"] for row in labels} != set(notes):
+        raise ValueError("Labels do not match the registry")
+    for row in labels:
+        if {key: row[key] for key in metadata_by_note[row["note_id"]]} != metadata_by_note[row["note_id"]]:
+            raise ValueError("Label metadata does not match the registry")
+    if manifest["dataset_id"] == cohort and manifest.get("public_naming", {}).get("version") == 1:
+        if not all(re.fullmatch(re.escape(cohort) + r"-\d{4,}", patient) for patient in patients):
+            raise ValueError("Invalid public patient identifier")
+        if not all(re.fullmatch(re.escape(cohort) + r"-note-\d{5,}", note) for note in notes):
+            raise ValueError("Invalid public note identifier")
+        return manifest
+    if not all(SOURCE_PATIENT_PATTERNS[language].fullmatch(patient) for patient in patients):
+        raise ValueError("Expected source synthetic patient identifiers before public naming")
+    patient_map = {patient: f"{cohort}-{int(patient.rsplit('-', 1)[1]):04d}" for patient in patients}
+    if len(set(patient_map.values())) != len(patient_map):
+        raise ValueError("Patient identifiers collide after public naming")
+    suffixes = [re.search(r"(\d+)\Z", note) for note in notes]
+    numbers = [int(match.group(1)) for match in suffixes if match]
+    if len(numbers) != len(notes) or len(set(numbers)) != len(notes):
+        numbers = list(range(1, len(notes) + 1))
+    note_map = {note: f"{cohort}-note-{number:05d}" for note, number in zip(notes, numbers)}
+    if set(patient_map) & set(note_map):
+        raise ValueError("Patient and note identifiers must be distinct for public naming")
+    replacements = {**patient_map, **note_map}
+    identifier_tokens = re.compile(
+        r"(?<![\w-])(?:" + "|".join(re.escape(value) for value in sorted(replacements, key=len, reverse=True))
+        + r")(?![\w-])"
+    )
+    rewritten_notes = []
+    text_changed = False
+    for row in registry:
+        old_path = safe_child(root, row["path"])
+        old_text = old_path.read_text(encoding="utf-8")
+        text = identifier_tokens.sub(lambda match: replacements[match.group()], old_text)
+        text_changed |= text != old_text
+        row["patient_id"] = patient_map[row["patient_id"]]
+        row["note_id"] = note_map[row["note_id"]]
+        relative = f"notes/{row['patient_id']}/{row['report_type']}/{row['date']}__{row['note_id']}.txt"
+        new_path = safe_child(root, relative)
+        if new_path.exists():
+            raise ValueError("Public note path already exists")
+        rewritten_notes.append((old_path, new_path, text))
+        row["path"] = relative
+    if len({new for _, new, _ in rewritten_notes}) != len(rewritten_notes):
+        raise ValueError("Note paths collide after public naming")
+    for row in labels:
+        row["patient_id"] = patient_map[row["patient_id"]]
+        row["note_id"] = note_map[row["note_id"]]
+    splits["patients"] = dict(sorted((patient_map[patient], split) for patient, split in splits["patients"].items()))
+    # Keep the original split assignment and clinical content while changing identifiers.
+    for _, path, text in rewritten_notes:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(text, encoding="utf-8")
+    write_registry(root / "registry.csv", registry)
+    write_jsonl(root / "labels.jsonl", labels)
+    write_json(root / "splits.json", splits)
+    for old_path, _, _ in rewritten_notes:
+        old_path.unlink()
+    for directory in sorted((root / "notes").rglob("*"), key=lambda path: len(path.parts), reverse=True):
+        if directory.is_dir() and not any(directory.iterdir()):
+            directory.rmdir()
+    manifest["dataset_id"] = cohort
+    manifest["public_naming"] = {
+        "version": 1,
+        "cohort": cohort,
+        "patient_identifiers": "Cohort prefix and original numeric suffix, padded to four digits",
+        "note_identifiers": "Cohort prefix and unique numeric suffix, or sorted ordinal, padded to five digits",
+        "split_membership": "Preserved from the source projection",
+        "text_changes": "Exact patient and note identifier tokens only",
+    }
+    if text_changed:
+        manifest["provenance"]["text_changed"] = True
+        manifest["provenance"].setdefault("text_changes", []).append("Patient and note identifiers renamed to public cohort identifiers")
+    manifest.pop("files")
+    manifest.pop("payload_bytes")
+    manifest_path.unlink()
+    write_manifest(root, manifest)
+    return manifest
+
+
+def export_cohort(
+    source: Path, destination: Path, language: str, seed: int = 42,
+    *, _preserve_source_ids: bool = False,
+) -> dict[str, Any]:
     """Export one full cohort; refuse overwrite and paths outside its roots."""
     if language not in SOURCE_PATIENT_PATTERNS:
         raise ValueError("Full synthetic export supports en or de")
@@ -265,6 +379,8 @@ def export_cohort(source: Path, destination: Path, language: str, seed: int = 42
             "gold_scope": "Note-level source CTCAE event labels only; no general patient-feature gold is inferred",
         }
         write_manifest(staging, metadata)
+        if not _preserve_source_ids:
+            metadata = rename_public_cohort(staging, language)
         staging.rename(destination)
     return {key: metadata[key] for key in ("dataset_id", "patient_count", "note_count", "event_count", "payload_bytes")}
 
@@ -371,13 +487,13 @@ def main() -> int:
         parser.error("Both --english-source and --german-source are required unless --demo-only is set")
     targets = [args.output_root / "demo"]
     if not args.demo_only:
-        targets += [args.output_root / "english", args.output_root / "german"]
+        targets += [args.output_root / PUBLIC_COHORT_NAMES[language] for language in ("en", "de")]
     if any(target.exists() for target in targets):
         parser.error("Output datasets already exist; use a new versioned output root")
     summaries = []
     if not args.demo_only:
-        summaries.append(export_cohort(args.english_source, args.output_root / "english", "en", args.seed))
-        summaries.append(export_cohort(args.german_source, args.output_root / "german", "de", args.seed))
+        summaries.append(export_cohort(args.english_source, args.output_root / PUBLIC_COHORT_NAMES["en"], "en", args.seed))
+        summaries.append(export_cohort(args.german_source, args.output_root / PUBLIC_COHORT_NAMES["de"], "de", args.seed))
     export_demo(args.output_root / "demo")
     print(json.dumps({"cohorts": summaries, "demo_variants": ["english", "german", "mixed"]}, indent=2))
     return 0

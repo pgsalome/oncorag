@@ -1,0 +1,29 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+MRT Schädel Befund
+Dokument-ID: oncorag-d-note-00128
+Datum: 25.08.2018
+
+Sehr geehrte Frau Kollegin,
+bei Patient oncorag-d-0128 zeigt sich folgender Verlauf.
+
+Anamnese / Chronologie:
+Erstdiagnose am 17.03.2017 mit Astrozytom WHO Grad 4.
+Lokalisation: Multifokal supratentoriell.
+Primäre Resektion am 02.04.2017.
+Primäre Radiotherapie bis 59 Gy vom 07.05.2017 bis 20.06.2017.
+Rezidivbestrahlung bis 36 Gy vom 13.05.2018 bis 02.06.2018.
+Systemische Therapien: Temozolomid, CCNU/Lomustin, Irinotecan.
+Begleitmedikation: Cortison, Pantoprazol.
+
+Bildgebung:
+- Im Verlauf besteht ausgeprägtes Hirnödem mit Massenwirkung und dringender Intervention, entsprechend der aktuellen Verlaufseinschätzung in den vergangenen Tagen im posttherapeutischen Verlauf bildgebend bei wechselnder neurologischer Belastbarkeit.
+
+Beurteilung:
+- Bei der heutigen Vorstellung findet sich katastrophale Radionekrose mit akuter Einklemmungsgefahr und sofortiger intensivmedizinischer Intervention, mit klarer Relevanz für die weitere Therapieplanung nach Re-Bestrahlung im posttherapeutischen Verlauf bildgebend bei wechselnder neurologischer Belastbarkeit.
+- Im interdisziplinären Kontext Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 12 Wochen.
+- Supportivtherapie wird symptomorientiert fortgesetzt.
+- Eine antiödematöse Eskalation einschließlich Bevacizumab bleibt vorbehalten.

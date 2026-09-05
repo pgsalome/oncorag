@@ -24,8 +24,8 @@ DOI `10.1038/s41746-026-03170-8`.
 
 ## Table Of Contents
 
-1. [Synthetic Data And Evaluation](#synthetic-data-and-evaluation)
-2. [Quick Start](#quick-start)
+1. [Quick Start](#quick-start)
+2. [Synthetic Data And Evaluation](#synthetic-data-and-evaluation)
 3. [Your Variables](#your-variables)
 4. [Your Notes](#your-notes)
 5. [Parameters And Outputs](#parameters-and-outputs)
@@ -35,65 +35,6 @@ DOI `10.1038/s41746-026-03170-8`.
 9. [Citation](#citation)
 10. [License](#license)
 11. [Clinical Use](#clinical-use)
-
-## Synthetic Data And Evaluation
-
-The repository includes two full synthetic cohorts and three small example cohorts.
-
-| Dataset | Patients | Notes | Labels |
-| --- | ---: | ---: | --- |
-| [English](examples/datasets/english/registry.csv) | 489 | 2,930 | 5,761 note-level CTCAE events |
-| [German](examples/datasets/german/registry.csv) | 489 | 2,930 | 5,987 note-level toxicity events |
-| English, German and mixed examples | 3 per variant | 9 per variant | 12 typed reference answers per variant |
-
-The full English and German cohorts contain different generated patients. In the
-small mixed cohort, each patient has both English and German notes.
-
-These datasets support software testing and experimentation. The paper reports
-results on separate clinical cohorts. Annotation quality and language coverage are
-described in the [dataset documentation](examples/datasets/README.md) and
-[provenance report](examples/datasets/PROVENANCE.md).
-
-After [Quick Start](#quick-start), run either full cohort with its own feature list:
-
-```bash
-python scripts/run_oncorag.py --config configs/oncorag_synthetic_english_full.json
-python scripts/run_oncorag.py --config configs/oncorag_synthetic_german_full.json
-```
-
-Add `--stage validate` to check the input files and feature definitions. Each
-configuration includes a feature list matched to its cohort. Full-cohort labels
-describe note-level events; the small cohorts provide patient-level reference
-answers for four variables.
-
-The following evaluation commands use the small synthetic example cohorts:
-
-```bash
-pip install -e '.[dev,chat]'
-python -m pytest tests -q
-python scripts/run_synthetic_smoke.py --ollama-host http://127.0.0.1:11434
-python scripts/run_chat_smoke.py --ollama-host http://127.0.0.1:11434
-python scripts/evaluate_synthetic.py \
-  --config configs/oncorag_synthetic_mixed.json \
-  --results outputs/synthetic_smoke/mixed/structured_features.json \
-  --output outputs/synthetic_smoke/mixed/evaluation.json
-python scripts/evaluate_synthetic.py \
-  --config configs/oncorag_synthetic_mixed.json \
-  --write-experiments outputs/experiments
-```
-
-Evaluation covers every expected patient-feature pair, including missing and failed
-predictions. It reports typed exact match, categorical macro-F1, patient-bootstrap
-confidence intervals and results by confidence group and configured stratum.
-
-`--write-experiments` creates configurations for top-k, retrieval weights, models
-and context windows. Run the generated configurations separately. Reproducing the
-paper's clinical comparisons requires the corresponding study data.
-
-The test suite uses simulated model responses and temporary ChromaDB databases.
-Set `ONCORAGGRAPH_TEST_IRIS=1` and supply credentials to include a live IRIS test.
-The chat test script runs nine local-model turns covering both languages,
-follow-up dates, patient switching and source quotations.
 
 ## Quick Start
 
@@ -131,6 +72,64 @@ python scripts/run_oncorag.py --config configs/oncorag_synthetic_german.json
 # English and German notes within each patient
 python scripts/run_oncorag.py --config configs/oncorag_synthetic_mixed.json
 ```
+
+## Synthetic Data And Evaluation
+
+The repository includes two full synthetic cohorts and three small example cohorts.
+
+| Dataset | Patients | Notes | Labels |
+| --- | ---: | ---: | --- |
+| [oncorag-e (English)](examples/datasets/oncorag-e/registry.csv) | 489 | 2,930 | 5,761 note-level CTCAE events |
+| [oncorag-d (German)](examples/datasets/oncorag-d/registry.csv) | 489 | 2,930 | 5,987 note-level toxicity events |
+
+The oncorag-e and oncorag-d cohorts contain different generated patients. In the
+small mixed cohort, each patient has both English and German notes.
+
+These datasets support software testing and experimentation. The paper reports
+results on separate clinical cohorts. Annotation quality and language coverage are
+described in the [dataset documentation](examples/datasets/README.md) and
+[provenance report](examples/datasets/PROVENANCE.md).
+
+After [Quick Start](#quick-start), run either full cohort with its own feature list:
+
+```bash
+python scripts/run_oncorag.py --config configs/oncorag-e.json
+python scripts/run_oncorag.py --config configs/oncorag-d.json
+```
+
+Add `--stage validate` to check the input files and feature definitions. Each
+configuration includes a feature list matched to its cohort. Full-cohort labels
+describe note-level events; the small cohorts provide patient-level reference
+answers for four variables.
+
+The following evaluation commands use the small synthetic example cohorts:
+
+```bash
+pip install -e '.[dev,chat]'
+python -m pytest tests -q
+python scripts/run_synthetic_smoke.py --ollama-host http://127.0.0.1:11434
+python scripts/run_chat_smoke.py --ollama-host http://127.0.0.1:11434
+python scripts/evaluate_synthetic.py \
+  --config configs/oncorag_synthetic_mixed.json \
+  --results outputs/synthetic_smoke/mixed/structured_features.json \
+  --output outputs/synthetic_smoke/mixed/evaluation.json
+python scripts/evaluate_synthetic.py \
+  --config configs/oncorag_synthetic_mixed.json \
+  --write-experiments outputs/experiments
+```
+
+Evaluation covers every expected patient-feature pair, including missing and failed
+predictions. It reports typed exact match, categorical macro-F1, patient-bootstrap
+confidence intervals and results by confidence group and configured stratum.
+
+`--write-experiments` creates configurations for top-k, retrieval weights, models
+and context windows. Run the generated configurations separately. Reproducing the
+paper's clinical comparisons requires the corresponding study data.
+
+The test suite uses simulated model responses and temporary ChromaDB databases.
+Set `ONCORAGGRAPH_TEST_IRIS=1` and supply credentials to include a live IRIS test.
+The chat test script runs nine local-model turns covering both languages,
+follow-up dates, patient switching and source quotations.
 
 ## Your Variables
 

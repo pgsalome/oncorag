@@ -1,0 +1,35 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: oncorag-d-note-00780
+Datum: 16.03.2018
+
+Sehr geehrter Herr Kollege,
+nachfolgend der aktuelle Verlauf von Patient oncorag-d-0291.
+
+Anamnese / Chronologie:
+Erstdiagnose am 18.09.2015 mit Glioblastom.
+Lokalisation: Thalamus rechts.
+Primäre Resektion am 14.10.2015.
+Primäre Radiotherapie bis 60 Gy vom 15.11.2015 bis 23.12.2015.
+Rezidivbestrahlung bis 30 Gy vom 15.03.2018 bis 09.04.2018.
+Systemische Therapien: Bevacizumab, Pembrolizumab.
+Begleitmedikation: Ondansetron, Cortison, Dexamethason.
+
+Allgemeinzustand:
+- Anamnestisch zeigt sich persistierende Fatigue mit Einschränkung der Aktivität im Tagesverlauf, wie auch im Verlauf mehrfach dokumentiert in den vergangenen Tagen unter systemischer Therapielast im Kontext der bekannten Tumor- und Therapiesituation.
+- Begleitend fällt auf: Die Alltagsaktivität ist nur gering beeinträchtigt Eine kurzfristige Reevaluation wurde empfohlen.
+
+Beurteilung:
+- Neu aufgetreten ist symptomatische Strahlennekrose mit zunehmendem perifokalem Ödem und Steroidbedarf, entsprechend der aktuellen Verlaufseinschätzung unter laufender Therapie unter aktueller Re-Bestrahlung unter kombinierter supportiver Behandlung.
+- Zusätzlich gilt: Aktuell keine stationäre Behandlungsnotwendigkeit Die Befundkonstellation wurde interdisziplinär erneut diskutiert.
+- In der Gesamtschau Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Beschwerden:
+- Anamnestisch zeigt sich gelegentliche Kopfschmerzen, analgetisch gut kontrollierbar, mit klarer Relevanz für die weitere Therapieplanung im aktuellen Verlauf.
+- Begleitend fällt auf: Die Alltagsaktivität ist nur gering beeinträchtigt Eine kurzfristige Reevaluation wurde empfohlen.
+
+Therapieplan:
+- Erneute klinische und bildgebende Beurteilung in 10 Wochen geplant.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.

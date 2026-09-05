@@ -1,0 +1,36 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: oncorag-d-note-01557
+Datum: 30.06.2017
+
+Sehr geehrter Herr Kollege,
+nachfolgend der aktuelle Verlauf von Patient oncorag-d-0090.
+
+Anamnese / Chronologie:
+Erstdiagnose am 28.10.2015 mit Glioblastom.
+Lokalisation: Frontallappen links.
+Primäre Resektion am 10.11.2015.
+Primäre Radiotherapie bis 54 Gy vom 17.12.2015 bis 25.01.2016.
+Rezidivbestrahlung bis 30 Gy vom 20.06.2017 bis 02.07.2017.
+Systemische Therapien: Temozolomid, Irinotecan.
+Begleitmedikation: Ondansetron, Pantoprazol.
+
+Hautstatus:
+- Dokumentiert ist umschriebene Alopezie im Bestrahlungsfeld im postradiogenen Intervall bei wechselnder neurologischer Belastbarkeit.
+- Begleitend fällt auf: Aktuell keine stationäre Behandlungsnotwendigkeit Hieraus ergab sich eine enge klinische Überwachung.
+
+Nebenwirkungen:
+- Neu aufgetreten ist rezidivierendes Erbrechen mit deutlicher Einschränkung der oralen Aufnahme, wie auch im Verlauf mehrfach dokumentiert unter laufender Therapie unter aktueller Re-Bestrahlung bei wechselnder neurologischer Belastbarkeit.
+- Parallel hierzu zeigt sich: Es erfolgt eine ambulante Verlaufskontrolle Hieraus ergab sich eine enge klinische Überwachung.
+- Im interdisziplinären Kontext Die Befunde sind am ehesten postradiogen zu werten.
+
+Beurteilung:
+- Im Verlauf besteht radiogene Nekrose mit klinisch relevanten Beschwerden, derzeit konservativ behandelbar unter aktueller Re-Bestrahlung mit Verdacht auf postradiogene Genese bei wechselnder neurologischer Belastbarkeit.
+- Im gleichen Kontext wird berichtet: Die Alltagsaktivität ist nur gering beeinträchtigt Hieraus ergab sich eine enge klinische Überwachung.
+- In der Gesamtschau Die Befunde sind am ehesten postradiogen zu werten.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 8 Wochen.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.
+- Eine antiödematöse Eskalation einschließlich Bevacizumab bleibt vorbehalten.

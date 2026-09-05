@@ -1,0 +1,30 @@
+SYNTHETISCHER BERICHT - kein realer Patient, keine reale Klinik.
+
+Strahlentherapeutischer Verlauf
+Dokument-ID: oncorag-d-note-02605
+Datum: 28.01.2019
+
+Sehr geehrter Herr Kollege,
+nachfolgend der aktuelle Verlauf von Patient oncorag-d-0160.
+
+Anamnese / Chronologie:
+Erstdiagnose am 02.09.2016 mit Glioblastom.
+Lokalisation: Parietallappen links.
+Primäre Resektion am 10.10.2016.
+Primäre Radiotherapie bis 54 Gy vom 26.11.2016 bis 02.01.2017.
+Rezidivbestrahlung bis 33 Gy vom 02.08.2018 bis 19.08.2018.
+Systemische Therapien: Regorafenib, Temozolomid, Irinotecan.
+Begleitmedikation: Dexamethason.
+
+Allgemeinzustand:
+- Weiterhin nachweisbar ist leichte Fatigue, Ruhepausen ausreichend, entsprechend der aktuellen Verlaufseinschätzung unter laufender Therapie im posttherapeutischen Verlauf bei ansonsten stabilem Allgemeinzustand.
+- Im gleichen Kontext wird berichtet: Es erfolgt eine ambulante Verlaufskontrolle.
+
+Beurteilung:
+- Bei der heutigen Vorstellung findet sich fortgeschrittene Radionekrose mit neurologischer Verschlechterung und dringender therapeutischer Intervention, entsprechend der aktuellen Verlaufseinschätzung im postradiogenen Intervall im posttherapeutischen Verlauf im Kontext der bekannten Tumor- und Therapiesituation.
+- Zusammenfassend Die Ätiologie bleibt gemischt bzw. nicht eindeutig zwischen Progress und Therapieeffekt.
+
+Therapieplan:
+- Nächste Verlaufskontrolle in 10 Wochen.
+- Fortführung der supportiven Medikation nach klinischer Erfordernis.
+- Bei anhaltender Symptomatik soll eine Bevacizumab-basierte Eskalation erwogen werden.
