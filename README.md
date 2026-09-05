@@ -22,17 +22,56 @@ downstream evaluation, not a built-in clinical prediction tool.*
 
 ## Table Of Contents
 
-1. [Quick Start](#quick-start)
-2. [Your Variables](#your-variables)
-3. [Your Notes](#your-notes)
-4. [Parameters And Outputs](#parameters-and-outputs)
-5. [ChromaDB Or InterSystems IRIS](#chromadb-or-intersystems-iris)
-6. [Patient Chat](#patient-chat)
-7. [Synthetic Data And Evaluation](#synthetic-data-and-evaluation)
+1. [Synthetic Data And Evaluation](#synthetic-data-and-evaluation)
+2. [Quick Start](#quick-start)
+3. [Your Variables](#your-variables)
+4. [Your Notes](#your-notes)
+5. [Parameters And Outputs](#parameters-and-outputs)
+6. [ChromaDB Or InterSystems IRIS](#chromadb-or-intersystems-iris)
+7. [Patient Chat](#patient-chat)
 8. [Public Release](#public-release)
 9. [Citation](#citation)
 10. [License](#license)
 11. [Clinical Use](#clinical-use)
+
+## Synthetic Data And Evaluation
+
+The public release bundles only small purpose-authored English/German/mixed
+regression fixtures, with 3 patients, 9 notes and 12 typed reference answers each.
+Every mixed-fixture patient has both English and German reports. These are smoke
+tests, not clinical validation or held-out accuracy estimates.
+
+The larger template-derived English and German cohorts are **not distributed**
+with this release: their provenance and text/template redistribution review remain
+pending. The local export tools are retained for separately authorized data.
+See [dataset provenance](examples/datasets/README.md).
+
+```bash
+pip install -e '.[dev,chat]'
+python -m pytest tests -q
+python scripts/run_synthetic_smoke.py --ollama-host http://127.0.0.1:11434
+python scripts/run_chat_smoke.py --ollama-host http://127.0.0.1:11434
+python scripts/evaluate_synthetic.py \
+  --config configs/oncorag_synthetic_mixed.json \
+  --results outputs/synthetic_mixed/structured_features.json \
+  --output outputs/synthetic_mixed/evaluation.json
+python scripts/evaluate_synthetic.py \
+  --config configs/oncorag_synthetic_mixed.json \
+  --write-experiments outputs/experiments
+```
+
+Evaluation checks all expected patient/feature pairs, typed exact match, categorical
+macro-F1, patient-bootstrap intervals, confidence groups and configured strata.
+Missing/error predictions are not silently excluded. Experiment configs cover
+top-k, weight perturbations and model/context combinations; generating them does
+not run the experiments. Remaining paper analyses (including clinical baselines,
+inter-rater comparisons and full-cohort validation) need appropriate study data.
+
+Unit/integration tests use controlled model doubles and real temporary Chroma stores.
+An optional live IRIS test runs with `ONCORAGGRAPH_TEST_IRIS=1` and credentials.
+The chat smoke test checks nine real-model turns across English, German and
+same-patient mixed notes, including follow-up dates, patient switching and source
+quotes. These narrow fixtures do not establish general conversational accuracy.
 
 ## Quick Start
 
@@ -242,45 +281,6 @@ Timelines are parsed separately from retrieved notes and remain available when t
 model abstains from a narrative answer; an abstention is still reported as `missing`.
 Missing evidence, invalid responses and backend errors are distinct statuses.
 Review answers and timelines against the notes; this is not clinical decision support.
-
-## Synthetic Data And Evaluation
-
-The public release bundles only small purpose-authored English/German/mixed
-regression fixtures, with 3 patients, 9 notes and 12 typed reference answers each.
-Every mixed-fixture patient has both English and German reports. These are smoke
-tests, not clinical validation or held-out accuracy estimates.
-
-The larger template-derived English and German cohorts are **not distributed**
-with this release: their provenance and text/template redistribution review remain
-pending. The local export tools are retained for separately authorized data.
-See [dataset provenance](examples/datasets/README.md).
-
-```bash
-pip install -e '.[dev,chat]'
-python -m pytest tests -q
-python scripts/run_synthetic_smoke.py --ollama-host http://127.0.0.1:11434
-python scripts/run_chat_smoke.py --ollama-host http://127.0.0.1:11434
-python scripts/evaluate_synthetic.py \
-  --config configs/oncorag_synthetic_mixed.json \
-  --results outputs/synthetic_mixed/structured_features.json \
-  --output outputs/synthetic_mixed/evaluation.json
-python scripts/evaluate_synthetic.py \
-  --config configs/oncorag_synthetic_mixed.json \
-  --write-experiments outputs/experiments
-```
-
-Evaluation checks all expected patient/feature pairs, typed exact match, categorical
-macro-F1, patient-bootstrap intervals, confidence groups and configured strata.
-Missing/error predictions are not silently excluded. Experiment configs cover
-top-k, weight perturbations and model/context combinations; generating them does
-not run the experiments. Remaining paper analyses (including clinical baselines,
-inter-rater comparisons and full-cohort validation) need appropriate study data.
-
-Unit/integration tests use controlled model doubles and real temporary Chroma stores.
-An optional live IRIS test runs with `ONCORAGGRAPH_TEST_IRIS=1` and credentials.
-The chat smoke test checks nine real-model turns across English, German and
-same-patient mixed notes, including follow-up dates, patient switching and source
-quotes. These narrow fixtures do not establish general conversational accuracy.
 
 ## Public Release
 
