@@ -179,39 +179,67 @@ def test_extraction_cli_forwards_iris_settings(tmp_path, monkeypatch):
     assert runner.call_args.kwargs["prompt_cache_dir"] == str(tmp_path / "prompts")
 
 
-def test_batch_cli_propagates_backend_to_extraction_subprocess(tmp_path, monkeypatch):
-    from types import SimpleNamespace
-    import pandas as pd
+@pytest.mark.parametrize("configured_backend,cli_backend", [
+    ("chroma", None), ("iris", None), ("chroma", "iris"), ("iris", "chroma"),
+])
+def test_pipeline_cli_propagates_backend_to_patient_index_and_extraction(
+    tmp_path, monkeypatch, configured_backend, cli_backend,
+):
+    from pathlib import Path
+    from oncoraggraph import pipeline
+    from oncoraggraph.config.pipeline_config import load_pipeline_config
+    from oncoraggraph.graph import graph_builder
+    from oncoraggraph.vector_store import backend
 
-    batch = importlib.import_module("oncoraggraph.batch_processor")
-    patient = tmp_path / "notes" / "SYN001"
-    patient.mkdir(parents=True)
-    features = tmp_path / "features"
-    features.mkdir()
-    (features / "nausea.json").write_text("{}")
-    vector_config = tmp_path / "vectors.json"
-    vector_config.write_text('{"backend": "chroma"}')
-    subprocess_run = Mock(return_value=SimpleNamespace(
-        returncode=0, stderr="", stdout='FINAL EXTRACTED RESULT\n{"value":"Missing","confidence":"Low"}\n',
-    ))
-    monkeypatch.setenv("ONCORAGGRAPH_VECTOR_STORE_CONFIG", "")
-    monkeypatch.setenv("ONCORAGGRAPH_VECTOR_BACKEND", "")
-    monkeypatch.setattr(batch, "GLOBAL_CONFIG", {})
-    monkeypatch.setattr(batch, "load_patient_frame", lambda path: pd.DataFrame({"MRN": ["SYN001"]}))
-    monkeypatch.setattr(batch, "set_start_method", Mock())
-    monkeypatch.setattr("subprocess.run", subprocess_run)
-    monkeypatch.setattr("sys.argv", [
-        "batch_processor", "--features-dir", str(features), "--csv", str(tmp_path / "patients.csv"),
-        "--base-path", str(tmp_path / "notes"), "--output", str(tmp_path / "results.json"),
-        "--prompt-cache-dir", str(tmp_path / "prompts"), "--force-rebuild", "--workers", "1",
-        "--vector-store-config", str(vector_config), "--vector-backend", "iris",
-    ])
-    batch.main()
-    subprocess_run.assert_called_once()
-    call = subprocess_run.call_args
-    assert call.kwargs["env"]["ONCORAGGRAPH_VECTOR_BACKEND"] == "iris"
-    assert call.kwargs["env"]["ONCORAGGRAPH_VECTOR_STORE_CONFIG"] == str(vector_config.resolve())
-    assert "--cache-dir" in call.args[0]
+    root = Path(__file__).resolve().parents[1]
+    config = load_pipeline_config(root / "configs" / "oncorag_synthetic_english.json")
+    config["features"]["generated_config_dir"] = str(tmp_path / "features")
+    config["outputs"]["root"] = str(tmp_path / "outputs")
+    config["vector_store"].update(
+        backend=configured_backend,
+        chroma={"path": str(tmp_path / "vectors")},
+        iris={"host": "127.0.0.1", "port": 1973, "table": "SQLUser.TestVectors"},
+    )
+    config_path = tmp_path / "pipeline.json"
+    config_path.write_text(json.dumps(config))
+    collection = Mock()
+    collection_factory = Mock(return_value=collection)
+    indexer = Mock(return_value=collection)
+    retriever = Mock(return_value=([], {}))
+    extractor = Mock(side_effect=AssertionError("Empty evidence must not call the model"))
+    monkeypatch.setattr(graph_builder, "build_patient_graph", lambda *args, **kwargs: nx.Graph())
+    monkeypatch.setattr(backend, "get_vector_collection", collection_factory)
+    monkeypatch.setattr(backend, "index_graph_nodes", indexer)
+    monkeypatch.setattr(pipeline, "retrieve_context", retriever)
+    monkeypatch.setattr(pipeline, "OllamaExtractor", lambda runtime: extractor)
+    args = ["--config", str(config_path)]
+    if cli_backend:
+        args.extend(["--vector-backend", cli_backend])
+
+    assert pipeline.main(args) == 0
+
+    expected_backend = cli_backend or configured_backend
+    assert collection_factory.call_count == indexer.call_count == 3
+    assert len({call.args[0] for call in collection_factory.call_args_list}) == 3
+    for factory_call, index_call in zip(collection_factory.call_args_list, indexer.call_args_list):
+        settings = factory_call.kwargs["config"]
+        assert settings["backend"] == expected_backend
+        assert settings["collection_namespace"] == "synthetic_english"
+        assert settings["chroma"]["path"] == str(tmp_path / "vectors")
+        assert settings["iris"]["host"] == "127.0.0.1"
+        assert settings["iris"]["port"] == 1973
+        assert settings["iris"]["table"] == "SQLUser.TestVectors"
+        assert index_call.args[0].graph["patient_id"] == factory_call.args[0]
+        assert index_call.args[1] is collection
+        assert index_call.kwargs["replace"] is True
+    assert retriever.call_count == 12
+    assert all(call.args[1] is collection for call in retriever.call_args_list)
+    extractor.assert_not_called()
+    parameters = json.loads((tmp_path / "outputs" / "parameters.json").read_text())
+    assert parameters["vector_store"]["backend"] == expected_backend
+    results = json.loads((tmp_path / "outputs" / "structured_features.json").read_text())
+    assert len(results["results"]) == 12
+    assert all(row["status"] == "missing" for row in results["results"])
 
 
 def test_pipeline_config_validates_vector_backend():

@@ -5,7 +5,7 @@
   "publication_status": "Review code/data licensing and provenance before publication",
   "screening_scope": "Explicit file allowlist, SHA-256-pinned reviewed assets, local import closure, credential/home-path markers, selected private metadata keys",
   "file_count": 122,
-  "payload_bytes": 1273923,
+  "payload_bytes": 1276269,
   "files": {
     ".github/workflows/tests.yml": {
       "sha256": "db783105f153a96876f34f81e751a2ee3e45e5b01765a75f6c67418e1ee0e256",
@@ -444,8 +444,8 @@
       "bytes": 6583
     },
     "tests/test_chat_ui.py": {
-      "sha256": "5558b1a7020ad15550c21c415c208a7115bc07d7ecabdce8c24179c883934d71",
-      "bytes": 13673
+      "sha256": "f747a50ff1051c02b47f770b918fdfb394422c7c12735bb2ebd306b2eb4b0aa4",
+      "bytes": 14501
     },
     "tests/test_create_config_security.py": {
       "sha256": "43e3db5b19a0ad08dc75ff87bfb03762998fb7993334d3fa51ffc1ba804973eb",
@@ -492,8 +492,8 @@
       "bytes": 9211
     },
     "tests/test_vector_backend.py": {
-      "sha256": "a8a4b6d57ae6baa917678ea423a1cb2b75c0b71ef184afd743b9ae6e293695e7",
-      "bytes": 10625
+      "sha256": "6881e7c098809b36f7b80899a9dbc742bdcc6c461bf9b2f1d0f66c80f2393b35",
+      "bytes": 12143
     }
   }
 }

@@ -2,6 +2,7 @@
 
 from pathlib import Path
 from types import SimpleNamespace
+from unittest.mock import Mock
 import json
 
 import pytest
@@ -72,6 +73,26 @@ def app(monkeypatch):
     return result
 
 
+@pytest.fixture
+def line_chart(monkeypatch):
+    # Exercise real rendering without depending on Streamlit's protobuf element names.
+    chart = Mock(wraps=chat_app.st.line_chart)
+    monkeypatch.setattr(chat_app.st, "line_chart", chart)
+    return chart
+
+
+def assert_weight_timeline(line_chart):
+    line_chart.assert_called_once()
+    assert line_chart.call_args.kwargs == {"x": "date", "y": "value"}
+    frame, = line_chart.call_args.args
+    assert frame["date"].dt.strftime("%Y-%m-%d").tolist() == ["2025-01-02", "2025-01-03"]
+    assert frame["value"].tolist() == [70, 71]
+    assert frame["series"].tolist() == ["weight", "weight"]
+    assert frame["unit"].tolist() == ["kg", "kg"]
+    assert frame.iloc[0]["source"] == "synthetic-note"
+    assert frame.iloc[0]["context"] == "Weight is 70 kg."
+
+
 def choose_and_ask(app):
     app.selectbox[0].select("synthetic-en").run()
     assert not app.chat_input[0].disabled
@@ -81,7 +102,7 @@ def choose_and_ask(app):
     assert not next(button for button in app.button if button.label == "Clear conversation").disabled
 
 
-def test_chat_ui_requires_patient_then_renders_answer_evidence_and_timeline(app):
+def test_chat_ui_requires_patient_then_renders_answer_evidence_and_timeline(app, line_chart):
     assert app.chat_input[0].disabled
     assert app.title[0].value == "OncoRAG Chat"
     choose_and_ask(app)
@@ -92,11 +113,11 @@ def test_chat_ui_requires_patient_then_renders_answer_evidence_and_timeline(app)
     assert len(app.dataframe) == 1
     assert app.dataframe[0].value.loc[0, "source"] == "synthetic-note"
     assert app.dataframe[0].value.loc[0, "context"] == "Weight is 70 kg."
-    assert len(app.get("arrow_vega_lite_chart")) == 1
+    assert_weight_timeline(line_chart)
     assert len(app.session_state["oncorag_chat_state"].session.history) == 2
 
 
-def test_model_abstention_keeps_source_backed_timeline_without_successful_narrative(app, monkeypatch):
+def test_model_abstention_keeps_source_backed_timeline_without_successful_narrative(app, monkeypatch, line_chart):
     original_ask = FakeChatSession.ask
     explanation = "The model did not produce a supported narrative answer."
 
@@ -114,7 +135,7 @@ def test_model_abstention_keeps_source_backed_timeline_without_successful_narrat
     assert any(item.value == explanation for item in app.warning)
     assert not any(item.value in {explanation, "Weight is 70 kg."} for item in app.markdown)
     assert not app.error
-    assert len(app.get("arrow_vega_lite_chart")) == 1
+    assert_weight_timeline(line_chart)
     assert len(app.dataframe) == 1
     row = app.dataframe[0].value.iloc[0]
     assert row["value"] == 70
