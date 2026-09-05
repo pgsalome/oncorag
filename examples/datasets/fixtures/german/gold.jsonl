@@ -1,0 +1,12 @@
+{"patient_id":"SYN-DEMO-001","feature":"diagnosis_date","value":"2020-03-01","evidence_note_ids":["SYN-DEMO-001-oncology"]}
+{"patient_id":"SYN-DEMO-001","feature":"age_at_diagnosis","value":52,"evidence_note_ids":["SYN-DEMO-001-oncology"]}
+{"patient_id":"SYN-DEMO-001","feature":"treatment_name","value":"temozolomide","evidence_note_ids":["SYN-DEMO-001-treatment"]}
+{"patient_id":"SYN-DEMO-001","feature":"latest_hemoglobin","value":11.2,"evidence_note_ids":["SYN-DEMO-001-laboratory"]}
+{"patient_id":"SYN-DEMO-002","feature":"diagnosis_date","value":"2021-05-10","evidence_note_ids":["SYN-DEMO-002-oncology"]}
+{"patient_id":"SYN-DEMO-002","feature":"age_at_diagnosis","value":67,"evidence_note_ids":["SYN-DEMO-002-oncology"]}
+{"patient_id":"SYN-DEMO-002","feature":"treatment_name","value":"bevacizumab","evidence_note_ids":["SYN-DEMO-002-treatment"]}
+{"patient_id":"SYN-DEMO-002","feature":"latest_hemoglobin","value":12.1,"evidence_note_ids":["SYN-DEMO-002-laboratory"]}
+{"patient_id":"SYN-DEMO-003","feature":"diagnosis_date","value":"2022-01-08","evidence_note_ids":["SYN-DEMO-003-oncology"]}
+{"patient_id":"SYN-DEMO-003","feature":"age_at_diagnosis","value":44,"evidence_note_ids":["SYN-DEMO-003-oncology"]}
+{"patient_id":"SYN-DEMO-003","feature":"treatment_name","value":"radiotherapy","evidence_note_ids":["SYN-DEMO-003-treatment"]}
+{"patient_id":"SYN-DEMO-003","feature":"latest_hemoglobin","value":13.5,"evidence_note_ids":["SYN-DEMO-003-laboratory"]}

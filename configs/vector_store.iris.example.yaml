@@ -1,0 +1,14 @@
+vector_store:
+  backend: iris
+  collection_namespace: example_cohort
+  iris:
+    host: 127.0.0.1
+    port: 1972
+    namespace: USER
+    username: null  # Read from IRIS_USERNAME when omitted.
+    password_env: IRIS_PASSWORD
+    table: SQLUser.OncoRAGVectors
+    vector_dimension: 768
+    timeout_seconds: 30
+    ssl_configuration: null
+    initialize_schema: true

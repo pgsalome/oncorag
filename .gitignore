@@ -1,0 +1,61 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Build artifacts
+*.egg-info/
+build/
+dist/
+
+# Large data files
+scispacy_model_comparison.json
+oncoraggraph/oncoraggraph/test.py
+oncoraggraph/old_config_scripts/
+oncoraggraph/chroma_db_cache/
+oncoraggraph/graph_cache/
+oncoraggraph/feature_derivations.py
+oncoraggraph/landmarks.py
+oncoraggraph/landmarks_config.yaml
+oncoraggraph/.env
+data/
+
+# Prompt caches (all variants)
+oncoraggraph/prompt_cache*/
+oncoraggraph/prompt_cache_old/
+
+# Config directories (keep main, ignore variants)
+oncoraggraph/config/feature_configs_*/
+oncoraggraph/config/feature_configs_refined/
+
+# Logs
+*.log
+oncoraggraph/logs/
+
+# Data files
+*.csv
+
+# Documentation (markdown files)
+*.md
+
+# OS files
+.DS_Store
+Thumbs.db
+.env
+
+# Portable public examples; never expose arbitrary clinical CSV/markdown files.
+!README.md
+!examples/datasets/README.md
+!examples/datasets/**/registry.csv
+!docs/*.md
+outputs/
+generated/
+public_release/
+.pytest_cache/

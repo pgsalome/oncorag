@@ -1,0 +1,3 @@
+Synthetic clinical report
+
+Initial diagnosis: astrocytoma. Diagnosis date: 2022-01-08. Age at diagnosis: 44 years. Hemoglobin: 14.8 g/dL. Treatment has not started.

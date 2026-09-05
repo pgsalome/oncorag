@@ -1,0 +1,24 @@
+llm_backend: ollama_local
+config_llm_backend: ollama_local
+dataset_profile: default
+vector_store:
+  backend: chroma
+  collection_namespace: default
+llm_configs:
+  ollama_local:
+    backend: ollama_local
+    model_name: phi3:mini
+    requires_phi_removal: false
+    base_url: http://127.0.0.1:11434
+    temperature: 0
+    timeout: 180
+    num_ctx: 4096
+runtime_defaults:
+  huggingface_local_files_only: false
+  rerank_candidates: 256
+  rerank_cpu_candidates: 128
+  reranker_secondary_enabled: false
+  reranker_batch_size: 32
+logging:
+  level: INFO
+  log_llm_requests: false

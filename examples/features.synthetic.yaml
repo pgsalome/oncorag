@@ -1,0 +1,25 @@
+features:
+  - name: diagnosis_date
+    display_name: Initial diagnosis date
+    type: date
+    synonyms: [diagnosis date, Diagnosedatum, Erstdiagnose]
+    description: Date of the initial diagnosis stated in the oncology report, in YYYY-MM-DD format.
+  - name: age_at_diagnosis
+    display_name: Age at initial diagnosis
+    type: integer
+    synonyms: [age, Alter, years, Jahre]
+    expected_range: [0, 120]
+    description: Patient age in whole years at initial diagnosis.
+  - name: treatment_name
+    display_name: Documented cancer-directed treatment
+    type: categorical
+    synonyms: [treatment, Behandlung, Strahlentherapie]
+    expected_range: [temozolomide, bevacizumab, radiotherapy]
+    description: The cancer-directed treatment that actually started. Normalize German treatment names to these English labels.
+  - name: latest_hemoglobin
+    display_name: Latest documented hemoglobin
+    type: numeric
+    synonyms: [hemoglobin, Haemoglobin, Hämoglobin]
+    expected_range: [0, 30]
+    unit: g/dL
+    description: The hemoglobin value in g/dL from the most recent dated report. German decimal commas denote decimal fractions.

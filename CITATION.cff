@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the OncoRAG paper when using this software."
+type: software
+title: OncoRAG
+authors:
+  - family-names: Salome
+    given-names: Patrick
+repository-code: "https://github.com/pgsalome/oncorag"
+identifiers:
+  - type: doi
+    value: "10.1038/s41746-026-03170-8"

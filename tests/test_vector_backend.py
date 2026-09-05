@@ -1,0 +1,227 @@
+import importlib
+import json
+from unittest.mock import Mock
+
+import networkx as nx
+import pytest
+from chromadb.api.types import EmbeddingFunction
+
+from oncoraggraph.vector_store.backend import get_vector_collection, index_graph_nodes
+from oncoraggraph.vector_store.config import load_vector_store_config, validate_vector_store_config
+
+
+class ToyEmbedding(EmbeddingFunction):
+    def __init__(self):
+        pass
+
+    def __call__(self, input):
+        return [[0.0, 1.0, 0.0] if "fatigue" in text else [1.0, 0.0, 0.0] for text in input]
+
+    @staticmethod
+    def name():
+        return "oncorag_test_embedding"
+
+    def get_config(self):
+        return {}
+
+    @staticmethod
+    def build_from_config(config):
+        return ToyEmbedding()
+
+
+@pytest.fixture
+def graph():
+    graph = nx.Graph()
+    graph.add_node("SYN-001", label="Patient")
+    graph.add_node("report", label="Note")
+    graph.add_node("nausea", label="Condition", original_text="nausea", is_negated=True)
+    graph.add_node("fatigue", label="Condition", original_text="fatigue", cluster_size=2)
+    graph.add_node("drug", label="Treatment")
+    return graph
+
+
+def test_config_loading_precedence_and_relative_cache_path(tmp_path, monkeypatch):
+    env_config = tmp_path / "env.json"
+    env_config.write_text(json.dumps({"backend": "iris"}))
+    chosen_config = tmp_path / "chosen.yaml"
+    chosen_config.write_text("vector_store:\n  backend: iris\n  chroma:\n    path: cache\n")
+    monkeypatch.setenv("ONCORAGGRAPH_VECTOR_STORE_CONFIG", str(env_config))
+    monkeypatch.setenv("ONCORAGGRAPH_VECTOR_BACKEND", "iris")
+    settings = load_vector_store_config(chosen_config, backend="chroma")
+    assert settings["backend"] == "chroma"
+    assert settings["chroma"]["path"] == str(tmp_path / "cache")
+    assert load_vector_store_config()["backend"] == "iris"
+
+
+@pytest.mark.parametrize("settings", [
+    {"backend": "unsupported"}, {"collection_namespace": ""}, {"iris": []},
+    {"chroma": {"path": ""}}, {"backend": "iris", "iris": {"password": "do-not-store"}},
+    {"backend": "iris", "iris": {"table": "SQLUser.Bad; DROP TABLE Other"}},
+])
+def test_bad_backend_settings_fail_before_database_access(settings):
+    with pytest.raises(ValueError):
+        validate_vector_store_config(settings)
+
+
+def test_explicit_config_without_vector_settings_is_rejected(tmp_path):
+    path = tmp_path / "missing.json"
+    path.write_text('{"retrieval": {"top_k": 5}}')
+    with pytest.raises(ValueError, match="vector_store"):
+        load_vector_store_config(path)
+
+
+def test_chroma_factory_isolates_exact_patient_ids_and_cohorts(monkeypatch):
+    chroma_module = importlib.import_module("oncoraggraph.chroma.chroma_index")
+    factory = Mock()
+    monkeypatch.setattr(chroma_module, "get_chroma_collection", factory)
+    for patient_id, namespace in [("patient-1", "en"), ("patient_1", "en"), ("patient-1", "de")]:
+        get_vector_collection(patient_id, {"backend": "chroma", "collection_namespace": namespace})
+    names = [call.kwargs["collection_name"] for call in factory.call_args_list]
+    assert len(set(names)) == 3
+    get_vector_collection("patient-1", {"backend": "chroma", "collection_namespace": "en"})
+    assert factory.call_args.kwargs["collection_name"] == names[0]
+
+
+def test_iris_factory_passes_shared_embedding_and_config(monkeypatch):
+    iris_module = importlib.import_module("oncoraggraph.vector_store.iris")
+    models = importlib.import_module("oncoraggraph.models.model_init")
+    factory = Mock()
+    embedding = ToyEmbedding()
+    monkeypatch.setattr(iris_module, "IRISCollection", factory)
+    monkeypatch.setattr(models, "get_chroma_embedding_function", lambda: embedding)
+    result = get_vector_collection("SYN-001", {
+        "backend": "iris", "collection_namespace": "mixed", "iris": {"vector_dimension": 3},
+    })
+    assert result is factory.return_value
+    assert factory.call_args.args[0] == "SYN-001"
+    assert factory.call_args.args[1]["vector_dimension"] == 3
+    assert factory.call_args.args[2] is embedding
+    assert factory.call_args.kwargs["collection_namespace"] == "mixed"
+
+
+def test_graph_payload_is_identical_for_both_backends(graph):
+    filters = {"required": ["Condition", "Treatment"], "exclude": ["Treatment"]}
+    chroma, iris = Mock(), Mock()
+    iris.backend = "iris"
+    chroma.get.return_value = {"ids": ["obsolete"]}
+    index_graph_nodes(graph, chroma, filters, replace=True)
+    index_graph_nodes(graph, iris, filters, replace=True)
+    assert chroma.add.call_args.kwargs == iris.replace.call_args.kwargs
+    assert chroma.add.call_args.kwargs["ids"] == ["nausea", "fatigue"]
+    assert chroma.add.call_args.kwargs["metadatas"][0]["is_negated"] is True
+    chroma.delete.assert_called_once_with(ids=["obsolete"])
+    iris.add.assert_not_called()
+
+
+def test_empty_rebuild_removes_stale_index_for_both_backends():
+    chroma, iris = Mock(), Mock()
+    iris.backend = "iris"
+    chroma.get.return_value = {"ids": ["obsolete"]}
+    index_graph_nodes(nx.Graph(), chroma, replace=True)
+    index_graph_nodes(nx.Graph(), iris, replace=True)
+    chroma.delete.assert_called_once_with(ids=["obsolete"])
+    chroma.add.assert_not_called()
+    iris.replace.assert_called_once_with(ids=[], documents=[], metadatas=[])
+
+
+def test_real_chroma_indexes_queries_and_rebuilds_in_isolation(tmp_path, monkeypatch, graph):
+    chroma_module = importlib.import_module("oncoraggraph.chroma.chroma_index")
+    monkeypatch.setattr(chroma_module, "get_chroma_embedding_function", ToyEmbedding)
+    config = {"backend": "chroma", "chroma": {"path": str(tmp_path / "chroma")}}
+    collection = get_vector_collection("SYN-001", config)
+    index_graph_nodes(graph, collection, {"required": ["Condition"]})
+    result = collection.query(query_texts=["fatigue"], n_results=2)
+    assert result["ids"][0] == ["fatigue", "nausea"]
+    assert result["distances"][0] == pytest.approx([0.0, 1.0])
+    reopened = get_vector_collection("SYN-001", config)
+    assert reopened.query(query_texts=["fatigue"], n_results=1)["ids"][0] == ["fatigue"]
+    assert get_vector_collection("SYN-002", config).count() == 0
+    graph.remove_node("nausea")
+    index_graph_nodes(graph, collection, {"required": ["Condition"]}, replace=True)
+    assert collection.get(include=[])["ids"] == ["fatigue"]
+
+
+def test_chroma_dimension_recovery_uses_same_configured_database(tmp_path, monkeypatch, graph):
+    chroma_module = importlib.import_module("oncoraggraph.chroma.chroma_index")
+    monkeypatch.setattr(chroma_module, "get_chroma_embedding_function", ToyEmbedding)
+    config = {"backend": "chroma", "chroma": {"path": str(tmp_path / "custom_chroma")}}
+    collection = get_vector_collection("SYN-001", config)
+    index_graph_nodes(graph, collection)
+    other = get_vector_collection("SYN-002", config)
+    index_graph_nodes(graph, other)
+
+    class TwoDimensionalEmbedding(ToyEmbedding):
+        def __call__(self, input):
+            return [[1.0, 0.0] for text in input]
+
+    monkeypatch.setattr(chroma_module, "get_chroma_embedding_function", TwoDimensionalEmbedding)
+    collection = get_vector_collection("SYN-001", config)
+    rebuilt = index_graph_nodes(graph, collection, replace=True)
+    assert rebuilt.count() == 3
+    assert rebuilt.query(query_texts=["nausea"], n_results=1)["distances"][0] == pytest.approx([0.0])
+    assert other.count() == 3
+
+
+def test_extraction_cli_forwards_iris_settings(tmp_path, monkeypatch):
+    main = importlib.import_module("oncoraggraph.main")
+    config_path = tmp_path / "vector.json"
+    config_path.write_text(json.dumps({"vector_store": {"backend": "iris", "collection_namespace": "mixed"}}))
+    runner = Mock(return_value={"value": "Missing"})
+    monkeypatch.delenv("ONCORAGGRAPH_VECTOR_BACKEND", raising=False)
+    monkeypatch.setattr(main, "run_feature_extraction", runner)
+    monkeypatch.setattr("sys.argv", [
+        "oncoraggraph", "notes/SYN-001", "nausea", "--vector-store-config", str(config_path),
+        "--cache-dir", str(tmp_path / "prompts"),
+    ])
+    assert main.main() == {"value": "Missing"}
+    assert runner.call_args.kwargs["vector_store_config"]["backend"] == "iris"
+    assert runner.call_args.kwargs["vector_store_config"]["collection_namespace"] == "mixed"
+    assert runner.call_args.kwargs["prompt_cache_dir"] == str(tmp_path / "prompts")
+
+
+def test_batch_cli_propagates_backend_to_extraction_subprocess(tmp_path, monkeypatch):
+    from types import SimpleNamespace
+    import pandas as pd
+
+    batch = importlib.import_module("oncoraggraph.batch_processor")
+    patient = tmp_path / "notes" / "SYN001"
+    patient.mkdir(parents=True)
+    features = tmp_path / "features"
+    features.mkdir()
+    (features / "nausea.json").write_text("{}")
+    vector_config = tmp_path / "vectors.json"
+    vector_config.write_text('{"backend": "chroma"}')
+    subprocess_run = Mock(return_value=SimpleNamespace(
+        returncode=0, stderr="", stdout='FINAL EXTRACTED RESULT\n{"value":"Missing","confidence":"Low"}\n',
+    ))
+    monkeypatch.setenv("ONCORAGGRAPH_VECTOR_STORE_CONFIG", "")
+    monkeypatch.setenv("ONCORAGGRAPH_VECTOR_BACKEND", "")
+    monkeypatch.setattr(batch, "GLOBAL_CONFIG", {})
+    monkeypatch.setattr(batch, "load_patient_frame", lambda path: pd.DataFrame({"MRN": ["SYN001"]}))
+    monkeypatch.setattr(batch, "set_start_method", Mock())
+    monkeypatch.setattr("subprocess.run", subprocess_run)
+    monkeypatch.setattr("sys.argv", [
+        "batch_processor", "--features-dir", str(features), "--csv", str(tmp_path / "patients.csv"),
+        "--base-path", str(tmp_path / "notes"), "--output", str(tmp_path / "results.json"),
+        "--prompt-cache-dir", str(tmp_path / "prompts"), "--force-rebuild", "--workers", "1",
+        "--vector-store-config", str(vector_config), "--vector-backend", "iris",
+    ])
+    batch.main()
+    subprocess_run.assert_called_once()
+    call = subprocess_run.call_args
+    assert call.kwargs["env"]["ONCORAGGRAPH_VECTOR_BACKEND"] == "iris"
+    assert call.kwargs["env"]["ONCORAGGRAPH_VECTOR_STORE_CONFIG"] == str(vector_config.resolve())
+    assert "--cache-dir" in call.args[0]
+
+
+def test_pipeline_config_validates_vector_backend():
+    from pathlib import Path
+    from oncoraggraph.config.pipeline_config import load_pipeline_config, validate_pipeline_config
+
+    path = Path(__file__).resolve().parents[1] / "configs" / "oncorag_full_pipeline.example.json"
+    config = load_pipeline_config(path)
+    config["vector_store"]["backend"] = "iris"
+    validate_pipeline_config(config)
+    config["vector_store"]["iris"]["port"] = True
+    with pytest.raises(ValueError, match="port"):
+        validate_pipeline_config(config)

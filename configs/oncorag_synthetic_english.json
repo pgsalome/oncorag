@@ -1,0 +1,100 @@
+{
+  "cohort": {
+    "name": "synthetic_english",
+    "language": "en"
+  },
+  "inputs": {
+    "registry_path": "../examples/datasets/fixtures/english/registry.csv"
+  },
+  "features": {
+    "specifications": "../examples/features.synthetic.yaml",
+    "generated_config_dir": "../generated/english",
+    "generate_if_missing": true,
+    "language": "english",
+    "configuration_mode": "manual"
+  },
+  "runtime": {
+    "local_processing_only": true,
+    "random_seed": 2025,
+    "workers": 1,
+    "ollama": {
+      "host": "http://127.0.0.1:11434",
+      "model": "phi3:mini",
+      "temperature": 0,
+      "num_ctx": 4096,
+      "max_tokens": 1024,
+      "timeout_seconds": 180
+    }
+  },
+  "graph": {
+    "model_configs": [
+      {
+        "name": "en_ner_bc5cdr_md",
+        "entity_types": []
+      }
+    ],
+    "include_report_sentences": true
+  },
+  "vector_store": {
+    "backend": "chroma",
+    "collection_namespace": "synthetic_english"
+  },
+  "retrieval": {
+    "top_k": 5,
+    "candidate_entity_limit": 30,
+    "graph_depth": 2,
+    "weights": {
+      "semantic_weight": 1,
+      "lexical_weight": 0.25,
+      "name_weight": 0.3,
+      "graph_weight": 0.3,
+      "boost_alpha": 0.4,
+      "penalty_beta": 0.4
+    },
+    "graph_diffusion": {
+      "enabled": true,
+      "similarity_threshold": 0.55,
+      "max_neighbors": 12,
+      "iterations": 2,
+      "residual_alpha": 0.6
+    }
+  },
+  "evaluation": {
+    "gold_path": "../examples/datasets/fixtures/english/gold.jsonl",
+    "bootstrap": {
+      "resamples": 1000,
+      "confidence_level": 0.95
+    },
+    "top_k_ablation": {
+      "values": [
+        3,
+        5,
+        10
+      ]
+    },
+    "retrieval_weight_sensitivity": {
+      "relative_perturbations": [
+        0.5,
+        1.5
+      ],
+      "one_at_a_time": true
+    },
+    "model_comparison": {
+      "models": [
+        "phi3:mini",
+        "phi3:medium"
+      ],
+      "context_windows": [
+        4096,
+        131072
+      ]
+    }
+  },
+  "outputs": {
+    "root": "../outputs/synthetic_english",
+    "graph_cache_dir": "graphs",
+    "chroma_cache_dir": "chroma",
+    "prompt_cache_dir": "prompt_cache",
+    "results_file": "structured_features.json"
+  }
+}

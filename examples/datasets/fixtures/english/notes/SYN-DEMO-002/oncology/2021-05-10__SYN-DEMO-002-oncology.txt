@@ -1,0 +1,3 @@
+Synthetic clinical report
+
+Initial diagnosis: recurrent glioblastoma. Diagnosis date: 2021-05-10. Age at diagnosis: 67 years. Hemoglobin: 10.3 g/dL. Treatment has not started.

@@ -1,0 +1,10 @@
+patient_id,note_id,report_type,date,language,path
+SYN-DEMO-001,SYN-DEMO-001-oncology,oncology,2020-03-01,en,notes/SYN-DEMO-001/oncology/2020-03-01__SYN-DEMO-001-oncology.txt
+SYN-DEMO-001,SYN-DEMO-001-treatment,treatment,2020-03-15,en,notes/SYN-DEMO-001/treatment/2020-03-15__SYN-DEMO-001-treatment.txt
+SYN-DEMO-001,SYN-DEMO-001-laboratory,laboratory,2020-04-01,en,notes/SYN-DEMO-001/laboratory/2020-04-01__SYN-DEMO-001-laboratory.txt
+SYN-DEMO-002,SYN-DEMO-002-oncology,oncology,2021-05-10,en,notes/SYN-DEMO-002/oncology/2021-05-10__SYN-DEMO-002-oncology.txt
+SYN-DEMO-002,SYN-DEMO-002-treatment,treatment,2021-05-24,en,notes/SYN-DEMO-002/treatment/2021-05-24__SYN-DEMO-002-treatment.txt
+SYN-DEMO-002,SYN-DEMO-002-laboratory,laboratory,2021-06-03,en,notes/SYN-DEMO-002/laboratory/2021-06-03__SYN-DEMO-002-laboratory.txt
+SYN-DEMO-003,SYN-DEMO-003-oncology,oncology,2022-01-08,en,notes/SYN-DEMO-003/oncology/2022-01-08__SYN-DEMO-003-oncology.txt
+SYN-DEMO-003,SYN-DEMO-003-treatment,treatment,2022-01-22,en,notes/SYN-DEMO-003/treatment/2022-01-22__SYN-DEMO-003-treatment.txt
+SYN-DEMO-003,SYN-DEMO-003-laboratory,laboratory,2022-02-07,en,notes/SYN-DEMO-003/laboratory/2022-02-07__SYN-DEMO-003-laboratory.txt
