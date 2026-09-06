@@ -5,7 +5,7 @@
   "publication_status": "Review code/data licensing and provenance before publication",
   "screening_scope": "Explicit file allowlist, SHA-256-pinned reviewed assets, local import closure, credential/home-path markers, selected private metadata keys",
   "file_count": 6004,
-  "payload_bytes": 12623087,
+  "payload_bytes": 12617755,
   "files": {
     ".github/workflows/tests.yml": {
       "sha256": "db783105f153a96876f34f81e751a2ee3e45e5b01765a75f6c67418e1ee0e256",
@@ -24,8 +24,8 @@
       "bytes": 4456
     },
     "README.md": {
-      "sha256": "12e9b12af79c0b1a0264722c07f93a5846f83b962a6c7121530feff31c1b5f51",
-      "bytes": 10159
+      "sha256": "eea23532240ca587409f095bc83d9a8423313fc6c15c6c2039c104e842f7416a",
+      "bytes": 10010
     },
     "configs/oncorag-d.json": {
       "sha256": "58c8d1a951977495a3356f435c771e67d3daee130a8ff93d344eb879be7aecc6",
@@ -60,12 +60,12 @@
       "bytes": 364
     },
     "examples/datasets/PROVENANCE.md": {
-      "sha256": "b93d91d9c0c8f9e644f5ca274d224c944a4ae7a49369529b926bbae695566003",
-      "bytes": 6878
+      "sha256": "c56125c1de54f4ebfdff9a2dc1eb8e6fbb6a23352c47d950d16dbf2639f48dec",
+      "bytes": 5082
     },
     "examples/datasets/README.md": {
-      "sha256": "a88e2ed540aaebe1f9a45b707a4d07ab12325734a816a088b96a4d510e6fb9aa",
-      "bytes": 6851
+      "sha256": "9c30711b14a1e332f58da70c45b32127815072fb3cbecc3027f1e8eaa83ae810",
+      "bytes": 3464
     },
     "examples/datasets/demo/english/gold.jsonl": {
       "sha256": "9a6a1a3ad219ff39e3650c1f69b42954ce6d08d809334fff76a597efac616887",

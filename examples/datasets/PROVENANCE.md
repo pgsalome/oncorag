@@ -1,96 +1,72 @@
-# Synthetic Cohort Provenance Review
+# Synthetic Cohort Provenance
 
 Review ID: `oncorag-cohort-provenance-v1`, 2026-09-05.
 
-This is a technical source, payload and reproducibility review. It is not legal
-certification, a guarantee against every possible identifier, or clinical
-validation. The release retains reviewed synthetic note bodies with explicit
-synthetic notices, projects label fields and excludes original clinical inputs,
-source-style identifiers and private provenance payloads.
+This technical review covers source lineage, released files and reproducibility.
+The public notes carry synthetic notices. Clinical inputs, source-style patient
+identifiers and private provenance metadata are excluded.
 
 ## oncorag-e (English)
 
-The `hybrid_synthea_ctcae_phase2` source contains 489 synthetic patients, 2,930
-notes and 5,761 annotated events. The hybrid builder copies all 2,930 upstream
-CTCAE-generated note bodies byte-for-byte and adds Synthea encounter/demographic
-metadata. That additional metadata is not included in the public projection.
+Source: `hybrid_synthea_ctcae_phase2`, with 489 patients, 2,930 notes and 5,761
+annotated events. Its builder copies CTCAE-generated note bodies byte-for-byte
+and adds Synthea encounter and demographic metadata. The public export omits
+that metadata and source-style identifiers carried by the original labels.
 
-The upstream configuration contains style information mined from clinical notes.
-Every original label carries a source-style patient identifier; these fields must
-not be distributed. The current renderer's text-producing path uses template
-surface forms and authored narrative rules, not the mined section-rendering
-functions. Mined auxiliary phrase choices affect random-number consumption but
-their strings are not interpolated into the note bodies.
+The upstream configuration includes style information mined from clinical notes.
+The current renderer uses authored templates and narrative rules. Mined phrase
+choices affect its random sequence without inserting those phrases into notes.
+Saved metadata records Ollama as disabled.
 
-Targeted checks found no known source-style identifiers in any of the 2,930 notes.
-None of 49 source-matching phrases of four or more words, absent from the authored
-generator/surface literals, occurred in the notes. Saved metadata has Ollama
-disabled. The separate source-snippet generator is not the generator identified
-by this cohort's metadata. Its raw outputs are not part of this release.
-
-An exact historical full-generation replay was not performed: the current
-generator contains later changes. Phrase checks are targeted, not exhaustive
-proof of historical authorship. Fixed payload fingerprints prevent a different
-source revision from silently inheriting this review.
+Targeted checks found no known source-style identifiers or matches to 49 selected
+source phrases in the 2,930 notes. An exact historical replay was not performed
+because the generator has since changed. Code inspection and limited string
+checks leave broader provenance and privacy questions open.
 
 ## oncorag-d (German)
 
-The `ricci_rhgg_termgrade_longitudinal` source contains 489 synthetic patients,
-2,930 notes and 5,987 annotated events. All 5,865 original artifacts, including
-notes, labels and summary files, were reproduced byte-for-byte from the standalone
-standard-library generator, seed 42 and its recorded scalar settings. The replay
-read no clinical files and invoked neither a model nor Synthea.
+Source: `ricci_rhgg_termgrade_longitudinal`, with 489 patients, 2,930 notes and
+5,987 annotated events. All 5,865 source files were reproduced byte-for-byte
+using the standalone standard-library generator, seed 42 and recorded settings.
+The replay used fixed templates, with no clinical files, model calls or Synthea.
 
-The code samples patient histories and events from fixed templates. All 489
-patient histories are consistent across their notes. Preparation documentation
-acknowledges clinical-cohort schema inspiration; this is not a claim of documented
-clean-room authorship. The generator has no usable source-control history. A
-limited comparison of 120 long template literals against the referenced schema
-CSV found no complete normalized literal matches.
+Preparation documentation cites clinical-cohort schema inspiration. The
+generator lacks usable source-control history; template authorship remains
+unverified. A comparison of 120 long template literals with the referenced schema
+CSV found no complete normalized matches.
 
-The public derivative removes the hardcoded hospital heading and adds a clear
-synthetic notice. It excludes duplicated note text, local paths and
-history/provenance objects from the raw labels and summaries.
+The public export removes the hospital heading, adds a synthetic notice, and
+excludes duplicated note text, local paths and private history/provenance objects.
 
 ## Known Annotation Limits
 
-- Events are template-assigned, not clinician-adjudicated gold. Term/grade
-  compatibility and clinical realism have not been independently certified.
-- In the German source, 1,498 of 5,987 events have supplementary label evidence
-  that the renderer omitted from the note. Main event spans are present. The
-  public projection omits all upstream evidence snippets rather than presenting
-  these absent spans as retrievable evidence.
-- Events are sampled across encounters without a complete clinical trajectory
-  model. German pre-treatment notes can print planned future therapy dates in
-  their full history. Do not equate every mentioned date with a completed event.
-- Full-cohort labels are note-level events, not typed gold answers for the demo
-  feature lists. No patient-level answers are inferred from hidden source metadata.
-- Shared templates and synthetic patient splits do not measure real-world clinical
-  generalization. The English and German cohorts are not paired translations.
+- Event terms and grades are template-assigned and lack clinician adjudication.
+  Term/grade compatibility and clinical realism need independent assessment.
+- In German, 1,498 events have supplementary evidence absent from the note.
+  Main event spans are present. The public labels omit all source evidence snippets.
+- Events are sampled without a complete clinical trajectory model. German
+  pre-treatment notes may include future therapy dates; a mentioned date can
+  describe a plan.
+- Full-cohort labels describe note-level events. Patient-level reference answers
+  are available only for the small example cohorts.
+- Templates are shared across patient splits, limiting generalization estimates.
+  English and German contain different generated populations.
 
-## Reproducibility And Release Controls
+## Reviewed Files
 
-The public cohorts are named `oncorag-e` and `oncorag-d`. Patient and report
-identifiers were renamed consistently in paths, registries, labels, split keys
-and embedded report identifiers. Clinical content, dates, event labels and split
-membership are preserved. Original generator names identify the reviewed source
-lineage.
-
-The reviewed-input fingerprints cover only projected notes, relative registries,
-allowlisted labels and patient splits. Private source identifiers and raw metadata
-are not hashed into these public fingerprints.
+Public cohort, patient and report identifiers were renamed consistently across
+files and metadata. Clinical content, dates, labels and split membership were
+preserved. The input hashes below cover projected notes, relative registries,
+selected label fields and splits, excluding private source identifiers and metadata.
 
 | Projected input | SHA-256 |
 | --- | --- |
 | English | `be2737652e94d01e37f6d0d4c318cb35900216fe3579b5674faedc5d1c7e044a` |
 | German | `def4936409b0b7aaf74c4046b920797f915a22f67350d149f22c12ab2b2106da` |
 
-`scripts/prepare_reviewed_cohorts.py` requires these exact inputs before adding
-notices and applying public cohort identifiers.
-`scripts/prepare_public_release.py --include-datasets` then checks pinned output
-manifests and every payload file, rejecting changes, missing files or extra files.
-Each dataset manifest records the review scope and text transformations.
-Neither command commits, pushes, or changes repository visibility.
+`scripts/prepare_reviewed_cohorts.py` requires these input hashes.
+`scripts/prepare_public_release.py --include-datasets` checks output manifests
+and every file hash. Dataset manifests record transformations and review scope.
 
 Reviewed source-code SHA-256 identifiers:
 
@@ -98,24 +74,22 @@ Reviewed source-code SHA-256 identifiers:
 - Current CTCAE note generator: `7c5e4cb8962b946762843981f93d9146dfef4a41a00cf9f68f0e22f45a92cb8d`.
 - Standalone German generator: `d21a0d5dba063b94e2be2e22a0641b0d5d5c9fd030c1e557f8415fb8f0faceaf`.
 
-## Attribution And Rights Scope
+## Attribution And Rights
 
-The repository's requested license applies to the OncoRAG-authored synthetic-note
-derivatives and release metadata. This technical review does not establish
-ownership of every historical template or replace institutional review where
-required. No original clinical records or restricted clinical source datasets are
-granted redistribution rights here.
+The [repository license](../../LICENSE) covers OncoRAG-authored synthetic-note
+derivatives and release metadata. Historical template ownership and any required
+institutional approvals need separate review. Rights to original clinical records
+and restricted source datasets remain with their respective owners.
 
-The English generation chain used [Synthea](https://github.com/synthetichealth/synthea),
-whose software uses the [Apache License 2.0](https://github.com/synthetichealth/synthea/blob/master/LICENSE).
-This does not make the separately rendered note templates Synthea note exports or
-automatically assign them Synthea's license.
+The English generator used [Synthea](https://github.com/synthetichealth/synthea)
+for metadata. Synthea's [Apache License 2.0](https://github.com/synthetichealth/synthea/blob/master/LICENSE)
+applies to its software; separately authored note templates have their own rights.
 
 Event labels reference the National Cancer Institute's
 [CTCAE resources](https://dctd.cancer.gov/research/ctep-trials/for-sites/adverse-events).
 [CTCAE v6.0](https://dctd.cancer.gov/research/ctep-trials/for-sites/adverse-events/ctcae-v6.pdf)
-incorporates MedDRA terminology. No complete terminology tables, instruments or
-clinical source templates are bundled. NCI's
+incorporates MedDRA terminology. Complete terminology tables, instruments and
+clinical source templates are excluded. NCI's
 [reuse policy](https://www.cancer.gov/policies/copyright-reuse) distinguishes its own
-material from separately protected third-party content. The repository's license
-does not purport to override those rights.
+material from separately protected third-party content. Those rights apply
+separately from the repository license.
