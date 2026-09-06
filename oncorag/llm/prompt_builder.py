@@ -18,12 +18,12 @@ except ImportError:  # pragma: no cover - optional dependency
     torch = None
 
 
-GRAPH_RERANKER_ENABLED = os.getenv("ONCORAGGRAPH_ENABLE_GRAPH_RERANKER", "false").lower() in {
+GRAPH_RERANKER_ENABLED = os.getenv("ONCORAG_ENABLE_GRAPH_RERANKER", "false").lower() in {
     "1",
     "true",
     "yes",
 }
-GRAPH_RERANK_WEIGHT = float(os.getenv("ONCORAGGRAPH_GRAPH_RERANK_WEIGHT", "0.3") or 0.3)
+GRAPH_RERANK_WEIGHT = float(os.getenv("ONCORAG_GRAPH_RERANK_WEIGHT", "0.3") or 0.3)
 
 
 def _runtime_defaults() -> Dict:
@@ -216,7 +216,7 @@ def build_prompt(config: Dict, context: str) -> str:
         options = (config.get("output_format") or {}).get("options")
         if options:
             opts_lines = []
-            lang = os.getenv("ONCORAGGRAPH_LANGUAGE", "").lower()
+            lang = os.getenv("ONCORAG_LANGUAGE", "").lower()
             for k, v in options.items():
                 label = v
                 if lang.startswith("ger"):
@@ -353,7 +353,7 @@ def rerank_context(
 
     # Further split very long sentences at natural clause boundaries so key phrases
     # (e.g., semicolon-separated demographic facts) stay visible to the reranker.
-    max_clause_len = int(os.getenv("ONCORAGGRAPH_RERANK_CLAUSE_MAX_LEN", "160") or 160)
+    max_clause_len = int(os.getenv("ONCORAG_RERANK_CLAUSE_MAX_LEN", "160") or 160)
     refined_sentences: List[str] = []
     refined_meta: List[Dict[str, Any]] = []
     for sentence, meta in zip(sentences, aligned_meta):
@@ -733,7 +733,7 @@ def rerank_context(
         if graph_scores is not None and len(graph_scores) != len(sentences):
             graph_scores = None
 
-    max_candidates = _runtime_int("rerank_candidates", "ONCORAGGRAPH_RERANK_CANDIDATES", 512)
+    max_candidates = _runtime_int("rerank_candidates", "ONCORAG_RERANK_CANDIDATES", 512)
     if len(sentences) > max_candidates:
         priority_indices = []
         fallback_indices = []
@@ -776,7 +776,7 @@ def rerank_context(
             except Exception:
                 pass
 
-        fallback_limit = _runtime_int("rerank_cpu_candidates", "ONCORAGGRAPH_RERANK_CPU_CANDIDATES", 256)
+        fallback_limit = _runtime_int("rerank_cpu_candidates", "ONCORAG_RERANK_CPU_CANDIDATES", 256)
         if len(sentences) > fallback_limit:
             log(
                 f"Reducing rerank candidates to {fallback_limit} for CPU fallback",
@@ -869,13 +869,13 @@ def rerank_context(
         lexical_scores = [0.0] * len(sentences)
 
     max_lexical = max(lexical_scores) if lexical_scores else 0.0
-    lexical_weight = weights.get("lexical_weight", float(os.getenv("ONCORAGGRAPH_LEXICAL_WEIGHT", "0.25") or 0.25))
+    lexical_weight = weights.get("lexical_weight", float(os.getenv("ONCORAG_LEXICAL_WEIGHT", "0.25") or 0.25))
     lexical_components = [
         lexical_weight * (lex / max_lexical) if max_lexical > 0 else 0.0
         for lex in lexical_scores
     ]
 
-    name_weight = weights.get("name_weight", float(os.getenv("ONCORAGGRAPH_NAME_WEIGHT", "0.3") or 0.3))
+    name_weight = weights.get("name_weight", float(os.getenv("ONCORAG_NAME_WEIGHT", "0.3") or 0.3))
     semantic_weight = weights.get("semantic_weight", 1.0)
     combined_scores = [
         semantic_weight * semantic_scores[i] + lexical_components[i] + name_weight * name_scores_norm[i]
@@ -963,7 +963,7 @@ def rerank_context(
         range(len(sentences)), key=lambda i: boosted_scores[i], reverse=True
     )
 
-    max_final_sentences = int(os.getenv("ONCORAGGRAPH_RERANK_TOP_FINAL", "20") or 20)
+    max_final_sentences = int(os.getenv("ONCORAG_RERANK_TOP_FINAL", "20") or 20)
     target_top_k = max(1, top_k if runtime_options else min(top_k, max_final_sentences))
 
     min_keyword = min(5, target_top_k) if boost_terms else 0
@@ -989,7 +989,7 @@ def rerank_context(
                 if sval and sval not in values:
                     values.append(sval)
         return values
-    keyword_fallback_limit = 0 if runtime_options else int(os.getenv("ONCORAGGRAPH_KEYWORD_FALLBACK", "5") or 5)
+    keyword_fallback_limit = 0 if runtime_options else int(os.getenv("ONCORAG_KEYWORD_FALLBACK", "5") or 5)
     if boost_terms and keyword_fallback_limit > 0:
         keyword_candidates = [
             i for i in ranked_idx if i not in top_idx and has_keyword[i]

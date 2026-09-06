@@ -9,7 +9,7 @@ import uuid
 
 import pytest
 
-from oncoraggraph.vector_store.iris import IRISCollection, validate_iris_config
+from oncorag.vector_store.iris import IRISCollection, validate_iris_config
 
 
 class MemoryDatabase:
@@ -226,7 +226,7 @@ def test_optional_driver_is_loaded_only_when_needed(monkeypatch):
     def missing_driver(name):
         raise ImportError("not installed")
 
-    monkeypatch.setattr("oncoraggraph.vector_store.iris.importlib.import_module", missing_driver)
+    monkeypatch.setattr("oncorag.vector_store.iris.importlib.import_module", missing_driver)
     store = IRISCollection("p", {"initialize_schema": False}, lambda texts: [])
     with pytest.raises(ImportError, match="intersystems-irispython"):
         store.count()
@@ -279,8 +279,8 @@ def test_query_limit_validated_without_connecting(database, limit):
 def test_graph_index_and_retrieval_return_original_graph_ids(database):
     import networkx as nx
 
-    from oncoraggraph.chroma.chroma_index import find_start_nodes
-    from oncoraggraph.vector_store.backend import index_graph_nodes
+    from oncorag.chroma.chroma_index import find_start_nodes
+    from oncorag.vector_store.backend import index_graph_nodes
 
     graph = nx.Graph()
     graph.add_node("entity:nausea", label="Condition", original_text="\u00dcbelkeit", is_negated=False)
@@ -300,8 +300,8 @@ def test_graph_index_and_retrieval_return_original_graph_ids(database):
 
 
 @pytest.mark.skipif(
-    os.getenv("ONCORAGGRAPH_TEST_IRIS") != "1",
-    reason="Set ONCORAGGRAPH_TEST_IRIS=1 and explicit IRIS credentials to test a real server",
+    os.getenv("ONCORAG_TEST_IRIS") != "1",
+    reason="Set ONCORAG_TEST_IRIS=1 and explicit IRIS credentials to test a real server",
 )
 def test_live_iris_collection_round_trip():
     assert os.getenv("IRIS_USERNAME") and os.getenv("IRIS_PASSWORD"), "Set IRIS_USERNAME and IRIS_PASSWORD explicitly"
@@ -309,7 +309,7 @@ def test_live_iris_collection_round_trip():
         "host": os.getenv("IRIS_HOST", "127.0.0.1"),
         "port": int(os.getenv("IRIS_PORT", "1972")),
         "namespace": os.getenv("IRIS_NAMESPACE", "USER"),
-        "table": os.getenv("ONCORAGGRAPH_TEST_IRIS_TABLE", "SQLUser.OncoRAGTestVectors"),
+        "table": os.getenv("ONCORAG_TEST_IRIS_TABLE", "SQLUser.OncoRAGTestVectors"),
         "vector_dimension": 3,
         "ssl_configuration": os.getenv("IRIS_SSL_CONFIGURATION"),
     }

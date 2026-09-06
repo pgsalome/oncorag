@@ -18,10 +18,10 @@ def source(tmp_path, monkeypatch):
     files = {
         "README.md": "Public source snapshot\n",
         "pyproject.toml": '[project]\nname = "test-release"\nversion = "0.1"\n',
-        "oncoraggraph/__init__.py": "from .core import run\n",
-        "oncoraggraph/core.py": "def run():\n    return 1\n",
+        "oncorag/__init__.py": "from .core import run\n",
+        "oncorag/core.py": "def run():\n    return 1\n",
         "configs/system.public.yaml": "llm_backend: ollama_local\n",
-        "oncoraggraph/system_config.yaml": "private local deployment configuration\n",
+        "oncorag/system_config.yaml": "private local deployment configuration\n",
         "examples/features.synthetic.yaml": "features: []\n",
         "examples/datasets/demo/english/manifest.json": "{}\n",
         "examples/datasets/oncorag-e/manifest.json": '{"files": {}}\n',
@@ -36,10 +36,10 @@ def source(tmp_path, monkeypatch):
         ".env": "SECRET=never-copy\n",
         ".git/config": "private repository history\n",
         "analysis/patient_results.json": '{"patient_id": "private"}\n',
-        "oncoraggraph/prompt_cache/patient.json": '{"clinical_text": "never-copy"}\n',
-        "oncoraggraph/config/feature_configs_real/cohort.json": '{"private": true}\n',
-        "oncoraggraph/chat/private_prototype.py": "private prototype\n",
-        "oncoraggraph/old_config_scripts/create_config.py": "old script\n",
+        "oncorag/prompt_cache/patient.json": '{"clinical_text": "never-copy"}\n',
+        "oncorag/config/feature_configs_real/cohort.json": '{"private": true}\n',
+        "oncorag/chat/private_prototype.py": "private prototype\n",
+        "oncorag/old_config_scripts/create_config.py": "old script\n",
         "configs/oncorag_full_pipeline_tnbc.json": '{"private": true}\n',
         "scripts/unreviewed.py": "never-copy\n",
     }
@@ -58,14 +58,14 @@ def source(tmp_path, monkeypatch):
 def test_clean_export_excludes_clinical_artifacts_and_git_history(source, tmp_path):
     destination = tmp_path / "release"
     manifest = release.prepare_release(source, destination)
-    assert (destination / "oncoraggraph/system_config.yaml").read_text() == "llm_backend: ollama_local\n"
+    assert (destination / "oncorag/system_config.yaml").read_text() == "llm_backend: ollama_local\n"
     assert (destination / "configs/oncorag_synthetic_mixed.json").is_file()
     assert (destination / "tests/test_public.py").is_file()
     assert (destination / "scripts/run_oncorag.py").read_text() == "print('runner')\n"
     assert "scripts/run_oncorag.py" in manifest["files"]
     assert (destination / "examples/datasets/demo/english/manifest.json").is_file()
-    for excluded in (".env", ".git", "analysis", "oncoraggraph/prompt_cache", "oncoraggraph/config/feature_configs_real",
-                     "oncoraggraph/chat", "oncoraggraph/old_config_scripts", "configs/oncorag_full_pipeline_tnbc.json",
+    for excluded in (".env", ".git", "analysis", "oncorag/prompt_cache", "oncorag/config/feature_configs_real",
+                     "oncorag/chat", "oncorag/old_config_scripts", "configs/oncorag_full_pipeline_tnbc.json",
                      "scripts/unreviewed.py", "examples/datasets/oncorag-e", "examples/datasets/oncorag-d"):
         assert not (destination / excluded).exists()
     assert manifest["full_synthetic_datasets_included"] is False
@@ -132,7 +132,7 @@ def test_metadata_screening_stops_export_before_creating_destination(source, tmp
 
 
 def test_credentials_in_python_are_rejected(source, tmp_path):
-    (source / "oncoraggraph/core.py").write_text('api_key = "' + "sk-" + "a" * 30 + '"\n')
+    (source / "oncorag/core.py").write_text('api_key = "' + "sk-" + "a" * 30 + '"\n')
     with pytest.raises(ValueError, match="Credential marker"):
         release.prepare_release(source, tmp_path / "release")
 
@@ -157,7 +157,7 @@ def test_empty_destination_is_supported(source, tmp_path):
 def test_symlink_escape_is_rejected(source, tmp_path):
     outside = tmp_path / "outside.py"
     outside.write_text("private external file")
-    core = source / "oncoraggraph/core.py"
+    core = source / "oncorag/core.py"
     core.unlink()
     core.symlink_to(outside)
     with pytest.raises(ValueError, match="symlink escapes"):
@@ -165,25 +165,25 @@ def test_symlink_escape_is_rejected(source, tmp_path):
 
 
 def test_missing_runtime_dependency_is_rejected(source, tmp_path):
-    (source / "oncoraggraph/core.py").write_text("from .private_runtime import value\n")
-    (source / "oncoraggraph/private_runtime.py").write_text("value = 1\n")
+    (source / "oncorag/core.py").write_text("from .private_runtime import value\n")
+    (source / "oncorag/private_runtime.py").write_text("value = 1\n")
     with pytest.raises(ValueError, match="Runtime import missing"):
         release.prepare_release(source, tmp_path / "release")
 
 
 def test_public_snapshot_cannot_be_written_into_runtime_package(source):
     with pytest.raises(ValueError, match="public_release"):
-        release.prepare_release(source, source / "oncoraggraph/release")
+        release.prepare_release(source, source / "oncorag/release")
 
 
 def add_public_chat(source):
     files = {
-        "oncoraggraph/chat_runtime.py": "from .chat.service import answer\n",
-        "oncoraggraph/chat/service.py": "def answer():\n    return 'answer'\n",
-        "oncoraggraph/chat/__init__.py": "",
-        "oncoraggraph/chat_app.py": "from .chat_runtime import answer\n",
-        "run_chatbot.py": "from oncoraggraph.chat_runtime import main\n",
-        "streamlit_app.py": "from oncoraggraph.chat_app import main\n",
+        "oncorag/chat_runtime.py": "from .chat.service import answer\n",
+        "oncorag/chat/service.py": "def answer():\n    return 'answer'\n",
+        "oncorag/chat/__init__.py": "",
+        "oncorag/chat_app.py": "from .chat_runtime import answer\n",
+        "run_chatbot.py": "from oncorag.chat_runtime import main\n",
+        "streamlit_app.py": "from oncorag.chat_app import main\n",
         "scripts/run_chat_smoke.py": "print('smoke')\n",
     }
     for relative, text in files.items():
@@ -196,10 +196,10 @@ def test_public_chat_modules_and_entrypoints_are_included(source, tmp_path):
     add_public_chat(source)
     destination = tmp_path / "release"
     manifest = release.prepare_release(source, destination)
-    for relative in ("oncoraggraph/chat_runtime.py", "oncoraggraph/chat/service.py", "oncoraggraph/chat_app.py",
+    for relative in ("oncorag/chat_runtime.py", "oncorag/chat/service.py", "oncorag/chat_app.py",
                      "run_chatbot.py", "streamlit_app.py", "scripts/run_chat_smoke.py"):
         assert relative in manifest["files"]
-    assert not (destination / "oncoraggraph/chat/private_prototype.py").exists()
+    assert not (destination / "oncorag/chat/private_prototype.py").exists()
 
 
 def test_legacy_chat_entrypoint_is_rejected(source, tmp_path):
@@ -212,8 +212,8 @@ def test_legacy_chat_entrypoint_is_rejected(source, tmp_path):
 def test_refresh_updates_actual_files_and_preserves_dataset_opt_in(source, tmp_path):
     destination = tmp_path / "release"
     release.prepare_release(source, destination, include_datasets=True)
-    (destination / "oncoraggraph/core.py").write_text("def run():\n    return 2\n")
-    (destination / "oncoraggraph/system_config.yaml").write_text("llm_backend: portable_changed\n")
+    (destination / "oncorag/core.py").write_text("def run():\n    return 2\n")
+    (destination / "oncorag/system_config.yaml").write_text("llm_backend: portable_changed\n")
     (destination / "outputs").mkdir()
     (destination / "outputs/patient.json").write_text("{}\n")
     manifest = release.refresh_manifest(destination)

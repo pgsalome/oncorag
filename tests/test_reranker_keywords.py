@@ -2,7 +2,7 @@
 
 import pytest
 
-from oncoraggraph.llm import prompt_builder
+from oncorag.llm import prompt_builder
 
 
 @pytest.fixture(autouse=True)

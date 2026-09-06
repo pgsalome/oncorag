@@ -6,8 +6,8 @@ import networkx as nx
 import pytest
 from chromadb.api.types import EmbeddingFunction
 
-from oncoraggraph.vector_store.backend import get_vector_collection, index_graph_nodes
-from oncoraggraph.vector_store.config import load_vector_store_config, validate_vector_store_config
+from oncorag.vector_store.backend import get_vector_collection, index_graph_nodes
+from oncorag.vector_store.config import load_vector_store_config, validate_vector_store_config
 
 
 class ToyEmbedding(EmbeddingFunction):
@@ -45,8 +45,8 @@ def test_config_loading_precedence_and_relative_cache_path(tmp_path, monkeypatch
     env_config.write_text(json.dumps({"backend": "iris"}))
     chosen_config = tmp_path / "chosen.yaml"
     chosen_config.write_text("vector_store:\n  backend: iris\n  chroma:\n    path: cache\n")
-    monkeypatch.setenv("ONCORAGGRAPH_VECTOR_STORE_CONFIG", str(env_config))
-    monkeypatch.setenv("ONCORAGGRAPH_VECTOR_BACKEND", "iris")
+    monkeypatch.setenv("ONCORAG_VECTOR_STORE_CONFIG", str(env_config))
+    monkeypatch.setenv("ONCORAG_VECTOR_BACKEND", "iris")
     settings = load_vector_store_config(chosen_config, backend="chroma")
     assert settings["backend"] == "chroma"
     assert settings["chroma"]["path"] == str(tmp_path / "cache")
@@ -71,7 +71,7 @@ def test_explicit_config_without_vector_settings_is_rejected(tmp_path):
 
 
 def test_chroma_factory_isolates_exact_patient_ids_and_cohorts(monkeypatch):
-    chroma_module = importlib.import_module("oncoraggraph.chroma.chroma_index")
+    chroma_module = importlib.import_module("oncorag.chroma.chroma_index")
     factory = Mock()
     monkeypatch.setattr(chroma_module, "get_chroma_collection", factory)
     for patient_id, namespace in [("patient-1", "en"), ("patient_1", "en"), ("patient-1", "de")]:
@@ -83,8 +83,8 @@ def test_chroma_factory_isolates_exact_patient_ids_and_cohorts(monkeypatch):
 
 
 def test_iris_factory_passes_shared_embedding_and_config(monkeypatch):
-    iris_module = importlib.import_module("oncoraggraph.vector_store.iris")
-    models = importlib.import_module("oncoraggraph.models.model_init")
+    iris_module = importlib.import_module("oncorag.vector_store.iris")
+    models = importlib.import_module("oncorag.models.model_init")
     factory = Mock()
     embedding = ToyEmbedding()
     monkeypatch.setattr(iris_module, "IRISCollection", factory)
@@ -125,7 +125,7 @@ def test_empty_rebuild_removes_stale_index_for_both_backends():
 
 
 def test_real_chroma_indexes_queries_and_rebuilds_in_isolation(tmp_path, monkeypatch, graph):
-    chroma_module = importlib.import_module("oncoraggraph.chroma.chroma_index")
+    chroma_module = importlib.import_module("oncorag.chroma.chroma_index")
     monkeypatch.setattr(chroma_module, "get_chroma_embedding_function", ToyEmbedding)
     config = {"backend": "chroma", "chroma": {"path": str(tmp_path / "chroma")}}
     collection = get_vector_collection("SYN-001", config)
@@ -142,7 +142,7 @@ def test_real_chroma_indexes_queries_and_rebuilds_in_isolation(tmp_path, monkeyp
 
 
 def test_chroma_dimension_recovery_uses_same_configured_database(tmp_path, monkeypatch, graph):
-    chroma_module = importlib.import_module("oncoraggraph.chroma.chroma_index")
+    chroma_module = importlib.import_module("oncorag.chroma.chroma_index")
     monkeypatch.setattr(chroma_module, "get_chroma_embedding_function", ToyEmbedding)
     config = {"backend": "chroma", "chroma": {"path": str(tmp_path / "custom_chroma")}}
     collection = get_vector_collection("SYN-001", config)
@@ -163,14 +163,14 @@ def test_chroma_dimension_recovery_uses_same_configured_database(tmp_path, monke
 
 
 def test_extraction_cli_forwards_iris_settings(tmp_path, monkeypatch):
-    main = importlib.import_module("oncoraggraph.main")
+    main = importlib.import_module("oncorag.main")
     config_path = tmp_path / "vector.json"
     config_path.write_text(json.dumps({"vector_store": {"backend": "iris", "collection_namespace": "mixed"}}))
     runner = Mock(return_value={"value": "Missing"})
-    monkeypatch.delenv("ONCORAGGRAPH_VECTOR_BACKEND", raising=False)
+    monkeypatch.delenv("ONCORAG_VECTOR_BACKEND", raising=False)
     monkeypatch.setattr(main, "run_feature_extraction", runner)
     monkeypatch.setattr("sys.argv", [
-        "oncoraggraph", "notes/SYN-001", "nausea", "--vector-store-config", str(config_path),
+        "oncorag", "notes/SYN-001", "nausea", "--vector-store-config", str(config_path),
         "--cache-dir", str(tmp_path / "prompts"),
     ])
     assert main.main() == {"value": "Missing"}
@@ -186,10 +186,10 @@ def test_pipeline_cli_propagates_backend_to_patient_index_and_extraction(
     tmp_path, monkeypatch, configured_backend, cli_backend,
 ):
     from pathlib import Path
-    from oncoraggraph import pipeline
-    from oncoraggraph.config.pipeline_config import load_pipeline_config
-    from oncoraggraph.graph import graph_builder
-    from oncoraggraph.vector_store import backend
+    from oncorag import pipeline
+    from oncorag.config.pipeline_config import load_pipeline_config
+    from oncorag.graph import graph_builder
+    from oncorag.vector_store import backend
 
     root = Path(__file__).resolve().parents[1]
     config = load_pipeline_config(root / "configs" / "oncorag_synthetic_english.json")
@@ -244,7 +244,7 @@ def test_pipeline_cli_propagates_backend_to_patient_index_and_extraction(
 
 def test_pipeline_config_validates_vector_backend():
     from pathlib import Path
-    from oncoraggraph.config.pipeline_config import load_pipeline_config, validate_pipeline_config
+    from oncorag.config.pipeline_config import load_pipeline_config, validate_pipeline_config
 
     path = Path(__file__).resolve().parents[1] / "configs" / "oncorag_full_pipeline.example.json"
     config = load_pipeline_config(path)

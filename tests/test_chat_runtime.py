@@ -6,8 +6,8 @@ from pathlib import Path
 
 import pytest
 
-from oncoraggraph import chat_runtime, pipeline
-from oncoraggraph.config.pipeline_config import validate_pipeline_config
+from oncorag import chat_runtime, pipeline
+from oncorag.config.pipeline_config import validate_pipeline_config
 from test_pipeline import fixture_config, local_models
 
 
@@ -205,7 +205,7 @@ def test_json_cli_model_backend_override(tmp_path, monkeypatch, capsys):
 
 @pytest.mark.parametrize("verbose", [False, True])
 def test_json_cli_routes_loading_and_question_diagnostics_to_stderr(tmp_path, monkeypatch, capsys, verbose):
-    from oncoraggraph.utils.logging_utils import log
+    from oncorag.utils.logging_utils import log
 
     path = tmp_path / "params.json"
     path.write_text(json.dumps(fixture_config(tmp_path)))

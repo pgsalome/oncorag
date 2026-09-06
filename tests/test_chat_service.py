@@ -8,14 +8,14 @@ import numpy as np
 import pytest
 import spacy
 
-from oncoraggraph import pipeline
-from oncoraggraph.chat import ChatGraphService
-from oncoraggraph.chat import service as service_module
-from oncoraggraph.chat.medical_definitions import get_medical_definition
-from oncoraggraph.chat.temporal_extraction import _extract_measurement, extract_temporal_data
-from oncoraggraph.config.pipeline_config import load_pipeline_config
-from oncoraggraph.graph import graph_builder
-from oncoraggraph.models import model_init
+from oncorag import pipeline
+from oncorag.chat import ChatGraphService
+from oncorag.chat import service as service_module
+from oncorag.chat.medical_definitions import get_medical_definition
+from oncorag.chat.temporal_extraction import _extract_measurement, extract_temporal_data
+from oncorag.config.pipeline_config import load_pipeline_config
+from oncorag.graph import graph_builder
+from oncorag.models import model_init
 
 
 ROOT = Path(__file__).resolve().parents[1]

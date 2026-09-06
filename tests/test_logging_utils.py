@@ -7,7 +7,7 @@ import sys
 
 def test_logging_import_and_controls_work_without_loguru(monkeypatch, capsys):
     monkeypatch.setitem(sys.modules, "loguru", None)
-    path = Path(__file__).resolve().parents[1] / "oncoraggraph/utils/logging_utils.py"
+    path = Path(__file__).resolve().parents[1] / "oncorag/utils/logging_utils.py"
     spec = importlib.util.spec_from_file_location("isolated_logging_utils", path)
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)

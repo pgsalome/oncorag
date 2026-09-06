@@ -4,8 +4,8 @@ from types import SimpleNamespace
 
 import pytest
 
-from oncoraggraph.ingestion import NoteRecord, group_notes_by_patient, load_notes
-from oncoraggraph.graph import graph_builder
+from oncorag.ingestion import NoteRecord, group_notes_by_patient, load_notes
+from oncorag.graph import graph_builder
 
 
 def write_note(root, relative, text="Fatigue is documented."):

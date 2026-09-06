@@ -8,10 +8,10 @@ import re
 
 import pytest
 
-from oncoraggraph.config.feature_schema import load_feature_specs, validate_feature_specs
-from oncoraggraph.config.pipeline_config import load_pipeline_config
-from oncoraggraph.ingestion import load_notes
-from oncoraggraph.pipeline import run_pipeline
+from oncorag.config.feature_schema import load_feature_specs, validate_feature_specs
+from oncorag.config.pipeline_config import load_pipeline_config
+from oncorag.ingestion import load_notes
+from oncorag.pipeline import run_pipeline
 
 
 ROOT = Path(__file__).resolve().parents[1]

@@ -153,14 +153,14 @@ def select_files(source: Path, include_datasets: bool = False) -> dict[str, Path
     for name in REVIEWED_ASSETS:
         include(name)
     for name in RUNTIME_FILES:
-        include("oncoraggraph/" + name, required=True)
-    if (source / "oncoraggraph/chat_runtime.py").is_file():
+        include("oncorag/" + name, required=True)
+    if (source / "oncorag/chat_runtime.py").is_file():
         for name in CHAT_FILES:
-            include("oncoraggraph/" + name)
+            include("oncorag/" + name)
         wrapper = source / "run_chatbot.py"
         if wrapper.is_file():
             wrapper_tree = ast.parse(wrapper.read_text(encoding="utf-8"))
-            if not any(isinstance(node, ast.ImportFrom) and node.module == "oncoraggraph.chat_runtime"
+            if not any(isinstance(node, ast.ImportFrom) and node.module == "oncorag.chat_runtime"
                        for node in ast.walk(wrapper_tree)):
                 raise ValueError("Public run_chatbot.py must import the portable chat runtime")
             include("run_chatbot.py")
@@ -169,8 +169,8 @@ def select_files(source: Path, include_datasets: bool = False) -> dict[str, Path
     if (source / public_system).is_file():
         include(public_system)
     else:
-        public_system = "oncoraggraph/system_config.yaml"
-    include(public_system, target="oncoraggraph/system_config.yaml", required=True)
+        public_system = "oncorag/system_config.yaml"
+    include(public_system, target="oncorag/system_config.yaml", required=True)
     for name in SCRIPT_FILES:
         include("scripts/" + name)
     for path in sorted((source / "tests").glob("test_*.py")):
@@ -205,7 +205,7 @@ def select_files(source: Path, include_datasets: bool = False) -> dict[str, Path
 def validate_local_imports(source: Path, selected: dict[str, Path]) -> None:
     """Catch existing local Python modules missing from the explicit allowlist."""
     for relative, path in selected.items():
-        if not relative.startswith("oncoraggraph/") or path.suffix != ".py":
+        if not relative.startswith("oncorag/") or path.suffix != ".py":
             continue
         module = relative[:-3].replace("/", ".")
         package = module.rsplit(".", 1)[0]
@@ -222,7 +222,7 @@ def validate_local_imports(source: Path, selected: dict[str, Path]) -> None:
                     base = node.module or ""
                 candidates = [base] + [base + "." + alias.name for alias in node.names]
             for name in candidates:
-                if not name.startswith("oncoraggraph"):
+                if not name.startswith("oncorag"):
                     continue
                 for candidate in (name.replace(".", "/") + ".py", name.replace(".", "/") + "/__init__.py"):
                     if (source / candidate).is_file() and candidate not in selected:

@@ -177,7 +177,7 @@ class SystemConfig:
         backend_name = self.config.get("llm_backend", "ollama_local")
         llm_config_data = self.config["llm_configs"][backend_name]
         num_ctx = llm_config_data.get("num_ctx")
-        env_num_ctx = os.getenv("ONCORAGGRAPH_OLLAMA_NUM_CTX")
+        env_num_ctx = os.getenv("ONCORAG_OLLAMA_NUM_CTX")
         if env_num_ctx not in (None, ""):
             try:
                 num_ctx = int(env_num_ctx)

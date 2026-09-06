@@ -120,7 +120,7 @@ def find_start_nodes(
         level="STEP",
     )
 
-    limit = n_results or int(os.getenv("ONCORAGGRAPH_RETRIEVAL_RESULTS", "20") or 20)
+    limit = n_results or int(os.getenv("ONCORAG_RETRIEVAL_RESULTS", "20") or 20)
     retrieval_details: Dict = {
         "keywords_used": keywords,
         "n_results_requested": limit,

@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "oncoraggraph"
+name = "oncorag"
 version = "1.0.0"
 description = "A medical knowledge graph construction and retrieval system for oncology data"
 readme = "README.md"
@@ -75,9 +75,8 @@ docs = [
 ]
 
 [project.scripts]
-oncoraggraph = "oncoraggraph.pipeline:main"
-oncorag = "oncoraggraph.pipeline:main"
-oncorag-chat = "oncoraggraph.chat_runtime:main"
+oncorag = "oncorag.pipeline:main"
+oncorag-chat = "oncorag.chat_runtime:main"
 
 [project.urls]
 Homepage = "https://github.com/pgsalome/oncorag"
@@ -87,10 +86,10 @@ Documentation = "https://github.com/pgsalome/oncorag#readme"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["oncoraggraph*"]
+include = ["oncorag*"]
 
 [tool.setuptools.package-data]
-oncoraggraph = [
+oncorag = [
     "system_config.yaml",
 ]
 

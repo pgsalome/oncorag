@@ -21,7 +21,7 @@ from ..models.model_init import get_scispacy_model
 
 def _load_dataset_profile() -> str:
     """Fetch dataset profile from environment or system configuration."""
-    env_value = os.getenv("ONCORAGGRAPH_DATASET_PROFILE")
+    env_value = os.getenv("ONCORAG_DATASET_PROFILE")
     if env_value:
         return env_value.strip().lower()
 
@@ -47,7 +47,7 @@ KNOWN_DATASET_PROFILES = {"default", "mimic", "ricci", "custom"}
 
 
 def _load_report_end_pattern() -> Tuple[Optional[str], Optional[Pattern[str]]]:
-    raw_pattern = os.getenv("ONCORAGGRAPH_REPORT_END_PATTERN")
+    raw_pattern = os.getenv("ONCORAG_REPORT_END_PATTERN")
     if not raw_pattern:
         return None, None
     text = raw_pattern.strip()
@@ -58,7 +58,7 @@ def _load_report_end_pattern() -> Tuple[Optional[str], Optional[Pattern[str]]]:
         return text, compiled
     except re.error as exc:
         log(
-            f"Invalid ONCORAGGRAPH_REPORT_END_PATTERN regex '{raw_pattern}': {exc}",
+            f"Invalid ONCORAG_REPORT_END_PATTERN regex '{raw_pattern}': {exc}",
             level="WARNING",
             debug=True,
         )

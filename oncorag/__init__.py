@@ -1,4 +1,4 @@
-"""oncoraggraph package initialization."""
+"""oncorag package initialization."""
 
 def main():
     """Load the legacy CLI only when invoked, not during schema imports."""

@@ -5,7 +5,7 @@ from unittest.mock import Mock
 import pytest
 import requests
 
-from oncoraggraph import create_config
+from oncorag import create_config
 
 
 SECRET = "test-api-secret-that-must-not-be-logged"

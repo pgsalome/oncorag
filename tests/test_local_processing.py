@@ -6,8 +6,8 @@ from unittest.mock import Mock
 
 import pytest
 
-from oncoraggraph import chat_runtime, pipeline
-from oncoraggraph.config.pipeline_config import load_pipeline_config, validate_pipeline_config
+from oncorag import chat_runtime, pipeline
+from oncorag.config.pipeline_config import load_pipeline_config, validate_pipeline_config
 
 
 ROOT = Path(__file__).resolve().parents[1]

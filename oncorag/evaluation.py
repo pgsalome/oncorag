@@ -323,13 +323,13 @@ def write_experiment_configs(config_path: str | Path, directory: str | Path) -> 
         destination = directory / "configs" / f"{slug}.json"
         result_path = output / variant["outputs"].get("results_file", "structured_features.json")
         _write_json(destination, variant)
-        run_argv = [sys.executable, "-m", "oncoraggraph.pipeline", "--config", str(destination),
+        run_argv = [sys.executable, "-m", "oncorag.pipeline", "--config", str(destination),
                     "--ollama-model", variant["runtime"]["ollama"]["model"],
                     "--ollama-host", variant["runtime"]["ollama"]["host"]]
         entry = {"name": label, "config_path": str(destination), "output_root": str(output), "results_path": str(result_path), "run_argv": run_argv}
         gold_path = variant.get("evaluation", {}).get("gold_path")
         if gold_path:
-            entry["evaluate_argv"] = [sys.executable, "-m", "oncoraggraph.evaluation", "--config", str(destination), "--results", str(result_path), "--gold", gold_path, "--output", str(output / "evaluation.json")]
+            entry["evaluate_argv"] = [sys.executable, "-m", "oncorag.evaluation", "--config", str(destination), "--results", str(result_path), "--gold", gold_path, "--output", str(output / "evaluation.json")]
         experiments.append(entry)
     manifest = {"source_config": str(Path(config_path).resolve()), "feature_config_snapshot": str(frozen_features),
                 "feature_configs_fixed": True, "experiments": experiments, "executed": False}

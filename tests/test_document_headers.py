@@ -2,7 +2,7 @@
 
 import pytest
 
-from oncoraggraph.graph.graph_builder import _clean_ricci_document, _split_ricci_style_notes
+from oncorag.graph.graph_builder import _clean_ricci_document, _split_ricci_style_notes
 
 
 @pytest.mark.parametrize("heading", [

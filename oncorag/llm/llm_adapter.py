@@ -75,7 +75,7 @@ class OllamaAdapter(LLMAdapter):
     @staticmethod
     def _json_max_tries() -> int:
         """Max parse attempts per Ollama response cycle (including first attempt)."""
-        raw = os.getenv("ONCORAGGRAPH_LLM_JSON_MAX_TRIES", "6")
+        raw = os.getenv("ONCORAG_LLM_JSON_MAX_TRIES", "6")
         try:
             return max(1, int(raw))
         except (TypeError, ValueError):

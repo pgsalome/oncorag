@@ -46,11 +46,11 @@ _CONTEXT_RULES_ADDED = False
 _NEGATION_RULES_ADDED = False
 
 PRIMARY_RERANKER_NAME = os.getenv(
-    "ONCORAGGRAPH_RERANKER_PRIMARY_MODEL",
+    "ONCORAG_RERANKER_PRIMARY_MODEL",
     "pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb",
 )
 SECONDARY_RERANKER_NAME = os.getenv(
-    "ONCORAGGRAPH_RERANKER_SECONDARY_MODEL",
+    "ONCORAG_RERANKER_SECONDARY_MODEL",
     "cross-encoder/ms-marco-MiniLM-L-6-v2",
 )
 
@@ -277,7 +277,7 @@ _NEGATION_CONTEXT_RULES = [
 
 def _select_device(env_var: str, default_index: int) -> str:
     """Decide which device to target for a model."""
-    if os.getenv("ONCORAGGRAPH_FORCE_CPU"):
+    if os.getenv("ONCORAG_FORCE_CPU"):
         return "cpu"
     requested = os.getenv(env_var)
     if requested:
@@ -302,7 +302,7 @@ def _select_device(env_var: str, default_index: int) -> str:
 
 
 def _configure_torch_threads() -> None:
-    threads = os.getenv("ONCORAGGRAPH_CPU_THREADS")
+    threads = os.getenv("ONCORAG_CPU_THREADS")
     if threads:
         try:
             value = max(1, int(threads))
@@ -311,7 +311,7 @@ def _configure_torch_threads() -> None:
             os.environ["OMP_NUM_THREADS"] = str(value)
             log(f"CPU thread pool set to {value}", level="INFO", debug=True)
         except ValueError:
-            log(f"Ignoring invalid ONCORAGGRAPH_CPU_THREADS={threads}", level="WARNING")
+            log(f"Ignoring invalid ONCORAG_CPU_THREADS={threads}", level="WARNING")
 
 
 def _ensure_custom_context_rules(nlp) -> None:
@@ -364,7 +364,7 @@ class SentenceTransformerEmbeddingFunction(embedding_functions.EmbeddingFunction
     def __init__(self, model: SentenceTransformer):
         self.model = model
         self.batch_size = max(
-            8, int(os.getenv("ONCORAGGRAPH_ST_BATCH_SIZE", "32") or 32)
+            8, int(os.getenv("ONCORAG_ST_BATCH_SIZE", "32") or 32)
         )
 
     def __call__(self, texts: list[str]) -> list[list[float]]:
@@ -402,7 +402,7 @@ def initialize_reranker(
         RERANKER_PRIMARY = None
         RERANKER_SECONDARY = None
 
-    device = device_override or _select_device("ONCORAGGRAPH_RERANKER_DEVICE", 0)
+    device = device_override or _select_device("ONCORAG_RERANKER_DEVICE", 0)
 
     def _load_cross_encoder(model_name: str, target_device: str) -> CrossEncoder:
         local_only = _local_files_only(model_name)
@@ -574,7 +574,7 @@ def initialize_models() -> None:
         _ensure_custom_context_rules(NLP_MED)
 
     if CLINICAL_EMBEDDER is None:
-        clinical_device = _select_device("ONCORAGGRAPH_CLINICAL_EMBEDDER_DEVICE", 1)
+        clinical_device = _select_device("ONCORAG_CLINICAL_EMBEDDER_DEVICE", 1)
         log(f"Loading SapBERT clinical embedder on {clinical_device}...", level="STEP")
         # Always instantiate on CPU first to guarantee a usable copy if GPU placement fails.
         # Suppress sentence-transformers info messages about model creation
@@ -617,7 +617,7 @@ def initialize_models() -> None:
         )
 
     if CHROMA_EMBEDDER is None:
-        chroma_device = _select_device("ONCORAGGRAPH_CHROMA_EMBEDDER_DEVICE", 2)
+        chroma_device = _select_device("ONCORAG_CHROMA_EMBEDDER_DEVICE", 2)
         log(f"Loading SapBERT Chroma embedder on {chroma_device}...", level="STEP")
         # Suppress sentence-transformers info messages about model creation
         with warnings.catch_warnings():

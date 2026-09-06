@@ -102,7 +102,7 @@ python scripts/evaluate_synthetic.py \
 ```
 
 The extraction and chat smoke tests require Ollama. For the IRIS integration test,
-set `ONCORAGGRAPH_TEST_IRIS=1` and provide database credentials.
+set `ONCORAG_TEST_IRIS=1` and provide database credentials.
 
 ## Your Variables
 
@@ -145,7 +145,7 @@ oncorag --config configs/oncorag_synthetic_english.json --stage config
 To configure a variable file directly:
 
 ```bash
-python oncoraggraph/create_config.py --mode manual \
+python oncorag/create_config.py --mode manual \
   --features-file examples/features.synthetic.yaml \
   --output-dir generated/custom --language english
 ```

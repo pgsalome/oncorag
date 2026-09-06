@@ -43,7 +43,7 @@ def load_vector_store_config(
     Explicit arguments override environment selections, then system_config.yaml.
     Relative Chroma paths are resolved relative to the configuration file.
     """
-    selected_path = path or os.getenv("ONCORAGGRAPH_VECTOR_STORE_CONFIG")
+    selected_path = path or os.getenv("ONCORAG_VECTOR_STORE_CONFIG")
     config_path = (
         Path(selected_path).expanduser().resolve()
         if selected_path
@@ -67,7 +67,7 @@ def load_vector_store_config(
     if not isinstance(settings, Mapping):
         raise ValueError("vector_store must be an object")
     settings = dict(settings)
-    selected_backend = backend or os.getenv("ONCORAGGRAPH_VECTOR_BACKEND")
+    selected_backend = backend or os.getenv("ONCORAG_VECTOR_BACKEND")
     if selected_backend:
         settings["backend"] = selected_backend
     settings = validate_vector_store_config(settings)

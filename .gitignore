@@ -17,27 +17,27 @@ dist/
 
 # Large data files
 scispacy_model_comparison.json
-oncoraggraph/oncoraggraph/test.py
-oncoraggraph/old_config_scripts/
-oncoraggraph/chroma_db_cache/
-oncoraggraph/graph_cache/
-oncoraggraph/feature_derivations.py
-oncoraggraph/landmarks.py
-oncoraggraph/landmarks_config.yaml
-oncoraggraph/.env
+oncorag/oncorag/test.py
+oncorag/old_config_scripts/
+oncorag/chroma_db_cache/
+oncorag/graph_cache/
+oncorag/feature_derivations.py
+oncorag/landmarks.py
+oncorag/landmarks_config.yaml
+oncorag/.env
 data/
 
 # Prompt caches (all variants)
-oncoraggraph/prompt_cache*/
-oncoraggraph/prompt_cache_old/
+oncorag/prompt_cache*/
+oncorag/prompt_cache_old/
 
 # Config directories (keep main, ignore variants)
-oncoraggraph/config/feature_configs_*/
-oncoraggraph/config/feature_configs_refined/
+oncorag/config/feature_configs_*/
+oncorag/config/feature_configs_refined/
 
 # Logs
 *.log
-oncoraggraph/logs/
+oncorag/logs/
 
 # Data files
 *.csv

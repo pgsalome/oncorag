@@ -46,7 +46,7 @@ SYSTEM_CONFIG_PATH = PACKAGE_ROOT / "system_config.yaml"
 
 
 def _load_dataset_profile() -> str:
-    env_profile = os.getenv("ONCORAGGRAPH_DATASET_PROFILE")
+    env_profile = os.getenv("ONCORAG_DATASET_PROFILE")
     if env_profile:
         return env_profile.strip().lower()
     if SYSTEM_CONFIG_PATH.exists():
@@ -110,8 +110,8 @@ def _env_flag(name: str, default: bool = True) -> bool:
     return value not in {"0", "false", "off", "no"}
 
 
-USE_ENRICHMENT_TERMS = _env_flag("ONCORAGGRAPH_USE_ENRICHMENT_TERMS", True)
-EARLY_STOP_ON_VALUE = _env_flag("ONCORAGGRAPH_EARLY_STOP_ON_VALUE", False)
+USE_ENRICHMENT_TERMS = _env_flag("ONCORAG_USE_ENRICHMENT_TERMS", True)
+EARLY_STOP_ON_VALUE = _env_flag("ONCORAG_EARLY_STOP_ON_VALUE", False)
 
 
 def _graph_cache_key(patient_dir: Path) -> str:
@@ -467,7 +467,7 @@ def run_feature_extraction(
 
     # Load config
     log("LOADING CONFIGURATION", level="SUBHEADER")
-    features_env = os.getenv("ONCORAGGRAPH_FEATURES_DIR")
+    features_env = os.getenv("ONCORAG_FEATURES_DIR")
     if features_env:
         config_root = Path(features_env)
     else:
@@ -514,7 +514,7 @@ def run_feature_extraction(
     graph_cache_dir = package_root / "graph_cache"
     prompt_cache_selection: Optional[str | Path] = prompt_cache_dir
     if prompt_cache_selection is None:
-        prompt_cache_selection = os.getenv("ONCORAGGRAPH_PROMPT_CACHE_DIR")
+        prompt_cache_selection = os.getenv("ONCORAG_PROMPT_CACHE_DIR")
 
     if prompt_cache_selection is not None:
         resolved_prompt_cache_dir = Path(prompt_cache_selection)
@@ -1037,7 +1037,7 @@ def run_feature_extraction(
                     top_sentences = [reranked_context]
                 chunk_size = max(
                     1,
-                    int(os.getenv("ONCORAGGRAPH_SENTENCE_CHUNK_SIZE", "5") or 5),
+                    int(os.getenv("ONCORAG_SENTENCE_CHUNK_SIZE", "5") or 5),
                 )
                 sentences_used = 0
                 total_sentences = len(top_sentences)
@@ -1213,7 +1213,7 @@ def run_feature_extraction(
                             if evidence_text:
                                 entry_result["evidence"] = evidence_text
                     # German laterality mapping fallback
-                    if os.getenv("ONCORAGGRAPH_LANGUAGE", "").lower().startswith("ger") and isinstance(entry_result.get("value"), str):
+                    if os.getenv("ONCORAG_LANGUAGE", "").lower().startswith("ger") and isinstance(entry_result.get("value"), str):
                         mapped = map_german_laterality(entry_result.get("evidence", "") + " " + entry_result.get("reasoning", ""))
                         if mapped and mapped.lower() in (v.lower() for v in (options or {}).values()):
                             entry_result["value"] = mapped

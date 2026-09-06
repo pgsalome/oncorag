@@ -11,12 +11,12 @@ import numpy as np
 import pytest
 import spacy
 
-from oncoraggraph import pipeline
-from oncoraggraph.config.pipeline_config import load_pipeline_config
-from oncoraggraph.graph import graph_builder
-from oncoraggraph.llm import prompt_builder
-from oncoraggraph.models import model_init
-from oncoraggraph.vector_store.backend import get_vector_collection
+from oncorag import pipeline
+from oncorag.config.pipeline_config import load_pipeline_config
+from oncorag.graph import graph_builder
+from oncorag.llm import prompt_builder
+from oncorag.models import model_init
+from oncorag.vector_store.backend import get_vector_collection
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -62,7 +62,7 @@ def local_models(monkeypatch):
     monkeypatch.setattr(graph_builder, "get_scispacy_model", lambda name: nlp)
     monkeypatch.setattr(graph_builder, "extract_and_deduplicate_entities", lambda *args: [])
     monkeypatch.setattr(model_init, "get_chroma_embedding_function", lambda: embedding)
-    chroma_module = importlib.import_module("oncoraggraph.chroma.chroma_index")
+    chroma_module = importlib.import_module("oncorag.chroma.chroma_index")
     monkeypatch.setattr(chroma_module, "get_chroma_embedding_function", lambda: embedding)
     monkeypatch.setattr(model_init, "initialize_models", lambda: None)
     monkeypatch.setattr(model_init, "CLINICAL_EMBEDDER", embedding)
@@ -355,7 +355,7 @@ def test_invalid_stage_is_rejected_before_input_access_or_writes(tmp_path, monke
 def test_automatic_feature_generation_cache_changes_with_seed(tmp_path, monkeypatch):
     config, _ = tiny_config(tmp_path)
     config["features"]["configuration_mode"] = "automatic"
-    creator = importlib.import_module("oncoraggraph.create_config")
+    creator = importlib.import_module("oncorag.create_config")
 
     def generate(**kwargs):
         specs = pipeline.load_feature_specs(kwargs["features_file"])
@@ -596,8 +596,8 @@ def rerank_options(**weights):
 
 @pytest.mark.parametrize("top_k", [1, 3, 5, 10])
 def test_reranker_uses_exact_configured_top_k_despite_legacy_environment(monkeypatch, top_k):
-    monkeypatch.setenv("ONCORAGGRAPH_RERANK_TOP_FINAL", "2")
-    monkeypatch.setenv("ONCORAGGRAPH_KEYWORD_FALLBACK", "5")
+    monkeypatch.setenv("ONCORAG_RERANK_TOP_FINAL", "2")
+    monkeypatch.setenv("ONCORAG_KEYWORD_FALLBACK", "5")
     monkeypatch.setattr(model_init, "get_combined_reranker_scores", lambda pairs, **kwargs: [0.5] * len(pairs))
     sentences = [f"Measurement sample {index} is documented." for index in range(12)]
     _, _, details = prompt_builder.rerank_context(
@@ -634,7 +634,7 @@ def test_reranker_keeps_german_decimal_commas_as_part_of_values(monkeypatch):
 
 @pytest.mark.parametrize("cpu_fallback", [False, True])
 def test_graph_scores_remain_aligned_after_candidate_limits(monkeypatch, cpu_fallback):
-    from oncoraggraph.rerank.graphrag_reranker import GraphReranker
+    from oncorag.rerank.graphrag_reranker import GraphReranker
 
     sentences = ["Unrelated report.", "Measurement low report.", "Measurement high report.", "Another unrelated report."]
     monkeypatch.setattr(GraphReranker, "score", lambda self, question, texts: (

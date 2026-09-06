@@ -11,14 +11,14 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
-from oncoraggraph.config.pipeline_config import load_pipeline_config, validate_pipeline_config
+from oncorag.config.pipeline_config import load_pipeline_config, validate_pipeline_config
 
 
 DEFAULT_CONFIG_PATH = Path(__file__).resolve().parents[1] / "configs" / "oncorag_synthetic_mixed.json"
 
 
 def _create_session(config):
-    from oncoraggraph.chat_runtime import ChatSession
+    from oncorag.chat_runtime import ChatSession
 
     return ChatSession(config)
 

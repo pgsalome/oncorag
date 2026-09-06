@@ -14,8 +14,8 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from oncoraggraph.config.pipeline_config import load_pipeline_config, validate_pipeline_config
-from oncoraggraph.ingestion import load_notes
+from oncorag.config.pipeline_config import load_pipeline_config, validate_pipeline_config
+from oncorag.ingestion import load_notes
 
 
 VARIANTS = ("english", "german", "mixed")
@@ -92,7 +92,7 @@ def verify_response(response: Any, notes: list, patient_id: str, treatment: str,
 
 def run_variant(config: dict, *, session_factory=None) -> dict[str, Any]:
     if session_factory is None:
-        from oncoraggraph.chat_runtime import ChatSession
+        from oncorag.chat_runtime import ChatSession
         session_factory = ChatSession
     inputs = config["inputs"]
     notes = load_notes(notes_root=inputs.get("notes_root"), registry_path=inputs.get("registry_path"))

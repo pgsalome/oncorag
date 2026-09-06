@@ -10,7 +10,7 @@ import pytest
 pytest.importorskip("streamlit")
 from streamlit.testing.v1 import AppTest
 
-from oncoraggraph import chat_app
+from oncorag import chat_app
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -279,7 +279,7 @@ def test_ui_cli_overrides_reach_session_config(monkeypatch):
     monkeypatch.setenv("OLLAMA_MODEL", "environment-model")
     args = ["--config", str(ROOT / "configs/oncorag_synthetic_mixed.json"),
             "--ollama-host", "http://127.0.0.1:11435", "--ollama-model", "synthetic-model"]
-    app = AppTest.from_string(f"from oncoraggraph.chat_app import main\nmain({args!r})").run()
+    app = AppTest.from_string(f"from oncorag.chat_app import main\nmain({args!r})").run()
 
     assert not app.exception
     state = app.session_state["oncorag_chat_state"]
@@ -315,7 +315,7 @@ def test_invalid_and_error_responses_render_visible_failure_not_unvalidated_payl
     payload = {"status": status, "answer": "", "reasoning": reasoning,
                "citations": [{"quote": "Rejected quote must not be shown."}]}
     app = AppTest.from_string(
-        "from types import SimpleNamespace\nfrom oncoraggraph.chat_app import _render_response\n"
+        "from types import SimpleNamespace\nfrom oncorag.chat_app import _render_response\n"
         f"_render_response(SimpleNamespace(**{payload!r}))"
     ).run()
 

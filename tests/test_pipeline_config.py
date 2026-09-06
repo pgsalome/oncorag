@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pytest
 
-from oncoraggraph.config.pipeline_config import load_pipeline_config, validate_pipeline_config
+from oncorag.config.pipeline_config import load_pipeline_config, validate_pipeline_config
 
 
 CONFIG_PATH = Path(__file__).resolve().parents[1] / "configs" / "oncorag_full_pipeline.example.json"

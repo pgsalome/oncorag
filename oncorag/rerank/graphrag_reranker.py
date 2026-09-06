@@ -165,11 +165,11 @@ _GRAPH_RERANKER: Optional[GraphReranker] = None
 def get_graph_reranker() -> GraphReranker:
     global _GRAPH_RERANKER
     if _GRAPH_RERANKER is None:
-        max_sentences = int(os.getenv("ONCORAGGRAPH_GRAPH_RERANK_MAX_DOCS", "128") or 128)
-        similarity_threshold = float(os.getenv("ONCORAGGRAPH_GRAPH_RERANK_SIM_THRESHOLD", "0.55") or 0.55)
-        neighbors = int(os.getenv("ONCORAGGRAPH_GRAPH_RERANK_MAX_NEIGHBORS", "12") or 12)
-        layers = int(os.getenv("ONCORAGGRAPH_GRAPH_RERANK_LAYERS", "2") or 2)
-        alpha = float(os.getenv("ONCORAGGRAPH_GRAPH_RERANK_ALPHA", "0.6") or 0.6)
+        max_sentences = int(os.getenv("ONCORAG_GRAPH_RERANK_MAX_DOCS", "128") or 128)
+        similarity_threshold = float(os.getenv("ONCORAG_GRAPH_RERANK_SIM_THRESHOLD", "0.55") or 0.55)
+        neighbors = int(os.getenv("ONCORAG_GRAPH_RERANK_MAX_NEIGHBORS", "12") or 12)
+        layers = int(os.getenv("ONCORAG_GRAPH_RERANK_LAYERS", "2") or 2)
+        alpha = float(os.getenv("ONCORAG_GRAPH_RERANK_ALPHA", "0.6") or 0.6)
         _GRAPH_RERANKER = GraphReranker(
             max_sentences=max_sentences,
             similarity_threshold=similarity_threshold,

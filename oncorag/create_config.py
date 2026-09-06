@@ -17,7 +17,7 @@ from urllib.parse import quote
 
 if __package__ in {None, ""}:
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from oncoraggraph.config.feature_schema import load_feature_specs, generate_feature_configs
+from oncorag.config.feature_schema import load_feature_specs, generate_feature_configs
 
 wn = None
 
@@ -1116,7 +1116,7 @@ def enrich_derived(feature_name: str, feature_type: str, expected_range: str) ->
 # =========================================================
 def process_features_with_ontology_mapping(
     features_file: str = str(Path(__file__).resolve().parent / "config" / "feature_specs_ricci.yaml"),
-    output_dir: str = "oncoraggraph/config",
+    output_dir: str = "oncorag/config",
     output_file: str = "feature_ontology_mappings.json",
     context: str = "Oncology clinical research dataset",
     language: str = "english",

@@ -7,9 +7,9 @@ from pathlib import Path
 import numpy as np
 import pytest
 
-from oncoraggraph.config.feature_schema import load_feature_specs
-from oncoraggraph.config.pipeline_config import load_pipeline_config
-from oncoraggraph.evaluation import evaluate_results, load_records, main, write_experiment_configs
+from oncorag.config.feature_schema import load_feature_specs
+from oncorag.config.pipeline_config import load_pipeline_config
+from oncorag.evaluation import evaluate_results, load_records, main, write_experiment_configs
 
 
 ROOT = Path(__file__).resolve().parents[1]

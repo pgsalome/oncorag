@@ -245,7 +245,7 @@ def validate_extraction(response, spec, context):
 def runtime_provenance():
     """Identify the shared graph runtime without storing local deployment settings."""
     packages = {}
-    for package in ("oncoraggraph", "networkx", "chromadb", "spacy", "scispacy", "sentence-transformers", "torch", "ollama"):
+    for package in ("oncorag", "networkx", "chromadb", "spacy", "scispacy", "sentence-transformers", "torch", "ollama"):
         try:
             packages[package] = version(package)
         except PackageNotFoundError:

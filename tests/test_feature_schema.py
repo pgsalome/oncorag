@@ -6,7 +6,7 @@ import json
 
 import pytest
 
-from oncoraggraph.config.feature_schema import (
+from oncorag.config.feature_schema import (
     generate_feature_configs,
     load_feature_specs,
     validate_feature_specs,
@@ -117,7 +117,7 @@ def test_create_config_import_and_manual_cli_never_download(tmp_path, monkeypatc
 
     monkeypatch.setattr("requests.get", no_network)
     monkeypatch.setattr("requests.post", no_network)
-    generator = importlib.import_module("oncoraggraph.create_config")
+    generator = importlib.import_module("oncorag.create_config")
     monkeypatch.setattr(generator, "_load_wordnet", no_network)
     monkeypatch.delenv("UMLS_API_KEY", raising=False)
     source = tmp_path / "features.json"
@@ -130,7 +130,7 @@ def test_create_config_import_and_manual_cli_never_download(tmp_path, monkeypatc
 
 
 def test_ollama_runtime_parameters_reach_request(monkeypatch):
-    generator = importlib.import_module("oncoraggraph.create_config")
+    generator = importlib.import_module("oncorag.create_config")
     monkeypatch.setattr(generator, "OLLAMA_SETTINGS", {"temperature": 0, "num_ctx": 4096, "seed": 7, "timeout_seconds": 19})
     monkeypatch.setenv("OLLAMA_HOST", "http://127.0.0.1:11435")
     monkeypatch.setenv("OLLAMA_MODEL", "phi3:mini")
