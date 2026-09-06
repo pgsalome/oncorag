@@ -4,19 +4,11 @@
 [![License](https://img.shields.io/badge/use-noncommercial_only-4B5563)](LICENSE)
 [![Python](https://img.shields.io/badge/python-%3E%3D3.10-blue.svg)](pyproject.toml)
 
-Clinical phenotyping through structured feature extraction from oncology notes.
+OncoRAG extracts structured clinical features from oncology notes using local
+language models and patient-specific knowledge graphs.
 
-Define your clinical variables, build a knowledge graph for each patient, and
-extract structured features with source evidence. OncoRAG combines ontology
-enrichment, graph-diffusion reranking and structured prompting with local language
-models.
-
-With the supplied local configurations, notes stay local.
-
-An optional patient chatbot uses the same graphs and retrieval configuration.
-
-Paper: [OncoRAG in npj Digital Medicine](https://www.nature.com/articles/s41746-026-03170-8),
-DOI `10.1038/s41746-026-03170-8`.
+Choose your variables, provide dated notes, and run the pipeline. With the supplied
+local settings, notes stay local.
 
 [![OncoRAG study workflow: clinical notes, configuration, extraction, retrieval, generation, and downstream prediction](graphicalabstract.png)](graphicalabstract.png)
 
@@ -31,15 +23,12 @@ DOI `10.1038/s41746-026-03170-8`.
 5. [Parameters And Outputs](#parameters-and-outputs)
 6. [ChromaDB Or InterSystems IRIS](#chromadb-or-intersystems-iris)
 7. [Patient Chat](#patient-chat)
-8. [Public Release](#public-release)
-9. [Citation](#citation)
-10. [License](#license)
-11. [Clinical Use](#clinical-use)
+8. [Citation](#citation)
+9. [License](#license)
 
 ## Quick Start
 
-Requirements: Python 3.10 or newer, a local Ollama server, and a spaCy biomedical
-model.
+Requirements: Python 3.10 or newer and a running local Ollama server.
 
 Install OncoRAG and download the required models:
 
@@ -56,9 +45,8 @@ oncorag --config configs/oncorag_synthetic_english.json --stage validate
 oncorag --config configs/oncorag_synthetic_english.json
 ```
 
-Check spaCy model compatibility with `python -m spacy validate`. The default
-biomedical and embedding models are English-oriented; assess performance on your
-target language and cohort.
+Check spaCy model compatibility with `python -m spacy validate`. The default NER
+and embedding models are English-oriented.
 
 To run a small example cohort with Python:
 
@@ -75,65 +63,52 @@ python scripts/run_oncorag.py --config configs/oncorag_synthetic_mixed.json
 
 ## Synthetic Data And Evaluation
 
-The repository includes two full synthetic cohorts and three small example cohorts.
+Two full synthetic cohorts are included:
 
 | Dataset | Patients | Notes |
 | --- | ---: | ---: |
 | [oncorag-e (English)](examples/datasets/oncorag-e/registry.csv) | 489 | 2,930 |
 | [oncorag-d (German)](examples/datasets/oncorag-d/registry.csv) | 489 | 2,930 |
 
-The oncorag-e and oncorag-d cohorts contain different generated patients. In the
-small mixed cohort, each patient has both English and German notes.
-
-These datasets support software testing and experimentation. The paper reports
-results on separate clinical cohorts. Annotation quality and language coverage are
-described in the [dataset documentation](examples/datasets/README.md) and
-[provenance report](examples/datasets/PROVENANCE.md).
-
-After [Quick Start](#quick-start), run either full cohort with its own feature list:
+To run a full cohort:
 
 ```bash
 python scripts/run_oncorag.py --config configs/oncorag-e.json
 python scripts/run_oncorag.py --config configs/oncorag-d.json
 ```
 
-Add `--stage validate` to check the input files and feature definitions. Each
-configuration includes a feature list matched to its cohort. Full-cohort labels
-describe note-level events; the small cohorts provide patient-level reference
-answers for four variables.
+Each cohort has its own feature list. The small datasets in
+`examples/datasets/demo` are used for Quick Start and testing. In the mixed version,
+each patient has both English and German notes.
 
-The following evaluation commands use the small synthetic example cohorts:
+The paper evaluates separate clinical cohorts. See the
+[dataset documentation](examples/datasets/README.md) and
+[provenance report](examples/datasets/PROVENANCE.md) for generation and annotation details.
+
+To run the tests:
 
 ```bash
 pip install -e '.[dev,chat]'
 python -m pytest tests -q
 python scripts/run_synthetic_smoke.py --ollama-host http://127.0.0.1:11434
 python scripts/run_chat_smoke.py --ollama-host http://127.0.0.1:11434
+```
+
+To evaluate the mixed-language test results:
+
+```bash
 python scripts/evaluate_synthetic.py \
   --config configs/oncorag_synthetic_mixed.json \
   --results outputs/synthetic_smoke/mixed/structured_features.json \
   --output outputs/synthetic_smoke/mixed/evaluation.json
-python scripts/evaluate_synthetic.py \
-  --config configs/oncorag_synthetic_mixed.json \
-  --write-experiments outputs/experiments
 ```
 
-Evaluation covers every expected patient-feature pair, including missing and failed
-predictions. It reports typed exact match, categorical macro-F1, patient-bootstrap
-confidence intervals and results by confidence group and configured stratum.
-
-`--write-experiments` creates configurations for top-k, retrieval weights, models
-and context windows. Run the generated configurations separately. Reproducing the
-paper's clinical comparisons requires the corresponding study data.
-
-The test suite uses simulated model responses and temporary ChromaDB databases.
-Set `ONCORAGGRAPH_TEST_IRIS=1` and supply credentials to include a live IRIS test.
-The chat test script runs nine local-model turns covering both languages,
-follow-up dates, patient switching and source quotations.
+The smoke tests use a local language model. To include the live IRIS integration
+test, set `ONCORAGGRAPH_TEST_IRIS=1` and provide database credentials.
 
 ## Your Variables
 
-Start with `examples/features.synthetic.yaml`:
+Define variables in YAML or JSON. For example:
 
 ```yaml
 features:
@@ -148,26 +123,22 @@ features:
     description: Cancer treatment documented as started.
 ```
 
-Types: `integer`, `numeric`, `boolean`, `date`, `categorical`, `ordinal`, `string`.
-Numeric bounds are inclusive. Categorical outputs must match an allowed label.
-Use ISO `YYYY-MM-DD` dates and JSON `null` for missing values. Invalid outputs and
-service errors have separate statuses. Include units, temporal selection and
-source preferences in the description. An optional `synonyms` list accepts extra
-terms in any language.
+Supported types: `integer`, `numeric`, `boolean`, `date`, `categorical`, `ordinal`
+and `string`. Numeric bounds are inclusive; categorical values must match an
+allowed label. Dates use `YYYY-MM-DD`, and missing values use JSON `null`.
+Include units and temporal selection in the description.
 
-Set `features.configuration_mode` to choose how feature configurations are built:
+Set `features.specifications` to your variable file and choose
+`features.configuration_mode`:
 
-- `automatic`: `create_config.py` generates synonyms and enriches definitions
-  through a language model and ontology lookup.
-- `manual`: builds configurations directly from your definitions and supplied
-  terms. The synthetic examples use this mode.
+- `automatic`: generates synonyms and adds ontology information with `create_config.py`.
+- `manual`: uses your definitions and optional `synonyms`. The supplied examples use this mode.
 
-Automatic enrichment requires `UMLS_API_KEY`, WordNet resources
-(`python -m nltk.downloader wordnet omw-1.4`) and internet access for concept
-lookup. `BIOPORTAL_API_KEY` is optional. Keep patient information out of feature
-definitions, which are used in ontology queries.
+Automatic mode requires `UMLS_API_KEY`, internet access and WordNet
+(`python -m nltk.downloader wordnet omw-1.4`). `BIOPORTAL_API_KEY` is optional.
+Ontology queries use feature definitions, so keep patient information out of them.
 
-Generate and inspect feature configurations before extraction:
+To generate feature configurations:
 
 ```bash
 oncorag --config configs/oncorag_synthetic_english.json --stage config
@@ -176,13 +147,12 @@ python oncoraggraph/create_config.py --mode manual \
   --output-dir generated/custom --language english
 ```
 
-Generated rules, examples and category mappings guide extraction. Your feature
-definition controls the output type and allowed values; supporting quotations
-come from the patient's notes.
+The pipeline saves configurations to `features.generated_config_dir`; the standalone
+command uses `--output-dir`. Review generated configurations before extraction.
 
 ## Your Notes
 
-Set exactly one of `inputs.notes_root` or `inputs.registry_path`.
+Use a folder or a registry. For folders, set `inputs.notes_root` and arrange notes as:
 
 ```text
 notes/
@@ -191,63 +161,59 @@ notes/
     radiology/2024-02-03__report-02.txt
 ```
 
-Same-date reports use `YYYY-MM-DD__unique-note-id.txt`. Alternatively use CSV,
-JSONL or JSON (`[{...}]` or `{"notes": [...]}`) registry records:
+For multiple reports of the same type and date, use `YYYY-MM-DD__unique-note-id.txt`.
+To use a registry instead, set `inputs.registry_path` to a CSV, JSONL or JSON file.
+Example JSON registry:
 
 ```json
-{"patient_id":"patient-001","note_id":"report-02","report_type":"radiology","date":"2024-02-03","language":"de","path":"notes/report-02.txt"}
+[
+  {"patient_id":"patient-001","note_id":"report-02","report_type":"radiology","date":"2024-02-03","language":"de","path":"notes/report-02.txt"}
+]
 ```
 
-Note paths are relative to the registry file; configuration paths are relative to
-the JSON configuration file. Folder names or registry fields supply report dates
-and types. Validation checks dates, note contents, unique IDs and folder structure.
-To select patients, use `patient_ids_file` with one exact ID per line, preserving
-leading zeros.
+Set only one input option. Dates and report types come from folder names or registry
+fields. Note paths are relative to the registry; configuration paths are relative
+to the JSON configuration file. For a patient subset, set `inputs.patient_ids_file`
+to a file containing one exact ID per line, including leading zeros.
 
 ## Parameters And Outputs
 
-Start with a synthetic configuration and update the input, feature and output
-paths. `configs/oncorag_full_pipeline.example.json` contains the expanded
-parameters and the paper's evaluation protocol. Adjust settings for your data,
-models and hardware.
+Copy an example configuration and update the input, feature and output paths.
+See [the full configuration example](configs/oncorag_full_pipeline.example.json)
+for all settings.
 
-Set the Ollama host and model in the JSON config, or choose them for one run with
-`--ollama-host` and `--ollama-model`. For example, to use a local server on port 11435:
+To choose an Ollama host and model for one run:
 
 ```bash
 python scripts/run_oncorag.py --config configs/oncorag_synthetic_mixed.json \
   --ollama-host http://127.0.0.1:11435 --ollama-model phi3:mini
 ```
 
-You can also set `OLLAMA_HOST` and `OLLAMA_MODEL` in your environment. Command-line
-values are used first, then environment variables, then the JSON settings.
+Settings are read in this order: command-line arguments, `OLLAMA_HOST` /
+`OLLAMA_MODEL` environment variables, then JSON configuration.
 
-- `runtime.ollama`: host, model, temperature, context window, timeout, output limit
-  and `validation_retries` (default 1). Failed type or quotation checks can be
-  retried up to this limit using the same source evidence. Every attempt is saved.
-- `runtime.random_seed`: generation seed. Patients are processed sequentially;
-  set `workers` to 1. Results can vary across models and hardware.
-- `retrieval`: candidate entity limit, graph depth, exact final top-k, six scoring
-  weights, and graph-diffusion reranking settings (threshold, neighbors, iterations
-  and residual mixing).
-- `graph`: model configurations, context filters, deduplication and sentence inclusion.
-- `temporal_anchoring`: temporal instructions for the language model to apply
-  during extraction.
+| Setting | Controls |
+| --- | --- |
+| `runtime.ollama` | Model, temperature, context window, timeout, output limit and validation retries |
+| `runtime.random_seed` | Generation seed |
+| `retrieval` | Top-k, scoring weights, graph depth and graph-diffusion reranking |
+| `graph` | NER models, context filters, deduplication and sentence nodes |
+| `temporal_anchoring` | Temporal instructions for extraction |
 
-Graphs include source sentences alongside recognized entities, retaining numeric
-and multilingual information. Set `graph.include_report_sentences: false` to
-build entity-only graphs.
+Keep `runtime.workers` at 1. Set `graph.include_report_sentences: false` for
+entity-only graphs.
 
-Use `--stage graph` to stop after graph construction. Extraction results under
-`outputs.root` include patient graphs, per-patient results, combined
-`structured_features.json`, run parameters, prompts and source evidence. Changed
-notes or graph settings invalidate cached graphs. Each extraction run replaces
-patient vectors and regenerates result and prompt files. Use `--force-rebuild`
-to rebuild graphs explicitly.
+Use `--stage validate` to check inputs, `--stage config` to generate configurations,
+or `--stage graph` to build patient graphs. The default runs extraction.
+Use `--force-rebuild` to rebuild cached graphs.
+
+Results are saved under `outputs.root`: `structured_features.json`, patient graphs,
+per-patient results, parameters, prompts and source evidence. Keep outputs
+containing patient information private.
 
 ## ChromaDB Or InterSystems IRIS
 
-ChromaDB is the default local persistent store. To use IRIS:
+ChromaDB is the default vector store. To use InterSystems IRIS:
 
 ```bash
 pip install -e '.[iris]'
@@ -255,24 +221,17 @@ export IRIS_USERNAME=your_database_user
 export IRIS_PASSWORD=your_database_password
 ```
 
-Copy the `vector_store` settings from `configs/vector_store.iris.example.yaml` into
-your pipeline JSON and set `backend: iris`. Configure the host, port, namespace,
-table and embedding dimension. The default SapBERT vectors have 768 dimensions.
-Keep credentials in environment variables.
+Copy `vector_store` from [the IRIS example](configs/vector_store.iris.example.yaml)
+into your pipeline configuration. Set `backend: iris` and your server details.
+The default SapBERT embeddings have 768 dimensions. Keep credentials in environment
+variables. Use `--vector-backend iris` to select IRIS for one run.
 
-`--vector-backend iris` selects IRIS for a run. Collections are separated by cohort
-and patient. IRIS connection failures stop the run; the server must be reachable
-and the account must have permission to initialize the configured table.
-
-`runtime.local_processing_only` defaults to `true` and requires loopback addresses
-for both Ollama and IRIS in extraction and chat. Using an approved remote service
-requires setting it to `false` and configuring that service's data protection.
+`runtime.local_processing_only: true` requires localhost or loopback IP addresses
+for Ollama and IRIS. A remote server requires setting it to `false`.
 
 ## Patient Chat
 
-Chat uses the same configuration, feature definitions and patient graphs as
-structured extraction. It can also build a patient's graph directly. The terminal
-interface is included in the base installation:
+To use the chatbot in a terminal:
 
 ```bash
 oncorag-chat --config configs/oncorag_synthetic_mixed.json --list-patients
@@ -282,23 +241,10 @@ oncorag-chat --config configs/oncorag_synthetic_mixed.json \
   --patient-id SYN-DEMO-001 --question "What treatment actually started?" --json
 ```
 
-From the repository folder, `python run_chatbot.py` accepts the same arguments.
-Follow-up questions use recent conversation history; `/clear` clears it and
-`/quit` exits. Ollama settings follow the same precedence as extraction.
-Optional conversation settings are:
+Use `/clear` to clear the conversation and `/quit` to exit.
+`python run_chatbot.py` accepts the same arguments.
 
-```json
-{
-  "chat": {
-    "history_turns": 5,
-    "max_question_chars": 4000,
-    "max_history_chars": 12000,
-    "feature_match_threshold": 0.45
-  }
-}
-```
-
-For the browser interface, run from the repository folder:
+To use the chatbot in a browser:
 
 ```bash
 pip install -e '.[chat]'
@@ -306,60 +252,30 @@ python -m streamlit run streamlit_app.py --server.address 127.0.0.1 -- \
   --config configs/oncorag_synthetic_mixed.json
 ```
 
-Open `http://127.0.0.1:8501` and select a patient. Answers show source quotations and
-report dates, types and languages. Measurement timelines are built from retrieved
-notes and remain available when the model cannot answer. Ontology definitions
-have their own section.
-
-Quotations are checked against the source notes. Review the clinical interpretation
-of each answer against that evidence. Responses report missing evidence, invalid
-output and backend errors separately.
-
-Conversation history stays in session memory and clears when you change patient
-or configuration. Keep the browser app on localhost. Network deployment requires
-separate authentication and access controls.
-
-## Public Release
-
-The canonical repository is [pgsalome/oncorag](https://github.com/pgsalome/oncorag),
-which retains the existing [InterSystems OpenExchange listing](https://openexchange.intersystems.com/package/oncorag).
-The release branch preserves the original March 2025 project commit while excluding
-intermediate research history.
-
-Create a release directory containing the approved source files and datasets:
-
-```bash
-python scripts/prepare_public_release.py --destination public_release/review-new --include-datasets
-```
-
-`--include-datasets` adds the full cohorts after checking their reviewed file
-hashes. The default export includes the small example cohorts. The exporter copies
-approved files, applies portable defaults and writes a file manifest. Git
-publication is a separate step.
-
-Before publication, review all branches, tags and repository history for sensitive
-data. The export excludes research outputs, clinical configurations, caches and
-Git history.
+Open `http://127.0.0.1:8501` and select a patient. Review answers against the cited
+notes. Keep the app on localhost; network deployment needs separate authentication.
 
 ## Citation
 
-If you use OncoRAG, please cite the associated paper:
+To cite OncoRAG:
 
-Salome P, Knoll M, Walz D, et al. [OncoRAG: graph-based retrieval enabling
-clinical phenotyping from oncology notes using local mid-size language
-models](https://doi.org/10.1038/s41746-026-03170-8). *npj Digital Medicine*.
-2026. doi: `10.1038/s41746-026-03170-8`.
+```bibtex
+@article{salome2026oncorag,
+  title = {{OncoRAG}: graph-based retrieval enabling clinical phenotyping from oncology notes using local mid-size language models},
+  author = {Salome, Patrick and Knoll, Maximilian and Walz, David and
+            Cogno, Nicol{\`o} and Dedeoglu, Aylin S. and Qi, Aimee Letong and
+            Isakoff, Steven J. and Abdollahi, Amir and Jimenez, Rachel B. and
+            Bitterman, Danielle S. and Paganetti, Harald and Chamseddine, Ibrahim},
+  journal = {npj Digital Medicine},
+  year = {2026},
+  doi = {10.1038/s41746-026-03170-8},
+  url = {https://doi.org/10.1038/s41746-026-03170-8}
+}
+```
 
 ## License
 
-OncoRAG is source-available under the [PolyForm Noncommercial License 1.0.0](LICENSE),
-which permits noncommercial use, modification and redistribution under its terms.
-Commercial use requires a separate written agreement. Dataset and model licenses
-apply separately.
+[PolyForm Noncommercial License 1.0.0](LICENSE). Commercial use requires a separate
+written agreement. Dataset and model licenses apply separately.
 
-## Clinical Use
-
-OncoRAG is research software. Clinical use requires independent validation and
-appropriate oversight. Review extracted features and their source evidence before
-using the results. When working with patient records, protect the graphs, vector
-stores, prompts, logs and exported answers as clinical data.
+For research use.

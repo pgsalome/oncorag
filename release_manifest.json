@@ -5,7 +5,7 @@
   "publication_status": "Review code/data licensing and provenance before publication",
   "screening_scope": "Explicit file allowlist, SHA-256-pinned reviewed assets, local import closure, credential/home-path markers, selected private metadata keys",
   "file_count": 6004,
-  "payload_bytes": 12628044,
+  "payload_bytes": 12623087,
   "files": {
     ".github/workflows/tests.yml": {
       "sha256": "db783105f153a96876f34f81e751a2ee3e45e5b01765a75f6c67418e1ee0e256",
@@ -24,8 +24,8 @@
       "bytes": 4456
     },
     "README.md": {
-      "sha256": "e841e490adb29961bcc60f22f66b65371bb40e9627d29c613032de88b6d60f89",
-      "bytes": 15116
+      "sha256": "12e9b12af79c0b1a0264722c07f93a5846f83b962a6c7121530feff31c1b5f51",
+      "bytes": 10159
     },
     "configs/oncorag-d.json": {
       "sha256": "58c8d1a951977495a3356f435c771e67d3daee130a8ff93d344eb879be7aecc6",
