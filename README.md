@@ -48,7 +48,7 @@ oncorag --config configs/oncorag_synthetic_english.json
 Check spaCy model compatibility with `python -m spacy validate`. The default NER
 and embedding models are English-oriented.
 
-To run the English, German or mixed examples with Python:
+To run the English or German examples with Python:
 
 ```bash
 # English
@@ -56,9 +56,6 @@ python scripts/run_oncorag.py --config configs/oncorag_synthetic_english.json
 
 # German
 python scripts/run_oncorag.py --config configs/oncorag_synthetic_german.json
-
-# English and German notes within each patient
-python scripts/run_oncorag.py --config configs/oncorag_synthetic_mixed.json
 ```
 
 ## Synthetic Data And Evaluation
@@ -78,7 +75,7 @@ python scripts/run_oncorag.py --config configs/oncorag-d.json
 ```
 
 Each cohort includes a feature list. Quick Start uses the small test datasets in
-`examples/datasets/demo`. Every patient in the mixed dataset has English and German notes.
+`examples/datasets/demo/english` and `examples/datasets/demo/german`.
 
 The paper's clinical cohorts are separate. See [dataset formats](examples/datasets/README.md)
 and [sources and annotations](examples/datasets/PROVENANCE.md).
@@ -92,13 +89,13 @@ python scripts/run_synthetic_smoke.py --ollama-host http://127.0.0.1:11434
 python scripts/run_chat_smoke.py --ollama-host http://127.0.0.1:11434
 ```
 
-To evaluate the mixed-language test results:
+To evaluate the English test results:
 
 ```bash
 python scripts/evaluate_synthetic.py \
-  --config configs/oncorag_synthetic_mixed.json \
-  --results outputs/synthetic_smoke/mixed/structured_features.json \
-  --output outputs/synthetic_smoke/mixed/evaluation.json
+  --config configs/oncorag_synthetic_english.json \
+  --results outputs/synthetic_smoke/english/structured_features.json \
+  --output outputs/synthetic_smoke/english/evaluation.json
 ```
 
 The extraction and chat smoke tests require Ollama. For the IRIS integration test,
@@ -188,7 +185,7 @@ set your input, feature and output paths.
 To choose an Ollama host and model for one run:
 
 ```bash
-python scripts/run_oncorag.py --config configs/oncorag_synthetic_mixed.json \
+python scripts/run_oncorag.py --config configs/oncorag_synthetic_english.json \
   --ollama-host http://127.0.0.1:11435 --ollama-model phi3:mini
 ```
 
@@ -237,10 +234,10 @@ for Ollama and IRIS. A remote server requires setting it to `false`.
 To use the chatbot in a terminal:
 
 ```bash
-oncorag-chat --config configs/oncorag_synthetic_mixed.json --list-patients
-oncorag-chat --config configs/oncorag_synthetic_mixed.json \
+oncorag-chat --config configs/oncorag_synthetic_english.json --list-patients
+oncorag-chat --config configs/oncorag_synthetic_english.json \
   --patient-id SYN-DEMO-001 --loop
-oncorag-chat --config configs/oncorag_synthetic_mixed.json \
+oncorag-chat --config configs/oncorag_synthetic_english.json \
   --patient-id SYN-DEMO-001 --question "What treatment actually started?" --json
 ```
 
@@ -252,7 +249,7 @@ To use the chatbot in a browser:
 ```bash
 pip install -e '.[chat]'
 python -m streamlit run streamlit_app.py --server.address 127.0.0.1 -- \
-  --config configs/oncorag_synthetic_mixed.json
+  --config configs/oncorag_synthetic_english.json
 ```
 
 Open `http://127.0.0.1:8501` and select a patient. Review answers against the cited

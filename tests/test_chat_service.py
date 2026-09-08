@@ -77,7 +77,7 @@ def chat_setup(tmp_path, monkeypatch):
     monkeypatch.setattr(model_init, "CLINICAL_EMBEDDER", FakeEmbedding())
     monkeypatch.setattr(model_init, "get_combined_reranker_scores", lambda pairs, **kwargs: [0.5] * len(pairs))
 
-    def build(variant="mixed", **chat_options):
+    def build(variant="english", **chat_options):
         config = load_pipeline_config(ROOT / "configs" / f"oncorag_synthetic_{variant}.json")
         config["features"]["generated_config_dir"] = str(tmp_path / variant)
         config["retrieval"]["top_k"] = 30
@@ -96,7 +96,7 @@ def chat_setup(tmp_path, monkeypatch):
     return build
 
 
-@pytest.mark.parametrize("variant", ["english", "german", "mixed"])
+@pytest.mark.parametrize("variant", ["english", "german"])
 def test_fixture_chat_uses_shared_retrieval_and_real_source_citations(chat_setup, variant):
     service, patient, graph, collection, config = chat_setup(variant)
     response = service.answer_question(patient, graph, collection, "What treatment actually started?")
@@ -111,8 +111,8 @@ def test_fixture_chat_uses_shared_retrieval_and_real_source_citations(chat_setup
         assert citation["date"] == note["note_date"] == citation["note_date"]
         assert citation["passage"] == citation["quote"]
         assert citation["language"] == note["language"]
-    if variant == "mixed":
-        assert {entry["language"] for entry in evidence_from_call(service._client.calls[0])} == {"en", "de"}
+    assert {entry["language"] for entry in evidence_from_call(service._client.calls[0])} == {
+        "en" if variant == "english" else "de"}
 
 
 def test_true_followup_retrieves_again_and_uses_history_only_as_reference(chat_setup):
@@ -266,7 +266,7 @@ def test_history_and_questions_have_explicit_limits(chat_setup):
     assert service._bounded_history(patient, history) == []
 
 
-@pytest.mark.parametrize("variant", ["english", "german", "mixed"])
+@pytest.mark.parametrize("variant", ["english", "german"])
 def test_temporal_chart_uses_selected_dated_source_evidence(chat_setup, variant):
     service, patient, graph, collection, _ = chat_setup(variant)
     question = "Show hemoglobin values over time" if variant == "english" else "H\u00e4moglobin Werte im Verlauf"
@@ -341,7 +341,7 @@ def test_temporal_chart_keeps_decimal_comma_and_metric_unit_together():
     assert (point.value, point.unit, point.source, point.date) == (70.5, "kg", "source-note", "2020-01-01")
 
 
-@pytest.mark.parametrize("variant", ["english", "german", "mixed"])
+@pytest.mark.parametrize("variant", ["english", "german"])
 @pytest.mark.parametrize("patient_id,expected", [
     ("SYN-DEMO-001", [("2020-03-01", 12.4), ("2020-04-01", 11.2)]),
     ("SYN-DEMO-002", [("2021-05-10", 10.3), ("2021-06-03", 12.1)]),
@@ -362,7 +362,7 @@ def test_fixture_timeline_preserves_both_baseline_and_latest_measurements(chat_s
 
 
 def test_model_abstention_preserves_independently_sourced_fixture_timeline(chat_setup):
-    service, patient, graph, collection, _ = chat_setup("mixed")
+    service, patient, graph, collection, _ = chat_setup("english")
     service._client.response = {"answer": None, "reasoning": "The model abstained.", "evidence": []}
     result = service.answer_question(patient, graph, collection, "Plot hemoglobin values over time.")
     assert result.status == "missing" and not result.citations
@@ -378,7 +378,7 @@ def test_model_abstention_preserves_independently_sourced_fixture_timeline(chat_
 
 @pytest.mark.parametrize("model_result,status", [("not JSON", "invalid"), (ConnectionError("offline"), "error")])
 def test_invalid_or_error_model_responses_do_not_expose_timeline(chat_setup, model_result, status):
-    service, patient, graph, collection, _ = chat_setup("mixed")
+    service, patient, graph, collection, _ = chat_setup("english")
     service._client.response = model_result
     result = service.answer_question(patient, graph, collection, "Plot hemoglobin values over time.")
     assert result.status == status and result.temporal_data is None and not result.citations

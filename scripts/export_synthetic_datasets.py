@@ -434,17 +434,15 @@ def export_demo(destination: Path) -> None:
     with tempfile.TemporaryDirectory(prefix=".synthetic-demo-", dir=destination.parent) as temporary:
         staging = Path(temporary) / "demo"
         staging.mkdir()
-        for variant in ("english", "german", "mixed"):
+        for variant in ("english", "german"):
             root = staging / variant
             root.mkdir()
             registry = []
             gold = []
-            for index, case in enumerate(DEMO_CASES):
+            for case in DEMO_CASES:
                 note_ids = {}
-                for position, kind in enumerate(("oncology", "treatment", "laboratory")):
+                for kind in ("oncology", "treatment", "laboratory"):
                     language = "en" if variant == "english" else "de"
-                    if variant == "mixed":
-                        language = ("de", "en", "en")[position] if index % 2 == 0 else ("en", "de", "de")[position]
                     note_id = f"{case['id']}-{kind}"
                     note_ids[kind] = note_id
                     note_date = case[{"oncology": "diagnosis_date", "treatment": "therapy_date", "laboratory": "lab_date"}[kind]]
@@ -495,7 +493,7 @@ def main() -> int:
         summaries.append(export_cohort(args.english_source, args.output_root / PUBLIC_COHORT_NAMES["en"], "en", args.seed))
         summaries.append(export_cohort(args.german_source, args.output_root / PUBLIC_COHORT_NAMES["de"], "de", args.seed))
     export_demo(args.output_root / "demo")
-    print(json.dumps({"cohorts": summaries, "demo_variants": ["english", "german", "mixed"]}, indent=2))
+    print(json.dumps({"cohorts": summaries, "demo_variants": ["english", "german"]}, indent=2))
     return 0
 
 

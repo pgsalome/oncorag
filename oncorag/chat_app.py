@@ -14,7 +14,7 @@ import streamlit as st
 from oncorag.config.pipeline_config import load_pipeline_config, validate_pipeline_config
 
 
-DEFAULT_CONFIG_PATH = Path(__file__).resolve().parents[1] / "configs" / "oncorag_synthetic_mixed.json"
+DEFAULT_CONFIG_PATH = Path(__file__).resolve().parents[1] / "configs" / "oncorag_synthetic_english.json"
 
 
 def _create_session(config):

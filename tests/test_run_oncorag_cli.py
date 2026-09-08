@@ -69,7 +69,7 @@ def test_installed_module_help(tmp_path, module):
 def test_installed_pipeline_module_validates_small_cohort(tmp_path):
     result = run_cli(
         tmp_path,
-        "--config", str(ROOT / "configs/oncorag_synthetic_mixed.json"),
+        "--config", str(ROOT / "configs/oncorag_synthetic_english.json"),
         "--stage", "validate",
         module="oncorag.pipeline",
     )
@@ -90,7 +90,7 @@ def test_source_checkout_runner_help(tmp_path):
 def test_source_checkout_runner_validates_synthetic_fixture(tmp_path):
     result = run_cli(
         tmp_path,
-        "--config", str(ROOT / "configs/oncorag_synthetic_mixed.json"),
+        "--config", str(ROOT / "configs/oncorag_synthetic_english.json"),
         "--stage", "validate",
     )
 

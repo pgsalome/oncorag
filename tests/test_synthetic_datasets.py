@@ -161,11 +161,12 @@ def test_patient_splits_are_reproducible_and_patient_disjoint():
     }
 
 
-def test_mixed_demo_has_both_languages_with_matching_gold(tmp_path):
+def test_demo_variants_have_matching_gold_and_expected_language(tmp_path):
     destination = tmp_path / "demo"
     exporter.export_demo(destination)
+    assert {path.name for path in destination.iterdir()} == {"english", "german"}
     reference_gold = None
-    for variant in ("english", "german", "mixed"):
+    for variant in ("english", "german"):
         root = destination / variant
         gold = [json.loads(line) for line in (root / "gold.jsonl").read_text().splitlines()]
         if reference_gold is None:
@@ -177,18 +178,15 @@ def test_mixed_demo_has_both_languages_with_matching_gold(tmp_path):
         for patient_id in {row["patient_id"] for row in rows}:
             patient_rows = [row for row in rows if row["patient_id"] == patient_id]
             languages = {row["language"] for row in patient_rows}
-            assert languages == ({"en", "de"} if variant == "mixed" else {"en" if variant == "english" else "de"})
+            assert languages == {"en" if variant == "english" else "de"}
             latest = max(patient_rows, key=lambda row: row["date"])
-            if variant == "mixed":
-                earliest = min(patient_rows, key=lambda row: row["date"])
-                assert earliest["language"] != latest["language"]
             lab_gold = next(row for row in gold if row["patient_id"] == patient_id and row["feature"] == "latest_hemoglobin")
             assert lab_gold["evidence_note_ids"] == [latest["note_id"]]
         for row in gold:
             assert set(row["evidence_note_ids"]).issubset({note["note_id"] for note in rows if note["patient_id"] == row["patient_id"]})
 
 
-@pytest.mark.parametrize("variant", ["english", "german", "mixed"])
+@pytest.mark.parametrize("variant", ["english", "german"])
 def test_committed_demo_manifests_are_complete_and_match_hashes(variant):
     root = ROOT / "examples/datasets/demo" / variant
     manifest = json.loads((root / "manifest.json").read_text())
@@ -209,10 +207,10 @@ def test_demo_only_cli_reproduces_bundled_examples_without_source_data(tmp_path,
         check=True, capture_output=True, text=True,
     )
     assert json.loads(result.stdout) == {
-        "cohorts": [], "demo_variants": ["english", "german", "mixed"],
+        "cohorts": [], "demo_variants": ["english", "german"],
     }
     assert {path.name for path in tmp_path.iterdir()} == {"demo"}
-    for variant in ("english", "german", "mixed"):
+    for variant in ("english", "german"):
         bundled = ROOT / "examples/datasets/demo" / variant
         generated = tmp_path / "demo" / variant
         expected_files = {path.relative_to(bundled) for path in bundled.rglob("*") if path.is_file()}

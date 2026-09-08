@@ -1,4 +1,4 @@
-"""Run real local-model chat checks on the paired multilingual synthetic example cohorts."""
+"""Run real local-model chat checks on the paired English and German synthetic example cohorts."""
 
 from __future__ import annotations
 
@@ -18,7 +18,7 @@ from oncorag.config.pipeline_config import load_pipeline_config, validate_pipeli
 from oncorag.ingestion import load_notes
 
 
-VARIANTS = ("english", "german", "mixed")
+VARIANTS = ("english", "german")
 TREATMENT_ALIASES = {
     "temozolomide": ("temozolomide", "temozolomid", "temodal", "temodar"),
     "bevacizumab": ("bevacizumab", "avastin"),

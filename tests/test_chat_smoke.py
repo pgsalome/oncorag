@@ -42,7 +42,7 @@ def config(variant="english"):
     return smoke.load_pipeline_config(ROOT / f"configs/oncorag_synthetic_{variant}.json")
 
 
-@pytest.mark.parametrize("variant", ["english", "german", "mixed"])
+@pytest.mark.parametrize("variant", ["english", "german"])
 def test_chat_sequence_covers_follow_up_and_patient_switch(variant):
     result = smoke.run_variant(config(variant), session_factory=FakeSession)
     assert result["passed"] is True
@@ -116,9 +116,9 @@ def test_smoke_propagates_runtime_and_keeps_patient_output_scopes_separate(tmp_p
     FakeSession.configurations = []
     summary = smoke.run_smoke("http://127.0.0.1:11435", "local-test-model", tmp_path, session_factory=FakeSession)
     assert summary["passed"] is True
-    assert set(summary["variants"]) == {"english", "german", "mixed"}
-    assert sum(result["turn_count"] for result in summary["variants"].values()) == 9
-    assert len({cfg["outputs"]["root"] for cfg in FakeSession.configurations}) == 3
+    assert set(summary["variants"]) == {"english", "german"}
+    assert sum(result["turn_count"] for result in summary["variants"].values()) == 6
+    assert len({cfg["outputs"]["root"] for cfg in FakeSession.configurations}) == 2
     for cfg in FakeSession.configurations:
         assert cfg["runtime"]["ollama"]["host"] == "http://127.0.0.1:11435"
         assert cfg["runtime"]["ollama"]["model"] == "local-test-model"

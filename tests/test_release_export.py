@@ -31,7 +31,7 @@ def source(tmp_path, monkeypatch):
         "examples/features.oncorag-e.yaml": "features: []\n",
         "examples/features.oncorag-d.yaml": "features: []\n",
         "scripts/run_oncorag.py": "print('runner')\n",
-        "configs/oncorag_synthetic_mixed.json": "{}\n",
+        "configs/oncorag_synthetic_english.json": "{}\n",
         "tests/test_public.py": "def test_public():\n    assert True\n",
         ".env": "SECRET=never-copy\n",
         ".git/config": "private repository history\n",
@@ -59,7 +59,7 @@ def test_clean_export_excludes_clinical_artifacts_and_git_history(source, tmp_pa
     destination = tmp_path / "release"
     manifest = release.prepare_release(source, destination)
     assert (destination / "oncorag/system_config.yaml").read_text() == "llm_backend: ollama_local\n"
-    assert (destination / "configs/oncorag_synthetic_mixed.json").is_file()
+    assert (destination / "configs/oncorag_synthetic_english.json").is_file()
     assert (destination / "tests/test_public.py").is_file()
     assert (destination / "scripts/run_oncorag.py").read_text() == "print('runner')\n"
     assert "scripts/run_oncorag.py" in manifest["files"]
@@ -125,7 +125,7 @@ def test_full_cohort_rejects_changed_reviewed_payload(source, tmp_path, monkeypa
     {"path": "/" + "home/release-test/private.txt"},
 ])
 def test_metadata_screening_stops_export_before_creating_destination(source, tmp_path, payload):
-    (source / "configs/oncorag_synthetic_mixed.json").write_text(json.dumps(payload))
+    (source / "configs/oncorag_synthetic_english.json").write_text(json.dumps(payload))
     with pytest.raises(ValueError, match="Release screening failed"):
         release.prepare_release(source, tmp_path / "release")
     assert not (tmp_path / "release").exists()
@@ -227,7 +227,7 @@ def test_refresh_rejects_new_sensitive_content_without_changing_manifest(source,
     destination = tmp_path / "release"
     release.prepare_release(source, destination)
     old_manifest = (destination / "release_manifest.json").read_bytes()
-    (destination / "configs/oncorag_synthetic_mixed.json").write_text(json.dumps({"password": "not-public"}))
+    (destination / "configs/oncorag_synthetic_english.json").write_text(json.dumps({"password": "not-public"}))
     with pytest.raises(ValueError, match="screening failed"):
         release.refresh_manifest(destination)
     assert (destination / "release_manifest.json").read_bytes() == old_manifest

@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def local_config(tmp_path):
-    config = load_pipeline_config(ROOT / "configs" / "oncorag_synthetic_mixed.json")
+    config = load_pipeline_config(ROOT / "configs" / "oncorag_synthetic_english.json")
     config["features"]["generated_config_dir"] = str(tmp_path / "generated")
     config["outputs"]["root"] = str(tmp_path / "outputs")
     config["vector_store"].update(backend="iris", iris={"host": "127.0.0.1"})

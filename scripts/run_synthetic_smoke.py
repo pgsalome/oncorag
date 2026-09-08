@@ -1,4 +1,4 @@
-"""Run actual models on all three small, paired multilingual synthetic example cohorts."""
+"""Run actual models on both small, paired English and German synthetic example cohorts."""
 
 import argparse
 import json
@@ -22,7 +22,7 @@ def main():
     args = parser.parse_args()
     output = args.output_dir.resolve()
     summaries = {}
-    for language in ("english", "german", "mixed"):
+    for language in ("english", "german"):
         config = load_pipeline_config(ROOT / f"configs/oncorag_synthetic_{language}.json")
         config["runtime"]["ollama"].update(host=args.ollama_host, model=args.ollama_model)
         config["outputs"]["root"] = str(output / language)

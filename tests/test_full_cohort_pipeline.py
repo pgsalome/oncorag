@@ -115,7 +115,7 @@ def test_full_cohorts_and_demo_use_distinct_namespaces():
     configs = [full_config(language) for language in COHORT_FEATURES]
     configs.extend(
         load_pipeline_config(ROOT / "configs" / f"oncorag_synthetic_{language}.json")
-        for language in ("english", "german", "mixed")
+        for language in ("english", "german")
     )
 
     for section, key in (

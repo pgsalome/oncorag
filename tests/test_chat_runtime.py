@@ -57,7 +57,7 @@ def test_list_patients_does_not_load_models_or_generate_features(tmp_path):
         session.ask("What treatment started?")
 
 
-@pytest.mark.parametrize("language", ["english", "german", "mixed"])
+@pytest.mark.parametrize("language", ["english", "german"])
 def test_chat_reuses_extraction_graph_without_rebuilding(tmp_path, local_models, language):
     config = fixture_config(tmp_path, language)
     pipeline.run_pipeline(config, stage="graph")

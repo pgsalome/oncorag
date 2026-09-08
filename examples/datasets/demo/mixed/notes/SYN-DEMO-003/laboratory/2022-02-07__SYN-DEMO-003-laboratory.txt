@@ -1,3 +1,0 @@
-Synthetic clinical report
-
-Hemoglobin measured today: 13.5 g/dL. This is the latest hemoglobin measurement.

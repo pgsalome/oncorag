@@ -70,7 +70,7 @@ def local_models(monkeypatch):
     return embedding
 
 
-def fixture_config(tmp_path, variant="mixed"):
+def fixture_config(tmp_path, variant="english"):
     config = load_pipeline_config(ROOT / "configs" / f"oncorag_synthetic_{variant}.json")
     config["features"]["generated_config_dir"] = str(tmp_path / "generated")
     config["outputs"]["root"] = str(tmp_path / "outputs")
@@ -86,7 +86,7 @@ def prompt_parts(prompt):
     return feature, evidence
 
 
-@pytest.mark.parametrize("variant", ["english", "german", "mixed"])
+@pytest.mark.parametrize("variant", ["english", "german"])
 def test_bundled_fixture_pipeline_uses_real_graphs_chroma_and_typed_validation(tmp_path, local_models, variant):
     config = fixture_config(tmp_path, variant)
     gold_rows = [json.loads(line) for line in Path(config["evaluation"]["gold_path"]).read_text().splitlines()]
@@ -133,7 +133,7 @@ def test_bundled_fixture_pipeline_uses_real_graphs_chroma_and_typed_validation(t
     for graph_path in result["graphs"]:
         graph = nx.node_link_graph(json.loads(Path(graph_path).read_text()), edges="links")
         assert graph.graph["note_count"] == 3
-        assert graph.graph["languages"] == ({"english": ["en"], "german": ["de"], "mixed": ["de", "en"]}[variant])
+        assert graph.graph["languages"] == ({"english": ["en"], "german": ["de"]}[variant])
         notes = [attrs for _, attrs in graph.nodes(data=True) if attrs["label"] == "Note"]
         assert {attrs["report_type"] for attrs in notes} == {"oncology", "treatment", "laboratory"}
         assert len({attrs["note_id"] for attrs in notes}) == 3

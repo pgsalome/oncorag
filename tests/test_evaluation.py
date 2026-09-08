@@ -85,7 +85,7 @@ def test_bootstrap_samples_whole_patients_and_is_seeded():
     assert report["bootstrap"]["unit"] == "patient"
 
 
-@pytest.mark.parametrize("language", ["english", "german", "mixed"])
+@pytest.mark.parametrize("language", ["english", "german"])
 def test_demo_gold_has_perfect_score_when_predicted_exactly(language):
     gold = load_records(ROOT / "examples" / "datasets" / "demo" / language / "gold.jsonl")
     predictions = [{**record, "status": "ok", "confidence": "High"} for record in gold]

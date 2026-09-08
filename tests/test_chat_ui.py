@@ -236,7 +236,7 @@ def test_reloading_patient_rebuilds_and_clears_conversation(app):
 def test_valid_configuration_change_does_not_reselect_the_previous_patient(app, tmp_path):
     choose_and_ask(app)
     previous = app.session_state["oncorag_chat_state"].session
-    config = json.loads((ROOT / "configs/oncorag_synthetic_mixed.json").read_text())
+    config = json.loads((ROOT / "configs/oncorag_synthetic_english.json").read_text())
     config["cohort"]["name"] = "another-synthetic-cohort"
     path = tmp_path / "config.json"
     path.write_text(json.dumps(config))
@@ -277,7 +277,7 @@ def test_ui_cli_overrides_reach_session_config(monkeypatch):
     monkeypatch.setattr(chat_app, "_create_session", FakeChatSession)
     monkeypatch.setenv("OLLAMA_HOST", "http://127.0.0.1:11436")
     monkeypatch.setenv("OLLAMA_MODEL", "environment-model")
-    args = ["--config", str(ROOT / "configs/oncorag_synthetic_mixed.json"),
+    args = ["--config", str(ROOT / "configs/oncorag_synthetic_english.json"),
             "--ollama-host", "http://127.0.0.1:11435", "--ollama-model", "synthetic-model"]
     app = AppTest.from_string(f"from oncorag.chat_app import main\nmain({args!r})").run()
 
@@ -329,7 +329,7 @@ def test_invalid_and_error_responses_render_visible_failure_not_unvalidated_payl
 def test_ui_cli_overrides_are_validated_before_session_creation(monkeypatch):
     monkeypatch.setattr(chat_app, "_create_session", FakeChatSession)
     state = chat_app.ChatUIState()
-    state.configure(ROOT / "configs/oncorag_synthetic_mixed.json", "signature",
+    state.configure(ROOT / "configs/oncorag_synthetic_english.json", "signature",
                     ollama_host="http://external.invalid:11434")
 
     assert state.session is None

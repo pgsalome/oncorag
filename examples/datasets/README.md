@@ -8,7 +8,7 @@ event labels and patient splits:
 | `oncorag-e` (English) | 489 | 2,930 |
 | `oncorag-d` (German) | 489 | 2,930 |
 
-The cohorts contain different generated patients. Small English, German and mixed
+The cohorts contain different generated patients. Small English and German
 datasets are also included for testing.
 
 ## Run The Full Cohorts
@@ -50,12 +50,11 @@ note IDs follow `oncorag-e-note-00001` or `oncorag-d-note-00001`.
 
 ## Small Test Datasets
 
-`demo/english`, `demo/german` and `demo/mixed` each contain 3 synthetic patients,
+`demo/english` and `demo/german` each contain 3 synthetic patients,
 9 notes and 12 typed reference answers. They are language variants of the same
-patients, dates and clinical facts. In `mixed`, every patient has English and
-German notes in one timeline.
+patients, dates and clinical facts.
 
-Use dataset IDs `demo_english`, `demo_german` and `demo_mixed` to keep their caches
+Use dataset IDs `demo_english` and `demo_german` to keep their caches
 separate. These variants represent three unique patients in total.
 
 Use [features.synthetic.yaml](../features.synthetic.yaml) for these four variables:
