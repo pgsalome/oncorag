@@ -11,6 +11,7 @@ import os
 from pathlib import Path
 import sys
 
+from . import PAPER_DOI, __version__
 from .config.pipeline_config import load_pipeline_config, validate_pipeline_config
 from .pipeline import (
     prepare_features,
@@ -136,6 +137,11 @@ def _show_response(response, json_output=False):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--version",
+        action="version",
+        version=f"%(prog)s {__version__} (paper DOI: {PAPER_DOI})",
+    )
     parser.add_argument("patient", nargs="?", help="Exact patient ID (or use --patient-id)")
     parser.add_argument("--config", required=True)
     parser.add_argument("--patient-id")

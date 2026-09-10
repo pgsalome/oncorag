@@ -1,6 +1,7 @@
 # OncoRAG
 
 [![Paper](https://img.shields.io/badge/npj%20Digital%20Medicine-10.1038%2Fs41746--026--03170--8-blue)](https://www.nature.com/articles/s41746-026-03170-8)
+[![Release](https://img.shields.io/github/v/release/pgsalome/oncorag?label=release)](https://github.com/pgsalome/oncorag/releases)
 [![License](https://img.shields.io/badge/use-noncommercial_only-4B5563)](LICENSE)
 [![Python](https://img.shields.io/badge/python-%3E%3D3.10-blue.svg)](pyproject.toml)
 
@@ -24,7 +25,8 @@ extract features. Notes stay local with the supplied settings.
 6. [ChromaDB Or InterSystems IRIS](#chromadb-or-intersystems-iris)
 7. [Patient Chat](#patient-chat)
 8. [Citation](#citation)
-9. [License](#license)
+9. [Releases And Provenance](#releases-and-provenance)
+10. [License](#license)
 
 ## Quick Start
 
@@ -257,7 +259,9 @@ notes. Keep the app on localhost; network deployment needs separate authenticati
 
 ## Citation
 
-To cite OncoRAG:
+If you use OncoRAG, its configurations, or its bundled datasets in scholarly
+work, cite the accompanying article. GitHub's **Cite this repository** control
+uses [`CITATION.cff`](CITATION.cff) to generate the preferred paper citation.
 
 ```bibtex
 @article{salome2026oncorag,
@@ -273,9 +277,20 @@ To cite OncoRAG:
 }
 ```
 
+## Releases And Provenance
+
+Version `v1.0.0` is the canonical public implementation accompanying the npj
+Digital Medicine paper. Release tags preserve a stable paper-matched snapshot.
+
+Each extraction run writes `run_metadata.json` alongside the results and embeds
+the same software record in `structured_features.json`. The record includes the
+OncoRAG version, pipeline version, repository, and paper DOI so derived outputs
+retain their provenance.
+
 ## License
 
 [PolyForm Noncommercial License 1.0.0](LICENSE). Commercial use requires a separate
-written agreement. Dataset and model licenses apply separately.
+written agreement. Project attribution information is in [`NOTICE`](NOTICE).
+Dataset and model licenses apply separately.
 
 For research use.

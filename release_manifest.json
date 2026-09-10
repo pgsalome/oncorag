@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "purpose": "Local review snapshot; no Git history, commit or publication operation",
+  "purpose": "Versioned public release snapshot for reproducibility; no Git history included",
   "full_synthetic_datasets_included": true,
-  "publication_status": "Review code/data licensing and provenance before publication",
+  "publication_status": "Published in npj Digital Medicine; DOI: 10.1038/s41746-026-03170-8",
   "screening_scope": "Explicit file allowlist, SHA-256-pinned reviewed assets, local import closure, credential/home-path markers, selected private metadata keys",
-  "file_count": 5991,
-  "payload_bytes": 12609318,
+  "file_count": 5992,
+  "payload_bytes": 12615274,
   "files": {
     ".github/workflows/tests.yml": {
       "sha256": "db783105f153a96876f34f81e751a2ee3e45e5b01765a75f6c67418e1ee0e256",
@@ -16,16 +16,20 @@
       "bytes": 970
     },
     "CITATION.cff": {
-      "sha256": "8a96e155b1a8c01c216413f9c5a71fb8a7b5c65f41e0b2c696a1bdba038cb5f7",
-      "bytes": 297
+      "sha256": "9412bebce7433cb21b10c7904f3dea8e6b76e0d754d2b88527087f11257c65a7",
+      "bytes": 1495
     },
     "LICENSE": {
       "sha256": "cbb49942ebf01133338a109893a32b4b6a6cb135b8fe48acdb5e98df8f807ea2",
       "bytes": 4456
     },
+    "NOTICE": {
+      "sha256": "278ffbbdec0a5fcf0186c53e37da067c315669eabab1bfdd973b8ebbc8f36289",
+      "bytes": 516
+    },
     "README.md": {
-      "sha256": "c32728cd2ba76980703384ff9c9ae5204a3a91cb456747c594bf42ecdd33d7a4",
-      "bytes": 9857
+      "sha256": "e11d2a9bce8725c50e48cd2c94c3e00d1fe8a2786cf98b4110df4d2609ddb955",
+      "bytes": 10770
     },
     "configs/oncorag-d.json": {
       "sha256": "58c8d1a951977495a3356f435c771e67d3daee130a8ff93d344eb879be7aecc6",
@@ -23648,8 +23652,8 @@
       "bytes": 493926
     },
     "oncorag/__init__.py": {
-      "sha256": "3c2314d835be5beaca3c4c5218eab263782e8aab534f62f6cf8cba9f8848418c",
-      "bytes": 209
+      "sha256": "9a8822b035200a5d6da103f101d7cba9da00bfcb2a84aebed7c9ac73b27037dd",
+      "bytes": 668
     },
     "oncorag/chat/__init__.py": {
       "sha256": "e5dedf3740f24f83415da2f3447ecffcf59d21db2deea4e3d812a40db535195a",
@@ -23680,8 +23684,8 @@
       "bytes": 9635
     },
     "oncorag/chat_runtime.py": {
-      "sha256": "1b3b228b40e7e655b8045127a736f42f5be9f3f6b03874c3557dfef74704df88",
-      "bytes": 8946
+      "sha256": "5302a0c2df4701221d99c6a1c0a50a7b9b5f7238139afc60e4feb148c26227ea",
+      "bytes": 9129
     },
     "oncorag/chroma/__init__.py": {
       "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
@@ -23764,8 +23768,8 @@
       "bytes": 25470
     },
     "oncorag/pipeline.py": {
-      "sha256": "963a7f212a5e4e9c6ef164b3b9f777330d11cc0e9f69681655b448ebc9dadc55",
-      "bytes": 23952
+      "sha256": "bec70d2d40a21acf157c40e1be8c0ace3ab1358ee48b39c25c833cb08e036515",
+      "bytes": 24933
     },
     "oncorag/rerank/graphrag_reranker.py": {
       "sha256": "255fed26a72c84653ef4b5e3bacffb61bfa5acdd73d25cc47e937dd626c4f56c",
@@ -23832,8 +23836,8 @@
       "bytes": 1592
     },
     "pyproject.toml": {
-      "sha256": "da318e2ddf53bdc975f0a757c08b2c405a3f7d90baebe52d6095b09ae84d9ccc",
-      "bytes": 3129
+      "sha256": "b8c1a69484ecb495d00e709c3d37296871ec81362d9b314a9a6cb14ae77f7ee4",
+      "bytes": 3254
     },
     "run_chatbot.py": {
       "sha256": "806ddcad88ecfb741667c2e21830c6ee394a540fe883874ed740292cb18f4ff9",
@@ -23848,8 +23852,8 @@
       "bytes": 25842
     },
     "scripts/prepare_public_release.py": {
-      "sha256": "3aff582ddeef58dc5b9bec4d0153e8418840d12a5639f7738121a6dfca8ebdf9",
-      "bytes": 15599
+      "sha256": "b044fe47c4548bfafd53993bcf4e0cb8d21403a8c6a6f6938655ec09e4eb1bfc",
+      "bytes": 15634
     },
     "scripts/prepare_reviewed_cohorts.py": {
       "sha256": "ce41d9a0a87adad6bab13822d6e5858593bad19a0d675d576a84ea857efcbc23",
@@ -23936,16 +23940,16 @@
       "bytes": 3100
     },
     "tests/test_pipeline.py": {
-      "sha256": "d1ad63c29c3c1198fdecbb46d3fe4fe613b4d5b1eac27d52c0add56d87dd53fe",
-      "bytes": 32552
+      "sha256": "f1a985ddf12adaa0b669569500ac98f90ca58bdea9649b0bc3eedc21c093ec18",
+      "bytes": 33538
     },
     "tests/test_pipeline_config.py": {
       "sha256": "cd3132f0794850ca65dc2dfcf90e91067c6d81ea508bb5fa632eeef0fa6ad052",
       "bytes": 6743
     },
     "tests/test_release_export.py": {
-      "sha256": "981a09c960fb8205690afe1b0b377be101c840866ab797e9c96d5d935d49b5a0",
-      "bytes": 14702
+      "sha256": "aa84164649fec02338d5b8c8f4bd0265a6a65d871322c743011c48c4186c6419",
+      "bytes": 14830
     },
     "tests/test_reranker_keywords.py": {
       "sha256": "b562fb7b1dd11673188f1a3ba1bb580807cd6ff77605a3b5ccb3adf2e8764317",
@@ -23960,8 +23964,8 @@
       "bytes": 1128
     },
     "tests/test_run_oncorag_cli.py": {
-      "sha256": "9a3789c1ae40ec4d4923dbf6b5d76156ec3d7097b0a9531ebee833ad6f8439fe",
-      "bytes": 3015
+      "sha256": "7e8b5de3dbf7f661b3be7bbf5f27c14e6896b96cbf931c8588d967ab96ae7544",
+      "bytes": 3447
     },
     "tests/test_synthetic_datasets.py": {
       "sha256": "17a9c30a3371c9e4645a0b8ed08d8493f5816a3ee65dbef3fd2b198297c87dde",

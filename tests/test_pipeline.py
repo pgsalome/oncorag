@@ -118,6 +118,20 @@ def test_bundled_fixture_pipeline_uses_real_graphs_chroma_and_typed_validation(t
     result = pipeline.run_pipeline(config, extractor=fixture_model)
 
     assert result["failures"] == 0
+    assert result["software"] == {
+        "name": "OncoRAG",
+        "version": "1.0.0",
+        "pipeline_version": pipeline.PIPELINE_VERSION,
+        "repository": "https://github.com/pgsalome/oncorag",
+        "paper": {
+            "title": (
+                "OncoRAG: graph-based retrieval enabling clinical phenotyping from "
+                "oncology notes using local mid-size language models"
+            ),
+            "doi": "10.1038/s41746-026-03170-8",
+            "url": "https://doi.org/10.1038/s41746-026-03170-8",
+        },
+    }
     assert (result["patients"], result["notes"], result["features"]) == (3, 9, 4)
     assert len(result["graphs"]) == 3
     assert len(prompts) == 12
@@ -145,6 +159,11 @@ def test_bundled_fixture_pipeline_uses_real_graphs_chroma_and_typed_validation(t
     assert generated["config_generation"]["mode"] == "manual"
     persisted = json.loads((Path(config["outputs"]["root"]) / "structured_features.json").read_text())
     assert persisted == result
+    run_metadata = json.loads((Path(config["outputs"]["root"]) / "run_metadata.json").read_text())
+    assert run_metadata["software"] == result["software"]
+    assert run_metadata["run_fingerprint"] == result["run_fingerprint"]
+    assert run_metadata["packages"] == result["packages"]
+    assert run_metadata["system_config_hash"] == result["system_config_hash"]
 
 
 def tiny_config(tmp_path, **feature_overrides):
@@ -366,6 +385,7 @@ def test_automatic_feature_generation_cache_changes_with_seed(tmp_path, monkeypa
     first = pipeline.run_pipeline(config, stage="config")
     manifest_path = Path(config["features"]["generated_config_dir"]) / "generation_manifest.json"
     first_manifest = json.loads(manifest_path.read_text())
+    assert first_manifest["software"] == pipeline.software_provenance()
     assert first == {"features": ["weight"]}
     assert generator.call_count == 1
     assert generator.call_args.kwargs["seed"] == config["runtime"]["random_seed"]

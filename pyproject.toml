@@ -83,6 +83,8 @@ Homepage = "https://github.com/pgsalome/oncorag"
 Repository = "https://github.com/pgsalome/oncorag"
 Issues = "https://github.com/pgsalome/oncorag/issues"
 Documentation = "https://github.com/pgsalome/oncorag#readme"
+Paper = "https://doi.org/10.1038/s41746-026-03170-8"
+Citation = "https://github.com/pgsalome/oncorag/blob/main/CITATION.cff"
 
 [tool.setuptools.packages.find]
 where = ["."]

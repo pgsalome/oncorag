@@ -18,6 +18,7 @@ def source(tmp_path, monkeypatch):
     files = {
         "README.md": "Public source snapshot\n",
         "pyproject.toml": '[project]\nname = "test-release"\nversion = "0.1"\n',
+        "NOTICE": "Test release attribution\n",
         "oncorag/__init__.py": "from .core import run\n",
         "oncorag/core.py": "def run():\n    return 1\n",
         "configs/system.public.yaml": "llm_backend: ollama_local\n",
@@ -62,6 +63,7 @@ def test_clean_export_excludes_clinical_artifacts_and_git_history(source, tmp_pa
     assert (destination / "configs/oncorag_synthetic_english.json").is_file()
     assert (destination / "tests/test_public.py").is_file()
     assert (destination / "scripts/run_oncorag.py").read_text() == "print('runner')\n"
+    assert (destination / "NOTICE").read_text() == "Test release attribution\n"
     assert "scripts/run_oncorag.py" in manifest["files"]
     assert (destination / "examples/datasets/demo/english/manifest.json").is_file()
     for excluded in (".env", ".git", "analysis", "oncorag/prompt_cache", "oncorag/config/feature_configs_real",

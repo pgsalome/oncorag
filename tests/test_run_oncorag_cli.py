@@ -52,9 +52,19 @@ def test_installed_project_name_and_console_entry_points():
         assert entry_points[name].load() is getattr(importlib.import_module(module), function)
 
 
+@pytest.mark.parametrize("module", ["oncorag.pipeline", "oncorag.chat_runtime"])
+def test_installed_module_version_identifies_paper(tmp_path, module):
+    result = run_cli(tmp_path, "--version", module=module)
+
+    assert result.returncode == 0, result.stderr
+    assert "1.0.0" in result.stdout
+    assert "10.1038/s41746-026-03170-8" in result.stdout
+
+
 def test_package_import_and_configuration_resource():
     package = importlib.import_module("oncorag")
     assert Path(package.__file__).resolve() == ROOT / "oncorag" / "__init__.py"
+    assert package.__version__ == distribution("oncorag").version == "1.0.0"
     assert files(package).joinpath("system_config.yaml").is_file()
 
 

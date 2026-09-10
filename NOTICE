@@ -1,0 +1,12 @@
+OncoRAG Notices
+
+This distribution includes OncoRAG (https://github.com/pgsalome/oncorag).
+
+The associated scholarly publication is "OncoRAG: graph-based retrieval
+enabling clinical phenotyping from oncology notes using local mid-size language
+models" (npj Digital Medicine, 2026;
+https://doi.org/10.1038/s41746-026-03170-8).
+
+If OncoRAG, its configurations, its bundled datasets, or a derivative is used
+in scholarly work, please cite the publication above. See CITATION.cff for
+machine-readable citation metadata.

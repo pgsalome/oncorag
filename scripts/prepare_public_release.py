@@ -30,7 +30,10 @@ RUNTIME_FILES = (
     "utils/__init__.py", "utils/logging_utils.py", "utils/file_utils.py", "utils/parsing_utils.py",
     "utils/evidence_utils.py", "utils/phi_removal.py", "utils/scispacy_entities.py",
 )
-ROOT_FILES = ("README.md", "pyproject.toml", "setup.py", "LICENSE", "LICENSE.txt", "CITATION.cff", ".gitignore")
+ROOT_FILES = (
+    "README.md", "pyproject.toml", "setup.py", "LICENSE", "LICENSE.txt", "NOTICE",
+    "CITATION.cff", ".gitignore",
+)
 # Binary assets must remain byte-identical to the individually reviewed originals.
 REVIEWED_ASSETS = {
     "graphicalabstract.png": "b23335b44752ff857becc554f683053e6b9d7fd031eeb78b2ba0bb008bbe5864",
@@ -244,9 +247,9 @@ def read_release_contents(selected: dict[str, Path]) -> dict[str, bytes]:
 def build_manifest(contents: dict[str, bytes], include_datasets: bool) -> dict[str, Any]:
     return {
         "schema_version": 1,
-        "purpose": "Local review snapshot; no Git history, commit or publication operation",
+        "purpose": "Versioned public release snapshot for reproducibility; no Git history included",
         "full_synthetic_datasets_included": include_datasets,
-        "publication_status": "Review code/data licensing and provenance before publication",
+        "publication_status": "Published in npj Digital Medicine; DOI: 10.1038/s41746-026-03170-8",
         "screening_scope": "Explicit file allowlist, SHA-256-pinned reviewed assets, local import closure, credential/home-path markers, selected private metadata keys",
         "file_count": len(contents),
         "payload_bytes": sum(len(data) for data in contents.values()),

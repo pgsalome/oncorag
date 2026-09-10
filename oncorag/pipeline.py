@@ -12,11 +12,34 @@ from pathlib import Path
 import random
 import time
 
+from . import (
+    PAPER_DOI,
+    PAPER_TITLE,
+    PAPER_URL,
+    REPOSITORY_URL,
+    SOFTWARE_NAME,
+    __version__,
+)
 from .config.feature_schema import load_feature_specs, generate_feature_configs, validate_feature_value
 from .config.pipeline_config import load_pipeline_config, validate_pipeline_config
 from .ingestion import load_notes, group_notes_by_patient
 
 PIPELINE_VERSION = "portable-v1.2"
+
+
+def software_provenance():
+    """Return stable, non-patient software and citation metadata for outputs."""
+    return {
+        "name": SOFTWARE_NAME,
+        "version": __version__,
+        "pipeline_version": PIPELINE_VERSION,
+        "repository": REPOSITORY_URL,
+        "paper": {
+            "title": PAPER_TITLE,
+            "doi": PAPER_DOI,
+            "url": PAPER_URL,
+        },
+    }
 
 
 def fingerprint(value):
@@ -89,7 +112,11 @@ def prepare_features(config, specs):
                 max_concepts=ontology.get("max_concepts_per_feature", 5),
                 min_relevance=ontology.get("minimum_relevance_score", .6),
             )
-        write_json(manifest, {"fingerprint": generation_key, "pipeline_version": PIPELINE_VERSION})
+    write_json(manifest, {
+        "fingerprint": generation_key,
+        "pipeline_version": PIPELINE_VERSION,
+        "software": software_provenance(),
+    })
     return {name: json.loads(path.read_text(encoding="utf-8")) for name, path in paths.items()}
 
 
@@ -337,6 +364,7 @@ def run_pipeline(config, *, graph_builder=None, collection_factory=None, indexer
     if stage == "config":
         return {"features": list(features)}
     packages, system_hash = runtime_provenance()
+    software = software_provenance()
     run_key = fingerprint({"config": config, "specs": specs, "feature_configs": features,
                            "version": PIPELINE_VERSION, "packages": packages, "system_config_hash": system_hash})
     retriever = retriever or retrieve_context
@@ -401,19 +429,30 @@ def run_pipeline(config, *, graph_builder=None, collection_factory=None, indexer
                         "feature_config": features[spec["name"]], "run_fingerprint": run_key})
         rows.extend(patient_rows)
         write_json(output / "patients" / (patient_key + ".json"), patient_rows)
-    result = {"pipeline_version": PIPELINE_VERSION, "run_fingerprint": run_key,
+    result = {"software": software, "pipeline_version": PIPELINE_VERSION, "run_fingerprint": run_key,
               "packages": packages, "system_config_hash": system_hash,
               "patients": len(patients), "notes": sum(map(len, patients.values())),
               "features": len(specs), "seconds": time.monotonic() - started,
               "graphs": graph_paths, "results": rows,
               "failures": sum(row["status"] in {"error", "invalid"} for row in rows)}
     write_json(output / config["outputs"].get("results_file", "structured_features.json"), result)
+    write_json(output / "run_metadata.json", {
+        "software": software,
+        "run_fingerprint": run_key,
+        "packages": packages,
+        "system_config_hash": system_hash,
+    })
     write_json(output / "parameters.json", config)
     return result
 
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--version",
+        action="version",
+        version=f"%(prog)s {__version__} (paper DOI: {PAPER_DOI})",
+    )
     parser.add_argument("--config", required=True)
     parser.add_argument("--stage", choices=["validate", "config", "graph", "extract"], default="extract")
     parser.add_argument("--patient-ids-file")
